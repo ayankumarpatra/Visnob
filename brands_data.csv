@@ -1,0 +1,521 @@
+company_name,job_role,salary_avg_lpa,required_skills,preferred_skills,min_cgpa,degrees_accepted,experience_required,coding_test_rounds
+zoho,data scientist,12.4,"python, statistics, machine learning, sql, java, javascript","scikit-learn, pytorch, pandas",7.0,"btech, mtech",fresher,4
+flipkart,frontend developer,13.2,"javascript, html, css, react, java, data pipelines","node.js, next.js, typescript",7.5,"btech, be, bca",2,2
+phonepe,ai engineer,10.6,"python, machine learning, deep learning, algorithms, apis","sql, mlops",6.5,"btech, be, mtech",fresher,3
+groww,backend developer,10.1,"python, sql, apis, databases, java, data analysis","node.js, redis, spring boot",7.5,"btech, be, bsc, bca",fresher,3
+cisco,technical support engineer,9.0,"networking, linux, troubleshooting, communication","python, cloud, automation",6.0,"btech, be, bsc",fresher,2
+policybazaar,cybersecurity engineer,10.8,"networking, linux, cybersecurity, python, sql","docker, java",6.5,"btech, be, bsc",fresher,3
+cred,devops engineer,25.8,"linux, git, docker, ci/cd, scripting, java",terraform,7.0,"btech, be, bca",2,3
+udaan,backend developer,9.5,"python, sql, apis, databases","redis, spring boot, django",7.0,"btech, be, bsc",fresher,3
+meesho,site reliability engineer,12.6,"linux, python, networking, monitoring, java, sql","ci/cd, gcp, kubernetes, aws",7.5,"btech, be, mtech",fresher,3
+healthplix,full stack developer,8.0,"javascript, react, node.js, sql","typescript, docker, aws",6.0,"btech, be, bsc",1,3
+browserstack,ai engineer,30.7,"python, machine learning, deep learning, algorithms, javascript, testing",llm,6.5,"btech, mtech",3,3
+paytm,mobile app developer,17.6,"java, object oriented programming, git, cybersecurity",flutter,6.5,"btech, be, mtech",1,2
+google,data engineer,24.0,"python, sql, data structures, databases, etl","gcp, spark, airflow",7.5,"btech, be, mtech",fresher,3
+cred,product analyst,10.1,"sql, excel, data analysis, java",a/b testing,6.5,"btech, be, bsc, bca",fresher,2
+dream11,ai engineer,35.3,"python, machine learning, deep learning, algorithms, data analysis","sql, nlp, tensorflow",6.5,"btech, be, mtech, msc",1,4
+flipkart,mobile app developer,25.4,"java, object oriented programming, git, python","apis, firebase, flutter",6.5,"btech, be, mtech",4,2
+browserstack,frontend developer,18.8,"javascript, html, css, react, java, python","testing, typescript, git",7.0,"btech, be, bsc, bca",2,1
+policybazaar,site reliability engineer,31.6,"linux, python, networking, monitoring","aws, ci/cd, gcp",7.0,"btech, be, bca",2,4
+amazon,business analyst,12.0,"sql, excel, data analysis, communication","tableau, python, aws",6.5,"btech, bsc, bcom",fresher,2
+myntra,product analyst,8.4,"sql, excel, data analysis, data pipelines","data visualization, python, power bi",6.0,"btech, bsc, bcom",fresher,3
+delhivery,machine learning engineer,28.5,"python, machine learning, statistics, sql, data pipelines",pytorch,6.5,"btech, be, mtech",3,5
+tcs,assistant software engineer,4.5,"java, sql, data structures, programming, problem solving","python, cloud, git",6.0,"btech, be, bsc",fresher,2
+hcltech,qa automation engineer,6.0,"testing, selenium, java, sql","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
+freshworks,mobile app developer,13.8,"java, object oriented programming, git, python, aws","android, apis, sql",7.5,"btech, be, bsc",1,1
+browserstack,cloud engineer,10.8,"linux, networking, cloud computing, scripting, python, docker","aws, terraform, azure, java",6.0,"btech, be, bca",4,2
+freshworks,software engineer,23.7,"data structures, algorithms, object oriented programming, git, java, sql","python, linux",7.0,"btech, be, mtech",1,4
+zoho,data scientist,19.0,"python, statistics, machine learning, sql, java, c++","data visualization, tensorflow",7.0,"btech, mtech",2,2
+razorpay,cybersecurity engineer,18.4,"networking, linux, cybersecurity, python, apis, docker","siem, cloud security",7.0,"btech, be, mtech",1,3
+amazon,data engineer,20.0,"python, sql, etl, databases, data structures","aws, spark, airflow",7.0,"btech, be, mtech",fresher,3
+cognizant,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, agile, tableau",6.0,"btech, bsc, bcom",fresher,2
+google,site reliability engineer,31.0,"linux, python, networking, monitoring, scripting","kubernetes, gcp, terraform",7.5,"btech, be, mtech",2,4
+groww,frontend developer,8.1,"javascript, html, css, react, python, data analysis","typescript, apis, next.js",7.5,"btech, be, bca",fresher,1
+slack,qa automation engineer,8.0,"python, selenium, testing, sql","cypress, api testing, ci/cd",6.0,"btech, be, bsc",fresher,2
+anthropic,data engineer,11.0,"python, sql, etl, databases, data pipelines","spark, airflow, cloud",6.5,"btech, be, mtech",1,3
+amazon,solutions architect,32.0,"cloud computing, networking, databases, system design","aws, security, kubernetes",7.5,"btech, be, mtech",4,4
+dream11,devops engineer,9.5,"linux, git, docker, ci/cd, scripting, java",azure,7.0,"btech, be, mtech",fresher,1
+dream11,devops engineer,19.5,"linux, git, docker, ci/cd, scripting, python","jenkins, java",6.5,"btech, be, bca",3,2
+amazon,frontend engineer,19.0,"javascript, html, css, react","typescript, testing, aws",6.5,"btech, be, bsc",fresher,2
+cred,security analyst,16.7,"networking, linux, cybersecurity","siem, cloud security, python",7.0,"btech, be, bsc",3,2
+groww,cybersecurity engineer,24.4,"networking, linux, cybersecurity, python, data analysis",siem,6.5,"btech, be, mtech",4,3
+freshworks,business analyst,17.7,"sql, excel, requirements analysis, communication, java, javascript","python, data visualization",6.5,"btech, be, bsc, bca",2,1
+swiggy,cloud engineer,14.8,"linux, networking, cloud computing, scripting","docker, azure, aws",7.5,"btech, be, bsc, bca",fresher,4
+paytm,qa automation engineer,13.2,"testing, selenium, sql, git","cypress, api testing, java, cybersecurity",7.0,"btech, be, bsc, bca",2,1
+paytm,frontend developer,23.3,"javascript, html, css, react, java, sql",apis,7.0,"btech, be, mtech",1,3
+groww,data analyst,17.2,"sql, excel, data analysis, python","data visualization, power bi",6.0,"btech, bsc, bcom",2,3
+freshworks,software engineer,28.8,"data structures, algorithms, object oriented programming, git, java, python","c++, linux, system design",7.0,"btech, be, bca",1,3
+phonepe,cybersecurity engineer,14.5,"networking, linux, cybersecurity, python, apis",docker,7.0,"btech, be, mtech",fresher,2
+classplus ,data analyst,6.5,"sql, excel, python, data analysis","tableau, power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
+meesho,full stack developer,14.0,"javascript, react, node.js, sql, java, aws","html, typescript, git, data pipelines",6.0,"btech, be, bsc, bca",fresher,1
+zomato,cybersecurity engineer,12.1,"networking, linux, cybersecurity, python, sql","cryptography, cloud security",7.5,"btech, be, mtech",1,2
+hcltech,data engineer,9.5,"python, sql, etl, databases, data pipelines","spark, azure, databricks",6.5,"btech, be, mtech",1,3
+tcs,cloud engineer,8.0,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",fresher,2
+tcs,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, tableau, agile",6.0,"btech, bsc, bcom",fresher,2
+nykaa,backend developer,13.1,"python, sql, apis, databases, data analysis","java, django",7.0,"btech, be, bca",fresher,3
+ola,data scientist,18.2,"python, statistics, machine learning, sql, kubernetes","data visualization, pytorch, tensorflow, java",7.5,"btech, be, mtech, msc",1,2
+dream11,backend developer,26.0,"python, sql, apis, databases, data analysis, aws","redis, node.js",6.0,"btech, be, bsc",1,5
+ola,data analyst,13.5,"sql, excel, data analysis, java, python, kubernetes",data visualization,6.0,"btech, be, bsc",2,2
+zoho,software development engineer,18.9,"data structures, algorithms, object oriented programming, problem solving, java, python","system design, apis",7.5,"btech, be, bsc, bca",fresher,4
+amazon,backend engineer,24.0,"java, python, sql, apis, data structures","microservices, aws, docker",7.0,"btech, be, mtech",1,3
+zerodha,qa automation engineer,12.0,"testing, selenium, sql, git, javascript, linux","cypress, python, api testing",6.5,"btech, be, bsc",fresher,2
+freshworks,backend developer,13.6,"python, sql, apis, databases",microservices,6.5,"btech, be, bsc, bca",fresher,4
+cred,cloud engineer,20.2,"linux, networking, cloud computing, scripting, java, python","gcp, docker, aws",7.5,"btech, be, bsc",1,3
+groww,site reliability engineer,18.9,"linux, python, networking, monitoring, data analysis","terraform, docker, aws",6.5,"btech, be, mtech",2,4
+flipkart,product analyst,9.6,"sql, excel, data analysis, java, python, aws","a/b testing, tableau",7.0,"btech, be, bsc",fresher,1
+policybazaar,cybersecurity engineer,17.8,"networking, linux, cybersecurity, python","cryptography, siem, cloud security",6.0,"btech, be, bca",1,4
+amazon,software development engineer,40.0,"c++, java, data structures, algorithms, system design","aws, distributed systems, scalability",8.0,"btech, be, mtech",5,5
+swiggy,cloud engineer,12.7,"linux, networking, cloud computing, scripting, java, python","azure, gcp, aws, sql",7.0,"btech, be, mtech",1,3
+dream11,product analyst,21.0,"sql, excel, data analysis, python, aws",power bi,7.0,"btech, be, bsc, bca",1,1
+ola,devops engineer,8.5,"linux, git, docker, ci/cd, scripting, python","aws, azure, terraform",6.0,"btech, be, bca",fresher,3
+hcltech,cloud engineer,9.0,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",1,3
+adobe,cloud engineer,19.0,"linux, networking, cloud computing, python","aws, azure, kubernetes",7.0,"btech, be, mtech",1,3
+cred,frontend developer,16.0,"javascript, html, css, react, sql, aws","next.js, node.js, apis, java",7.5,"btech, be, bsc",fresher,2
+ola,machine learning engineer,21.2,"python, machine learning, statistics, java, kubernetes, aws","pytorch, deep learning",7.0,"btech, be, mtech",1,3
+freshworks,security analyst,18.2,"networking, linux, cybersecurity, python","sql, cryptography",7.0,"btech, be, bsc",1,2
+hcltech,application support engineer,6.0,"linux, sql, troubleshooting, scripting","python, cloud, it service management",6.0,"btech, be, bsc",fresher,2
+razorpay,software development engineer,16.1,"data structures, algorithms, object oriented programming, problem solving, java, docker","c++, aws",7.5,"btech, be, mtech",fresher,3
+delhivery,qa automation engineer,12.3,"testing, selenium, sql, git, python, data pipelines","ci/cd, api testing",7.0,"btech, be, mtech",1,3
+razorpay,site reliability engineer,14.8,"linux, python, networking, monitoring, apis, aws",gcp,7.5,"btech, be, bsc, bca",1,5
+dream11,software engineer,16.4,"data structures, algorithms, object oriented programming, git, data analysis, aws","java, linux",6.0,"btech, be, bsc, bca",fresher,3
+policybazaar,product analyst,15.2,"sql, excel, data analysis, python, apis",tableau,6.5,"btech, be, bsc, bca",3,3
+policybazaar,data engineer,19.6,"python, sql, etl, databases, data pipelines, data analysis",docker,7.0,"btech, be, bca",1,3
+delhivery,devops engineer,22.0,"linux, git, docker, ci/cd, scripting, java",kubernetes,7.0,"btech, be, bsc",1,1
+zerodha,product analyst,14.3,"sql, excel, data analysis, apis, linux","python, power bi, statistics",6.5,"btech, bsc, bcom",2,2
+amazon,software development engineer,14.0,"java, python, c++, data structures, algorithms","aws, system design, distributed systems",7.0,"btech, be, mtech",fresher,2
+paytm,frontend developer,22.7,"javascript, html, css, react, python, sql","typescript, testing",7.0,"btech, be, bsc",1,2
+zomato,full stack developer,12.7,"javascript, react, node.js, sql, python, java","git, docker, data analysis",6.5,"btech, be, bsc",2,2
+myntra,site reliability engineer,32.3,"linux, python, networking, monitoring, sql, data pipelines",ci/cd,7.0,"btech, be, mtech",1,2
+razorpay,cybersecurity engineer,22.0,"networking, linux, cybersecurity, python, java, apis","cloud security, cryptography, docker",7.0,"btech, be, bsc",4,3
+zomato,business analyst,7.7,"sql, excel, requirements analysis, communication, aws",agile,6.0,"btech, bsc, bcom",fresher,1
+tcs,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
+nykaa,business analyst,15.3,"sql, excel, requirements analysis, communication, python",tableau,6.5,"btech, bsc, bcom",4,1
+delhivery,backend developer,22.1,"python, sql, apis, databases, java, data pipelines",django,7.0,"btech, be, bsc",1,3
+cred,cloud engineer,9.7,"linux, networking, cloud computing, scripting, python, react",gcp,7.0,"btech, be, bsc",fresher,3
+cred,mobile app developer,9.9,"java, object oriented programming, git, python, sql, react","apis, firebase, kotlin",7.0,"btech, be, bsc, bca",fresher,2
+meesho,frontend developer,10.2,"javascript, html, css, react, data pipelines","testing, git",6.5,"btech, be, bca",fresher,2
+cisco,full stack developer,17.0,"javascript, react, node.js, sql, html, css","typescript, cloud, docker",6.5,"btech, be, bsc",1,3
+policybazaar,ai engineer,13.0,"python, machine learning, deep learning, algorithms, java, apis","sql, nlp, docker",6.5,"btech, be, mtech",fresher,3
+anthropic,ai engineer,16.0,"python, deep learning, machine learning, algorithms","pytorch, nlp, llm, vector databases",7.0,"btech, be, mtech",2,4
+dream11,data analyst,11.1,"sql, excel, data analysis, java, aws","statistics, power bi",6.0,"btech, be, bsc",1,2
+zoho,software development engineer,25.0,"data structures, algorithms, object oriented programming, problem solving, java, c++","apis, sql, python",7.5,"btech, be, bca",3,2
+razorpay,data engineer,14.5,"python, sql, etl, databases, data pipelines, java","gcp, docker, aws",7.0,"btech, be, bca",2,2
+browserstack,security analyst,8.8,"networking, linux, cybersecurity, java, javascript, python","cryptography, docker",6.0,"btech, be, bca",1,2
+cisco,software engineer,26.0,"c++, linux, data structures, networking, multithreading","system design, distributed systems",7.5,"btech, be, mtech",2,4
+flipkart,business analyst,17.6,"sql, excel, requirements analysis, communication, java, python","data visualization, power bi",6.5,"btech, bsc, bcom",2,2
+infosys,business analyst,6.5,"sql, excel, requirements analysis, communication","power bi, agile, tableau",6.0,"btech, bsc, bcom",fresher,2
+infosys,application support engineer,5.5,"sql, linux, troubleshooting, communication","python, cloud, scripting",6.0,"btech, be, bsc",fresher,2
+zoho,product analyst,9.6,"sql, excel, data analysis, java, python","tableau, a/b testing, power bi",6.0,"btech, be, bsc, bca",fresher,1
+razorpay,data analyst,7.0,"sql, excel, python, data analysis","power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
+nykaa,qa automation engineer,15.6,"testing, selenium, sql, git, java, python",ci/cd,6.0,"btech, be, bca",3,2
+groww,mobile app developer,9.4,"java, object oriented programming, git, python, apis, data analysis","firebase, sql, kotlin",6.5,"btech, be, bsc",1,2
+freshworks,devops engineer,18.6,"linux, git, docker, ci/cd, scripting, sql",kubernetes,7.0,"btech, be, mtech",3,2
+udaan,data scientist,13.8,"python, statistics, machine learning, sql, java, data pipelines","tensorflow, kubernetes",7.0,"btech, be, mtech, msc",2,3
+anthropic,software engineer,10.0,"python, java, data structures, algorithms, git","cloud, docker, system design",6.5,"btech, be, mtech",fresher,3
+flipkart,machine learning engineer,17.7,"python, machine learning, statistics, java, microservices","docker, scikit-learn",7.5,"btech, be, mtech, msc",2,4
+zomato,ai engineer,19.8,"python, machine learning, deep learning, algorithms, data analysis","pytorch, aws",7.0,"btech, be, mtech",fresher,3
+freshworks,business analyst,13.4,"sql, excel, requirements analysis, communication, java","power bi, javascript",6.0,"btech, bsc, bcom",3,1
+swiggy,data analyst,9.2,"sql, excel, data analysis, java",data visualization,6.0,"btech, be, bsc, bca",4,1
+phonepe,cloud engineer,23.9,"linux, networking, cloud computing, scripting","docker, python",7.0,"btech, be, mtech",4,2
+adobe,qa automation engineer,15.0,"python, selenium, testing, sql, git","jenkins, docker, api testing",6.5,"btech, be, bsc",fresher,2
+hcltech,software developer,8.0,"java, python, sql, apis, data structures","spring boot, docker, cloud",6.5,"btech, be, mtech",1,3
+zerodha,data engineer,12.9,"python, sql, etl, databases, data pipelines, apis","spark, docker, java",7.0,"btech, be, bsc",3,4
+flipkart,full stack developer,28.7,"javascript, react, node.js, sql, java, python","html, typescript, apis",7.0,"btech, be, bsc",1,2
+zomato,data scientist,25.5,"python, statistics, machine learning, sql","pandas, pytorch, data visualization",7.0,"btech, be, mtech",1,2
+healthplix,data analyst,6.5,"sql, excel, python, statistics","power bi, healthcare analytics",6.0,"btech, bsc, bcom",fresher,2
+cred,devops engineer,23.7,"linux, git, docker, ci/cd, scripting, python",monitoring,6.0,"btech, be, bsc, bca",1,3
+delhivery,software engineer,9.2,"data structures, algorithms, object oriented programming, git, java",system design,7.5,"btech, be, bca",fresher,3
+upwind,security engineer,12.0,"linux, networking, cybersecurity, python","cloud security, cryptography, siem",7.0,"btech, be, mtech",1,3
+cognizant,programmer analyst,5.0,"java, sql, programming, data structures","python, cloud, git",6.0,"btech, be, bsc",fresher,2
+adobe,devops engineer,18.0,"linux, git, ci/cd, docker, scripting","kubernetes, terraform, cloud",7.0,"btech, be, mtech",1,3
+paytm,site reliability engineer,10.4,"linux, python, networking, monitoring, java, sql","docker, terraform",6.0,"btech, be, bca",fresher,2
+browserstack,machine learning engineer,16.6,"python, machine learning, statistics, testing, docker",sql,7.0,"btech, be, mtech, msc",3,2
+razorpay,data analyst,11.2,"sql, excel, data analysis, apis, aws",python,6.0,"btech, be, bsc, bca",2,3
+zomato,qa automation engineer,18.2,"testing, selenium, sql, git, python, java","ci/cd, api testing",7.0,"btech, be, mtech",4,2
+freshworks,machine learning engineer,14.9,"python, machine learning, statistics, java, sql, aws",docker,7.5,"btech, be, mtech",fresher,3
+razorpay,product analyst,16.8,"sql, excel, data analysis, java, apis, docker","a/b testing, tableau, data visualization, python",6.0,"btech, bsc, bcom",1,3
+groww,data scientist,13.9,"python, statistics, machine learning, sql, java, apis",scikit-learn,6.5,"btech, be, mtech, msc",fresher,3
+policybazaar,software development engineer,19.0,"data structures, algorithms, object oriented programming, problem solving, sql, data analysis","apis, c++, python",6.0,"btech, be, bsc, bca",2,4
+nykaa,cybersecurity engineer,23.5,"networking, linux, cybersecurity, python, sql, data analysis","cloud security, siem, react",6.5,"btech, be, mtech",2,2
+cisco,cybersecurity engineer,21.0,"networking, linux, cybersecurity, python","siem, cloud security, cryptography",7.0,"btech, be, mtech",1,3
+browserstack,security analyst,9.8,"networking, linux, cybersecurity, javascript, python, testing","cryptography, sql, java",7.0,"btech, be, bsc",fresher,2
+cognizant,application support engineer,6.0,"linux, sql, troubleshooting, communication","python, shell scripting, cloud",6.0,"btech, be, bsc",fresher,2
+zerodha,backend developer,19.3,"python, sql, apis, databases, javascript","redis, microservices",6.5,"btech, be, bca",2,4
+ola,cybersecurity engineer,12.3,"networking, linux, cybersecurity, python, java, data analysis","siem, cryptography, docker",7.0,"btech, be, bsc",2,2
+zoho,site reliability engineer,16.8,"linux, python, networking, monitoring, java","docker, gcp, kubernetes",7.5,"btech, be, bsc, bca",4,2
+zoho,software engineer,7.8,"data structures, algorithms, object oriented programming, git, java, javascript","apis, python, c++",6.5,"btech, be, bca",fresher,3
+policybazaar,backend developer,13.0,"python, sql, apis, databases","node.js, django, spring boot, java",7.0,"btech, be, bca",2,3
+flipkart,data engineer,13.8,"python, sql, etl, databases, data pipelines, java","spark, aws",7.5,"btech, be, bsc",2,3
+udaan,business analyst,13.6,"sql, excel, requirements analysis, communication, java, python","tableau, agile",6.0,"btech, bsc, bcom",1,2
+cognizant,cybersecurity analyst,8.0,"networking, linux, cybersecurity, python","siem, cloud security, vulnerability assessment",6.5,"btech, be, mtech",1,3
+tcs,cybersecurity analyst,7.5,"networking, linux, cybersecurity, sql","siem, cloud security, python",6.5,"btech, be, mtech",fresher,2
+meesho,security analyst,15.8,"networking, linux, cybersecurity, data pipelines, aws","siem, sql, python",6.5,"btech, be, bsc, bca",1,3
+cred,security analyst,11.0,"networking, linux, cybersecurity, aws","sql, siem, python",6.0,"btech, be, bsc",fresher,2
+groww,devops engineer,13.2,"linux, git, docker, ci/cd, scripting, java","azure, data analysis",6.5,"btech, be, bsc, bca",2,2
+classplus ,backend developer,8.0,"python, django, sql, apis","redis, docker, aws",6.0,"btech, be, mtech",1,3
+ola,data analyst,7.8,"sql, excel, data analysis, python",tableau,6.5,"btech, be, bsc, bca",fresher,2
+phonepe,ai engineer,21.9,"python, machine learning, deep learning, algorithms, sql, cybersecurity","llm, pytorch, docker",7.0,"btech, be, mtech",fresher,4
+groww,security analyst,8.5,"networking, linux, cybersecurity, java, sql, data analysis","siem, apis",7.0,"btech, be, bsc, bca",fresher,3
+swiggy,backend developer,22.8,"python, sql, apis, databases, java, data pipelines",microservices,6.5,"btech, be, bsc",2,4
+udaan,cybersecurity engineer,8.4,"networking, linux, cybersecurity, python, java, data pipelines",docker,6.5,"btech, be, mtech",fresher,3
+delhivery,security analyst,7.0,"networking, linux, cybersecurity, java, python, sql","cloud security, siem, cryptography, data pipelines",7.0,"btech, be, bca",fresher,3
+swiggy,frontend developer,12.0,"javascript, html, css, react, sql, kubernetes","testing, node.js",6.0,"btech, be, bsc, bca",fresher,2
+zoho,frontend developer,21.7,"javascript, html, css, react, c++, python","apis, node.js",6.5,"btech, be, bca",2,2
+myntra,data analyst,20.0,"sql, excel, data analysis","python, data visualization, data pipelines",6.5,"btech, bsc, bcom",1,3
+phonepe,business analyst,11.3,"sql, excel, requirements analysis, communication, java, apis","python, tableau, data visualization",6.0,"btech, be, bsc",3,2
+zomato,ai engineer,17.3,"python, machine learning, deep learning, algorithms","nlp, tensorflow",7.0,"btech, mtech",fresher,4
+phonepe,software engineer,31.6,"data structures, algorithms, object oriented programming, git, apis, cybersecurity","c++, sql",6.0,"btech, be, mtech",4,4
+nykaa,frontend developer,18.5,"javascript, html, css, react, python, sql",node.js,6.5,"btech, be, bsc, bca",1,1
+cisco,embedded software engineer,16.0,"c, c++, embedded systems, data structures","rtos, microcontrollers, linux",7.0,"btech, be, mtech",fresher,3
+google,data engineer,35.0,"python, sql, databases, data pipelines, java","spark, gcp, kubernetes",8.0,"btech, be, mtech",3,4
+udaan,product analyst,7.5,"sql, excel, data analysis, java","tableau, data visualization",6.5,"btech, be, bsc, bca",fresher,2
+razorpay,business analyst,5.7,"sql, excel, requirements analysis, communication, python, docker","agile, tableau",6.0,"btech, be, bsc, bca",fresher,2
+google,software engineer,28.0,"python, c++, java, data structures, algorithms, problem solving","system design, cloud, distributed systems",7.5,"btech, be, mtech",fresher,3
+myntra,backend developer,25.9,"python, sql, apis, databases, java",spring boot,7.0,"btech, be, mtech",4,3
+dream11,site reliability engineer,22.4,"linux, python, networking, monitoring, data analysis, aws","terraform, kubernetes, docker",7.0,"btech, be, bsc",1,4
+policybazaar,security analyst,20.4,"networking, linux, cybersecurity, data analysis","sql, apis",7.0,"btech, be, bca",1,2
+zerodha,business analyst,10.5,"sql, excel, requirements analysis, communication, python, linux",data visualization,6.0,"btech, be, bsc",1,1
+nykaa,ai engineer,17.6,"python, machine learning, deep learning, algorithms, java, sql",mlops,6.5,"btech, be, mtech, msc",fresher,4
+swiggy,qa automation engineer,9.5,"testing, selenium, sql, git, java, kubernetes","cypress, python, api testing",7.5,"btech, be, bsc, bca",2,1
+tcs,software engineer,7.0,"java, sql, data structures, object oriented programming","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
+groww,software development engineer,14.0,"data structures, algorithms, object oriented programming, problem solving, java, python","c++, system design",7.5,"btech, be, bca",1,4
+google,security engineer,29.0,"networking, linux, python, cybersecurity, cryptography","cloud security, siem, threat modeling",7.5,"btech, be, mtech",2,4
+paytm,data analyst,6.1,"sql, excel, data analysis, java, python, cybersecurity","data visualization, statistics, tableau",7.0,"btech, be, bsc, bca",fresher,2
+classplus ,product analyst,8.0,"sql, excel, data analysis, communication","a/b testing, python, tableau",6.0,"btech, bsc, bcom",1,2
+swiggy,software engineer,23.0,"data structures, algorithms, object oriented programming, git, sql, data pipelines","linux, apis, c++",7.0,"btech, be, bsc, bca",2,3
+phonepe,data engineer,21.4,"python, sql, etl, databases, data pipelines","airflow, azure, java",7.5,"btech, be, bsc",1,3
+cisco,site reliability engineer,22.0,"linux, python, networking, monitoring","kubernetes, cloud, terraform",7.0,"btech, be, mtech",2,4
+cred,full stack developer,8.4,"javascript, react, node.js, sql, java, python","aws, apis, git",7.0,"btech, be, bca",fresher,3
+nykaa,security analyst,12.0,"networking, linux, cybersecurity, java, python, data analysis","sql, siem",7.5,"btech, be, bca",1,3
+cisco,data engineer,17.0,"python, sql, etl, databases, data pipelines","spark, cloud, airflow",7.0,"btech, be, mtech",1,3
+hcltech,java developer,8.0,"java, sql, spring, data structures","spring boot, microservices, cloud",6.5,"btech, be, mtech",1,3
+meesho,machine learning engineer,25.0,"python, machine learning, statistics","pytorch, docker",7.5,"btech, mtech",4,4
+slack,devops engineer,11.0,"linux, git, docker, ci/cd, scripting","kubernetes, terraform, aws",6.5,"btech, be, mtech",1,3
+cisco,devops engineer,19.0,"linux, git, ci/cd, docker, scripting","kubernetes, terraform, cloud",6.5,"btech, be, mtech",1,3
+infosys,data engineer,9.0,"python, sql, etl, databases","spark, azure, databricks",6.5,"btech, be, mtech",1,3
+hcltech,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, tableau, agile",6.0,"btech, bsc, bcom",fresher,2
+swiggy,product analyst,15.9,"sql, excel, data analysis",power bi,6.0,"btech, bsc, bcom",1,2
+adobe,frontend engineer,17.0,"javascript, html, css, react","typescript, ui testing, accessibility",6.5,"btech, be, bsc",fresher,2
+groww,data scientist,15.7,"python, statistics, machine learning, sql, java","pytorch, pandas, data visualization",6.5,"btech, mtech",fresher,3
+freshworks,machine learning engineer,29.5,"python, machine learning, statistics, javascript, aws","deep learning, sql, mlops",7.0,"btech, mtech",4,5
+myntra,backend developer,30.4,"python, sql, apis, databases, java, react","django, spring boot, docker",7.5,"btech, be, bsc",4,4
+infosys,software engineer,7.0,"java, python, sql, data structures","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
+flipkart,business analyst,9.4,"sql, excel, requirements analysis, communication, java, microservices","tableau, data visualization",6.5,"btech, be, bsc",fresher,3
+paytm,data analyst,13.6,"sql, excel, data analysis, java, python","statistics, apis",6.5,"btech, be, bsc, bca",3,2
+ola,data scientist,28.6,"python, statistics, machine learning, sql, java, aws",data visualization,7.5,"btech, be, mtech, msc",1,4
+meesho,cybersecurity engineer,6.9,"networking, linux, cybersecurity, python, java, sql",docker,6.5,"btech, be, mtech",fresher,3
+meesho,software development engineer,23.3,"data structures, algorithms, object oriented programming, problem solving, java",system design,7.0,"btech, be, bsc",2,4
+nykaa,cybersecurity engineer,8.3,"networking, linux, cybersecurity, python, java",sql,7.5,"btech, be, bsc, bca",fresher,3
+policybazaar,cloud engineer,25.3,"linux, networking, cloud computing, scripting, java",gcp,6.5,"btech, be, bsc",4,3
+dream11,data scientist,21.2,"python, statistics, machine learning, sql, java, data analysis","pytorch, data visualization",7.5,"btech, be, mtech",1,3
+dream11,full stack developer,20.5,"javascript, react, node.js, sql, java, data analysis",aws,7.0,"btech, be, mtech",1,1
+flipkart,qa automation engineer,17.3,"testing, selenium, sql, git, java, data pipelines","jenkins, api testing",6.5,"btech, be, bsc, bca",2,2
+cisco,cloud engineer,20.0,"cloud computing, linux, networking, python","kubernetes, terraform, aws",7.0,"btech, be, mtech",1,3
+adobe,backend engineer,21.0,"java, python, sql, apis, data structures","microservices, docker, cloud",7.0,"btech, be, mtech",1,3
+browserstack,data scientist,24.2,"python, statistics, machine learning, sql","tensorflow, pytorch, data visualization, java",7.0,"btech, be, mtech, msc",1,3
+ola,software development engineer,18.6,"data structures, algorithms, object oriented programming, problem solving, java, data analysis",aws,6.5,"btech, be, mtech",1,3
+infosys,java developer,7.5,"java, sql, data structures, spring","spring boot, microservices, cloud",6.5,"btech, be, mtech",1,3
+phonepe,ai engineer,17.6,"python, machine learning, deep learning, algorithms, java, sql",mlops,7.0,"btech, be, mtech",fresher,2
+policybazaar,site reliability engineer,32.6,"linux, python, networking, monitoring, java, apis","gcp, aws",6.5,"btech, be, bca",1,4
+policybazaar,site reliability engineer,21.3,"linux, python, networking, monitoring, java, sql","docker, kubernetes, gcp",7.5,"btech, be, mtech",4,4
+zerodha,cloud engineer,23.5,"linux, networking, cloud computing, scripting, sql","terraform, docker, kubernetes",6.0,"btech, be, mtech",4,2
+nykaa,cloud engineer,13.6,"linux, networking, cloud computing, scripting, react, data analysis","aws, kubernetes, azure, sql",6.5,"btech, be, bsc",fresher,3
+upwind,backend developer,9.0,"python, sql, apis, data structures","docker, cloud, security",6.5,"btech, be, bsc",1,3
+phonepe,frontend developer,19.7,"javascript, html, css, react, java, python","typescript, apis",6.0,"btech, be, bsc, bca",2,2
+cognizant,data engineer,10.0,"python, sql, etl, databases, data pipelines","aws, spark, airflow",6.5,"btech, be, mtech",1,3
+dream11,backend developer,7.1,"python, sql, apis, databases, java","spring boot, redis, node.js",6.5,"btech, be, bsc, bca",fresher,4
+delhivery,full stack developer,13.7,"javascript, react, node.js, sql, aws",git,7.0,"btech, be, bsc, bca",fresher,3
+freshworks,frontend developer,23.6,"javascript, html, css, react, java, python","git, apis",7.0,"btech, be, bsc, bca",4,2
+hcltech,full stack developer,8.5,"javascript, react, node.js, sql, html, css","typescript, docker, aws",6.5,"btech, be, bsc",1,3
+zerodha,data scientist,17.0,"python, statistics, machine learning, sql, apis",pytorch,6.5,"btech, be, mtech, msc",fresher,3
+zoho,site reliability engineer,13.2,"linux, python, networking, monitoring, java, c++","aws, docker, kubernetes",6.5,"btech, be, bca",fresher,4
+udaan,devops engineer,11.4,"linux, git, docker, ci/cd, scripting, java","azure, terraform",6.5,"btech, be, bsc",fresher,2
+swiggy,data engineer,19.8,"python, sql, etl, databases, data pipelines, kubernetes",aws,7.0,"btech, be, bca",1,4
+flipkart,backend developer,9.9,"python, sql, apis, databases, java, aws",redis,7.0,"btech, be, bca",fresher,3
+nykaa,cloud engineer,14.1,"linux, networking, cloud computing, scripting, sql, react","aws, docker, gcp, data analysis",6.5,"btech, be, mtech",fresher,3
+zomato,qa automation engineer,8.0,"testing, selenium, sql, git, python","jenkins, cypress",7.0,"btech, be, bca",fresher,2
+delhivery,machine learning engineer,14.5,"python, machine learning, statistics, java, aws","deep learning, mlops, scikit-learn",7.0,"btech, be, mtech, msc",fresher,4
+cognizant,software engineer,7.0,"java, sql, programming, problem solving","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
+zoho,backend developer,26.5,"python, sql, apis, databases, java, c++","django, node.js, microservices",6.5,"btech, be, bca",3,4
+meesho,backend developer,16.4,"python, sql, apis, databases, data pipelines, aws","django, redis",7.0,"btech, be, bsc, bca",2,4
+zerodha,full stack developer,23.8,"javascript, react, node.js, sql, python",aws,6.5,"btech, be, bca",3,2
+zoho,full stack developer,26.6,"javascript, react, node.js, sql",html,6.0,"btech, be, bca",2,1
+delhivery,backend developer,13.2,"python, sql, apis, databases, java",redis,7.0,"btech, be, mtech",4,3
+flipkart,ai engineer,17.3,"python, machine learning, deep learning, algorithms, microservices","llm, java",7.0,"btech, mtech",fresher,3
+adobe,data scientist,22.0,"python, statistics, machine learning, sql","pandas, sklearn, visualization",7.0,"btech, be, mtech",1,3
+infosys,full stack developer,8.0,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
+dream11,software engineer,21.2,"data structures, algorithms, object oriented programming, git, java, python","apis, c++, sql",6.0,"btech, be, bsc",3,3
+adobe,software engineer,30.0,"c++, java, algorithms, data structures, object oriented programming","distributed systems, cloud",7.5,"btech, be, mtech",2,4
+google,backend engineer,30.0,"java, python, sql, apis, data structures","microservices, gcp, docker",7.5,"btech, be, mtech",1,4
+udaan,devops engineer,10.0,"linux, git, docker, ci/cd, scripting, kubernetes",azure,7.0,"btech, be, mtech",fresher,3
+browserstack,site reliability engineer,19.0,"linux, python, networking, monitoring, java, javascript","gcp, docker",7.5,"btech, be, mtech",fresher,2
+zomato,devops engineer,18.8,"linux, git, docker, ci/cd, scripting, python","jenkins, azure",6.5,"btech, be, bca",1,3
+groww,data engineer,19.1,"python, sql, etl, databases, data pipelines, java",aws,7.0,"btech, be, mtech",2,4
+delhivery,site reliability engineer,33.7,"linux, python, networking, monitoring, java, data pipelines","aws, kubernetes",7.0,"btech, be, mtech",4,3
+razorpay,backend developer,10.7,"python, sql, apis, databases, java, docker","microservices, django, redis, aws",6.5,"btech, be, bca",fresher,4
+zerodha,software engineer,15.1,"data structures, algorithms, object oriented programming, git, javascript, apis","sql, c++, java",7.0,"btech, be, bsc",1,4
+hcltech,software engineer,6.0,"java, sql, data structures, programming","spring, cloud, git",6.0,"btech, be, bsc",fresher,2
+policybazaar,software development engineer,33.1,"data structures, algorithms, object oriented programming, problem solving, java, sql","aws, apis",6.5,"btech, be, bsc",2,3
+myntra,software development engineer,15.4,"data structures, algorithms, object oriented programming, problem solving, python, data pipelines","c++, sql, apis, react",7.0,"btech, be, mtech",fresher,2
+cognizant,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
+paytm,ai engineer,13.1,"python, machine learning, deep learning, algorithms, java, cybersecurity",sql,7.5,"btech, mtech",fresher,3
+delhivery,software development engineer,24.6,"data structures, algorithms, object oriented programming, problem solving, python, sql","aws, c++",6.0,"btech, be, bsc, bca",3,4
+swiggy,cloud engineer,16.1,"linux, networking, cloud computing, scripting, java, python",docker,6.0,"btech, be, bsc, bca",3,4
+zomato,product analyst,15.8,"sql, excel, data analysis, java, aws","data visualization, a/b testing, power bi, python",6.5,"btech, bsc, bcom",4,3
+slack,backend developer,10.0,"python, java, sql, apis, data structures","microservices, docker, aws",6.5,"btech, be, mtech",1,3
+meesho,devops engineer,14.3,"linux, git, docker, ci/cd, scripting, sql","gcp, jenkins",7.0,"btech, be, bsc",fresher,3
+razorpay,devops engineer,21.8,"linux, git, docker, ci/cd, scripting, java",aws,7.0,"btech, be, bca",1,1
+udaan,security analyst,19.0,"networking, linux, cybersecurity, java, python, data pipelines","sql, cryptography",7.5,"btech, be, bsc, bca",3,3
+infosys,cloud engineer,8.5,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",fresher,2
+razorpay,security analyst,12.8,"networking, linux, cybersecurity, apis, docker","siem, sql, cryptography",7.5,"btech, be, bsc",2,3
+myntra,software engineer,12.2,"data structures, algorithms, object oriented programming, git, python, react",java,7.0,"btech, be, mtech",fresher,3
+ola,full stack developer,8.5,"javascript, react, node.js, sql, java, python","apis, html",7.0,"btech, be, bsc, bca",fresher,2
+razorpay,cloud engineer,15.8,"linux, networking, cloud computing, scripting, python, apis","terraform, docker",6.5,"btech, be, bsc, bca",fresher,4
+browserstack,cybersecurity engineer,23.5,"networking, linux, cybersecurity, python, java, javascript","docker, siem, sql, testing",7.0,"btech, be, mtech",1,3
+browserstack,software engineer,11.4,"data structures, algorithms, object oriented programming, git","java, sql, system design",6.5,"btech, be, bsc, bca",fresher,3
+policybazaar,business analyst,16.5,"sql, excel, requirements analysis, communication, java, apis","power bi, agile, tableau, data analysis",6.0,"btech, bsc, bcom",1,3
+paytm,software development engineer,24.7,"data structures, algorithms, object oriented programming, problem solving, python, sql","c++, system design",7.0,"btech, be, bsc, bca",3,4
+dream11,security analyst,5.4,"networking, linux, cybersecurity, python, sql, data analysis","cloud security, siem",7.0,"btech, be, bsc",fresher,2
+zerodha,frontend developer,10.7,"javascript, html, css, react, sql, apis","typescript, git, node.js",6.5,"btech, be, bca",2,2
+infosys,cybersecurity analyst,7.5,"networking, linux, cybersecurity, python","siem, cloud security",6.5,"btech, be, mtech",fresher,2
+paytm,cloud engineer,9.9,"linux, networking, cloud computing, scripting, python, cybersecurity","terraform, kubernetes, azure",7.5,"btech, be, mtech",1,3
+cred,data scientist,16.6,"python, statistics, machine learning, sql, react",pandas,6.5,"btech, be, mtech, msc",2,3
+udaan,full stack developer,28.3,"javascript, react, node.js, sql, kubernetes","css, apis, java",6.0,"btech, be, bca",1,2
+amazon,software development engineer,28.0,"java, c++, data structures, algorithms, object oriented programming","aws, distributed systems, system design",7.5,"btech, be, mtech",2,4
+razorpay,backend developer,28.3,"python, sql, apis, databases, aws","microservices, node.js",6.5,"btech, be, mtech",1,3
+zerodha,mobile app developer,12.3,"java, object oriented programming, git, sql, linux",flutter,6.0,"btech, be, bsc, bca",fresher,2
+meesho,software development engineer,20.2,"data structures, algorithms, object oriented programming, problem solving, python, java","sql, system design, aws",6.5,"btech, be, mtech",1,4
+cred,full stack developer,23.6,"javascript, react, node.js, sql, python","apis, aws",6.5,"btech, be, bca",2,3
+google,machine learning engineer,32.0,"python, machine learning, statistics, data structures, sql","tensorflow, pytorch, gcp",7.5,"btech, be, mtech",1,4
+zomato,software development engineer,22.3,"data structures, algorithms, object oriented programming, problem solving, sql, aws",system design,7.5,"btech, be, bsc, bca",1,4
+flipkart,mobile app developer,13.0,"java, object oriented programming, git, python","kotlin, apis, firebase",7.5,"btech, be, bca",1,1
+myntra,software development engineer,27.0,"data structures, algorithms, object oriented programming, problem solving, java",apis,6.0,"btech, be, bsc, bca",2,2
+adobe,product analyst,14.0,"sql, excel, data analysis, communication","tableau, python, a/b testing",6.5,"btech, bsc, bcom",fresher,2
+upwind,devops engineer,10.0,"linux, docker, git, ci/cd, scripting","kubernetes, terraform, cloud security",6.5,"btech, be, mtech",1,3
+udaan,devops engineer,18.6,"linux, git, docker, ci/cd, scripting, java","jenkins, sql",6.5,"btech, be, bsc",3,1
+swiggy,backend developer,10.3,"python, sql, apis, databases, data pipelines","docker, spring boot, django",7.0,"btech, be, bsc",fresher,4
+myntra,ai engineer,37.7,"python, machine learning, deep learning, algorithms, java","llm, tensorflow, pytorch",7.0,"btech, be, mtech, msc",1,4
+ola,product analyst,14.4,"sql, excel, data analysis, kubernetes","a/b testing, python, tableau",6.5,"btech, be, bsc, bca",2,1
+zoho,site reliability engineer,10.0,"linux, python, networking, monitoring, java, sql","docker, aws, kubernetes",7.5,"btech, be, bsc",fresher,4
+dream11,software development engineer,8.7,"data structures, algorithms, object oriented programming, problem solving, python, sql","apis, java, data analysis",6.5,"btech, be, bsc",fresher,3
+meesho,machine learning engineer,24.4,"python, machine learning, statistics, java, sql","tensorflow, scikit-learn, pytorch",7.0,"btech, be, mtech",1,2
+nykaa,data scientist,8.1,"python, statistics, machine learning, sql, java, react","scikit-learn, tensorflow",7.0,"btech, be, mtech, msc",fresher,2
+freshworks,software engineer,22.3,"data structures, algorithms, object oriented programming, git","c++, linux, java",6.0,"btech, be, bsc, bca",3,4
+meesho,cybersecurity engineer,8.4,"networking, linux, cybersecurity, python, java, aws","cryptography, docker",6.0,"btech, be, mtech",fresher,3
+myntra,frontend developer,20.1,"javascript, html, css, react, java, python","typescript, testing",6.5,"btech, be, bsc, bca",4,1
+infosys,data analyst,6.0,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
+adobe,software engineer,18.0,"java, c++, python, data structures, algorithms","system design, cloud, microservices",7.0,"btech, be, mtech",fresher,3
+zerodha,machine learning engineer,13.7,"python, machine learning, statistics, sql, linux","mlops, deep learning",7.5,"btech, mtech",fresher,3
+swiggy,site reliability engineer,28.0,"linux, python, networking, monitoring, java, data pipelines",kubernetes,7.0,"btech, be, bca",3,3
+paytm,devops engineer,10.5,"linux, git, docker, ci/cd, scripting, cybersecurity","gcp, kubernetes, aws, sql",7.0,"btech, be, mtech",fresher,2
+udaan,business analyst,16.4,"sql, excel, requirements analysis, communication, data pipelines",tableau,6.5,"btech, bsc, bcom",2,2
+phonepe,site reliability engineer,26.8,"linux, python, networking, monitoring, java, cybersecurity","kubernetes, docker",6.5,"btech, be, bsc",1,5
+phonepe,data scientist,22.7,"python, statistics, machine learning, sql, java, apis",tensorflow,7.0,"btech, mtech",4,4
+groww,cloud engineer,16.9,"linux, networking, cloud computing, scripting, java, python","terraform, aws",6.5,"btech, be, bsc, bca",1,4
+zomato,data scientist,13.3,"python, statistics, machine learning, sql, data analysis, aws","pytorch, tensorflow",6.5,"btech, be, mtech",1,4
+meesho,data analyst,8.5,"sql, excel, data analysis","statistics, tableau, python",6.0,"btech, be, bsc, bca",3,2
+udaan,mobile app developer,9.2,"java, object oriented programming, git",sql,6.5,"btech, be, bsc",fresher,2
+dream11,software development engineer,17.4,"data structures, algorithms, object oriented programming, problem solving, java, data analysis","c++, aws, python",7.0,"btech, be, bca",fresher,2
+zerodha,cybersecurity engineer,22.2,"networking, linux, cybersecurity, python","sql, siem",7.0,"btech, be, bsc",3,2
+zerodha,devops engineer,10.8,"linux, git, docker, ci/cd, scripting, sql","aws, kubernetes, terraform",6.5,"btech, be, mtech",fresher,1
+ola,data scientist,26.4,"python, statistics, machine learning, sql, java, kubernetes",tensorflow,6.5,"btech, be, mtech",4,2
+phonepe,devops engineer,20.9,"linux, git, docker, ci/cd, scripting, java","kubernetes, jenkins, gcp",7.0,"btech, be, bsc",4,3
+nykaa,site reliability engineer,18.4,"linux, python, networking, monitoring, java, react",terraform,6.5,"btech, be, mtech",fresher,4
+policybazaar,product analyst,8.5,"sql, excel, data analysis, java, python, apis",statistics,6.0,"btech, be, bsc, bca",fresher,2
+paytm,full stack developer,12.9,"javascript, react, node.js, sql, cybersecurity","typescript, css",6.5,"btech, be, bsc",1,2
+ola,business analyst,19.9,"sql, excel, requirements analysis, communication","agile, java",6.0,"btech, bsc, bcom",3,2
+hcltech,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, terraform",6.5,"btech, be, mtech",1,3
+cisco,data analyst,11.0,"sql, excel, python, data analysis","tableau, power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
+paytm,ai engineer,28.5,"python, machine learning, deep learning, algorithms, apis","llm, nlp",7.0,"btech, be, mtech, msc",2,2
+groww,machine learning engineer,15.0,"python, machine learning, statistics, apis","tensorflow, mlops",7.5,"btech, be, mtech",3,3
+cognizant,software engineer,11.0,"c, linux, pointers, data structures, multithreading","socket programming, gdb, shell scripting",7.0,"btech, be, mtech",3,3
+delhivery,product analyst,10.7,"sql, excel, data analysis, java, python, aws","a/b testing, tableau",7.0,"btech, bsc, bcom",fresher,1
+groww,cybersecurity engineer,14.8,"networking, linux, cybersecurity, python, java, sql",cryptography,7.5,"btech, be, bsc, bca",2,2
+policybazaar,frontend developer,13.2,"javascript, html, css, react, python, sql","apis, next.js",6.5,"btech, be, bsc, bca",2,2
+upwind,security analyst,8.0,"networking, linux, cybersecurity, python","siem, threat hunting, cloud security",6.5,"btech, be, mtech",fresher,2
+phonepe,software development engineer,28.7,"data structures, algorithms, object oriented programming, problem solving, apis, cybersecurity",system design,6.5,"btech, be, bca",2,4
+google,technical solutions engineer,18.0,"python, sql, troubleshooting, networking, communication","cloud, apis, linux",6.5,"btech, be, bsc",fresher,2
+hcltech,cybersecurity analyst,7.5,"networking, linux, cybersecurity, python","siem, cloud security, vulnerability assessment",6.5,"btech, be, mtech",fresher,2
+flipkart,cybersecurity engineer,10.1,"networking, linux, cybersecurity, python, java, aws",cloud security,6.0,"btech, be, bsc",fresher,4
+infosys,devops engineer,8.0,"linux, git, ci/cd, docker","jenkins, kubernetes, aws",6.5,"btech, be, mtech",1,3
+myntra,data engineer,16.3,"python, sql, etl, databases, data pipelines","airflow, docker, java",6.5,"btech, be, mtech",2,2
+ola,data engineer,11.9,"python, sql, etl, databases, data pipelines, java","spark, airflow",7.0,"btech, be, mtech",fresher,4
+delhivery,product analyst,11.2,"sql, excel, data analysis, java, data pipelines, aws",tableau,7.0,"btech, bsc, bcom",3,2
+freshworks,qa automation engineer,16.6,"testing, selenium, sql, git, javascript",api testing,6.5,"btech, be, bsc",1,2
+zerodha,security analyst,19.3,"networking, linux, cybersecurity, apis","siem, cloud security, javascript",7.0,"btech, be, mtech",2,2
+groww,backend developer,12.5,"python, sql, apis, databases, data analysis","node.js, django, redis",6.0,"btech, be, bsc, bca",fresher,4
+meesho,data engineer,17.4,"python, sql, etl, databases, data pipelines","airflow, aws",6.5,"btech, be, bsc",1,4
+razorpay,qa automation engineer,9.7,"testing, selenium, sql, git, java, python",api testing,7.0,"btech, be, bca",1,1
+zerodha,data analyst,13.5,"sql, excel, data analysis, python, javascript, apis",power bi,6.0,"btech, be, bsc, bca",3,3
+udaan,business analyst,11.4,"sql, excel, requirements analysis, communication, java, python",tableau,7.0,"btech, be, bsc",2,2
+paytm,data analyst,6.5,"sql, excel, data analysis, cybersecurity","tableau, statistics, python",6.0,"btech, be, bsc, bca",fresher,2
+zoho,data engineer,14.7,"python, sql, etl, databases, data pipelines, javascript","docker, aws, azure",6.0,"btech, be, mtech",fresher,2
+cred,software development engineer,33.0,"data structures, algorithms, object oriented programming, problem solving","aws, system design, sql",6.5,"btech, be, bsc, bca",2,2
+nykaa,site reliability engineer,13.1,"linux, python, networking, monitoring, data analysis","gcp, kubernetes",7.5,"btech, be, bca",3,3
+browserstack,site reliability engineer,13.7,"linux, python, networking, monitoring, java","ci/cd, terraform, aws",6.5,"btech, be, bsc",fresher,4
+cognizant,cloud engineer,9.0,"linux, networking, cloud computing, scripting","aws, azure, kubernetes",6.5,"btech, be, mtech",1,3
+cred,software engineer,9.1,"data structures, algorithms, object oriented programming, git, java, python",c++,6.5,"btech, be, mtech",fresher,4
+myntra,product analyst,8.2,"sql, excel, data analysis, react","power bi, statistics, tableau",6.5,"btech, be, bsc",fresher,2
+paytm,site reliability engineer,28.7,"linux, python, networking, monitoring, sql, cybersecurity","gcp, aws",7.0,"btech, be, bca",3,3
+zoho,data engineer,8.8,"python, sql, etl, databases, data pipelines, java","airflow, docker, azure",6.5,"btech, be, mtech",fresher,4
+cisco,network engineer,15.0,"computer networks, tcp/ip, linux, troubleshooting","python, cisco technologies, automation",6.5,"btech, be, mtech",fresher,2
+flipkart,cybersecurity engineer,20.0,"networking, linux, cybersecurity, python, data pipelines","cloud security, cryptography",6.5,"btech, be, bsc",1,2
+swiggy,software engineer,10.2,"data structures, algorithms, object oriented programming, git, java, kubernetes","sql, data pipelines",7.0,"btech, be, bsc, bca",fresher,4
+zerodha,machine learning engineer,24.8,"python, machine learning, statistics, sql, apis, linux","deep learning, tensorflow",7.5,"btech, be, mtech",3,4
+flipkart,site reliability engineer,14.5,"linux, python, networking, monitoring, java, aws","gcp, kubernetes, data pipelines",7.0,"btech, be, bsc, bca",1,3
+adobe,machine learning engineer,24.0,"python, machine learning, statistics, sql","pytorch, tensorflow, nlp",7.5,"btech, be, mtech",1,4
+ola,machine learning engineer,35.2,"python, machine learning, statistics, java, aws, data analysis","deep learning, tensorflow, docker",7.5,"btech, be, mtech",2,5
+google,ai engineer,34.0,"python, machine learning, deep learning, algorithms","pytorch, llm, nlp, gcp",7.5,"btech, be, mtech",2,4
+paytm,cybersecurity engineer,15.8,"networking, linux, cybersecurity, python, java, sql",docker,7.0,"btech, be, bsc, bca",fresher,2
+zoho,devops engineer,11.3,"linux, git, docker, ci/cd, scripting, java","aws, c++",7.0,"btech, be, bsc, bca",4,3
+zomato,software engineer,14.4,"data structures, algorithms, object oriented programming, git, python, aws","apis, java, c++",6.0,"btech, be, bsc",2,3
+tcs,software developer,9.0,"java, python, sql, apis, git","spring boot, aws, docker",6.5,"btech, be, mtech",1,3
+swiggy,product analyst,18.7,"sql, excel, data analysis, java, data pipelines, kubernetes","tableau, power bi",7.0,"btech, bsc, bcom",2,2
+myntra,software development engineer,11.4,"data structures, algorithms, object oriented programming, problem solving, java, python",system design,7.0,"btech, be, bca",fresher,4
+myntra,frontend developer,21.1,"javascript, html, css, react, java, python",next.js,6.5,"btech, be, bsc",2,2
+paytm,full stack developer,12.7,"javascript, react, node.js, sql, java","git, apis",7.5,"btech, be, bsc, bca",fresher,2
+phonepe,product analyst,18.9,"sql, excel, data analysis, apis","power bi, tableau, data visualization",6.5,"btech, be, bsc",1,1
+swiggy,full stack developer,12.1,"javascript, react, node.js, sql, java, data pipelines",aws,7.0,"btech, be, bca",2,3
+ola,data engineer,15.8,"python, sql, etl, databases, data pipelines, kubernetes","docker, aws, airflow",7.0,"btech, be, bsc",fresher,2
+anthropic,ml engineer,14.0,"python, machine learning, statistics, data structures","pytorch, tensorflow, mlops, llm",7.0,"btech, be, mtech",1,3
+flipkart,frontend developer,13.4,"javascript, html, css, react, java, aws","testing, git, node.js, microservices",7.5,"btech, be, bsc, bca",1,2
+nykaa,cloud engineer,11.7,"linux, networking, cloud computing, scripting, java, sql","terraform, gcp, docker",6.5,"btech, be, bsc",fresher,2
+nykaa,data engineer,24.0,"python, sql, etl, databases, data pipelines, react",gcp,7.5,"btech, be, bsc",4,2
+meesho,frontend developer,18.7,"javascript, html, css, react, java","typescript, next.js",7.0,"btech, be, bca",2,3
+myntra,frontend developer,11.5,"javascript, html, css, react, java, python","next.js, git, apis",6.5,"btech, be, mtech",fresher,2
+phonepe,frontend developer,21.6,"javascript, html, css, react, java, apis",next.js,6.0,"btech, be, bsc, bca",1,1
+adobe,full stack developer,20.0,"javascript, react, node.js, sql, html, css","typescript, docker, aws",6.5,"btech, be, bsc",fresher,3
+policybazaar,qa automation engineer,15.6,"testing, selenium, sql, git, java, python",api testing,6.0,"btech, be, bca",1,2
+healthplix,ml engineer,11.0,"python, machine learning, statistics, sql","pytorch, nlp, docker",6.5,"btech, be, mtech",1,3
+udaan,product analyst,7.9,"sql, excel, data analysis",a/b testing,7.0,"btech, be, bsc",fresher,1
+swiggy,machine learning engineer,15.8,"python, machine learning, statistics, java","mlops, tensorflow, deep learning, kubernetes",6.5,"btech, be, mtech, msc",fresher,3
+zomato,frontend developer,23.3,"javascript, html, css, react, sql, aws","apis, git, typescript, data analysis",6.0,"btech, be, mtech",2,3
+phonepe,software engineer,30.9,"data structures, algorithms, object oriented programming, git, sql, cybersecurity","system design, python, c++",7.0,"btech, be, bca",2,2
+myntra,site reliability engineer,26.7,"linux, python, networking, monitoring, sql","kubernetes, terraform",6.5,"btech, be, mtech",4,2
+browserstack,frontend developer,15.2,"javascript, html, css, react, java","testing, node.js",7.5,"btech, be, bca",3,2
+zomato,backend developer,14.7,"python, sql, apis, databases","redis, django",6.5,"btech, be, bsc",2,2
+browserstack,data engineer,13.5,"python, sql, etl, databases, data pipelines, docker",spark,7.0,"btech, be, bsc, bca",2,3
+udaan,data engineer,15.3,"python, sql, etl, databases, data pipelines, java","spark, airflow, azure",6.0,"btech, be, bsc",2,3
+flipkart,qa automation engineer,13.0,"testing, selenium, sql, git, java, python","jenkins, api testing, cypress",7.5,"btech, be, mtech",1,1
+swiggy,data engineer,13.6,"python, sql, etl, databases, data pipelines","azure, aws, docker",7.5,"btech, be, bsc, bca",fresher,4
+hcltech,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
+cred,machine learning engineer,27.5,"python, machine learning, statistics, sql, react",docker,7.5,"btech, be, mtech, msc",1,5
+freshworks,frontend developer,15.5,"javascript, html, css, react, sql, aws",git,7.0,"btech, be, bsc, bca",fresher,2
+amazon,machine learning engineer,27.0,"python, machine learning, statistics, algorithms","pytorch, tensorflow, aws",7.5,"btech, be, mtech",1,4
+ola,machine learning engineer,22.4,"python, machine learning, statistics, java, kubernetes","deep learning, docker, pytorch",7.0,"btech, mtech",fresher,3
+google,cloud engineer,27.0,"linux, networking, python, cloud computing","gcp, kubernetes, terraform",7.0,"btech, be, mtech",1,3
+ola,product analyst,10.9,"sql, excel, data analysis",a/b testing,6.5,"btech, be, bsc, bca",fresher,3
+delhivery,ai engineer,14.0,"python, machine learning, deep learning, algorithms, java, sql","llm, mlops",7.0,"btech, mtech",fresher,2
+cisco,software engineer,18.0,"c++, python, data structures, algorithms, networking","linux, distributed systems, cloud",7.0,"btech, be, mtech",fresher,3
+meesho,qa automation engineer,16.1,"testing, selenium, sql, git, java","api testing, cypress, jenkins",6.5,"btech, be, bsc",1,3
+zomato,site reliability engineer,17.0,"linux, python, networking, monitoring, data analysis","kubernetes, aws",7.5,"btech, be, bsc",2,2
+dream11,software engineer,32.9,"data structures, algorithms, object oriented programming, git, java, sql","python, linux",6.5,"btech, be, mtech",2,2
+browserstack,software development engineer,24.8,"data structures, algorithms, object oriented programming, problem solving, javascript","c++, sql, apis",7.0,"btech, be, mtech",1,4
+groww,business analyst,5.3,"sql, excel, requirements analysis, communication, apis","tableau, python",6.0,"btech, be, bsc, bca",fresher,2
+cred,data scientist,17.9,"python, statistics, machine learning, sql, react","scikit-learn, tensorflow, pytorch",7.0,"btech, mtech",2,3
+groww,mobile app developer,14.2,"java, object oriented programming, git, python, apis","android, sql, flutter",6.5,"btech, be, bca",2,3
+dream11,product analyst,16.3,"sql, excel, data analysis, aws","data visualization, python, a/b testing",6.0,"btech, be, bsc",4,1
+zomato,devops engineer,24.8,"linux, git, docker, ci/cd, scripting, data analysis","gcp, aws, kubernetes",7.0,"btech, be, bsc",2,2
+policybazaar,data scientist,28.0,"python, statistics, machine learning, sql, data analysis","pytorch, pandas",7.0,"btech, be, mtech, msc",1,2
+groww,business analyst,14.5,"sql, excel, requirements analysis, communication, data analysis","power bi, python, data visualization",6.5,"btech, be, bsc",3,3
+browserstack,frontend developer,6.6,"javascript, html, css, react, python","apis, next.js",6.5,"btech, be, bca",fresher,1
+infosys,systems engineer,4.5,"java, sql, programming, data structures, problem solving","python, cloud, git",6.0,"btech, be, bsc",fresher,2
+amazon,devops engineer,22.0,"linux, git, ci/cd, scripting, docker","aws, kubernetes, terraform",7.0,"btech, be, mtech",1,3
+tcs,full stack developer,8.0,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
+cognizant,qa automation engineer,6.5,"selenium, java, testing, sql, git","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
+nykaa,frontend developer,26.8,"javascript, html, css, react, java, python","next.js, node.js",7.0,"btech, be, bca",1,2
+browserstack,cloud engineer,11.5,"linux, networking, cloud computing, scripting, java, docker","aws, azure",6.5,"btech, be, bca",1,3
+cognizant,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, terraform",6.5,"btech, be, mtech",1,3
+adobe,security engineer,20.0,"networking, linux, cybersecurity, python","cloud security, siem",7.0,"btech, be, mtech",2,4
+delhivery,full stack developer,19.5,"javascript, react, node.js, sql, data pipelines, aws","docker, typescript",7.0,"btech, be, bca",2,3
+tcs,data engineer,10.0,"sql, python, etl, databases, data pipelines","spark, azure, databricks",6.5,"btech, be, mtech",1,3
+freshworks,backend developer,12.1,"python, sql, apis, databases, javascript, aws",node.js,6.5,"btech, be, bsc, bca",3,3
+udaan,security analyst,18.4,"networking, linux, cybersecurity, python, sql, data pipelines",cloud security,6.5,"btech, be, bsc",4,2
+browserstack,security analyst,12.1,"networking, linux, cybersecurity, java, javascript, python","cloud security, testing",6.5,"btech, be, bsc",4,1
+razorpay,ai engineer,21.9,"python, machine learning, deep learning, algorithms, java, apis","sql, docker, nlp",7.0,"btech, mtech",fresher,5
+cred,product analyst,8.1,"sql, excel, data analysis",statistics,6.5,"btech, be, bsc",fresher,2
+tcs,qa automation engineer,6.5,"testing, selenium, java, sql, git","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
+zoho,data engineer,19.9,"python, sql, etl, databases, data pipelines",gcp,7.0,"btech, be, bsc",2,2
+meesho,data engineer,14.4,"python, sql, etl, databases, data pipelines","gcp, aws, azure",7.0,"btech, be, bca",4,3
+freshworks,data analyst,14.8,"sql, excel, data analysis, java, python, javascript",power bi,6.5,"btech, be, bsc",2,2
+freshworks,business analyst,8.8,"sql, excel, requirements analysis, communication, java, python","tableau, power bi",7.0,"btech, be, bsc",fresher,3
+browserstack,mobile app developer,11.7,"java, object oriented programming, git, python","apis, sql",7.0,"btech, be, bca",2,2
+zoho,full stack developer,17.4,"javascript, react, node.js, sql, c++",html,7.0,"btech, be, bsc",2,2
+google,software engineer,40.0,"c++, python, data structures, algorithms, operating systems","distributed systems, gcp, system design",8.0,"btech, be, mtech",2,4
+healthplix,software developer,7.0,"python, java, sql, data structures","docker, cloud, apis",6.0,"btech, be, bsc",fresher,2
+delhivery,mobile app developer,12.7,"java, object oriented programming, git, python, sql","apis, flutter",6.5,"btech, be, bsc",4,3
+freshworks,devops engineer,13.6,"linux, git, docker, ci/cd, scripting, python","terraform, aws, azure",7.5,"btech, be, bsc",fresher,3
+amazon,cloud support engineer,11.0,"linux, networking, python, cloud computing","aws, scripting, troubleshooting",6.5,"btech, be, bsc",fresher,2
+razorpay,site reliability engineer,18.6,"linux, python, networking, monitoring, apis",gcp,6.5,"btech, be, mtech",fresher,3
+meesho,cybersecurity engineer,24.9,"networking, linux, cybersecurity, python, java, sql","cloud security, cryptography",7.0,"btech, be, mtech",2,3
+zomato,data analyst,12.0,"sql, excel, data analysis, java, aws","data visualization, statistics",6.0,"btech, be, bsc, bca",2,3
+policybazaar,site reliability engineer,20.8,"linux, python, networking, monitoring, sql",terraform,7.5,"btech, be, bsc",2,4
+zoho,ai engineer,19.4,"python, machine learning, deep learning, algorithms, c++, sql","mlops, nlp, pytorch",7.5,"btech, be, mtech, msc",1,3
+cred,devops engineer,12.7,"linux, git, docker, ci/cd, scripting","monitoring, kubernetes, aws",7.0,"btech, be, bca",2,3
+delhivery,product analyst,17.5,"sql, excel, data analysis, java, python","a/b testing, data visualization",6.0,"btech, bsc, bcom",2,1
+classplus ,full stack developer,7.0,"javascript, react, node.js, sql","typescript, docker, aws",6.0,"btech, be, bsc",fresher,2
+freshworks,ai engineer,37.8,"python, machine learning, deep learning, algorithms, javascript, aws","llm, sql, docker",7.5,"btech, be, mtech",2,2
+browserstack,qa automation engineer,15.1,"testing, selenium, sql, git, java, python","api testing, jenkins",6.5,"btech, be, bca",1,1
+browserstack,backend developer,22.5,"python, sql, apis, databases, java, javascript","redis, microservices",6.5,"btech, be, bsc, bca",2,2
+myntra,cloud engineer,11.5,"linux, networking, cloud computing, scripting, sql, react","azure, gcp, terraform",6.5,"btech, be, bca",1,4
+zerodha,cloud engineer,11.7,"linux, networking, cloud computing, scripting, python, javascript","aws, kubernetes, terraform",6.0,"btech, be, bca",3,3
+nykaa,business analyst,10.0,"sql, excel, requirements analysis, communication, python, react",data visualization,7.0,"btech, be, bsc",1,3
+delhivery,frontend developer,7.3,"javascript, html, css, react, java, python","git, node.js, testing",7.5,"btech, be, mtech",fresher,2
+cred,software engineer,27.7,"data structures, algorithms, object oriented programming, git, java, sql","c++, apis",6.5,"btech, be, bsc",1,3
+meesho,data analyst,8.9,"sql, excel, data analysis, python, aws","power bi, data visualization",7.0,"btech, be, bsc, bca",4,3
+tcs,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, aws",6.5,"btech, be, mtech",1,3
+tcs,data scientist,11.0,"python, statistics, machine learning, sql","scikit-learn, tensorflow, power bi",7.0,"btech, be, mtech",1,3
+phonepe,site reliability engineer,10.0,"linux, python, networking, monitoring, java, sql",gcp,7.0,"btech, be, bsc, bca",fresher,2
+freshworks,data scientist,12.6,"python, statistics, machine learning, sql, java, javascript",data visualization,7.0,"btech, be, mtech",3,3
+phonepe,frontend developer,22.1,"javascript, html, css, react, sql, apis","node.js, next.js",7.0,"btech, be, mtech",1,1
+dream11,business analyst,8.2,"sql, excel, requirements analysis, communication, java, data analysis","python, agile, data visualization",6.5,"btech, bsc, bcom",fresher,1
+swiggy,devops engineer,10.4,"linux, git, docker, ci/cd, scripting, python","jenkins, azure",7.0,"btech, be, bca",fresher,1
+delhivery,machine learning engineer,14.5,"python, machine learning, statistics",deep learning,7.0,"btech, mtech",1,2
+phonepe,frontend developer,15.1,"javascript, html, css, react, python, sql",apis,6.5,"btech, be, bca",1,1
+meesho,frontend developer,28.2,"javascript, html, css, react, data pipelines",testing,6.0,"btech, be, bca",2,2
+dream11,frontend developer,25.3,"javascript, html, css, react, sql, data analysis",typescript,6.5,"btech, be, bca",2,1
+flipkart,qa automation engineer,7.1,"testing, selenium, sql, git, java","api testing, cypress",7.0,"btech, be, bca",1,3
+policybazaar,site reliability engineer,23.4,"linux, python, networking, monitoring, sql, data analysis",aws,7.5,"btech, be, bca",2,2
+razorpay,devops engineer,20.1,"linux, git, docker, ci/cd, scripting, apis","aws, terraform, monitoring",7.5,"btech, be, bsc, bca",4,2
+udaan,frontend developer,12.4,"javascript, html, css, react, sql",node.js,6.5,"btech, be, mtech",3,1
+nykaa,cybersecurity engineer,14.5,"networking, linux, cybersecurity, python, react","siem, data analysis",6.0,"btech, be, bsc",3,4
+udaan,qa automation engineer,12.1,"testing, selenium, sql, git, python, kubernetes","java, jenkins, ci/cd",7.5,"btech, be, bsc, bca",2,3
+dream11,full stack developer,12.0,"javascript, react, node.js, sql, data analysis, aws","docker, css",6.5,"btech, be, bsc, bca",4,2
+myntra,ai engineer,20.2,"python, machine learning, deep learning, algorithms, sql",pytorch,6.5,"btech, be, mtech",1,3
+swiggy,data scientist,16.4,"python, statistics, machine learning, sql, kubernetes","pandas, tensorflow, java",7.5,"btech, mtech",fresher,4
+myntra,cybersecurity engineer,19.7,"networking, linux, cybersecurity, python, sql, data pipelines","siem, react",6.5,"btech, be, bca",1,2
+cred,ai engineer,23.0,"python, machine learning, deep learning, algorithms, java, sql","pytorch, tensorflow, nlp",7.0,"btech, be, mtech",3,2
+paytm,qa automation engineer,14.8,"testing, selenium, sql, git, java, python","jenkins, api testing",7.0,"btech, be, bsc, bca",2,2
+ola,cybersecurity engineer,18.6,"networking, linux, cybersecurity, python, java, kubernetes","cloud security, siem",6.0,"btech, be, mtech",3,2
+amazon,security engineer,23.0,"linux, networking, cybersecurity, python","aws security, iam, threat modeling",7.0,"btech, be, mtech",1,3
+zoho,full stack developer,9.4,"javascript, react, node.js, sql, python",git,7.0,"btech, be, bsc, bca",fresher,3
+zerodha,cybersecurity engineer,11.7,"networking, linux, cybersecurity, python, javascript, sql","cryptography, cloud security",6.5,"btech, be, bsc",fresher,4
+phonepe,data scientist,21.0,"python, statistics, machine learning, sql, apis","scikit-learn, data visualization, pandas",7.0,"btech, be, mtech, msc",3,3
+cognizant,full stack developer,8.5,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
+paytm,cloud engineer,15.8,"linux, networking, cloud computing, scripting, java","docker, terraform, kubernetes, python",7.0,"btech, be, bsc",fresher,3
+zerodha,software development engineer,11.3,"data structures, algorithms, object oriented programming, problem solving, python, javascript","sql, apis, java, linux",6.5,"btech, be, bsc",fresher,5
+flipkart,business analyst,12.3,"sql, excel, requirements analysis, communication, python, microservices",data visualization,6.5,"btech, bsc, bcom",4,3
+zomato,backend developer,19.1,"python, sql, apis, databases, java, data analysis","node.js, microservices",6.5,"btech, be, bsc, bca",3,3
+zomato,backend developer,16.3,"python, sql, apis, databases, java, aws","redis, node.js",7.0,"btech, be, bsc",1,5
+nykaa,product analyst,10.6,"sql, excel, data analysis, python, react","a/b testing, power bi, tableau",6.0,"btech, be, bsc",1,2
+razorpay,backend developer,27.9,"python, sql, apis, databases, java, docker","microservices, spring boot",6.0,"btech, be, bca",1,3
+udaan,site reliability engineer,29.7,"linux, python, networking, monitoring, sql, data pipelines",terraform,6.5,"btech, be, bca",2,2
+ola,backend developer,17.6,"python, sql, apis, databases, kubernetes, aws",django,7.0,"btech, be, bca",1,3
+razorpay,backend developer,8.0,"python, django, sql, apis, git","redis, docker, aws",6.0,"btech, be, bsc",fresher,2
+razorpay,frontend developer,7.0,"javascript, react, html, css","typescript, next.js, testing",6.0,"btech, be, bsc",fresher,2
+delhivery,security analyst,8.2,"networking, linux, cybersecurity, java, sql","siem, cryptography, cloud security",7.0,"btech, be, bca",4,2
+razorpay,ml engineer,12.0,"python, machine learning, pandas, sql","pytorch, mlops, aws",6.5,"btech, be, mtech",1,3
+razorpay,software development engineer,22.4,"data structures, algorithms, object oriented programming, problem solving, java, python","sql, system design",7.0,"btech, be, mtech",2,2
+zoho,data scientist,7.2,"python, statistics, machine learning, sql, c++","data visualization, tensorflow, pytorch",7.0,"btech, mtech",fresher,2
+razorpay,software engineer,9.1,"data structures, algorithms, object oriented programming, git, apis, docker","system design, java, python",7.0,"btech, be, mtech",fresher,5
+myntra,product analyst,18.3,"sql, excel, data analysis, java, python","a/b testing, tableau, power bi",6.0,"btech, be, bsc",1,2
+udaan,cloud engineer,22.2,"linux, networking, cloud computing, scripting, sql, data pipelines",terraform,7.0,"btech, be, bsc",1,3
+swiggy,cloud engineer,12.6,"linux, networking, cloud computing, scripting, python, kubernetes","gcp, azure",7.0,"btech, be, bsc",2,3
+flipkart,data engineer,21.3,"python, sql, etl, databases, data pipelines, java","gcp, azure, docker",7.0,"btech, be, bsc",4,4
+infosys,qa engineer,5.5,"testing, sql, java, selenium","api testing, jenkins, cypress",6.0,"btech, be, bsc",fresher,2
+paytm,product analyst,19.6,"sql, excel, data analysis, cybersecurity, apis",tableau,6.0,"btech, be, bsc",3,1
+google,frontend engineer,22.0,"javascript, html, css, react, data structures","typescript, accessibility, testing",7.0,"btech, be, bsc",fresher,3
+slack,frontend developer,9.0,"javascript, react, html, css","typescript, next.js, testing",6.0,"btech, be, bsc",1,2
+nykaa,frontend developer,16.6,"javascript, html, css, react, java, python",testing,7.0,"btech, be, bca",fresher,2
+groww,data scientist,29.5,"python, statistics, machine learning, sql, java, data analysis",pytorch,6.5,"btech, mtech",2,3
+ola,data scientist,14.7,"python, statistics, machine learning, sql, java, kubernetes",scikit-learn,7.0,"btech, be, mtech, msc",2,3

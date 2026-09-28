@@ -1,0 +1,901 @@
+student_id,degree,branch,cgpa,primary_coding_language,coding_questions_solved,technical_skills,projects_count,experience_months,certifications_count
+STU0071,be,computer science and engineering,7.88,java,64,"api testing, cloud computing, data structures, sql",0,0,1
+STU0828,bsc,data science,8.05,c++,125,"algorithms, c++, data structures",1,0,1
+STU0232,be,information technology,7.18,javascript,64,"css, html, javascript, tableau",0,0,0
+STU0589,bsc,mathematics,6.9,python,189,"machine learning, pandas, python, sql",0,0,2
+STU0040,btech,electronics and instrumentation engineering,6.37,python,66,"data analysis, python, sql",1,2,2
+STU0732,btech,artificial intelligence and machine learning,6.44,python,137,"data analysis, linux, machine learning, node.js, pandas, python",1,0,0
+STU0300,btech,data science,6.58,python,124,"data analysis, pandas, python",1,1,0
+STU0111,bca,computer applications,7.16,python,124,"data analysis, python, sql",2,6,0
+STU0073,btech,artificial intelligence and machine learning,6.76,java,114,"java, object oriented programming, sql",0,6,2
+STU0087,bsc,data science,6.42,java,99,"data structures, java, object oriented programming",1,0,0
+STU0140,be,computer science and engineering,8.14,c++,214,"algorithms, data structures, deep learning, object oriented programming, react, spring",0,6,1
+STU0534,be,computer science and engineering,8.43,javascript,118,"css, html, javascript, node.js, react",0,0,1
+STU0802,bca,computer applications,8.86,c++,179,"algorithms, c++, data structures, machine learning, object oriented programming",1,0,2
+STU0121,btech,electronics and communication engineering,8.16,c++,341,"algorithms, api testing, apis, c++, data pipelines, pytorch, spring boot",3,12,1
+STU0712,bsc,information technology,8.77,javascript,32,"css, data structures, object oriented programming, react",3,0,2
+STU0591,be,information technology,7.02,python,153,"data analysis, machine learning, pandas, python, sql, testing",1,6,2
+STU0169,btech,electrical engineering,7.26,python,84,"data analysis, pandas, python, sql",0,0,1
+STU0423,btech,computer science and business systems,7.26,python,43,"data analysis, machine learning, pandas, python, sql",0,0,1
+STU0448,be,computer engineering,7.95,java,141,"html, java, object oriented programming, spring, sql",1,0,1
+STU0068,be,information technology,8.8,python,346,"data analysis, git, machine learning, nlp, python, selenium",0,12,2
+STU0212,btech,information technology,6.13,c,104,"algorithms, c, data structures, java, spring",2,0,2
+STU0742,bsc,mathematics,5.83,javascript,112,"css, flask, html, javascript, react",0,0,0
+STU0689,btech,electronics and communication engineering,6.19,java,353,"devops, java, power bi, spring, sql",1,12,1
+STU0334,btech,information technology,7.37,java,130,"data structures, java, object oriented programming",0,3,1
+STU0543,btech,electronics and instrumentation engineering,10.0,python,217,"data analysis, data pipelines, machine learning, microservices, pandas, python, sql",0,4,3
+STU0345,be,computer engineering,8.55,java,134,"data structures, java, object oriented programming, sql",0,3,2
+STU0031,be,computer science and engineering,9.55,c++,256,"c++, cybersecurity, data structures, excel, machine learning, object oriented programming, sql",1,0,2
+STU0838,bsc,mathematics,9.03,java,150,"apis, cloud computing, data structures, excel, java, object oriented programming, scikit-learn, spring, sql",2,3,3
+STU0659,bsc,information technology,8.49,c,199,"airflow, algorithms, c, computer networks, data structures, mlops, python, react",0,6,2
+STU0523,btech,computer science and business systems,8.52,javascript,5,"cloud computing, css, data analysis, devops, gcp, html, microservices, object oriented programming, react",0,3,1
+STU0261,be,computer science and engineering,9.51,java,184,"airflow, apis, cybersecurity, databases, java, object oriented programming, selenium, spring, sql",2,2,1
+STU0757,btech,computer science and business systems,8.03,java,135,"java, object oriented programming, sql",2,1,3
+STU0299,btech,artificial intelligence and machine learning,6.97,c,103,"algorithms, c, computer networks, data structures, flask, nlp",1,3,1
+STU0532,be,computer science and engineering,6.8,python,124,"data analysis, machine learning, object oriented programming, pandas, python, sql",1,1,1
+STU0616,bca,computer applications,7.0,python,128,"aws, data analysis, python",3,0,3
+STU0676,be,computer science and engineering,7.2,java,254,"java, object oriented programming, sql",2,6,1
+STU0024,btech,information technology,6.44,python,219,"gcp, machine learning, node.js, pandas, sql, tableau",0,12,2
+STU0590,btech,electrical engineering,7.33,c++,111,"algorithms, llm, object oriented programming, sql",2,2,0
+STU0432,bca,computer applications,8.57,java,255,"gcp, java, object oriented programming, spring, sql, system design",1,6,1
+STU0210,btech,electronics and communication engineering,8.06,python,92,"data analysis, machine learning, pandas, python, sql",1,0,3
+STU0064,bsc,information technology,8.82,java,310,"algorithms, api testing, cybersecurity, data structures, html, java, object oriented programming, testing",5,12,2
+STU0240,btech,electrical engineering,8.46,c++,231,"algorithms, c++, data structures, object oriented programming, spring, terraform",2,12,2
+STU0371,btech,electronics and instrumentation engineering,8.04,python,180,"data analysis, machine learning, python",1,4,2
+STU0745,btech,computer science and engineering,7.85,python,101,"data analysis, object oriented programming, python, selenium, sql, typescript",3,0,1
+STU0653,mtech,computer science and engineering,6.87,c++,241,"algorithms, c++, data structures, object oriented programming",1,9,1
+STU0626,btech,electronics and instrumentation engineering,7.3,java,196,"data structures, java, object oriented programming, sql",0,0,1
+STU0216,be,information technology,6.99,javascript,71,"html, javascript, nlp, node.js, pytorch, react",2,2,1
+STU0520,bsc,mathematics,7.01,javascript,146,"css, html, node.js, react",3,6,0
+STU0495,btech,electronics and instrumentation engineering,5.19,java,15,"data structures, object oriented programming, spring, sql",0,2,1
+STU0833,btech,electrical engineering,7.89,java,195,"data structures, llm, nlp, object oriented programming, selenium, sql",1,6,1
+STU0454,btech,data science,7.64,javascript,181,"css, html, javascript, react",0,6,4
+STU0353,be,information technology,9.03,c++,178,"algorithms, c++, data structures, object oriented programming",1,0,0
+STU0550,btech,computer science and engineering,8.85,c++,108,"c++, ci/cd, data analysis, machine learning, object oriented programming",0,1,3
+STU0281,be,computer engineering,6.28,python,70,"c, data analysis, machine learning, pandas, python, sql",1,0,0
+STU0248,bsc,data science,6.39,c,82,"computer networks, devops, llm, react, sql, testing",0,0,1
+STU0214,btech,artificial intelligence and machine learning,5.33,python,111,"pandas, python, sql",1,3,0
+STU0138,bsc,data science,8.02,python,415,"c, data analysis, java, linux, machine learning, sql",2,12,0
+STU0397,bca,computer applications,7.36,java,106,"data structures, java, spring, sql",1,2,0
+STU0303,btech,electronics and communication engineering,8.4,c++,154,"airflow, c++, data structures, devops, etl",2,6,3
+STU0544,be,computer engineering,7.76,c,270,"c, computer networks, data structures, databases, tensorflow",0,12,1
+STU0045,be,computer engineering,8.64,python,84,"data analysis, machine learning, pandas, python, sql",1,0,2
+STU0391,bsc,information technology,6.83,python,177,"data analysis, html, machine learning, pandas",0,0,0
+STU0740,btech,computer science and engineering,7.89,c,69,"algorithms, azure, c, computer networks, data structures, etl, pandas",1,0,1
+STU0449,btech,electrical engineering,5.55,java,126,"data structures, java, object oriented programming, sql",0,8,1
+STU0209,btech,computer science and business systems,8.47,c++,179,"algorithms, c++, data structures, object oriented programming",2,6,3
+STU0199,btech,electrical engineering,7.7,python,48,"machine learning, python, sql",0,6,1
+STU0669,bsc,data science,7.59,python,225,"machine learning, pandas, python, sql",1,0,3
+STU0517,btech,computer science and business systems,8.47,python,224,"aws, c++, cybersecurity, data analysis, python, react, sql",2,1,1
+STU0329,be,computer engineering,7.14,python,52,"data analysis, python, sql",1,0,1
+STU0450,be,information technology,7.93,c++,84,"c++, data structures, tensorflow",1,0,3
+STU0627,btech,electronics and communication engineering,6.79,javascript,159,"css, html, javascript, react",0,0,0
+STU0584,btech,computer science and engineering,7.18,java,80,"data structures, java, object oriented programming, sql",2,3,2
+STU0827,btech,artificial intelligence and machine learning,7.17,python,90,"data analysis, machine learning, microservices, pandas, python, sql",2,0,4
+STU0315,btech,computer science and business systems,7.19,python,252,"data analysis, data visualization, machine learning, python, sql, typescript",0,0,0
+STU0137,btech,electronics and instrumentation engineering,7.53,python,75,"data analysis, python, sql",2,0,4
+STU0844,btech,electronics and communication engineering,6.45,c++,212,"algorithms, data structures, deep learning, devops, object oriented programming, sql",3,3,2
+STU0362,bca,computer applications,6.97,c++,228,"algorithms, c++, data structures, linux",4,6,0
+STU0494,bca,computer applications,6.39,java,123,"data structures, object oriented programming, spring, sql",2,0,1
+STU0061,bca,computer applications,8.22,c++,130,"aws, c++, django, gcp, spring boot, tensorflow, testing",0,2,2
+STU0665,be,computer science and engineering,8.15,javascript,206,"css, html, javascript",0,6,2
+STU0526,btech,electronics and communication engineering,8.63,c++,199,"c++, computer networks, css, data structures, docker, etl, mlops, object oriented programming",2,12,2
+STU0175,btech,computer science and business systems,6.99,python,107,"machine learning, pandas, spring boot, sql, statistics, testing",1,4,0
+STU0537,btech,computer science and engineering,8.48,java,45,"aws, gcp, java, object oriented programming, sql",3,4,2
+STU0067,be,information technology,7.24,c++,116,"algorithms, c++, gcp, kubernetes, mlops, object oriented programming, spring boot",1,1,1
+STU0821,bca,computer applications,7.88,c++,111,"algorithms, c++, computer networks, networking, object oriented programming, statistics",2,0,2
+STU0778,bsc,mathematics,7.57,c++,68,"algorithms, c++, data structures",1,0,1
+STU0382,bsc,mathematics,7.26,python,244,"pandas, python, sql",0,12,0
+STU0486,bsc,mathematics,5.94,java,111,"data structures, java, spring, sql",0,0,1
+STU0219,bsc,computer science,10.0,python,103,"css, data analysis, llm, machine learning, pandas, sql, typescript",4,0,1
+STU0576,mtech,computer science and engineering,8.17,python,80,"html, machine learning, pandas, python, selenium, sql",3,0,0
+STU0347,bsc,information technology,7.8,c++,215,"c, c++, data pipelines, data visualization, llm, object oriented programming",1,6,1
+STU0546,bsc,data science,8.3,c++,137,"algorithms, ci/cd, flask, javascript, node.js, object oriented programming, spring",0,2,2
+STU0801,bsc,computer science,6.95,java,91,"data structures, java, mlops, object oriented programming, selenium",3,0,2
+STU0810,be,computer engineering,6.72,python,92,"api testing, data analysis, pandas, scikit-learn, sql, tableau",0,0,1
+STU0779,mtech,computer science and engineering,6.73,c++,134,"algorithms, c++, microservices, spring boot, terraform",1,6,1
+STU0399,be,computer science and engineering,5.26,python,202,"data analysis, python, sql",1,6,1
+STU0077,btech,computer science and business systems,7.23,python,262,"c, html, pandas, sql",1,12,2
+STU0197,be,information technology,7.78,java,118,"data structures, java, object oriented programming, spring, sql",3,8,2
+STU0632,be,computer engineering,6.37,c++,213,"c++, kubernetes, llm, object oriented programming",0,12,0
+STU0752,btech,information technology,9.49,c++,167,"c++, data structures, devops, nlp, testing",1,0,0
+STU0571,be,computer science and engineering,8.15,python,89,"computer networks, data analysis, docker, machine learning, python, spring boot, sql",2,0,1
+STU0406,mtech,computer science and engineering,8.32,c++,165,"algorithms, c++, data structures, object oriented programming",3,0,2
+STU0513,mtech,computer science and engineering,8.27,java,194,"data structures, java, spring",2,6,0
+STU0339,btech,artificial intelligence and machine learning,9.77,python,201,"data analysis, machine learning, python, scikit-learn, sql",2,0,3
+STU0896,btech,artificial intelligence and machine learning,9.28,javascript,156,"algorithms, c, css, html, machine learning, node.js, react, spark, tensorflow",3,0,3
+STU0228,be,information technology,7.13,python,18,"data analysis, machine learning, python, sql",1,0,0
+STU0670,btech,electrical engineering,8.35,c++,176,"algorithms, data structures, kubernetes, object oriented programming, react, scikit-learn, system design, testing",1,0,2
+STU0205,bsc,information technology,8.05,python,234,"aws, data analysis, html, pandas, python, sql",1,12,3
+STU0746,btech,artificial intelligence and machine learning,6.46,python,188,"azure, cybersecurity, machine learning, python, sql, system design",0,0,1
+STU0193,bsc,data science,6.63,c++,52,"algorithms, c++, data structures, object oriented programming",0,0,2
+STU0875,btech,electronics and communication engineering,7.46,c++,218,"c++, data structures, mlops, pytorch, system design, terraform",0,4,1
+STU0795,bca,computer applications,6.74,c++,166,"algorithms, c++, java, object oriented programming, statistics",1,0,3
+STU0775,bca,computer applications,7.48,c++,111,"ci/cd, data structures, networking, terraform",0,0,1
+STU0482,bsc,data science,5.99,python,234,"nlp, pandas, python, sql",0,6,2
+STU0835,btech,computer science and engineering,8.17,java,272,"data structures, object oriented programming, sql",0,6,1
+STU0466,btech,information technology,6.69,python,130,"data analysis, python, sql",0,0,0
+STU0808,bsc,data science,8.01,python,242,"aws, azure, data analysis, python, sql",0,4,0
+STU0886,btech,data science,7.1,java,149,"java, object oriented programming, spring, sql",1,2,1
+STU0097,btech,electronics and communication engineering,6.84,c++,190,"airflow, algorithms, c++, data structures, object oriented programming, tableau",0,0,2
+STU0892,btech,electronics and instrumentation engineering,6.2,java,95,"data structures, java, object oriented programming, spring, sql",0,0,0
+STU0327,btech,electrical engineering,7.19,python,116,"data analysis, python, sql",4,8,2
+STU0295,btech,data science,6.95,python,61,"css, data analysis, machine learning, pandas, python, sql",1,0,2
+STU0211,btech,electronics and communication engineering,8.36,python,174,"data analysis, machine learning, nlp, pandas, react, sql",2,0,2
+STU0441,btech,information technology,6.99,java,102,"data structures, java, networking, pandas, sql",0,2,0
+STU0784,btech,information technology,8.69,java,261,"cybersecurity, data structures, java, kubernetes, object oriented programming, spring",5,12,4
+STU0079,mtech,computer science and engineering,8.18,javascript,293,"algorithms, css, cybersecurity, devops, html, javascript, statistics",2,12,0
+STU0266,bca,computer applications,8.82,java,137,"api testing, cloud computing, cybersecurity, data structures, html, java, microservices, spring boot, sql",3,0,1
+STU0830,bsc,mathematics,8.92,java,138,"cybersecurity, data structures, html, java, object oriented programming, sql, typescript",1,2,0
+STU0429,bsc,mathematics,8.54,c++,90,"cryptography, cybersecurity, data structures, databases, object oriented programming, system design",0,0,2
+STU0142,mtech,computer science and engineering,8.1,javascript,347,"databases, html, javascript, node.js, react",1,24,1
+STU0583,btech,electrical engineering,7.49,java,139,"cloud computing, java, microservices, object oriented programming, spring, sql",4,0,1
+STU0744,bca,computer applications,6.53,python,114,"gcp, machine learning, pandas, python, sql",0,3,0
+STU0364,be,computer science and engineering,6.53,javascript,14,"html, javascript, react",5,1,0
+STU0066,btech,electrical engineering,6.79,java,39,"c, data structures, nlp, object oriented programming, spring, sql",0,0,2
+STU0790,be,computer science and engineering,8.85,c++,178,"c++, data structures, docker, javascript, object oriented programming, pytorch, spark, sql",1,0,2
+STU0292,btech,information technology,7.87,c++,201,"algorithms, data pipelines, data structures, llm, object oriented programming, scikit-learn",0,4,1
+STU0604,be,computer science and engineering,5.68,c++,199,"algorithms, c++, data structures, object oriented programming",1,0,1
+STU0858,bca,computer applications,7.77,c++,175,"algorithms, c++, data structures",0,2,0
+STU0487,mtech,computer science and engineering,6.45,java,203,"data structures, java, spring",1,6,0
+STU0236,btech,information technology,6.53,javascript,69,"css, deep learning, git, llm, nlp, node.js",1,1,0
+STU0251,btech,computer science and business systems,7.8,python,237,"databases, machine learning, pandas, python, sql, tensorflow, testing",1,0,0
+STU0050,btech,information technology,8.13,c,115,"algorithms, c, data structures, flask",2,0,1
+STU0658,btech,electronics and instrumentation engineering,9.33,javascript,171,"css, html, javascript, node.js, react, sql, system design",5,3,3
+STU0310,btech,computer science and business systems,8.69,python,129,"ci/cd, cloud computing, data analysis, excel, machine learning, mlops, pandas, python, sql",1,4,4
+STU0710,btech,electrical engineering,7.74,java,151,"java, nlp, spring",5,3,2
+STU0276,btech,information technology,8.23,java,215,"algorithms, data structures, java, object oriented programming, sql, tableau, tensorflow",1,6,1
+STU0895,btech,electronics and instrumentation engineering,8.72,python,229,"data analysis, flask, gcp, node.js, power bi, python, sql",1,12,3
+STU0166,bsc,mathematics,7.65,c++,218,"algorithms, c++, data structures, linux, microservices, object oriented programming, sql",0,2,1
+STU0514,mtech,computer science and engineering,7.44,python,335,"algorithms, llm, machine learning, sql, tableau, tensorflow",0,9,2
+STU0034,bsc,mathematics,9.17,python,93,"ci/cd, cloud computing, data analysis, kubernetes, machine learning, pandas, python, pytorch, sql",0,0,1
+STU0032,bsc,information technology,6.54,java,187,"data structures, java, sql",0,0,1
+STU0674,bsc,data science,9.05,python,217,"data analysis, machine learning, pandas, power bi, python, sql",0,0,3
+STU0405,be,computer engineering,6.94,java,119,"data structures, java, spring, sql",0,6,2
+STU0519,mtech,computer science and engineering,8.77,java,311,"cybersecurity, data structures, databases, java, node.js, object oriented programming, system design",0,18,1
+STU0431,btech,information technology,8.23,c++,228,"algorithms, c++, data structures, object oriented programming",0,4,1
+STU0110,btech,electronics and instrumentation engineering,7.3,c,153,"azure, c, ci/cd, computer networks, data structures",4,0,2
+STU0078,btech,computer science and engineering,6.21,python,91,"data analysis, python, sql",0,0,0
+STU0413,btech,electronics and instrumentation engineering,7.63,python,147,"api testing, data analysis, machine learning, pandas, sql, typescript",0,1,2
+STU0313,bca,computer applications,8.2,c++,259,"algorithms, aws, c++, data structures, networking, pandas, python",3,2,2
+STU0083,bsc,data science,6.6,c,187,"algorithms, computer networks, data structures",0,6,1
+STU0322,bsc,information technology,6.81,python,156,"pandas, python, sql",1,0,0
+STU0650,btech,electronics and instrumentation engineering,7.21,java,191,"computer networks, data structures, object oriented programming, scikit-learn, spring",3,1,0
+STU0694,btech,data science,7.54,c++,209,"algorithms, c++, data structures, object oriented programming, statistics, terraform",4,4,0
+STU0361,be,computer engineering,7.87,python,156,"c++, cloud computing, data analysis, machine learning, pandas, python, sql",0,0,1
+STU0488,btech,electronics and instrumentation engineering,8.22,javascript,112,"apis, azure, cryptography, css, javascript, node.js",1,3,3
+STU0465,bca,computer applications,6.69,c++,83,"algorithms, c++, data structures, databases",1,3,1
+STU0006,be,computer engineering,7.67,javascript,9,"html, javascript, node.js, react",0,0,1
+STU0055,btech,computer science and business systems,9.35,javascript,127,"css, data pipelines, html, javascript, kubernetes, node.js, react",1,3,3
+STU0735,btech,computer science and engineering,8.51,java,180,"api testing, data structures, docker, object oriented programming, python, sql",0,6,1
+STU0463,bca,computer applications,7.68,c++,148,"algorithms, api testing, c++, object oriented programming, python",6,4,2
+STU0324,bsc,mathematics,6.49,c++,231,"algorithms, c++, cybersecurity, data structures",1,12,3
+STU0368,btech,data science,7.0,java,239,"data structures, java, object oriented programming, spring",1,6,2
+STU0098,mtech,computer science and engineering,8.84,java,131,"data structures, java, node.js, pytorch, react, spring, sql",2,0,2
+STU0445,be,information technology,7.93,c++,138,"algorithms, data structures, object oriented programming",1,3,3
+STU0577,be,computer science and engineering,6.96,python,75,"data analysis, pandas, python, sql",0,2,2
+STU0898,bsc,data science,8.9,javascript,108,"gcp, git, html, javascript, node.js, react",2,3,0
+STU0579,btech,information technology,8.46,python,107,"c, databases, javascript, machine learning, pandas, power bi, python, sql",1,1,2
+STU0780,be,computer science and engineering,9.53,python,193,"cloud computing, devops, django, git, machine learning, object oriented programming, pandas, python, sql",1,0,3
+STU0026,btech,computer science and business systems,7.71,java,83,"data structures, object oriented programming, sql",5,0,2
+STU0085,be,computer engineering,8.29,javascript,169,"css, javascript, node.js, react, spark",6,6,3
+STU0011,btech,artificial intelligence and machine learning,8.49,java,167,"cryptography, data structures, java, object oriented programming, sql",5,0,3
+STU0335,btech,information technology,8.84,c,196,"algorithms, aws, c, computer networks, data structures",1,6,3
+STU0245,btech,information technology,5.0,c++,81,"c++, cloud computing, data structures, spark, statistics",0,8,2
+STU0679,bsc,information technology,7.73,javascript,307,"html, javascript, power bi, pytorch, react, tableau, terraform",3,3,0
+STU0307,bsc,information technology,6.46,python,125,"data analysis, python, sql",1,6,0
+STU0592,btech,computer science and engineering,8.04,java,166,"computer networks, data visualization, javascript, object oriented programming, spring, sql",4,8,3
+STU0119,bsc,computer science,8.8,java,246,"cybersecurity, java, object oriented programming, spring, sql, typescript",0,3,3
+STU0291,btech,electrical engineering,7.52,c++,110,"algorithms, api testing, aws, c++, flask, object oriented programming, python",1,0,2
+STU0317,mtech,computer science and engineering,7.36,python,197,"airflow, data analysis, machine learning, pandas, python, sql, terraform",0,9,2
+STU0030,bsc,information technology,8.65,python,160,"data analysis, excel, machine learning, nlp, node.js, pandas, python, sql",0,3,3
+STU0056,bca,computer applications,5.08,c++,39,"algorithms, c++, data structures, object oriented programming",0,0,0
+STU0418,btech,artificial intelligence and machine learning,7.67,python,50,"azure, data analysis, data pipelines, pandas, python, spark, sql",2,0,2
+STU0600,btech,computer science and business systems,7.6,java,153,"java, object oriented programming, sql",2,2,2
+STU0851,btech,electronics and communication engineering,7.99,c++,186,"algorithms, c++, ci/cd, data structures, object oriented programming",1,0,1
+STU0369,btech,electronics and communication engineering,7.79,python,212,"data analysis, machine learning, pandas, python, sql",0,6,2
+STU0082,btech,electronics and communication engineering,8.21,c++,234,"c++, cloud computing, data structures, data visualization, object oriented programming, pytorch",2,6,2
+STU0630,bsc,information technology,7.13,c,30,"algorithms, c, computer networks, data structures, devops, node.js",0,0,0
+STU0376,btech,artificial intelligence and machine learning,8.28,c++,153,"algorithms, c++, data structures, object oriented programming, spring boot",0,0,2
+STU0863,mtech,computer science and engineering,6.88,python,362,"data analysis, pandas, python, sql",0,24,2
+STU0427,btech,computer science and business systems,7.51,javascript,144,"api testing, css, microservices, react",1,0,0
+STU0788,btech,computer science and business systems,6.48,python,123,"cybersecurity, data analysis, machine learning, pandas, python, sql",0,0,3
+STU0570,btech,information technology,8.27,java,247,"data structures, java, object oriented programming, pytorch, spring, sql",0,8,2
+STU0698,bsc,information technology,7.86,java,198,"data structures, java, object oriented programming, spring, sql",0,8,3
+STU0287,bsc,mathematics,6.81,python,237,"data analysis, data pipelines, pandas, selenium, system design",1,6,2
+STU0715,bsc,data science,6.53,python,59,"data analysis, flask, machine learning, pandas, power bi, python",0,2,2
+STU0540,btech,electrical engineering,7.5,javascript,68,"airflow, cryptography, css, devops, javascript, nlp, react",0,1,0
+STU0358,btech,artificial intelligence and machine learning,6.62,c++,134,"algorithms, c++, data structures, object oriented programming",1,6,0
+STU0769,bsc,data science,8.27,python,223,"machine learning, python, sql",2,12,3
+STU0846,be,information technology,7.08,python,58,"data visualization, docker, machine learning, mlops, nlp, pandas",3,0,0
+STU0719,bca,computer applications,6.92,javascript,22,"css, html, javascript",0,0,0
+STU0395,btech,electronics and communication engineering,7.29,javascript,28,"computer networks, javascript, node.js",1,1,0
+STU0501,bca,computer applications,6.08,c++,98,"algorithms, data structures, object oriented programming",1,0,1
+STU0366,btech,information technology,8.15,javascript,81,"css, html, javascript",5,6,2
+STU0731,bsc,computer science,7.48,c++,138,"data structures, git, object oriented programming, sql, system design",0,0,1
+STU0483,btech,electrical engineering,7.12,java,45,"data structures, java, object oriented programming, spring, sql",2,0,2
+STU0410,bsc,mathematics,8.91,python,272,"data analysis, java, machine learning, pandas, python, sql",0,6,3
+STU0474,be,information technology,6.85,python,102,"pandas, python, sql",1,4,0
+STU0293,be,computer engineering,6.36,c++,83,"c++, data structures, object oriented programming",0,0,2
+STU0008,btech,artificial intelligence and machine learning,6.49,java,64,"data structures, java, sql",1,1,1
+STU0452,be,computer science and engineering,6.52,c++,119,"algorithms, data structures, object oriented programming, react",3,0,0
+STU0156,be,computer science and engineering,5.83,c++,166,"algorithms, c++, data structures",1,12,2
+STU0352,btech,computer science and business systems,7.74,c++,150,"algorithms, c++, data structures",0,0,0
+STU0430,btech,information technology,6.94,java,80,"data structures, devops, spring, sql",0,0,0
+STU0102,btech,information technology,6.26,javascript,76,"css, html, javascript",2,4,1
+STU0200,bsc,data science,5.84,python,73,"kubernetes, machine learning, python, sql",0,6,0
+STU0614,btech,electrical engineering,7.19,java,158,"api testing, data structures, object oriented programming, sql",1,8,3
+STU0529,bsc,mathematics,7.61,java,36,"data structures, object oriented programming, sql",0,0,0
+STU0816,btech,electronics and instrumentation engineering,9.41,java,193,"data structures, docker, flask, java, object oriented programming, spring, sql",0,6,3
+STU0381,btech,data science,8.53,python,64,"data analysis, pandas, python, sql",2,4,1
+STU0301,btech,computer science and engineering,7.06,java,93,"data structures, java, object oriented programming, spring, sql",1,0,0
+STU0417,bsc,data science,6.51,c++,269,"algorithms, data structures, excel",0,6,2
+STU0879,btech,data science,7.86,java,274,"azure, data structures, deep learning, java, object oriented programming",0,12,3
+STU0320,bsc,information technology,7.05,python,212,"data analysis, pandas, power bi, python, sql",3,8,2
+STU0003,btech,data science,6.92,python,148,"cloud computing, data analysis, databases, pandas, python, terraform",1,0,1
+STU0255,btech,data science,6.12,java,82,"data structures, java, object oriented programming, spring, sql, testing",0,0,1
+STU0508,bsc,data science,7.57,c,195,"algorithms, computer networks, data structures, databases, devops, nlp, selenium",4,12,0
+STU0500,bsc,data science,6.75,c++,101,"c++, data structures, devops, microservices, object oriented programming, spark",0,0,1
+STU0267,btech,data science,7.65,javascript,68,"css, html, node.js, react",1,4,3
+STU0159,btech,computer science and engineering,5.86,java,138,"data structures, java, object oriented programming",0,0,3
+STU0522,btech,information technology,7.46,python,171,"data analysis, python, sql",0,8,2
+STU0837,bsc,data science,7.96,python,262,"data analysis, docker, machine learning, pandas, python, spring boot",0,4,1
+STU0568,bsc,computer science,7.61,c++,120,"algorithms, aws, c++, data structures, node.js, object oriented programming, typescript",1,0,0
+STU0333,be,computer engineering,6.66,python,109,"data analysis, data visualization, pandas, sql",0,0,1
+STU0433,btech,data science,6.29,javascript,153,"cybersecurity, javascript, mlops, sql, terraform, typescript",0,8,1
+STU0306,mtech,computer science and engineering,8.19,python,231,"data analysis, machine learning, pandas, python",2,9,2
+STU0437,bsc,computer science,6.96,python,284,"data analysis, flask, node.js, python, sql",0,4,3
+STU0527,btech,information technology,7.0,c++,126,"algorithms, c++, javascript, kubernetes, object oriented programming",2,0,1
+STU0409,be,computer engineering,8.25,c++,153,"algorithms, c++, data structures, object oriented programming",2,1,2
+STU0894,be,computer engineering,6.24,javascript,15,"css, git, html, microservices, node.js, pytorch",1,0,1
+STU0360,btech,electrical engineering,6.57,c++,148,"algorithms, computer networks, data structures, kubernetes, object oriented programming",0,0,1
+STU0586,bsc,mathematics,6.93,c++,175,"algorithms, c++, object oriented programming",0,6,3
+STU0656,btech,computer science and engineering,8.26,javascript,137,"html, javascript, react",1,2,0
+STU0660,btech,computer science and engineering,7.78,python,203,"data analysis, nlp, pandas, react, sql",0,6,0
+STU0213,bsc,mathematics,6.31,python,72,"machine learning, pandas, python, sql",0,0,0
+STU0829,btech,computer science and engineering,7.78,java,165,"java, object oriented programming, sql",0,2,1
+STU0080,be,computer science and engineering,8.24,python,153,"computer networks, data analysis, machine learning, object oriented programming, pandas, python, sql",2,3,3
+STU0149,btech,computer science and engineering,7.52,c++,191,"algorithms, c++, data structures",1,3,1
+STU0260,bsc,mathematics,8.17,c++,145,"c++, data structures, object oriented programming, sql",0,0,2
+STU0595,btech,electronics and communication engineering,7.46,c,274,"algorithms, c, data structures",1,12,1
+STU0843,bsc,mathematics,8.62,python,246,"data analysis, machine learning, networking, pandas, python, sql",1,1,1
+STU0383,be,computer engineering,5.81,python,107,"data analysis, python, sql",0,4,1
+STU0484,be,information technology,8.26,python,171,"machine learning, pandas, sql, testing",0,0,3
+STU0134,be,computer engineering,7.66,java,6,"cloud computing, cybersecurity, data structures, spring, sql, system design",1,0,1
+STU0469,btech,electronics and instrumentation engineering,6.89,c++,244,"algorithms, c++, data structures, power bi, sql",2,6,0
+STU0549,btech,information technology,7.05,java,179,"data structures, java, object oriented programming",1,0,1
+STU0507,bsc,mathematics,8.13,javascript,144,"data analysis, html, llm, networking, node.js, react",0,0,3
+STU0654,be,computer engineering,8.88,python,288,"cloud computing, cybersecurity, data analysis, machine learning, pandas, sql",5,12,1
+STU0639,btech,electronics and communication engineering,5.63,java,142,"data structures, java, object oriented programming, sql",0,0,1
+STU0753,btech,artificial intelligence and machine learning,8.78,python,163,"cloud computing, data analysis, devops, django, docker, machine learning, pandas, python, sql",3,4,3
+STU0282,btech,information technology,6.36,python,181,"c++, machine learning, pandas, python, sql",0,6,1
+STU0688,btech,electrical engineering,8.05,c++,332,"algorithms, c++, object oriented programming",2,12,1
+STU0706,btech,data science,5.66,c++,85,"data structures, flask, gcp, git, pytorch",0,3,0
+STU0297,bca,computer applications,8.4,c,219,"algorithms, c, computer networks, data structures, deep learning",1,3,3
+STU0173,be,information technology,7.69,c,146,"algorithms, c, computer networks, cryptography, data structures, tableau",1,8,0
+STU0864,mtech,computer science and engineering,7.43,java,377,"cloud computing, data structures, java, kubernetes, spring",3,24,1
+STU0468,bsc,data science,7.84,javascript,113,"algorithms, css, html, javascript, node.js, react, scikit-learn",2,3,3
+STU0813,btech,information technology,9.21,java,210,"cybersecurity, data structures, java, object oriented programming, sql",2,2,2
+STU0809,btech,computer science and engineering,7.82,java,170,"data structures, java, object oriented programming, python, spring",1,0,1
+STU0091,mtech,computer science and engineering,9.34,python,330,"data analysis, machine learning, pandas, python, pytorch, sql",2,12,3
+STU0842,bsc,computer science,7.03,java,115,"data structures, java, object oriented programming, spring, sql",0,4,0
+STU0182,bsc,data science,6.38,java,66,"data structures, java, object oriented programming, sql",0,3,1
+STU0862,bsc,mathematics,7.85,java,138,"data structures, java, object oriented programming",0,0,1
+STU0803,btech,electrical engineering,8.8,c++,318,"data structures, linux, pytorch, system design",1,12,2
+STU0070,be,information technology,7.07,c++,161,"c++, machine learning, object oriented programming, power bi, tableau",0,0,3
+STU0132,btech,information technology,5.28,c++,5,"algorithms, c++, cloud computing, data structures",0,6,0
+STU0599,btech,electronics and instrumentation engineering,8.09,python,204,"aws, data analysis, data structures, machine learning, pandas, python",0,6,2
+STU0478,btech,computer science and business systems,5.7,python,234,"data analysis, pandas, python, sql",0,12,2
+STU0136,btech,data science,8.22,java,216,"machine learning, object oriented programming, sql",1,1,3
+STU0165,btech,artificial intelligence and machine learning,5.0,c++,89,"c++, data structures, object oriented programming",0,0,1
+STU0029,btech,data science,7.34,c++,91,"algorithms, c++, data structures, networking, object oriented programming, system design",1,0,2
+STU0498,btech,artificial intelligence and machine learning,9.25,java,215,"api testing, gcp, linux, object oriented programming, spring",6,3,3
+STU0194,btech,electronics and communication engineering,8.86,python,252,"cybersecurity, data analysis, machine learning, pandas, python",0,2,3
+STU0312,btech,electronics and communication engineering,8.89,python,329,"data analysis, data pipelines, kubernetes, machine learning, pandas, python, spark, sql",4,6,3
+STU0724,btech,computer science and engineering,7.08,javascript,51,"css, html, javascript, react",0,3,1
+STU0641,bsc,information technology,6.71,java,123,"css, devops, microservices, object oriented programming, spring, sql",0,0,1
+STU0538,be,information technology,9.36,java,109,"etl, java, kubernetes, object oriented programming, power bi, spring boot, statistics",5,0,2
+STU0141,btech,computer science and business systems,8.48,python,152,"data analysis, javascript, machine learning, pandas, python, sql",2,1,1
+STU0174,bsc,information technology,7.92,javascript,152,"html, node.js, react",0,2,1
+STU0007,be,computer engineering,7.48,c++,111,"algorithms, c++, data structures, object oriented programming",1,3,2
+STU0582,bsc,information technology,8.0,python,106,"data analysis, machine learning, object oriented programming, pandas, python, sql, testing",1,0,1
+STU0378,be,computer science and engineering,7.92,python,115,"machine learning, pandas, python, pytorch, sql",3,3,1
+STU0074,bsc,mathematics,7.15,javascript,55,"git, html, java, react",1,0,0
+STU0619,be,computer engineering,6.77,python,61,"data analysis, python, sql",0,0,0
+STU0332,bsc,mathematics,7.24,python,156,"data analysis, data visualization, machine learning, pandas, python, sql",1,6,1
+STU0887,be,information technology,7.86,python,110,"apis, data analysis, machine learning, pandas, python",2,0,2
+STU0146,btech,artificial intelligence and machine learning,8.75,c++,277,"algorithms, c++, cryptography, gcp, object oriented programming",5,12,3
+STU0235,btech,data science,7.95,javascript,106,"css, html, javascript, node.js, react",0,12,1
+STU0221,btech,information technology,8.82,java,271,"ci/cd, data structures, docker, html, kubernetes, object oriented programming, react, spring",1,12,2
+STU0585,btech,data science,6.91,java,247,"data structures, java, object oriented programming",0,6,1
+STU0804,btech,electronics and instrumentation engineering,8.75,python,140,"data analysis, etl, machine learning, pandas, python, sql",1,0,1
+STU0133,be,computer engineering,7.0,c++,107,"algorithms, devops, object oriented programming, system design",1,0,0
+STU0743,mtech,computer science and engineering,7.79,c++,278,"airflow, api testing, c++, data structures, kubernetes, networking, object oriented programming",0,12,3
+STU0328,be,information technology,6.08,c++,147,"algorithms, c++, data structures",1,4,1
+STU0186,btech,computer science and business systems,7.13,java,67,"data structures, gcp, java, object oriented programming, spring, sql",1,0,0
+STU0042,btech,data science,5.57,c++,227,"algorithms, c++, data structures, nlp, statistics",0,6,1
+STU0552,bsc,data science,7.82,java,96,"c, data structures, java, object oriented programming, pytorch, spring, sql",1,2,3
+STU0109,bca,computer applications,6.26,java,16,"data structures, java, kubernetes, networking, pandas, spring",3,0,0
+STU0426,btech,electrical engineering,6.43,c++,156,"algorithms, c, cybersecurity, data structures, object oriented programming, selenium",1,3,2
+STU0057,btech,information technology,6.67,javascript,82,"aws, css, node.js, pandas, python, spring",1,0,0
+STU0603,btech,data science,8.05,c,118,"airflow, c, computer networks, data structures, spring",0,6,0
+STU0351,btech,artificial intelligence and machine learning,8.29,python,173,"data analysis, machine learning, nlp, python, sql",1,0,2
+STU0502,be,information technology,6.48,c++,207,"algorithms, aws, c++, data structures, data visualization, git",0,3,0
+STU0025,be,computer science and engineering,7.71,java,104,"django, java, object oriented programming, spring",2,4,1
+STU0666,bsc,information technology,7.97,c++,5,"azure, data structures, deep learning, flask, networking, object oriented programming, tensorflow",1,0,2
+STU0434,btech,artificial intelligence and machine learning,7.9,python,107,"data analysis, machine learning, python, sql",0,0,0
+STU0440,bsc,mathematics,6.63,python,87,"pandas, python, sql",0,0,1
+STU0052,btech,electrical engineering,7.01,python,70,"data analysis, machine learning, microservices, pandas, python, sql",0,3,2
+STU0412,bsc,computer science,7.65,c++,319,"algorithms, c++, testing",2,0,3
+STU0824,btech,electronics and communication engineering,8.12,c,108,"algorithms, c, computer networks, data structures, statistics",2,6,3
+STU0721,btech,computer science and business systems,8.18,python,124,"data analysis, gcp, machine learning, python, sql",1,0,3
+STU0265,bca,computer applications,7.3,python,75,"data analysis, machine learning, python, sql",0,1,3
+STU0693,bsc,data science,6.46,javascript,120,"css, node.js, react",1,12,0
+STU0618,btech,computer science and business systems,7.65,c++,125,"algorithms, c++, machine learning, nlp, object oriented programming, terraform",1,1,1
+STU0704,btech,electronics and communication engineering,7.35,java,152,"data structures, java, llm, object oriented programming, spring, sql",1,0,1
+STU0356,btech,electronics and instrumentation engineering,7.25,c++,165,"algorithms, c++, data structures, object oriented programming",0,2,1
+STU0019,mtech,computer science and engineering,7.76,c++,304,"algorithms, c++, data structures, excel, object oriented programming",5,12,3
+STU0845,btech,computer science and engineering,7.41,c++,64,"algorithms, data structures, machine learning, typescript",4,4,2
+STU0343,bsc,mathematics,9.47,javascript,106,"flask, html, javascript, networking, node.js, pytorch, react",5,3,2
+STU0084,btech,data science,6.91,c++,162,"data analysis, data pipelines, etl, pandas",0,0,1
+STU0062,bsc,information technology,5.94,java,160,"data structures, mlops, spring, sql",0,1,0
+STU0273,bsc,information technology,7.64,python,279,"machine learning, sql, tensorflow",0,6,2
+STU0286,btech,artificial intelligence and machine learning,7.07,python,184,"data analysis, javascript, machine learning, pandas, sql, typescript",0,0,2
+STU0363,btech,computer science and business systems,7.36,python,13,"azure, data analysis, machine learning, pandas, power bi, sql",0,6,1
+STU0890,bca,computer applications,7.02,c++,279,"algorithms, c++, data structures, html, react",0,6,3
+STU0013,btech,artificial intelligence and machine learning,7.41,python,100,"data analysis, machine learning, pandas, python, sql",3,0,0
+STU0183,btech,information technology,9.13,python,71,"computer networks, data analysis, data pipelines, deep learning, machine learning, mlops, pandas, sql",0,2,2
+STU0389,bsc,data science,7.55,c++,182,"algorithms, c++, computer networks",1,0,0
+STU0722,be,computer engineering,8.47,python,182,"api testing, data analysis, docker, machine learning, microservices, python, sql, terraform",0,2,3
+STU0224,btech,artificial intelligence and machine learning,9.31,java,225,"data structures, java, machine learning, object oriented programming, sql",0,8,1
+STU0559,btech,computer science and business systems,8.99,c,95,"algorithms, css, data structures, llm, mlops, statistics",4,3,2
+STU0634,mtech,computer science and engineering,7.81,python,283,"computer networks, data analysis, machine learning, microservices, python, selenium, sql",2,24,3
+STU0645,btech,electronics and communication engineering,6.85,python,133,"data analysis, python, sql",0,0,0
+STU0531,btech,information technology,8.67,c++,206,"algorithms, c++, object oriented programming, power bi, pytorch",2,6,3
+STU0528,bca,computer applications,9.31,c++,191,"c++, css, data structures, data visualization, machine learning, microservices, nlp",1,0,2
+STU0637,be,information technology,6.72,java,104,"data structures, databases, java, machine learning, python, sql",2,0,1
+STU0177,btech,data science,8.29,c++,78,"algorithms, c++, data structures, object oriented programming",1,0,2
+STU0605,bsc,computer science,5.42,javascript,219,"css, html, node.js, react, tensorflow",2,12,2
+STU0447,be,computer engineering,6.71,python,119,"data analysis, pandas, sql",2,6,2
+STU0421,mtech,computer science and engineering,8.25,python,348,"machine learning, node.js, python, sql",2,12,4
+STU0164,bsc,information technology,5.92,python,143,"data analysis, pandas, python, sql",2,12,1
+STU0249,btech,electrical engineering,7.37,python,145,"machine learning, pandas, python, sql",1,1,0
+STU0741,bsc,information technology,6.15,c,138,"algorithms, c, computer networks, data structures",0,2,0
+STU0794,btech,electronics and communication engineering,7.71,java,39,"data structures, html, object oriented programming, spring, sql",0,0,3
+STU0075,btech,electronics and instrumentation engineering,5.2,python,201,"data analysis, machine learning, object oriented programming, pandas, python",2,8,1
+STU0114,bsc,computer science,8.02,javascript,126,"cloud computing, computer networks, css, html, node.js, react",1,0,2
+STU0515,btech,data science,7.75,c++,169,"algorithms, c++, data structures, node.js, spark",0,0,2
+STU0496,bsc,computer science,7.44,javascript,130,"css, html, javascript",1,3,1
+STU0105,btech,electronics and communication engineering,5.96,python,82,"data analysis, pandas, python, sql",1,2,3
+STU0115,btech,computer science and business systems,7.72,c++,141,"algorithms, c++, data pipelines, data structures, kubernetes, microservices, object oriented programming",3,0,1
+STU0451,mtech,computer science and engineering,8.67,c,152,"aws, c, cloud computing, data structures, devops, docker, machine learning, system design",5,12,1
+STU0093,be,computer science and engineering,8.42,python,80,"computer networks, cybersecurity, data analysis, java, machine learning, pandas, python",0,0,2
+STU0798,bsc,data science,7.26,python,213,"data analysis, machine learning, pandas, python, scikit-learn, sql",1,8,3
+STU0090,bsc,data science,7.94,c++,182,"algorithms, c++, cryptography, css, data structures, git, object oriented programming",1,0,1
+STU0337,btech,electrical engineering,8.03,python,144,"data analysis, data pipelines, pandas, python, sql",3,0,2
+STU0889,be,computer science and engineering,8.64,python,227,"airflow, api testing, apis, data analysis, docker, machine learning, pandas, power bi, python",1,8,3
+STU0825,bsc,mathematics,7.04,python,21,"data analysis, pandas, python, sql",2,0,0
+STU0836,btech,computer science and business systems,8.63,python,168,"data analysis, gcp, machine learning, pandas, python, sql, typescript",0,6,2
+STU0548,btech,data science,6.13,java,144,"java, object oriented programming, spring",1,4,1
+STU0553,btech,electronics and communication engineering,8.61,c,205,"airflow, algorithms, c, ci/cd, computer networks, cybersecurity, spring, sql",6,8,1
+STU0095,btech,electronics and communication engineering,8.56,c,165,"algorithms, c, computer networks, data pipelines, data structures",2,8,0
+STU0012,btech,electronics and instrumentation engineering,6.78,c++,160,"algorithms, apis, c++, data structures, etl, object oriented programming",0,6,0
+STU0899,bsc,data science,6.24,python,212,"ci/cd, data analysis, machine learning, pandas, sql",0,8,3
+STU0044,btech,artificial intelligence and machine learning,8.17,c++,154,"algorithms, azure, c++, data structures, nlp, object oriented programming",0,0,0
+STU0043,bsc,computer science,6.26,c++,97,"algorithms, c++, nlp, object oriented programming, selenium",1,6,1
+STU0330,btech,electronics and communication engineering,6.78,python,21,"api testing, apis, css, pandas, python, sql",0,0,2
+STU0168,btech,artificial intelligence and machine learning,7.46,python,79,"data analysis, flask, machine learning, pandas, python, sql",1,0,1
+STU0786,be,information technology,6.97,javascript,123,"css, excel, html, javascript, kubernetes, react",1,8,0
+STU0542,bsc,computer science,5.82,c,5,"algorithms, c, data structures",0,0,0
+STU0723,be,computer science and engineering,7.25,c++,105,"algorithms, c++, data structures",4,0,2
+STU0849,btech,data science,9.04,java,270,"data structures, java, object oriented programming, sql, system design",0,6,3
+STU0179,bsc,information technology,7.06,c++,145,"algorithms, c++, data structures, object oriented programming",0,4,1
+STU0588,btech,artificial intelligence and machine learning,7.58,python,371,"algorithms, machine learning, python, sql",1,12,2
+STU0791,btech,electrical engineering,8.03,python,144,"data analysis, java, pandas, sql",3,6,2
+STU0598,be,information technology,8.01,python,130,"data analysis, pandas, python, sql",0,6,3
+STU0178,btech,data science,7.62,c++,219,"algorithms, c++, data structures, object oriented programming",1,0,2
+STU0696,bsc,data science,7.42,python,145,"azure, data analysis, django, etl, scikit-learn, sql, typescript",1,0,0
+STU0716,btech,computer science and business systems,8.14,java,174,"aws, data structures, html, java, object oriented programming, spring",0,4,2
+STU0718,btech,electronics and instrumentation engineering,7.35,c++,84,"apis, c++, data structures, java, machine learning, object oriented programming, spring",0,0,0
+STU0384,be,computer science and engineering,8.39,javascript,127,"css, html, javascript, node.js, react",1,0,0
+STU0258,btech,data science,6.68,java,202,"azure, java, spring, sql",1,0,1
+STU0443,bsc,data science,7.77,javascript,128,"ci/cd, html, javascript, node.js, react, statistics",6,8,1
+STU0336,bsc,computer science,8.93,python,292,"api testing, cryptography, data analysis, git, machine learning, pandas, python, sql",2,6,3
+STU0717,mtech,computer science and engineering,7.35,java,348,"cryptography, data structures, object oriented programming, spring",5,24,1
+STU0016,btech,artificial intelligence and machine learning,7.49,c,232,"algorithms, aws, computer networks, flask",5,12,3
+STU0004,btech,computer science and business systems,7.21,javascript,207,"css, html, javascript, kubernetes, node.js, react",2,6,0
+STU0663,btech,computer science and business systems,9.5,java,237,"cryptography, data pipelines, java, object oriented programming, spring, sql",0,0,0
+STU0257,be,computer engineering,6.82,python,179,"data analysis, python, sql",0,12,2
+STU0457,mtech,computer science and engineering,8.05,python,398,"data analysis, python, sql",1,24,3
+STU0479,btech,data science,7.07,javascript,189,"etl, html, javascript, react",0,6,1
+STU0774,bsc,data science,7.92,javascript,34,"css, node.js, pytorch, react",2,1,1
+STU0394,bsc,data science,6.51,java,90,"c, data structures, javascript, object oriented programming, react, sql",1,3,1
+STU0223,btech,computer science and engineering,9.81,javascript,99,"algorithms, cloud computing, data analysis, docker, html, javascript, node.js, react, statistics, testing",6,1,3
+STU0530,bsc,mathematics,6.86,java,220,"data structures, java, object oriented programming, spring, sql",1,6,0
+STU0458,bca,computer applications,7.09,python,73,"llm, machine learning, pandas, python, sql, tableau",3,0,0
+STU0425,btech,electronics and instrumentation engineering,7.37,python,159,"data analysis, pandas, sql",3,3,0
+STU0325,be,information technology,8.46,python,105,"css, data analysis, pandas, python, sql, terraform",0,0,1
+STU0535,btech,information technology,6.97,python,173,"data analysis, machine learning, pandas, sql",1,0,1
+STU0010,btech,electrical engineering,7.14,java,126,"apis, data structures, java, javascript, object oriented programming",0,2,1
+STU0250,bca,computer applications,7.95,python,156,"data analysis, pandas, sql",0,1,2
+STU0023,bsc,data science,7.05,java,216,"java, object oriented programming, spring, sql",0,12,3
+STU0357,bsc,computer science,6.98,javascript,231,"apis, c++, html, scikit-learn, spring boot",0,12,3
+STU0222,be,computer science and engineering,6.61,javascript,23,"css, html, javascript, node.js, react",0,0,0
+STU0606,btech,information technology,5.95,c,23,"cryptography, data pipelines, data structures, django, pandas",0,0,2
+STU0773,mtech,computer science and engineering,8.63,python,257,"airflow, data analysis, gcp, html, machine learning, python, spark",3,9,2
+STU0884,bca,computer applications,6.62,javascript,82,"css, git, html, javascript, node.js, react",0,0,1
+STU0533,be,information technology,7.97,c++,183,"c++, data structures, javascript, kubernetes, microservices, object oriented programming",0,0,1
+STU0341,bsc,data science,8.28,java,43,"data structures, flask, html, java, object oriented programming, selenium, tensorflow",1,0,2
+STU0750,bca,computer applications,7.45,java,95,"data structures, docker, javascript, object oriented programming, sql",1,0,2
+STU0524,bsc,computer science,7.43,python,78,"data analysis, pandas, python",0,1,2
+STU0204,btech,electrical engineering,8.41,python,196,"data analysis, machine learning, python, sql",1,0,2
+STU0238,bsc,computer science,5.81,c++,212,"algorithms, c++, object oriented programming, spring, spring boot",2,8,2
+STU0094,btech,artificial intelligence and machine learning,7.15,c++,105,"algorithms, c++, object oriented programming",1,4,2
+STU0539,be,computer engineering,9.06,java,135,"data structures, devops, java, object oriented programming, spring, sql",1,0,2
+STU0446,be,information technology,8.54,c++,155,"azure, c++, data structures, object oriented programming",1,1,1
+STU0683,btech,computer science and engineering,7.77,java,142,"java, object oriented programming, sql",1,0,0
+STU0285,btech,electronics and communication engineering,7.87,python,240,"data analysis, pandas, python, sql",6,8,0
+STU0185,btech,information technology,7.57,c++,82,"algorithms, c++, nlp, object oriented programming",0,0,2
+STU0800,btech,electrical engineering,7.76,c++,257,"algorithms, c++, data structures, docker, object oriented programming, system design",1,4,3
+STU0435,bsc,computer science,6.07,python,135,"machine learning, pandas, sql",0,0,0
+STU0736,mtech,computer science and engineering,7.27,python,273,"data analysis, python, sql",1,6,2
+STU0154,btech,electronics and instrumentation engineering,9.07,c,63,"algorithms, c, computer networks, data structures",4,2,4
+STU0076,btech,electronics and instrumentation engineering,7.11,java,243,"data analysis, object oriented programming, spring, spring boot",2,4,1
+STU0880,btech,computer science and engineering,8.21,c++,189,"airflow, algorithms, linux, spring boot, sql",1,1,1
+STU0555,btech,electronics and instrumentation engineering,7.61,c++,352,"aws, c++, data structures, java, object oriented programming, sql",1,12,3
+STU0278,bsc,computer science,7.48,javascript,37,"html, javascript, node.js",1,1,0
+STU0069,bsc,computer science,7.63,java,153,"java, object oriented programming, spring, sql",1,0,1
+STU0569,bsc,information technology,8.17,c++,159,"c++, data structures, kubernetes, object oriented programming",0,1,3
+STU0189,mtech,computer science and engineering,8.0,c++,245,"algorithms, c++, data structures, deep learning, object oriented programming, testing",2,18,2
+STU0272,btech,electrical engineering,9.08,java,279,"data structures, java, microservices, object oriented programming, spring, sql",5,12,3
+STU0668,bsc,computer science,9.37,javascript,169,"css, javascript, mlops, node.js, react, terraform",5,3,2
+STU0560,bca,computer applications,7.9,java,210,"data structures, java, object oriented programming, pandas, spring, sql, testing",5,6,3
+STU0237,btech,data science,8.21,java,122,"data structures, java, object oriented programming, spring, sql",2,0,1
+STU0089,bsc,data science,7.94,c++,257,"algorithms, c++, object oriented programming, sql, terraform",0,6,1
+STU0793,bsc,information technology,7.2,python,150,"data analysis, python, sql",2,6,3
+STU0118,btech,artificial intelligence and machine learning,7.44,c++,126,"algorithms, c++, cryptography, cybersecurity, data pipelines, sql",1,0,0
+STU0126,btech,data science,7.62,javascript,84,"css, html, javascript, node.js, react",0,1,0
+STU0738,btech,electronics and communication engineering,9.11,c++,178,"algorithms, c++, css, data structures, machine learning, object oriented programming, react, tensorflow",1,0,2
+STU0290,bca,computer applications,7.68,python,73,"c, data analysis, machine learning, pandas, python, scikit-learn, sql",1,4,3
+STU0239,btech,electronics and instrumentation engineering,7.89,javascript,67,"css, javascript, node.js, react",0,1,0
+STU0001,btech,data science,8.29,java,138,"c++, data structures, data visualization, java, object oriented programming, spring, sql",0,0,1
+STU0891,bsc,mathematics,7.74,python,160,"pandas, python, sql, statistics, typescript",1,6,5
+STU0602,bsc,computer science,8.18,c++,242,"css, data structures, nlp, object oriented programming, terraform",0,4,2
+STU0856,be,computer science and engineering,7.79,python,249,"data analysis, django, machine learning, pandas, react, tableau, testing",1,2,1
+STU0396,bsc,mathematics,7.8,python,130,"cloud computing, data analysis, java, machine learning, pandas, sql",5,1,1
+STU0536,bsc,data science,7.08,c,5,"c, computer networks, networking, tensorflow",0,1,1
+STU0127,bsc,mathematics,7.57,java,192,"data structures, java, object oriented programming",6,12,1
+STU0279,be,information technology,8.69,c++,234,"algorithms, c++, data structures, excel, html, machine learning, object oriented programming, pandas, typescript",2,6,2
+STU0697,btech,information technology,7.92,java,55,"data structures, java, object oriented programming, sql",1,0,2
+STU0117,btech,electrical engineering,7.82,python,63,"data analysis, pandas, python, sql",1,0,2
+STU0229,btech,data science,8.1,python,137,"data analysis, python, sql",1,0,3
+STU0814,be,computer engineering,7.43,python,46,"data analysis, python, sql",0,3,2
+STU0661,bca,computer applications,7.69,java,194,"data structures, java, object oriented programming",0,6,2
+STU0058,btech,information technology,7.51,c++,193,"algorithms, c++, kubernetes, object oriented programming, pytorch, typescript",0,0,1
+STU0785,mtech,computer science and engineering,8.78,python,74,"airflow, data analysis, databases, flask, machine learning, pandas, python, sql",1,0,1
+STU0275,btech,electrical engineering,7.45,python,91,"data analysis, machine learning, pandas, python, sql",0,0,2
+STU0319,btech,electrical engineering,8.31,c++,150,"algorithms, data structures, node.js, object oriented programming, terraform, typescript",1,0,3
+STU0631,bsc,information technology,6.78,java,203,"data structures, java, object oriented programming, spring, sql",6,12,2
+STU0145,bsc,mathematics,7.1,python,70,"data analysis, python, sql",0,0,4
+STU0714,bsc,information technology,5.86,python,127,"data analysis, python, sql",1,0,1
+STU0596,btech,artificial intelligence and machine learning,5.0,python,5,"data analysis, machine learning, python, sql",0,2,2
+STU0817,bsc,mathematics,7.39,c++,231,"c++, data structures, data visualization, gcp, llm, node.js, object oriented programming",1,3,2
+STU0782,be,information technology,7.25,java,254,"data structures, gcp, java, object oriented programming, spring, sql",3,12,1
+STU0370,be,computer engineering,8.84,c++,67,"algorithms, c, computer networks, cryptography, data pipelines, data structures, etl, object oriented programming, sql",0,0,2
+STU0269,be,information technology,6.99,java,123,"data structures, flask, object oriented programming, spring, sql",0,1,0
+STU0629,btech,electrical engineering,5.49,c,51,"c, computer networks, data structures",0,3,1
+STU0308,btech,computer science and business systems,9.0,python,245,"data analysis, html, machine learning, pandas, python, sql",6,3,1
+STU0424,bca,computer applications,7.25,c++,151,"algorithms, c++, data structures, object oriented programming",4,0,3
+STU0311,bsc,computer science,7.76,java,191,"data structures, java, object oriented programming, spring",0,0,1
+STU0355,btech,computer science and engineering,8.84,javascript,185,"docker, gcp, html, microservices, node.js, pandas, react",1,4,2
+STU0047,btech,data science,7.34,javascript,95,"css, html, javascript, react",2,6,0
+STU0350,btech,electronics and communication engineering,8.14,c++,230,"algorithms, c++, data structures, docker, object oriented programming, power bi, sql",1,6,3
+STU0372,btech,electrical engineering,8.84,java,252,"css, data structures, java, linux, machine learning, pytorch, sql",1,12,3
+STU0480,btech,information technology,5.71,java,144,"data structures, java, spring, sql",0,6,2
+STU0581,btech,electrical engineering,8.65,c++,261,"algorithms, c++, django, docker, flask, object oriented programming",0,8,1
+STU0262,btech,information technology,8.77,javascript,49,"css, flask, html, pandas, python, pytorch, react",1,0,2
+STU0196,btech,data science,7.74,c++,221,"algorithms, c++, data structures, object oriented programming",2,3,1
+STU0900,btech,computer science and business systems,8.57,python,132,"algorithms, aws, data analysis, etl, java, pandas, python",3,3,2
+STU0751,btech,computer science and business systems,8.9,c++,86,"algorithms, apis, c++, data pipelines, docker",1,2,3
+STU0108,btech,artificial intelligence and machine learning,7.68,java,53,"data structures, java, object oriented programming, sql, system design",1,0,0
+STU0876,btech,electrical engineering,6.83,c++,141,"algorithms, c++, flask, object oriented programming",1,0,1
+STU0060,bsc,information technology,8.76,java,140,"cybersecurity, java, nlp, object oriented programming, spring",0,0,1
+STU0692,bsc,data science,7.98,java,170,"data structures, java, object oriented programming, spring, sql, system design",2,2,2
+STU0264,be,information technology,7.5,c++,226,"algorithms, c++, data analysis, data structures, object oriented programming",3,12,1
+STU0573,bca,computer applications,6.23,python,172,"django, gcp, llm, node.js, pandas, python",0,6,0
+STU0101,btech,electronics and instrumentation engineering,5.86,c++,326,"algorithms, c++, data structures, object oriented programming",0,12,0
+STU0444,bsc,information technology,7.36,c++,186,"c++, data structures, docker, gcp, llm, object oriented programming, pytorch",1,0,1
+STU0491,bsc,computer science,8.92,python,234,"machine learning, networking, pandas, python, scikit-learn",0,0,3
+STU0612,bsc,mathematics,6.5,python,98,"pandas, python, sql",5,0,0
+STU0807,bsc,computer science,7.04,javascript,158,"computer networks, machine learning, react, scikit-learn",1,2,1
+STU0799,btech,artificial intelligence and machine learning,8.43,python,111,"data analysis, pandas, python, sql",5,0,3
+STU0170,bca,computer applications,8.25,python,202,"airflow, llm, machine learning, pandas, python, sql",6,3,2
+STU0180,btech,data science,5.79,c++,142,"algorithms, c++, object oriented programming",1,6,1
+STU0305,mtech,computer science and engineering,7.56,java,254,"data structures, java, object oriented programming, sql",2,0,1
+STU0342,btech,electrical engineering,8.87,c++,195,"algorithms, c++, cybersecurity, data structures, networking, power bi, pytorch, spring, typescript",0,3,0
+STU0868,be,computer science and engineering,7.62,c++,166,"data structures, object oriented programming, react, tableau",2,0,1
+STU0150,btech,electronics and communication engineering,5.77,python,141,"airflow, pandas, python, sql",0,2,0
+STU0125,bsc,mathematics,6.64,javascript,68,"airflow, css, html, mlops, node.js, react",1,0,1
+STU0709,be,computer engineering,6.99,java,55,"data structures, java, pandas, python, spring, sql",6,8,1
+STU0051,bsc,information technology,6.47,javascript,163,"html, javascript, node.js, react, spark",0,8,1
+STU0354,btech,computer science and engineering,5.32,javascript,5,"css, javascript, react",0,0,0
+STU0831,btech,electronics and instrumentation engineering,6.13,c++,186,"algorithms, c++, data structures, databases, object oriented programming, system design",0,8,0
+STU0143,bca,computer applications,7.58,java,98,"css, data structures, data visualization, object oriented programming, python, spring, sql",3,8,2
+STU0471,mtech,computer science and engineering,7.49,java,301,"data structures, java, object oriented programming, spring, sql",0,18,1
+STU0400,btech,electrical engineering,8.91,java,150,"data structures, docker, java, object oriented programming, spring",0,3,4
+STU0852,btech,electronics and communication engineering,7.81,python,68,"data analysis, pandas, sql",0,0,2
+STU0321,bsc,computer science,7.48,python,63,"data analysis, python, sql",2,1,1
+STU0020,btech,data science,7.58,python,109,"data analysis, machine learning, sql",1,0,4
+STU0812,btech,computer science and engineering,6.33,java,186,"data structures, gcp, networking, sql",1,0,0
+STU0713,bsc,data science,7.56,c,165,"algorithms, api testing, computer networks, git, java, javascript, python",0,6,1
+STU0729,bsc,mathematics,5.88,python,48,"data analysis, python, sql",0,0,2
+STU0408,bsc,data science,7.12,java,173,"data structures, java, object oriented programming",6,6,0
+STU0822,btech,computer science and engineering,7.21,python,91,"data analysis, pandas, python, sql",4,0,2
+STU0039,bsc,computer science,7.56,python,262,"data analysis, pandas, sql",0,12,1
+STU0176,bsc,mathematics,6.87,c++,91,"algorithms, c++, data structures, object oriented programming",3,0,0
+STU0246,btech,electrical engineering,8.78,c++,161,"algorithms, api testing, apis, azure, c++, data structures, html, object oriented programming",1,0,0
+STU0747,btech,electronics and instrumentation engineering,7.89,python,228,"machine learning, pandas, python, sql",5,4,2
+STU0607,btech,electrical engineering,7.53,c++,60,"c++, django, object oriented programming",1,0,0
+STU0680,btech,electrical engineering,7.51,python,230,"data analysis, python, sql",6,12,3
+STU0771,btech,artificial intelligence and machine learning,10.0,javascript,121,"airflow, cloud computing, cryptography, css, deep learning, etl, html, javascript, nlp, scikit-learn",4,3,2
+STU0155,btech,electronics and instrumentation engineering,6.91,python,133,"data analysis, machine learning, object oriented programming, pandas, python, sql",1,0,1
+STU0288,be,computer science and engineering,7.05,c++,181,"c++, css, data structures",3,8,2
+STU0545,bsc,mathematics,8.56,java,177,"gcp, java, object oriented programming, spring, sql, tensorflow",4,4,2
+STU0018,mtech,computer science and engineering,7.55,javascript,117,"css, data visualization, databases, etl, java, javascript, node.js",0,0,2
+STU0128,btech,electronics and communication engineering,7.16,c++,116,"algorithms, c++, object oriented programming, pandas",0,0,1
+STU0323,btech,artificial intelligence and machine learning,6.33,python,5,"data analysis, machine learning, pandas, python, sql",0,0,3
+STU0256,btech,electronics and instrumentation engineering,8.57,c++,222,"algorithms, api testing, cybersecurity, object oriented programming, sql",2,6,2
+STU0597,btech,artificial intelligence and machine learning,8.51,c,206,"algorithms, c, computer networks, machine learning, nlp, node.js, statistics",3,6,1
+STU0866,be,computer engineering,6.89,c++,85,"c++, cryptography, data structures, mlops, object oriented programming",0,0,3
+STU0191,btech,information technology,8.84,python,249,"css, machine learning, pandas, python, sql",1,8,4
+STU0116,btech,artificial intelligence and machine learning,7.53,javascript,73,"css, html, javascript, node.js, react",0,1,1
+STU0558,bsc,data science,7.0,python,267,"data analysis, pandas, python, sql",5,8,3
+STU0181,bsc,information technology,6.71,java,153,"css, data structures, object oriented programming, spring, sql",0,8,1
+STU0302,bsc,information technology,6.96,c++,203,"c++, data structures, excel, microservices, object oriented programming",0,6,0
+STU0685,be,computer engineering,6.3,python,235,"data analysis, pandas, python, sql",4,12,1
+STU0644,be,computer engineering,9.21,python,290,"data analysis, machine learning, python, sql",0,12,2
+STU0733,be,computer science and engineering,7.68,python,155,"data analysis, machine learning, pandas, python, pytorch, sql",0,6,2
+STU0621,btech,computer science and engineering,6.05,c++,234,"algorithms, c++, data structures",1,6,2
+STU0839,be,computer engineering,6.29,python,172,"data analysis, excel, linux, machine learning, python, sql",0,3,1
+STU0518,btech,artificial intelligence and machine learning,6.32,c++,149,"c++, data structures, object oriented programming",0,0,1
+STU0885,btech,artificial intelligence and machine learning,8.36,c,258,"c, computer networks, docker, flask, html, machine learning, spark, terraform",2,12,4
+STU0046,btech,computer science and business systems,7.07,python,94,"data analysis, machine learning, pandas, python, sql",0,1,0
+STU0815,btech,artificial intelligence and machine learning,8.03,java,313,"data structures, java, object oriented programming",2,12,2
+STU0158,bca,computer applications,7.2,java,111,"java, llm, nlp, spring, sql, tableau",1,2,2
+STU0671,be,computer science and engineering,6.15,python,120,"data analysis, pandas, sql",0,0,1
+STU0172,bsc,information technology,8.22,javascript,158,"html, javascript, node.js, react",1,0,5
+STU0017,bsc,mathematics,7.16,java,251,"api testing, cloud computing, data structures, java, spring, sql",0,6,0
+STU0512,bsc,data science,7.22,c++,261,"algorithms, c++, data structures",0,12,3
+STU0049,bca,computer applications,7.63,c++,148,"c++, data structures, nlp, object oriented programming, sql",0,0,3
+STU0883,btech,electrical engineering,5.99,python,244,"pandas, python, sql",0,6,1
+STU0756,btech,information technology,5.41,python,179,"data analysis, python, sql",0,12,0
+STU0516,btech,electronics and instrumentation engineering,7.04,c++,146,"algorithms, c++, cybersecurity, data structures, excel, object oriented programming",0,1,0
+STU0622,btech,data science,8.68,java,168,"data structures, java, machine learning, object oriented programming, power bi, spring, sql",1,0,3
+STU0481,bsc,mathematics,5.82,javascript,139,"css, javascript, react, typescript",2,1,0
+STU0284,btech,computer science and engineering,7.33,c++,144,"algorithms, c++, object oriented programming, spark",2,3,1
+STU0594,bsc,data science,6.13,python,251,"data analysis, python, sql",0,6,1
+STU0226,btech,information technology,8.04,c++,171,"algorithms, ci/cd, data structures, sql",1,0,1
+STU0027,be,computer science and engineering,7.96,python,239,"data analysis, machine learning, pandas, python, sql",0,12,3
+STU0705,mtech,computer science and engineering,9.6,python,151,"deep learning, machine learning, networking, pandas, selenium, spring, sql",1,3,2
+STU0438,bsc,mathematics,7.45,python,105,"c++, data analysis, machine learning, object oriented programming, sql",0,0,1
+STU0853,mtech,computer science and engineering,7.93,java,5,"data structures, object oriented programming, spring, sql",1,6,3
+STU0365,mtech,computer science and engineering,6.0,c++,73,"algorithms, api testing, data structures, linux, tableau",0,0,0
+STU0230,btech,electrical engineering,8.18,c++,160,"algorithms, c++, data structures, excel, microservices, object oriented programming",1,0,2
+STU0038,be,computer engineering,7.03,python,67,"data analysis, javascript, machine learning, python, scikit-learn, testing",6,0,3
+STU0867,btech,artificial intelligence and machine learning,7.54,java,185,"apis, data analysis, devops, django, machine learning, sql",1,2,2
+STU0375,btech,data science,7.45,c++,142,"algorithms, c++, data structures",0,4,2
+STU0470,btech,information technology,7.32,java,137,"data structures, java, object oriented programming",0,0,0
+STU0869,be,information technology,6.35,c++,95,"algorithms, c++, excel, object oriented programming, sql",2,1,0
+STU0765,btech,electrical engineering,7.32,python,120,"apis, data analysis, databases, pandas, python",1,0,2
+STU0657,btech,electronics and instrumentation engineering,7.79,java,85,"data structures, html, java, object oriented programming, pandas, sql",0,0,2
+STU0195,mtech,computer science and engineering,7.05,c++,102,"algorithms, c++, data structures, object oriented programming",2,0,1
+STU0767,mtech,computer science and engineering,8.63,java,82,"ci/cd, nlp, pandas, sql",1,0,1
+STU0826,bsc,computer science,6.79,java,87,"data structures, java, object oriented programming, spring",1,2,1
+STU0504,btech,electrical engineering,7.08,python,154,"data analysis, python, sql",0,0,1
+STU0871,btech,computer science and engineering,8.41,c,169,"computer networks, data structures, networking, pytorch",6,1,4
+STU0865,be,computer science and engineering,6.5,c++,148,"algorithms, c++, data structures, deep learning, object oriented programming, power bi",0,1,1
+STU0580,btech,computer science and business systems,8.22,python,144,"airflow, pandas, python, sql",0,0,2
+STU0870,bsc,computer science,5.94,c++,255,"algorithms, c++, data structures, git",0,12,1
+STU0163,btech,data science,9.27,javascript,45,"airflow, cloud computing, css, data analysis, html, java, javascript, mlops, spring",1,0,2
+STU0636,bsc,computer science,7.9,c++,229,"c++, data structures, llm",0,12,3
+STU0153,mtech,computer science and engineering,8.37,java,193,"data structures, databases, java, object oriented programming, spring, sql, system design",3,3,2
+STU0617,bsc,data science,7.24,c++,105,"c++, cybersecurity, data structures, data visualization, node.js, object oriented programming",1,0,1
+STU0635,bsc,computer science,7.56,c,291,"algorithms, c, computer networks, data structures, excel, flask, tensorflow",0,12,1
+STU0681,be,computer engineering,7.59,javascript,148,"css, html, javascript, microservices, node.js, react, typescript",1,12,0
+STU0112,btech,artificial intelligence and machine learning,7.25,python,33,"data analysis, machine learning, python, sql",6,0,2
+STU0227,bca,computer applications,7.2,java,93,"api testing, data structures, java, object oriented programming, spring, sql",3,4,0
+STU0623,bsc,computer science,8.1,java,240,"cryptography, java, object oriented programming, spring",0,12,1
+STU0104,be,computer science and engineering,7.91,python,164,"data analysis, machine learning, python, sql",0,6,4
+STU0422,be,information technology,7.89,python,42,"deep learning, html, pandas, python, sql, statistics",0,0,0
+STU0420,btech,information technology,8.74,java,152,"css, data structures, java, object oriented programming, spring, sql",3,3,2
+STU0587,be,computer science and engineering,7.13,javascript,109,"css, html, node.js, spring",0,0,3
+STU0120,be,information technology,7.11,python,146,"data analysis, pandas, python, sql",1,8,0
+STU0054,be,information technology,9.05,c++,162,"algorithms, api testing, c++, cryptography, data structures, docker, object oriented programming",0,1,3
+STU0152,bsc,data science,7.26,c++,137,"c++, data structures, networking, tensorflow",4,0,0
+STU0404,btech,computer science and engineering,9.1,c,77,"c, computer networks, cybersecurity, data structures, databases, docker, git, mlops, spark",3,0,3
+STU0848,btech,computer science and engineering,6.08,c,155,"airflow, algorithms, c, computer networks, data structures",0,1,1
+STU0208,btech,computer science and engineering,9.07,python,213,"data analysis, machine learning, pandas, python, react, sql",0,12,1
+STU0759,bsc,data science,7.12,python,39,"data analysis, machine learning, pandas, sql",1,0,1
+STU0854,mtech,computer science and engineering,7.51,c++,171,"algorithms, c++, data structures",0,9,3
+STU0009,be,computer science and engineering,8.32,javascript,149,"css, html, mlops, node.js, react",1,1,1
+STU0760,btech,computer science and business systems,7.24,java,144,"data structures, linux, mlops, object oriented programming, python, sql",1,6,2
+STU0037,bsc,information technology,7.19,javascript,95,"css, html, react",1,12,2
+STU0453,bsc,data science,6.86,java,12,"css, data structures, java, linux, spring, sql",0,0,1
+STU0254,be,computer engineering,7.99,python,124,"data analysis, machine learning, pandas, python, sql",1,2,0
+STU0304,btech,computer science and engineering,9.69,c,130,"algorithms, c, computer networks, data structures, gcp",1,8,3
+STU0673,bsc,information technology,6.98,java,78,"data structures, object oriented programming, sql",2,0,2
+STU0572,be,information technology,6.99,c++,142,"data structures, flask, object oriented programming",1,3,0
+STU0624,bsc,computer science,7.55,c++,140,"algorithms, c++, data structures",2,3,0
+STU0690,bsc,mathematics,7.49,c,148,"c, computer networks, data structures, etl, excel, node.js, tensorflow",1,12,1
+STU0651,mtech,computer science and engineering,8.12,javascript,95,"computer networks, html, javascript, node.js, react",1,3,0
+STU0263,btech,computer science and business systems,8.45,python,197,"data analysis, java, machine learning, networking, pandas, python, sql",1,3,2
+STU0611,bsc,data science,7.1,c,159,"c, computer networks, data structures, nlp",4,4,2
+STU0298,btech,electronics and communication engineering,7.91,python,170,"data analysis, machine learning, power bi, scikit-learn, sql, statistics",2,0,0
+STU0415,bsc,mathematics,9.38,java,132,"cybersecurity, data pipelines, data structures, object oriented programming, spring, sql",2,2,4
+STU0151,bsc,data science,7.39,javascript,221,"airflow, css, html, javascript",1,12,0
+STU0711,btech,information technology,9.27,java,76,"java, machine learning, object oriented programming, spring, sql",1,0,1
+STU0797,btech,electronics and instrumentation engineering,8.27,python,87,"deep learning, flask, gcp, linux, machine learning, pandas, sql",2,0,2
+STU0551,btech,artificial intelligence and machine learning,5.9,python,150,"data analysis, machine learning, pandas, python, sql",2,12,2
+STU0489,bsc,mathematics,8.47,javascript,216,"algorithms, css, data visualization, html, javascript, node.js, react",0,8,2
+STU0148,bsc,information technology,6.47,python,154,"data analysis, python, sql",3,8,2
+STU0147,bsc,information technology,9.76,python,314,"api testing, c, c++, data analysis, llm, pandas, python",1,8,2
+STU0652,btech,artificial intelligence and machine learning,7.26,java,39,"c, data structures, java, object oriented programming, spring, sql",2,0,2
+STU0834,bsc,computer science,7.6,java,101,"java, object oriented programming, spring",0,0,0
+STU0667,bca,computer applications,5.68,java,68,"data structures, java, spring, sql",0,1,1
+STU0349,btech,artificial intelligence and machine learning,7.64,python,178,"data analysis, python, sql",0,1,0
+STU0464,bsc,mathematics,7.16,c++,119,"algorithms, data structures, gcp, object oriented programming, statistics",1,0,1
+STU0326,bca,computer applications,7.52,c++,319,"algorithms, c++, cybersecurity, object oriented programming, pytorch",1,12,2
+STU0187,btech,electrical engineering,6.8,python,183,"data analysis, python, sql",0,0,1
+STU0124,bsc,mathematics,8.01,python,117,"docker, machine learning, python, react, selenium, system design, typescript",6,0,2
+STU0766,be,computer engineering,7.19,python,193,"data analysis, pandas, python, sql",0,6,1
+STU0609,bsc,information technology,6.5,c++,161,"algorithms, c++, data structures, object oriented programming",2,12,3
+STU0144,btech,electronics and communication engineering,7.11,c,5,"c, computer networks, data structures, machine learning, networking, pandas",1,0,2
+STU0860,btech,computer science and engineering,6.24,c++,105,"c++, data structures, object oriented programming, tensorflow, terraform",0,0,2
+STU0198,bsc,information technology,6.79,c++,70,"algorithms, gcp, tensorflow",0,0,0
+STU0610,btech,data science,6.86,python,116,"data analysis, python, sql",0,3,2
+STU0280,btech,electronics and instrumentation engineering,8.87,c++,302,"algorithms, c++, cloud computing, machine learning, microservices, object oriented programming, python",0,8,3
+STU0294,bca,computer applications,6.65,python,267,"data analysis, pandas, python, sql",1,12,1
+STU0401,be,computer engineering,7.98,java,127,"data structures, java, object oriented programming, spring",0,0,1
+STU0123,bsc,data science,6.83,c++,160,"aws, c++, object oriented programming, statistics, tensorflow",0,3,1
+STU0184,be,computer engineering,6.67,python,117,"aws, data analysis, pandas, python, sql, tensorflow",1,0,0
+STU0203,be,computer engineering,7.45,c++,232,"algorithms, c++, data structures, object oriented programming, pandas, sql",1,12,1
+STU0439,bca,computer applications,7.78,python,113,"data analysis, data visualization, devops, excel, machine learning, pandas, sql",0,12,0
+STU0247,be,computer science and engineering,6.58,python,174,"deep learning, pandas, sql",0,2,0
+STU0416,be,information technology,7.63,python,123,"data analysis, machine learning, sql",3,8,0
+STU0796,btech,data science,6.99,java,208,"css, data structures, html, java, object oriented programming, sql",1,1,1
+STU0130,btech,computer science and engineering,7.93,python,76,"data analysis, machine learning, pandas, python, spark, sql, tableau",3,3,0
+STU0638,bsc,mathematics,7.54,c++,256,"algorithms, c++, data structures, object oriented programming",1,0,1
+STU0403,btech,information technology,6.45,python,27,"azure, devops, machine learning, microservices, python, sql",0,0,2
+STU0707,mtech,computer science and engineering,7.89,c++,159,"algorithms, c++, data structures, object oriented programming",2,0,2
+STU0695,bsc,computer science,9.67,c,109,"algorithms, c, computer networks, data structures, devops, git, kubernetes, mlops",5,1,2
+STU0818,bsc,computer science,9.01,java,173,"apis, data structures, docker, java, machine learning, object oriented programming, spring, sql, statistics",1,4,3
+STU0220,bca,computer applications,7.54,python,112,"data analysis, machine learning, nlp, pandas, python, terraform",2,0,1
+STU0642,mtech,computer science and engineering,6.46,java,228,"data structures, object oriented programming, sql",2,12,1
+STU0820,be,computer science and engineering,8.45,python,219,"computer networks, data analysis, machine learning, pandas, python, selenium, sql",2,4,1
+STU0678,btech,electronics and communication engineering,8.98,python,274,"cloud computing, data analysis, databases, java, machine learning, mlops, networking, python",3,6,2
+STU0823,be,information technology,7.65,c++,114,"algorithms, apis, c++, data structures, object oriented programming, spring",2,0,0
+STU0625,btech,electronics and communication engineering,6.94,python,86,"algorithms, apis, data analysis, machine learning, python, sql",1,0,1
+STU0754,btech,information technology,7.0,java,130,"data structures, java, object oriented programming, selenium, spring, sql",0,0,2
+STU0686,bca,computer applications,8.31,python,228,"data analysis, docker, machine learning, pandas, python, sql",3,0,2
+STU0387,btech,computer science and business systems,8.03,python,241,"cryptography, data analysis, deep learning, python, sql",0,12,1
+STU0873,btech,artificial intelligence and machine learning,6.49,python,112,"data analysis, python, sql",0,4,2
+STU0510,bsc,data science,6.63,python,121,"data analysis, microservices, python, sql",1,0,2
+STU0268,btech,electrical engineering,6.7,python,174,"gcp, git, machine learning, python, sql",4,6,1
+STU0755,bsc,data science,7.03,java,97,"c, data structures, java, spring, sql",0,0,1
+STU0442,btech,information technology,8.74,c++,349,"algorithms, c++, cybersecurity, data analysis, data structures, machine learning, object oriented programming",5,12,4
+STU0497,be,computer engineering,7.41,java,230,"data structures, flask, java, javascript, object oriented programming, spring",3,12,1
+STU0113,be,computer engineering,6.37,java,18,"devops, etl, java, object oriented programming, power bi, spring",0,0,1
+STU0233,btech,information technology,5.0,javascript,121,"css, data structures, html, javascript, react",0,1,0
+STU0781,mtech,computer science and engineering,8.01,javascript,322,"cryptography, css, data visualization, html, javascript, kubernetes, node.js",3,24,1
+STU0608,btech,data science,5.38,javascript,40,"aws, css, html, javascript, node.js",0,4,0
+STU0672,bsc,mathematics,6.19,c,141,"c, computer networks, css, data structures",1,3,0
+STU0374,bsc,computer science,6.87,java,134,"c, data structures, java, object oriented programming, react, sql",0,12,2
+STU0882,btech,electronics and instrumentation engineering,7.15,java,149,"data structures, java, object oriented programming, sql",2,8,2
+STU0758,bsc,mathematics,6.31,javascript,130,"css, html, javascript, react",0,6,0
+STU0234,be,computer engineering,8.03,javascript,201,"algorithms, css, html, javascript, node.js, power bi, react",4,2,2
+STU0708,btech,computer science and engineering,8.11,python,148,"data analysis, pandas, python, sql",0,6,1
+STU0677,btech,computer science and engineering,6.66,c,65,"algorithms, c, computer networks, data structures, selenium",0,3,1
+STU0318,bsc,computer science,6.72,javascript,99,"css, html, javascript",1,3,1
+STU0649,btech,data science,10.0,c,287,"algorithms, c, ci/cd, computer networks, docker, pytorch, selenium",0,12,3
+STU0411,be,computer science and engineering,8.58,javascript,86,"apis, c, css, html, javascript, networking, node.js",3,2,0
+STU0874,be,computer science and engineering,6.38,java,57,"apis, c, data structures, object oriented programming, spring, sql",0,0,2
+STU0359,bsc,mathematics,6.84,c++,117,"algorithms, data structures, object oriented programming, react",0,0,2
+STU0259,btech,electrical engineering,8.26,c,142,"computer networks, data structures, devops, llm, microservices, python",0,1,0
+STU0628,be,computer science and engineering,6.77,python,178,"data analysis, pandas, python",3,6,0
+STU0633,btech,artificial intelligence and machine learning,8.16,java,147,"data structures, java, object oriented programming",3,0,3
+STU0283,btech,computer science and business systems,8.15,c++,254,"c, c++, cloud computing, databases",1,6,1
+STU0377,be,computer science and engineering,8.51,python,131,"machine learning, pandas, python, sql, tableau",4,2,3
+STU0385,btech,information technology,7.76,python,146,"data analysis, kubernetes, llm, machine learning, pandas, sql, typescript",2,1,1
+STU0225,bsc,mathematics,7.21,c++,110,"airflow, c++, data pipelines, data structures, pytorch, testing",0,12,0
+STU0855,btech,data science,6.95,javascript,42,"node.js, react, spring",0,1,2
+STU0737,be,computer science and engineering,7.83,c++,156,"algorithms, c++, data structures",5,3,3
+STU0473,bsc,data science,8.98,python,114,"data analysis, kubernetes, machine learning, pandas, python, sql, terraform",2,0,2
+STU0348,mtech,computer science and engineering,7.82,c++,185,"c++, data structures, data visualization, testing",1,0,2
+STU0506,btech,data science,7.62,java,202,"data structures, django, html, java, object oriented programming, sql",0,8,2
+STU0640,bsc,mathematics,7.06,c++,229,"algorithms, c++, object oriented programming",0,4,3
+STU0888,btech,electronics and communication engineering,8.27,javascript,247,"apis, javascript, llm, node.js, power bi, react",0,3,2
+STU0850,btech,artificial intelligence and machine learning,8.32,java,143,"data structures, databases, java, spring, sql",0,1,0
+STU0811,bsc,computer science,9.59,java,178,"cloud computing, html, java, object oriented programming, spring, sql",0,0,3
+STU0620,be,computer engineering,6.92,python,123,"data analysis, pandas, python, sql, tensorflow, typescript",1,6,1
+STU0768,bsc,mathematics,7.83,python,147,"aws, data analysis, machine learning, pandas, python, sql",0,0,3
+STU0646,btech,computer science and business systems,8.83,c++,220,"algorithms, c++, data structures, docker, object oriented programming",4,0,2
+STU0761,bca,computer applications,8.48,python,156,"c++, cloud computing, data analysis, machine learning, pandas, python, sql",4,1,2
+STU0557,btech,data science,8.99,java,156,"cloud computing, data structures, java, object oriented programming, sql",5,0,6
+STU0859,btech,electronics and instrumentation engineering,6.81,c++,99,"algorithms, c++, data structures",1,0,0
+STU0578,btech,electrical engineering,6.34,c++,100,"algorithms, c++, data structures",0,0,1
+STU0086,bsc,information technology,8.17,c++,103,"algorithms, c++, data structures, devops, javascript, linux, object oriented programming",1,1,3
+STU0243,bsc,computer science,6.26,java,62,"java, kubernetes, microservices, object oriented programming, spark, spring",0,0,0
+STU0699,btech,artificial intelligence and machine learning,7.3,javascript,136,"css, html, javascript, react, testing",2,6,2
+STU0160,bca,computer applications,6.61,c++,114,"algorithms, c++, cryptography, data structures, object oriented programming",1,0,1
+STU0525,mtech,computer science and engineering,7.21,javascript,300,"computer networks, css, javascript, nlp, node.js, typescript",0,18,3
+STU0036,bsc,computer science,6.98,c++,211,"algorithms, c++, data structures, object oriented programming",1,0,0
+STU0541,bsc,information technology,7.94,java,78,"data structures, java, object oriented programming",0,0,1
+STU0171,btech,electronics and communication engineering,7.08,c++,263,"algorithms, deep learning, object oriented programming, pytorch",2,6,1
+STU0655,be,computer engineering,7.32,c++,121,"algorithms, c++, data structures",2,4,1
+STU0878,btech,electronics and instrumentation engineering,6.05,c++,91,"c++, data structures, data visualization, object oriented programming",1,1,1
+STU0762,be,computer engineering,6.6,java,179,"aws, git, scikit-learn, spark, sql, system design",2,8,0
+STU0847,btech,electrical engineering,7.55,java,204,"apis, scikit-learn, spring, sql, system design, terraform",0,0,1
+STU0734,btech,data science,5.64,c++,53,"algorithms, c++, data structures, java, machine learning",1,0,3
+STU0096,bsc,information technology,9.19,c++,105,"algorithms, c++, data structures, object oriented programming, terraform, testing",4,1,1
+STU0564,mtech,computer science and engineering,8.71,python,228,"data analysis, docker, pandas, python, sql",3,9,3
+STU0241,btech,electronics and instrumentation engineering,8.4,python,116,"etl, html, machine learning, node.js, pandas, python, spark",3,4,2
+STU0575,btech,artificial intelligence and machine learning,6.99,c++,46,"algorithms, data structures, object oriented programming",0,0,0
+STU0691,bsc,computer science,7.66,javascript,163,"data pipelines, deep learning, devops, html, react",6,4,1
+STU0461,bsc,computer science,6.16,c++,135,"algorithms, apis, c++, data structures, object oriented programming",1,1,1
+STU0554,be,computer science and engineering,6.97,c++,201,"algorithms, c++, object oriented programming",1,4,2
+STU0787,bsc,mathematics,6.83,c++,199,"algorithms, c++, data structures, object oriented programming, statistics",2,0,2
+STU0207,be,information technology,7.45,javascript,43,"c++, html, javascript, react",0,0,0
+STU0393,btech,information technology,6.64,java,149,"data structures, java, object oriented programming, spring, sql",1,0,1
+STU0398,btech,computer science and business systems,7.3,java,152,"data structures, deep learning, object oriented programming, scikit-learn, spring, sql, statistics",3,2,1
+STU0763,bsc,mathematics,6.09,python,192,"data analysis, devops, machine learning, python",3,6,2
+STU0218,mtech,computer science and engineering,8.83,java,205,"data analysis, data structures, flask, java, spring",3,6,3
+STU0005,btech,artificial intelligence and machine learning,7.03,python,149,"data analysis, javascript, machine learning, pandas, power bi, python",0,6,2
+STU0643,btech,information technology,7.1,java,182,"api testing, data structures, java, object oriented programming, spring, sql",1,12,2
+STU0805,be,computer engineering,9.1,javascript,138,"css, javascript, machine learning, node.js, react",1,4,2
+STU0613,bca,computer applications,7.03,javascript,47,"html, node.js, react",2,0,1
+STU0739,mtech,computer science and engineering,7.76,c++,152,"algorithms, computer networks, nlp, spark",1,0,2
+STU0547,btech,data science,8.55,c,111,"algorithms, ci/cd, cloud computing, data structures, nlp, python, tableau",4,0,2
+STU0726,bsc,computer science,7.62,c++,62,"algorithms, c++, cybersecurity, data structures, object oriented programming, terraform, typescript",0,0,1
+STU0684,btech,data science,7.1,java,215,"api testing, data structures, java, microservices, object oriented programming, spring",1,0,0
+STU0099,mtech,computer science and engineering,8.19,python,210,"data analysis, machine learning, microservices, pandas, sql",3,18,3
+STU0728,mtech,computer science and engineering,7.52,javascript,57,"aws, css, data pipelines, javascript, mlops, node.js, react",0,0,2
+STU0574,bsc,information technology,6.78,python,176,"data analysis, pandas, python",0,12,1
+STU0407,btech,electronics and instrumentation engineering,8.86,python,183,"apis, html, linux, machine learning, pandas, python, sql, system design, typescript",2,6,3
+STU0503,mtech,computer science and engineering,9.23,java,219,"data structures, java, object oriented programming, power bi, pytorch, spring, sql, system design",0,6,4
+STU0048,btech,electronics and instrumentation engineering,5.9,c++,80,"algorithms, c++, object oriented programming",0,0,2
+STU0033,btech,computer science and business systems,7.94,c++,135,"data structures, data visualization, deep learning, networking, power bi, scikit-learn, system design",1,0,3
+STU0201,btech,artificial intelligence and machine learning,7.1,python,287,"data analysis, pandas, python, sql",0,12,2
+STU0135,bca,computer applications,7.92,c++,249,"algorithms, c++, data structures, devops, object oriented programming",3,0,1
+STU0028,btech,information technology,7.12,python,233,"data analysis, pandas, python, sql",0,6,1
+STU0789,be,computer engineering,8.17,c++,191,"algorithms, c++, data structures",0,6,2
+STU0231,btech,artificial intelligence and machine learning,6.61,java,20,"java, spring, sql, terraform",2,1,0
+STU0490,bsc,computer science,8.13,javascript,290,"css, html, javascript",6,12,2
+STU0379,bsc,information technology,7.69,c++,229,"algorithms, azure, c++, cryptography, data structures",3,6,1
+STU0289,btech,electronics and instrumentation engineering,7.33,python,231,"machine learning, pandas, sql",0,0,2
+STU0419,btech,computer science and engineering,7.8,javascript,76,"css, data pipelines, django, html, linux, node.js, react",1,0,0
+STU0675,btech,electronics and instrumentation engineering,7.33,javascript,71,"azure, c, ci/cd, css, javascript, node.js, react",1,0,2
+STU0392,bsc,mathematics,8.84,java,113,"azure, c, data visualization, deep learning, object oriented programming, pytorch",3,0,3
+STU0593,btech,data science,6.53,c++,168,"algorithms, c++, data structures, object oriented programming, spark",1,0,0
+STU0499,btech,electronics and communication engineering,8.34,c,151,"algorithms, aws, computer networks, data structures, pandas, spring",1,1,3
+STU0139,btech,data science,8.31,java,120,"cloud computing, html, java, node.js, selenium, spring, sql",1,1,2
+STU0063,mtech,computer science and engineering,8.11,javascript,92,"css, javascript, node.js, react",0,0,1
+STU0472,btech,electrical engineering,7.36,java,197,"databases, java, object oriented programming, sql, tableau, tensorflow",3,12,2
+STU0648,btech,electronics and communication engineering,7.59,java,55,"css, data structures, java, node.js, object oriented programming, spring, sql",1,0,3
+STU0129,be,computer science and engineering,9.1,python,355,"c++, cybersecurity, data analysis, machine learning, pandas, python, sql",0,6,1
+STU0877,btech,electronics and instrumentation engineering,7.16,javascript,133,"gcp, html, javascript, node.js",0,0,2
+STU0521,mtech,computer science and engineering,8.61,c++,160,"algorithms, apis, c++, data structures, data visualization, git, llm, tensorflow",2,0,2
+STU0065,bsc,mathematics,7.92,c++,189,"algorithms, c++, data structures",1,0,0
+STU0015,btech,data science,7.51,c++,186,"algorithms, c++, llm, object oriented programming, tensorflow",0,1,3
+STU0157,bsc,data science,7.31,c++,171,"algorithms, c++, data structures, object oriented programming",2,0,3
+STU0041,be,information technology,5.56,javascript,5,"css, html, javascript",0,0,1
+STU0493,bsc,mathematics,8.04,python,141,"cybersecurity, data analysis, machine learning, python, sql",0,0,1
+STU0380,btech,electrical engineering,8.65,java,159,"deep learning, docker, java, scikit-learn, selenium, spring, sql, terraform",0,0,0
+STU0188,btech,electronics and communication engineering,8.94,java,188,"airflow, data structures, java, nlp, object oriented programming, spring, sql",0,0,0
+STU0764,be,information technology,7.89,c++,109,"algorithms, kubernetes, object oriented programming, pytorch, spark",2,0,1
+STU0217,bsc,information technology,7.69,c++,123,"algorithms, apis, c++, data structures, java, nlp, object oriented programming",2,3,5
+STU0792,mtech,computer science and engineering,7.08,c++,217,"algorithms, c++, data structures, object oriented programming",2,6,2
+STU0053,be,computer engineering,7.83,javascript,57,"css, html, javascript, node.js, python, react",0,4,1
+STU0338,btech,artificial intelligence and machine learning,6.77,c++,114,"algorithms, c++, cloud computing, data structures, object oriented programming, react",0,4,2
+STU0749,btech,electronics and instrumentation engineering,8.14,c++,111,"aws, etl, javascript, llm, object oriented programming, sql, tensorflow",0,2,1
+STU0720,bsc,computer science,8.43,java,127,"css, data structures, java, object oriented programming, spring, sql",2,0,0
+STU0725,btech,computer science and business systems,6.9,python,103,"data analysis, devops, machine learning, pandas, sql",0,0,1
+STU0296,btech,information technology,8.7,python,326,"data analysis, data pipelines, data structures, devops, git, llm, machine learning, pandas, sql",6,12,5
+STU0702,be,information technology,7.68,python,55,"data analysis, python, sql",6,0,1
+STU0252,btech,electronics and communication engineering,8.12,javascript,75,"html, javascript, node.js, react, scikit-learn, spring",0,0,2
+STU0727,btech,electronics and communication engineering,7.34,java,153,"data structures, docker, java, object oriented programming, spark, spring",1,3,2
+STU0462,btech,information technology,7.84,c++,261,"algorithms, c++, data structures, devops, excel, object oriented programming, sql",1,8,2
+STU0456,btech,computer science and engineering,8.26,python,270,"azure, cloud computing, data analysis, machine learning, python, sql",1,12,3
+STU0897,bca,computer applications,7.62,c++,281,"azure, c++, ci/cd, data structures, git, python, terraform",3,8,2
+STU0270,bsc,computer science,6.92,python,192,"data analysis, pandas, python, sql",1,12,0
+STU0202,btech,data science,5.86,python,151,"data analysis, machine learning, pandas, python",1,0,1
+STU0162,btech,information technology,5.72,c++,87,"c++, data structures, object oriented programming",0,0,0
+STU0556,bsc,computer science,8.34,python,148,"data analysis, machine learning, pandas, python, sql, terraform",0,0,2
+STU0730,btech,electrical engineering,7.21,python,117,"data analysis, pandas, python",0,0,1
+STU0402,btech,artificial intelligence and machine learning,7.46,java,280,"api testing, data structures, java, object oriented programming, spring, sql",3,12,0
+STU0703,btech,computer science and engineering,8.4,python,334,"data analysis, pandas, python, sql",1,12,2
+STU0477,btech,electronics and communication engineering,7.61,python,213,"algorithms, api testing, data analysis, docker, linux, machine learning, power bi",2,2,1
+STU0772,btech,computer science and business systems,8.22,javascript,165,"html, javascript, react",0,6,3
+STU0106,bca,computer applications,8.23,python,124,"data analysis, pandas, python, sql",0,3,2
+STU0566,btech,electronics and communication engineering,7.71,python,198,"data analysis, machine learning, pandas, python",3,8,1
+STU0390,btech,electrical engineering,8.79,python,251,"data analysis, docker, gcp, machine learning, pandas, python, sql",2,4,1
+STU0002,btech,computer science and business systems,6.49,python,173,"data analysis, machine learning, python, sql",0,1,0
+STU0840,btech,electrical engineering,7.28,c++,95,"algorithms, c++, data structures, gcp, react",1,4,2
+STU0562,btech,electrical engineering,7.94,c++,241,"algorithms, c++, data structures",0,12,2
+STU0081,btech,data science,8.37,java,129,"algorithms, java, object oriented programming, selenium, spring",0,6,2
+STU0206,mtech,computer science and engineering,7.73,javascript,385,"css, html, javascript, node.js, react",1,24,3
+STU0035,btech,electronics and communication engineering,7.4,c++,129,"algorithms, c++, java, mlops, object oriented programming, system design",2,1,0
+STU0776,be,information technology,6.8,javascript,130,"css, html, react",0,0,0
+STU0509,btech,computer science and business systems,7.23,c++,79,"c++, data structures, object oriented programming",1,1,0
+STU0428,btech,data science,7.95,python,131,"cryptography, data analysis, devops, machine learning, pandas, sql",0,1,1
+STU0455,bsc,computer science,6.32,java,238,"data structures, java, object oriented programming",0,6,1
+STU0367,btech,electronics and communication engineering,6.81,c++,156,"algorithms, data structures, microservices, object oriented programming",1,0,1
+STU0092,be,computer engineering,7.87,java,128,"data structures, object oriented programming, spring, sql",1,0,0
+STU0340,btech,artificial intelligence and machine learning,7.71,javascript,19,"css, html, javascript",2,0,0
+STU0565,be,computer engineering,8.0,c,160,"algorithms, data analysis, data structures, excel, gcp, tableau, testing",1,0,0
+STU0346,bsc,information technology,7.09,python,185,"data analysis, etl, linux, pandas, python, spark",0,3,2
+STU0777,bsc,data science,6.38,java,36,"data structures, java, object oriented programming, spring",0,1,2
+STU0242,be,information technology,8.85,java,183,"data pipelines, data structures, databases, java, object oriented programming, spring, sql",6,6,4
+STU0014,bca,computer applications,7.01,python,238,"azure, data analysis, javascript, machine learning, pandas, python",2,8,2
+STU0316,btech,data science,7.17,c,32,"algorithms, c, networking, typescript",1,6,1
+STU0601,bsc,information technology,5.15,javascript,5,"css, html, javascript, react",0,6,1
+STU0388,bsc,mathematics,7.64,python,161,"cybersecurity, linux, machine learning, pandas, power bi, python, tensorflow",1,8,3
+STU0274,bsc,mathematics,6.83,javascript,129,"css, javascript, node.js, react",0,8,0
+STU0167,btech,electronics and communication engineering,7.44,python,71,"data analysis, machine learning, pandas, python, sql",1,0,1
+STU0841,btech,data science,8.08,java,269,"cloud computing, data structures, spring, testing",0,12,3
+STU0893,btech,computer science and business systems,6.31,python,5,"data analysis, machine learning, python, scikit-learn",2,0,0
+STU0647,btech,electrical engineering,7.82,python,191,"ci/cd, data analysis, machine learning, pandas, python, sql",0,6,2
+STU0819,btech,electrical engineering,6.39,c++,127,"algorithms, c++, data structures",2,0,1
+STU0485,btech,electrical engineering,6.78,python,70,"c++, data analysis, machine learning, python, pytorch, sql",1,6,0
+STU0881,bsc,information technology,7.63,java,231,"java, object oriented programming, react, spring, sql",2,12,2
+STU0505,bca,computer applications,6.51,java,149,"devops, java, networking, object oriented programming, sql, tableau",0,4,1
+STU0832,btech,computer science and engineering,8.17,python,157,"data analysis, machine learning, pandas, python, sql",1,3,2
+STU0244,btech,information technology,7.42,c,93,"c, computer networks, data structures, networking",1,8,1
+STU0567,be,computer science and engineering,8.1,c++,224,"algorithms, c++, ci/cd, data structures, node.js, object oriented programming",6,12,4
+STU0563,mtech,computer science and engineering,7.43,c++,159,"airflow, algorithms, c++, data structures, object oriented programming, sql",0,6,3
+STU0687,bsc,mathematics,8.34,python,128,"data analysis, machine learning, pandas, python",1,4,1
+STU0190,bsc,information technology,5.66,c++,114,"algorithms, c++, data structures, object oriented programming",0,0,1
+STU0783,btech,computer science and business systems,7.37,python,89,"data analysis, machine learning, object oriented programming, python, selenium, sql, tableau",1,2,2
+STU0700,btech,information technology,5.83,javascript,5,"git, html, node.js, react, spring",0,0,0
+STU0476,btech,computer science and engineering,7.24,javascript,62,"css, html, react",0,0,2
+STU0682,be,computer science and engineering,7.39,java,70,"data structures, java, object oriented programming",0,0,1
+STU0511,btech,electronics and communication engineering,8.69,c++,115,"airflow, cloud computing, data pipelines, git, microservices, object oriented programming, sql",0,1,1
+STU0059,bsc,data science,10.0,c++,405,"c++, data structures, linux, microservices, object oriented programming, system design",6,12,3
+STU0475,bsc,data science,5.58,python,138,"data analysis, pandas, python",1,0,2
+STU0561,bca,computer applications,7.38,java,288,"java, object oriented programming, sql",0,12,1
+STU0857,btech,computer science and business systems,7.72,javascript,176,"css, html, javascript, node.js, react",1,0,2
+STU0748,btech,electronics and communication engineering,7.65,c++,205,"c++, data structures, object oriented programming",1,12,3
+STU0253,btech,information technology,6.49,java,210,"data structures, java, object oriented programming",1,6,0
+STU0022,bca,computer applications,6.92,javascript,147,"css, html, javascript, machine learning, node.js",1,0,1
+STU0314,btech,data science,6.41,c++,175,"algorithms, c++, data structures, spring",1,6,1
+STU0460,be,computer science and engineering,8.58,c,69,"algorithms, c, computer networks, data structures, excel, linux, tableau",4,0,2
+STU0161,btech,electrical engineering,7.85,python,142,"cryptography, data analysis, flask, pandas, python, sql, system design",0,0,0
+STU0277,bsc,data science,6.52,javascript,50,"data analysis, html, javascript, node.js, react",1,0,1
+STU0192,btech,artificial intelligence and machine learning,6.05,python,49,"data analysis, python, sql",1,4,2
+STU0386,bsc,mathematics,6.41,python,156,"data analysis, python, sql",0,3,0
+STU0806,mtech,computer science and engineering,7.85,c++,281,"algorithms, c++, data structures",3,18,2
+STU0414,btech,computer science and business systems,8.99,python,124,"algorithms, aws, cybersecurity, docker, excel, java, machine learning, microservices, pandas",2,2,2
+STU0492,be,computer engineering,7.34,javascript,119,"api testing, css, html, node.js, react, statistics, testing",1,6,4
+STU0344,bsc,mathematics,10.0,python,334,"data analysis, machine learning, pandas, python, pytorch, terraform",5,12,3
+STU0770,mtech,computer science and engineering,7.16,java,338,"data structures, java, object oriented programming",2,18,2
+STU0309,be,computer engineering,6.61,java,5,"css, data structures, object oriented programming, spring, sql",0,3,0
+STU0662,btech,computer science and engineering,6.82,python,199,"data analysis, machine learning, object oriented programming, python, react",6,12,2
+STU0131,btech,electronics and communication engineering,7.82,java,115,"data structures, java, object oriented programming, sql",1,3,2
+STU0664,be,information technology,8.46,python,210,"c, css, excel, machine learning, pandas, python, terraform",2,4,1
+STU0872,be,computer science and engineering,6.99,c++,120,"c++, object oriented programming, power bi",1,6,1
+STU0100,bsc,mathematics,6.94,c++,101,"algorithms, c++, object oriented programming, power bi, tableau",0,0,0
+STU0373,mtech,computer science and engineering,7.56,python,171,"linux, machine learning, pandas, python, selenium, sql, tableau",1,3,2
+STU0088,btech,computer science and business systems,7.36,java,169,"data structures, java, object oriented programming, sql",1,1,1
+STU0459,bsc,computer science,9.07,python,353,"data analysis, excel, machine learning, object oriented programming, pandas, python, sql",6,2,5
+STU0331,bca,computer applications,8.39,c++,264,"algorithms, c++, data structures, object oriented programming",1,0,2
+STU0215,be,computer science and engineering,9.21,javascript,211,"cloud computing, css, docker, flask, html, node.js, react, spring boot",0,0,1
+STU0467,bsc,computer science,7.21,python,124,"c++, data analysis, machine learning, pandas, python",1,0,3
+STU0122,bca,computer applications,8.21,c++,245,"algorithms, data structures, object oriented programming, python",0,12,1
+STU0615,btech,artificial intelligence and machine learning,6.7,python,156,"cryptography, docker, machine learning, microservices, python, sql",1,6,0
+STU0021,mtech,computer science and engineering,9.38,java,188,"flask, java, object oriented programming, spring, sql",0,3,2
+STU0701,bca,computer applications,8.74,python,44,"data analysis, docker, pandas, python, sql",1,0,1
+STU0072,bsc,computer science,8.01,java,77,"data pipelines, data structures, java, object oriented programming, spring",0,4,1
+STU0107,btech,artificial intelligence and machine learning,6.56,c++,234,"algorithms, c++, data structures",6,12,1
+STU0271,bca,computer applications,5.43,java,68,"java, javascript, react, spring, sql",1,6,1
+STU0861,be,computer engineering,6.98,python,91,"machine learning, pandas, python, sql",0,4,0
+STU0436,mtech,computer science and engineering,7.47,c++,310,"algorithms, c++, data structures, excel, mlops",0,18,3
+STU0103,btech,electronics and communication engineering,7.71,c,183,"algorithms, azure, computer networks, data structures, sql",1,12,4
