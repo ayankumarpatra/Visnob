@@ -17,8 +17,8 @@ from sklearn.preprocessing import StandardScaler
 # section 1: settings
 # csv files are looked up next to this script first, then in the current folder.
 
-student_file_name = "student_datase0.csv"
-job_file_name = "company_job_dataset_scrapped2809.csv"
+student_file_name = "student_data.csv"
+job_file_name = "brands_data.csv"
 
 random_seed = 42            # keeps the clustering result the same on every run
 number_of_clusters = 3      # 3 student levels and 3 job tiers (low, mid, top)
@@ -27,6 +27,7 @@ level_names = ["beginner", "intermediate", "advanced"]
 
 min_skill_match = 0.5       # a role is suggested only if the student covers 50% of its skills
 roles_to_show = 8           # how many "apply now" roles to print
+closest_roles_to_show = 5   # how many "closest" roles to print when no role passes every check
 upgrade_roles_to_check = 10 # how many next-tier roles to study for the upgrade path
 
 # soft skills are not matched like technical skills:
@@ -48,8 +49,17 @@ skill_aliases = {
 # communication answers converted to numbers (jobs asking for communication need 2 or more)
 communication_scores = {"bad": 0, "low": 1, "mid": 2, "good": 3, "high": 3}
 
-# sites asked one by one in the terminal, the counts are added together
-coding_sites = ["leetcode", "hackerrank", "codechef", "codeforces", "other sites"]
+# words typed when a student has nothing to list (treated as an empty answer, not a skill)
+empty_words = {"na", "n/a", "none", "no", "nil", "-"}
+
+# solving many coding questions means the student practised these core skills,
+# so they are added automatically (the same idea as problem solving above).
+coding_skill_threshold = 50
+skills_from_coding = ["data structures", "algorithms"]
+
+# a new student's numbers are capped at the 95th percentile of the training students,
+# so one extreme value (like 7 projects when most have 0 or 1) cannot fake a high level.
+cap_percentile = 0.95
 
 
 def find_file(file_name):
@@ -77,7 +87,7 @@ def split_skills(text):
     if pd.isna(text) or str(text).strip() == "":
         return []
     parts = [clean_skill(part) for part in str(text).split(",")]
-    return sorted(set(part for part in parts if part))
+    return sorted(set(part for part in parts if part and part not in empty_words))
 
 
 def clean_degree(text):
@@ -157,6 +167,9 @@ student_feature_columns = [
 student_scaler = StandardScaler()
 student_scaled = student_scaler.fit_transform(students[student_feature_columns].values)
 
+# upper limit for each feature, used to cap the numbers of a new student
+student_caps = students[student_feature_columns].quantile(cap_percentile).values
+
 student_model = KMeans(n_clusters=number_of_clusters, n_init=10, random_state=random_seed)
 students["student_cluster"] = student_model.fit_predict(student_scaled)
 
@@ -223,45 +236,42 @@ def ask_number(prompt, low, high, whole=False):
         return int(value) if whole else value
 
 
-def ask_optional_count(prompt):
-    # blank answer means zero
-    while True:
-        answer = input(prompt).strip()
-        if answer == "":
-            return 0
-        if answer.isdigit():
-            return int(answer)
-        print("  please type a whole number or press enter")
-
-
 def get_student_input():
     print("\n" + "=" * 60)
-    print("enter your details")
+    print("enter the details")
     print("=" * 60)
     degree = clean_degree(ask_text("degree (btech, be, bsc, bca, mtech): "))
     branch = ask_text("branch (example: computer science and engineering): ")
     cgpa = ask_number("cgpa (0 to 10): ", 0, 10)
-    language = clean_skill(ask_text("primary coding language (example: python, c++, java): "))
+    language = clean_skill(ask_text("primary coding language (eg: python, c++, java): "))
 
-    print("coding questions solved on each site (press enter for none):")
-    solved = sum(ask_optional_count(f"  {site}: ") for site in coding_sites)
+    solved = ask_number("approx coding questions solved across all sites (0 if none): ", 0, 100000, whole=True)
 
-    skills = split_skills(ask_text("technical skills, comma separated (example: sql, ml, react): "))
+    skills = split_skills(ask_text("technical skills, comma separated (eg: sql, ml, react): "))
     projects = ask_number("number of projects: ", 0, 50, whole=True)
     experience = ask_number("internship/work experience in months: ", 0, 240, whole=True)
     certifications = ask_number("number of certifications: ", 0, 50, whole=True)
 
     while True:
-        comm_text = ask_text("communication skill (mid / low / bad): ")
+        comm_text = ask_text("communication skill (high/good/ mid / low / bad): ")
         if comm_text in communication_scores:
             break
         print("  please type mid, low or bad")
 
     # the primary coding language is also a skill, so it is added to the skill list
     skills = sorted(set(skills + [language]))
+
+    # enough practice means the core problem solving skills are covered
+    if solved >= coding_skill_threshold:
+        skills = sorted(set(skills + skills_from_coding))
+
+    # skills that do not exist in the data cannot be matched, so they are removed
+
+    # warning again , i have removed these things , never calculated    
     unknown = [skill for skill in skills if skill not in known_skills]
     if unknown:
         print(f"note: not found in our data, ignored for matching: {', '.join(unknown)}")
+    skills = [skill for skill in skills if skill in known_skills]
 
     return {
         "degree": degree, "branch": branch, "cgpa": cgpa, "language": language,
@@ -278,6 +288,7 @@ def find_student_level(student):
     # scale the new student with the same scaler used in training, then find the nearest cluster
     row = np.array([[student["cgpa"], student["solved"], student["projects"],
                      student["experience"], student["certifications"], len(student["skills"])]])
+    row = np.minimum(row, student_caps)  # cap extreme values before scaling
     cluster_id = int(student_model.predict(student_scaler.transform(row))[0])
     return student_cluster_to_rank[cluster_id]
 
@@ -401,6 +412,18 @@ def run_matching(student):
     for _, item in ready.head(roles_to_show).iterrows():
         print_role_line(item)
         print(f"      tier    : {tier_names[item['tier_rank']]}")
+
+    # nothing passed every check: show the closest roles you are eligible for,
+    # even though the skill match is below the limit, so there is a starting point
+    if len(ready) == 0:
+        closest = scored[(scored["blockers"].apply(len) == 0)
+                         & (scored["tier_rank"] <= level_rank)]
+        closest = closest.sort_values(["skill_match", "salary"], ascending=False)
+        if len(closest) > 0:
+            print(f"\nclosest roles you are eligible for (skill match below {min_skill_match * 100:.0f}%):")
+            for _, item in closest.head(closest_roles_to_show).iterrows():
+                print_role_line(item)
+                print(f"      tier    : {tier_names[item['tier_rank']]}")
 
     print_upgrade_path(student, scored, level_rank)
 
