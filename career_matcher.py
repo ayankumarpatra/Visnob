@@ -1,10 +1,14 @@
 # career_matcher.py
-# single model: clusters students and jobs, then maps one new student to job roles.
-# steps: load data -> clean -> cluster jobs into tiers -> cluster students into levels
-#        -> take terminal input -> find student level -> suggest roles -> upgrade path.
+# single model: trains on the job sheet and the historical student sheet, then
+# checks a whole batch of new students at once and prints one result per group.
+# steps: load jobs -> cluster jobs into tiers -> load student_data.csv (training)
+#        -> cgpa bands -> train a skill sub-cluster model inside each band
+#        -> load + validate check_student.csv (the batch to check)
+#        -> put every checked student into a (cgpa band, skill band) group using
+#           the trained models -> match each group with job roles -> print.
 # needs: pip install pandas numpy scikit-learn
 
-import os
+import re
 from collections import Counter
 
 import numpy as np
@@ -15,24 +19,31 @@ from sklearn.preprocessing import StandardScaler
 
 
 # section 1: settings
-# csv files are looked up next to this script first, then in the current folder.
+# job_file_name and train_student_file_name are the training data, they are
+# read once when the script starts and are not shown in the final printout.
+# check_student_file_name is the batch of new students to check, it can have
+# any number of rows, and every one of them appears in the printed groups.
 
-student_file_name = "student_data.csv"
 job_file_name = "brands_data.csv"
+train_student_file_name = "student_data.csv"
+check_student_file_name = "check_student.csv"
 
-random_seed = 42            # keeps the clustering result the same on every run
-number_of_clusters = 3      # 3 student levels and 3 job tiers (low, mid, top)
+random_seed = 42        # keeps every clustering result the same on every run
+job_tiers = 3            # low, mid, top company tiers
+skill_subclusters = 3    # low, mid, good skill groups inside one cgpa band
+min_students_to_cluster = 10  # a cgpa band needs at least this many training
+                               # students before a skill model is trained for it
 tier_names = ["low", "mid", "top"]
-level_names = ["beginner", "intermediate", "advanced"]
+skill_names = ["low", "mid", "good"]
+group_tier_names = ["beginner", "mid", "top"]
 
-min_skill_match = 0.5       # a role is suggested only if the student covers 50% of its skills
-roles_to_show = 8           # how many "apply now" roles to print
-closest_roles_to_show = 5   # how many "closest" roles to print when no role passes every check
-upgrade_roles_to_check = 10 # how many next-tier roles to study for the upgrade path
+min_skill_match = 0.5        # a role needs at least this average skill coverage
+min_eligible_fraction = 0.5  # at least half the group must clear degree/cgpa/exp/comm
+roles_to_show = 5            # "apply now" and "upgrade" roles printed per group
 
-# soft skills are not matched like technical skills:
-# "communication" is checked against the terminal answer, "problem solving" is
-# assumed to be covered by the coding practice, so both are removed from matching.
+# soft skills are not matched like technical skills: "communication" is checked
+# separately from the communication column, "problem solving" is assumed to be
+# covered by coding practice, so both are removed from the skill matching.
 soft_skills = {"communication", "problem solving"}
 
 # common short forms students type, mapped to the names used in the job data
@@ -46,39 +57,54 @@ skill_aliases = {
     "sql server": "sql", "mysql": "sql", "postgres": "sql", "postgresql": "sql",
 }
 
-# communication answers converted to numbers (jobs asking for communication need 2 or more)
-communication_scores = {"bad": 0, "low": 1, "mid": 2, "good": 3, "high": 3}
-
-# words typed when a student has nothing to list (treated as an empty answer, not a skill)
+# words typed when a student has nothing to list (treated as empty, not a skill)
 empty_words = {"na", "n/a", "none", "no", "nil", "-"}
 
-# solving many coding questions means the student practised these core skills,
-# so they are added automatically (the same idea as problem solving above).
+# solving many coding questions means the core skills below are practised too
 coding_skill_threshold = 50
 skills_from_coding = ["data structures", "algorithms"]
 
-# a new student's numbers are capped at the 95th percentile of the training students,
-# so one extreme value (like 7 projects when most have 0 or 1) cannot fake a high level.
-cap_percentile = 0.95
+# communication text converted to a number (jobs asking for communication need 2+)
+communication_scores = {"low": 1, "mid": 2, "good": 3}
 
+# limits used to validate a student row, row is dropped if any of these is broken
+field_limits = {
+    "cgpa": (0, 10),
+    "coding_questions_solved": (0, 100000),
+    "projects_count": (0, 100),
+    "experience_months": (0, 360),
+    "certifications_count": (0, 50),
+}
 
-def find_file(file_name):
-    # look next to the script, then in the folder the script was started from
-    script_folder = os.path.dirname(os.path.abspath(__file__))
-    for folder in (script_folder, os.getcwd()):
-        path = os.path.join(folder, file_name)
-        if os.path.exists(path):
-            return path
-    raise FileNotFoundError(f"could not find {file_name}, keep it next to this script")
-
+# many people may type a column header differently, this maps every accepted
+# spelling to the one name used in the rest of the code
+column_aliases = {
+    "student_id": ["student_id", "studentid", "id"],
+    "degree": ["degree"],
+    "branch": ["branch"],
+    "cgpa": ["cgpa"],
+    "coding_language": ["coding_language", "knowncodinglanguage", "primarylanguage", "language"],
+    "coding_questions_solved": ["coding_questions_solved", "approxcodingquestionssolvedacrossallsites",
+                                 "questionssolved"],
+    "technical_skills": ["technical_skills", "technicalskills", "skills"],
+    "projects_count": ["projects_count", "numberofprojects", "projects"],
+    "experience_months": ["experience_months", "internshipworkexperienceinmonths", "experience"],
+    "certifications_count": ["certifications_count", "numberofcertifications", "certifications"],
+    "communication": ["communication", "communicationskill"],
+}
 
 
 # section 2: small cleaning helpers
-# everything is converted to lowercase so the two datasets and the terminal
-# input all use exactly the same spelling.
+# everything is converted to lowercase so the job sheet, the training sheet
+# and the checked sheet all use exactly the same spelling.
+
+def normalize_header(text):
+    # "Number of Projects" / "number_of_projects " -> "numberofprojects"
+    return re.sub(r"[^a-z0-9]", "", str(text).strip().lower())
+
 
 def clean_skill(text):
-    text = text.strip().lower()
+    text = str(text).strip().lower()
     return skill_aliases.get(text, text)
 
 
@@ -96,7 +122,7 @@ def clean_degree(text):
 
 
 def parse_experience(value):
-    # dataset stores "fresher" or a number of years (assumed years, not months)
+    # job sheet stores "fresher" or a number of years (assumed years, not months)
     value = str(value).strip().lower()
     if value == "fresher":
         return 0.0
@@ -106,45 +132,64 @@ def parse_experience(value):
         return 0.0
 
 
+def cgpa_band(cgpa):
+    # fixed, explainable cutoffs, chosen by hand rather than learned from data
+    if cgpa > 8:
+        return "top"
+    if cgpa >= 6:
+        return "mid"
+    return "low"
 
-# section 3: load and prepare both datasets
 
-students = pd.read_csv(find_file(student_file_name))
-jobs = pd.read_csv(find_file(job_file_name))
+cgpa_band_rank = {"low": 0, "mid": 1, "top": 2}
+skill_feature_columns = ["skill_count", "coding_questions_solved", "projects_count",
+                          "experience_months", "certifications_count"]
 
-# students: turn the skills text into a python list and count the skills
-students["skill_list"] = students["technical_skills"].apply(split_skills)
-students["skill_count"] = students["skill_list"].apply(len)
 
-# jobs: same cleaning for skills, degrees and experience
+def rename_to_known_columns(raw):
+    # matches whatever headers the file has to the canonical names used below
+    rename_map = {}
+    for canonical, spellings in column_aliases.items():
+        for column in raw.columns:
+            if normalize_header(column) in spellings:
+                rename_map[column] = canonical
+                break
+    return raw.rename(columns=rename_map)
+
+
+def row_is_valid(row):
+    # returns a text reason if the row is bad, or none if every value makes sense
+    for field, (low, high) in field_limits.items():
+        value = row.get(field)
+        try:
+            value = float(value)
+        except (ValueError, TypeError):
+            return f"{field} is not a number ({row.get(field)!r})"
+        if not low <= value <= high:
+            return f"{field} out of range ({value}), expected {low} to {high}"
+    return None
+
+
+# section 3: load the job data and cluster the roles into tiers (low, mid, top)
+# each row is one company + role. features are scaled first so big numbers
+# (salary) do not overpower small ones (cgpa), then salary is given 3x weight
+# because a tier is mainly about pay, without that weight the tiers overlap.
+
+jobs = pd.read_csv(job_file_name)
 jobs["required_list"] = jobs["required_skills"].apply(split_skills)
 jobs["preferred_list"] = jobs["preferred_skills"].apply(split_skills)
 jobs["degree_list"] = jobs["degrees_accepted"].apply(
     lambda text: [clean_degree(part) for part in str(text).split(",")]
 )
-jobs["exp_years"] = jobs["experience_required"].apply(parse_experience)
+jobs["exp_months"] = jobs["experience_required"].apply(parse_experience) * 12
+jobs["needs_comm"] = jobs["required_list"].apply(lambda skills: "communication" in skills)
 
-# every skill that appears anywhere in the two datasets (used to warn about unknown skills)
-known_skills = set()
-for skill_list in students["skill_list"]:
-    known_skills.update(skill_list)
-for skill_list in jobs["required_list"] + jobs["preferred_list"]:
-    known_skills.update(skill_list)
-
-
-
-# section 4: cluster the job roles into tiers (low, mid, top)
-# each row is one company + role. rows with similar pay and hiring difficulty
-# fall into the same cluster. features are scaled first so big numbers (salary)
-# do not overpower small ones (cgpa), then salary is given 3x weight because
-# a tier is mainly about pay. without this weight the tiers overlap heavily.
-
-job_feature_columns = ["salary_avg_lpa", "min_cgpa", "exp_years", "coding_test_rounds"]
+job_feature_columns = ["salary_avg_lpa", "min_cgpa", "exp_months", "coding_test_rounds"]
 job_feature_weights = np.array([3, 1, 1, 1])
 job_scaler = StandardScaler()
 job_scaled = job_scaler.fit_transform(jobs[job_feature_columns].values) * job_feature_weights
 
-job_model = KMeans(n_clusters=number_of_clusters, n_init=10, random_state=random_seed)
+job_model = KMeans(n_clusters=job_tiers, n_init=10, random_state=random_seed)
 jobs["job_cluster"] = job_model.fit_predict(job_scaled)
 
 # name the clusters by average salary: lowest salary cluster = low, highest = top
@@ -152,294 +197,289 @@ job_centers = job_scaler.inverse_transform(job_model.cluster_centers_ / job_feat
 job_order = np.argsort(job_centers[:, 0])  # column 0 is salary
 job_cluster_to_rank = {int(cluster_id): rank for rank, cluster_id in enumerate(job_order)}
 jobs["tier_rank"] = jobs["job_cluster"].map(job_cluster_to_rank)
-jobs["tier"] = jobs["tier_rank"].apply(lambda rank: tier_names[rank])
+
+# every skill in the job sheet (used to drop skills a student typed that we don't know)
+known_skills = set()
+for skill_list in jobs["required_list"] + jobs["preferred_list"]:
+    known_skills.update(skill_list)
+
+# job arrays used later for fast, whole-group eligibility checks
+job_min_cgpa = jobs["min_cgpa"].to_numpy()
+job_exp_months = jobs["exp_months"].to_numpy()
+job_needs_comm = jobs["needs_comm"].to_numpy()
+
+# for every degree spelling seen in the job sheet, which jobs accept it
+all_degrees = {clean_degree(d) for row in jobs["degree_list"] for d in row}
+degree_accepts_job = {
+    degree: jobs["degree_list"].apply(lambda row: degree in row).to_numpy()
+    for degree in all_degrees
+}
 
 
+# section 4: train the student skill model on the historical student sheet
+# this is the "training" step: cgpa bands are fixed, but inside each band a
+# k-means model is fit on the training students so it learns what a "low",
+# "mid" or "good" skill profile looks like for students of that cgpa band.
+# these trained models are reused later on the batch of new students, they
+# are never re-fit on the students being checked.
 
-# section 5: cluster the students into levels (beginner, intermediate, advanced)
-# students with similar cgpa, practice, projects, experience, certifications
-# and skill count are grouped together. clusters are named by overall strength.
+train_raw = rename_to_known_columns(pd.read_csv(train_student_file_name, dtype=str))
+train_raw["problem"] = train_raw.apply(row_is_valid, axis=1)
+dropped = train_raw["problem"].notna().sum()
+train_raw = train_raw[train_raw["problem"].isna()].copy()
+if dropped:
+    print(f"training data: dropped {dropped} rows that failed validation")
 
-student_feature_columns = [
-    "cgpa", "coding_questions_solved", "projects_count",
-    "experience_months", "certifications_count", "skill_count",
-]
-student_scaler = StandardScaler()
-student_scaled = student_scaler.fit_transform(students[student_feature_columns].values)
+train_students = pd.DataFrame({
+    "cgpa": train_raw["cgpa"].astype(float),
+    "skill_list": train_raw["technical_skills"].apply(split_skills),
+    "coding_questions_solved": train_raw["coding_questions_solved"].astype(float),
+    "projects_count": train_raw["projects_count"].astype(float),
+    "experience_months": train_raw["experience_months"].astype(float),
+    "certifications_count": train_raw["certifications_count"].astype(float),
+})
+train_students["skill_count"] = train_students["skill_list"].apply(len)
+train_students["cgpa_band"] = train_students["cgpa"].apply(cgpa_band)
 
-# upper limit for each feature, used to cap the numbers of a new student
-student_caps = students[student_feature_columns].quantile(cap_percentile).values
+# band_models[band] holds the scaler + trained k-means + cluster-to-skill-name
+# map for that cgpa band, or none if there were too few training rows in it
+band_models = {}
+for band in ["low", "mid", "top"]:
+    part = train_students[train_students["cgpa_band"] == band]
+    if len(part) < min_students_to_cluster:
+        band_models[band] = None
+        continue
+    scaler = StandardScaler()
+    scaled = scaler.fit_transform(part[skill_feature_columns].values)
+    model = KMeans(n_clusters=skill_subclusters, n_init=10, random_state=random_seed)
+    model.fit(scaled)
+    # rank clusters by average scaled strength: low, mid, good
+    strength = model.cluster_centers_.mean(axis=1)
+    order = np.argsort(strength)
+    cluster_to_rank = {int(cid): rank for rank, cid in enumerate(order)}
+    band_models[band] = {"scaler": scaler, "model": model, "cluster_to_rank": cluster_to_rank}
 
-student_model = KMeans(n_clusters=number_of_clusters, n_init=10, random_state=random_seed)
-students["student_cluster"] = student_model.fit_predict(student_scaled)
-
-# strength of a cluster = average of its scaled feature values (higher = stronger students)
-cluster_strength = student_model.cluster_centers_.mean(axis=1)
-student_order = np.argsort(cluster_strength)
-student_cluster_to_rank = {int(cluster_id): rank for rank, cluster_id in enumerate(student_order)}
-students["level_rank"] = students["student_cluster"].map(student_cluster_to_rank)
-
-# cluster centers in real units, used later to show gaps in the upgrade path
-student_centers_real = student_scaler.inverse_transform(student_model.cluster_centers_)
-center_by_rank = {student_cluster_to_rank[cid]: student_centers_real[cid] for cid in range(number_of_clusters)}
-
-# the link between the two sides (no placement outcomes are available):
-# a student level is linked to the job tier of the same rank, so beginner -> low,
-# intermediate -> mid, advanced -> top. roles inside the tier are then chosen by skills.
-
-
-def print_training_summary():
-    # quick quality check for the report: silhouette score (closer to 1 is better)
-    student_silhouette = silhouette_score(student_scaled, students["student_cluster"])
-    job_silhouette = silhouette_score(job_scaled, jobs["job_cluster"])
-    print("=" * 60)
-    print("model training summary")
-    print("=" * 60)
-    print(f"students used: {len(students)} | jobs used: {len(jobs)}")
-    print(f"silhouette score, students: {student_silhouette:.2f} | jobs: {job_silhouette:.2f}")
-    print("\njob tiers found by clustering:")
-    for rank, tier in enumerate(tier_names):
-        part = jobs[jobs["tier_rank"] == rank]
-        print(f"  {tier:<4} tier: {len(part):>3} roles, salary {part['salary_avg_lpa'].min():.1f} "
-              f"to {part['salary_avg_lpa'].max():.1f} lpa (avg {part['salary_avg_lpa'].mean():.1f})")
-    print("\nstudent levels found by clustering (average values):")
-    for rank, level in enumerate(level_names):
-        part = students[students["level_rank"] == rank]
-        print(f"  {level:<12}: {len(part):>3} students, cgpa {part['cgpa'].mean():.1f}, "
-              f"questions {part['coding_questions_solved'].mean():.0f}, "
-              f"projects {part['projects_count'].mean():.1f}, "
-              f"experience {part['experience_months'].mean():.1f} months")
+print(f"trained on {len(train_students)} students from {train_student_file_name} "
+      f"({dropped} rows dropped)")
 
 
+# section 5: load and validate the batch of students to check
+# every row is checked before use, a bad row is skipped and the reason is
+# printed instead of guessing at a value that was never really there.
 
-# section 6: terminal input for one new student
-# each helper keeps asking until the answer is valid.
+def load_students_to_check(file_path):
+    # keep_default_na=False stops pandas turning a blank cell into NaN (which
+    # would print as the text "nan" and slip past the "is it empty" checks)
+    raw = rename_to_known_columns(pd.read_csv(file_path, dtype=str, keep_default_na=False))
 
-def ask_text(prompt):
-    while True:
-        answer = input(prompt).strip().lower()
-        if answer:
-            return answer
-        print("  please type something")
+    missing_columns = [c for c in column_aliases if c not in raw.columns]
+    if missing_columns:
+        raise ValueError(f"{file_path} is missing columns: {', '.join(missing_columns)}")
 
-
-def ask_number(prompt, low, high, whole=False):
-    while True:
-        try:
-            value = float(input(prompt).strip())
-        except ValueError:
-            print("  please type a number")
+    good_rows = []
+    for _, row in raw.iterrows():
+        student_id = str(row["student_id"]).strip()
+        problem = validate_check_row(row)
+        if problem:
+            print(f"skipped student {student_id or '(no id)'}: {problem}")
             continue
-        if not low <= value <= high:
-            print(f"  value must be between {low} and {high}")
-            continue
-        return int(value) if whole else value
+        good_rows.append(build_student_record(row))
+
+    if not good_rows:
+        raise ValueError(f"no valid student rows found in {file_path}")
+    return pd.DataFrame(good_rows)
 
 
-def get_student_input():
-    print("\n" + "=" * 60)
-    print("enter the details")
-    print("=" * 60)
-    degree = clean_degree(ask_text("degree (btech, be, bsc, bca, mtech): "))
-    branch = ask_text("branch (example: computer science and engineering): ")
-    cgpa = ask_number("cgpa (0 to 10): ", 0, 10)
-    language = clean_skill(ask_text("primary coding language (eg: python, c++, java): "))
+def validate_check_row(row):
+    if not str(row["student_id"]).strip():
+        return "student id is empty"
+    if not str(row["degree"]).strip():
+        return "degree is empty"
+    if not str(row["branch"]).strip():
+        return "branch is empty"
+    problem = row_is_valid(row)
+    if problem:
+        return problem
+    comm_text = str(row["communication"]).strip().lower()
+    if comm_text not in communication_scores:
+        return f"communication must be good, mid or low (got {row['communication']!r})"
+    return None
 
-    solved = ask_number("approx coding questions solved across all sites (0 if none): ", 0, 100000, whole=True)
 
-    skills = split_skills(ask_text("technical skills, comma separated (eg: sql, ml, react): "))
-    projects = ask_number("number of projects: ", 0, 50, whole=True)
-    experience = ask_number("internship/work experience in months: ", 0, 240, whole=True)
-    certifications = ask_number("number of certifications: ", 0, 50, whole=True)
-
-    while True:
-        comm_text = ask_text("communication skill (high/good/ mid / low / bad): ")
-        if comm_text in communication_scores:
-            break
-        print("  please type mid, low or bad")
-
-    # the primary coding language is also a skill, so it is added to the skill list
+def build_student_record(row):
+    skills = split_skills(row["technical_skills"])
+    language = clean_skill(row["coding_language"])
     skills = sorted(set(skills + [language]))
 
-    # enough practice means the core problem solving skills are covered
+    solved = float(row["coding_questions_solved"])
     if solved >= coding_skill_threshold:
         skills = sorted(set(skills + skills_from_coding))
-
-    # skills that do not exist in the data cannot be matched, so they are removed
-
-    # warning again , i have removed these things , never calculated    
-    unknown = [skill for skill in skills if skill not in known_skills]
-    if unknown:
-        print(f"note: not found in our data, ignored for matching: {', '.join(unknown)}")
     skills = [skill for skill in skills if skill in known_skills]
 
     return {
-        "degree": degree, "branch": branch, "cgpa": cgpa, "language": language,
-        "solved": solved, "skills": skills, "projects": projects,
-        "experience": experience, "certifications": certifications,
-        "comm_text": comm_text, "comm_score": communication_scores[comm_text],
+        "student_id": str(row["student_id"]).strip(),
+        "degree": clean_degree(row["degree"]),
+        "branch": str(row["branch"]).strip().lower(),
+        "cgpa": float(row["cgpa"]),
+        "skill_list": skills,
+        "skill_count": len(skills),
+        "coding_questions_solved": solved,
+        "projects_count": float(row["projects_count"]),
+        "experience_months": float(row["experience_months"]),
+        "certifications_count": float(row["certifications_count"]),
+        "comm_score": communication_scores[str(row["communication"]).strip().lower()],
     }
 
 
-
-# section 7: match the student with the job side
-
-def find_student_level(student):
-    # scale the new student with the same scaler used in training, then find the nearest cluster
-    row = np.array([[student["cgpa"], student["solved"], student["projects"],
-                     student["experience"], student["certifications"], len(student["skills"])]])
-    row = np.minimum(row, student_caps)  # cap extreme values before scaling
-    cluster_id = int(student_model.predict(student_scaler.transform(row))[0])
-    return student_cluster_to_rank[cluster_id]
+checked_students = load_students_to_check(check_student_file_name)
+print(f"loaded {len(checked_students)} valid students from {check_student_file_name}")
 
 
-def score_roles(student):
-    # for every job row: skill match (0 to 1) and a list of things blocking the application
-    student_skill_set = set(student["skills"])
-    rows = []
-    for _, job in jobs.iterrows():
-        required = [s for s in job["required_list"] if s not in soft_skills]
-        preferred = [s for s in job["preferred_list"] if s not in soft_skills]
-        matched = [s for s in required if s in student_skill_set]
-        missing = [s for s in required if s not in student_skill_set]
-        required_cover = len(matched) / len(required) if required else 1.0
-        preferred_cover = (len([s for s in preferred if s in student_skill_set]) / len(preferred)
-                           if preferred else 0.0)
-        # required skills count 80%, preferred skills 20%
-        skill_match = 0.8 * required_cover + 0.2 * preferred_cover
+# section 6: place every checked student into a (cgpa band, skill band) group
+# using the models trained in section 4. no clustering is (re)fit here, each
+# student is only passed through the model that was trained for their band.
 
-        # eligibility checks
-        blockers = []
-        if student["degree"] not in job["degree_list"]:
-            blockers.append("degree not accepted")
-        if student["cgpa"] < job["min_cgpa"]:
-            blockers.append(f"cgpa below {job['min_cgpa']}")
-        if student["experience"] < job["exp_years"] * 12:
-            blockers.append(f"needs {int(job['exp_years'] * 12)} months experience")
-        if "communication" in job["required_list"] and student["comm_score"] < 2:
-            blockers.append("needs better communication")
+def predict_skill_band(row, band):
+    trained = band_models[band]
+    if trained is None:
+        return "mid"  # not enough training data for this band, use a safe default
+    features = [[row["skill_count"], row["coding_questions_solved"], row["projects_count"],
+                 row["experience_months"], row["certifications_count"]]]
+    scaled = trained["scaler"].transform(features)
+    cluster_id = int(trained["model"].predict(scaled)[0])
+    rank = trained["cluster_to_rank"][cluster_id]
+    return skill_names[rank]
 
-        rows.append({
-            "company": job["company_name"], "role": job["job_role"],
-            "salary": job["salary_avg_lpa"], "tier_rank": int(job["tier_rank"]),
-            "skill_match": skill_match, "matched": matched, "missing": missing,
-            "blockers": blockers,
-        })
-    return pd.DataFrame(rows)
+
+checked_students["cgpa_band"] = checked_students["cgpa"].apply(cgpa_band)
+checked_students["skill_band"] = checked_students.apply(
+    lambda row: predict_skill_band(row, row["cgpa_band"]), axis=1)
+
+# one group per (cgpa_band, skill_band) combination that actually appears
+# in the checked batch, tier = cgpa band rank + skill band rank added together,
+# 0-1 -> beginner, 2 -> mid, 3-4 -> top
+group_records = []
+for (band, skill_band), member_index in checked_students.groupby(
+        ["cgpa_band", "skill_band"]).groups.items():
+    combined = cgpa_band_rank[band] + skill_names.index(skill_band)
+    overall_tier = 0 if combined <= 1 else (1 if combined == 2 else 2)
+    group_records.append({
+        "cgpa_band": band, "skill_band": skill_band,
+        "member_index": member_index, "tier_rank": overall_tier,
+    })
+
+print("note: a group's tier comes from cgpa band rank + skill band rank added "
+      "together, 0-1 -> beginner, 2 -> mid, 3-4 -> top")
+
+
+# section 7: match one group of students with the job sheet
+# matching is done at the group level (average skill coverage, fraction of the
+# group that is eligible), since the output is one result per group.
+
+def group_skill_frequency(member_students):
+    # fraction of the group that has each skill
+    counts = Counter(skill for skills in member_students["skill_list"] for skill in skills)
+    total = len(member_students)
+    return {skill: count / total for skill, count in counts.items()}
+
+
+def score_jobs_for_group(member_students):
+    skill_freq = group_skill_frequency(member_students)
+    cgpa_arr = member_students["cgpa"].to_numpy()[:, None]        # shape (n, 1)
+    exp_arr = member_students["experience_months"].to_numpy()[:, None]
+    comm_arr = member_students["comm_score"].to_numpy()[:, None]
+
+    cgpa_ok = (cgpa_arr >= job_min_cgpa[None, :]).mean(axis=0)     # shape (m,)
+    exp_ok = (exp_arr >= job_exp_months[None, :]).mean(axis=0)
+    comm_ok_if_needed = (comm_arr >= 2).mean(axis=0)
+    comm_ok = np.where(job_needs_comm, comm_ok_if_needed, 1.0)
+
+    degree_ok_rows = np.vstack([degree_accepts_job.get(d, np.zeros(len(jobs), dtype=bool))
+                                for d in member_students["degree"]])
+    degree_ok = degree_ok_rows.mean(axis=0)
+
+    eligible_fraction = (cgpa_ok + exp_ok + comm_ok + degree_ok) / 4
+
+    skill_match, matched_list, missing_list = [], [], []
+    for required, preferred in zip(jobs["required_list"], jobs["preferred_list"]):
+        required = [s for s in required if s not in soft_skills]
+        preferred = [s for s in preferred if s not in soft_skills]
+        req_cov = np.mean([skill_freq.get(s, 0.0) for s in required]) if required else 1.0
+        pref_cov = np.mean([skill_freq.get(s, 0.0) for s in preferred]) if preferred else 0.0
+        skill_match.append(0.8 * req_cov + 0.2 * pref_cov)
+        matched_list.append([s for s in required if skill_freq.get(s, 0.0) >= 0.5])
+        missing_list.append([s for s in required if skill_freq.get(s, 0.0) < 0.5])
+
+    result = jobs[["company_name", "job_role", "salary_avg_lpa", "tier_rank"]].copy()
+    result["skill_match"] = skill_match
+    result["eligible_fraction"] = eligible_fraction
+    result["matched"] = matched_list
+    result["missing"] = missing_list
+    return result
 
 
 def print_role_line(item):
-    print(f"  - {item['role']} at {item['company']} | {item['salary']:.1f} lpa | "
-          f"skill match {item['skill_match'] * 100:.0f}%")
-    print(f"      you have: {', '.join(item['matched']) or 'none'}")
+    print(f"    - {item['job_role']} at {item['company_name']} | {item['salary_avg_lpa']:.1f} lpa | "
+          f"skill match {item['skill_match'] * 100:.0f}% (approx for the group)")
+    print(f"        required skills covered by most of the group: {', '.join(item['matched']) or 'none'}")
     if item["missing"]:
-        print(f"      missing : {', '.join(item['missing'])}")
+        print(f"        missing for most of the group: {', '.join(item['missing'])}")
 
 
-def print_upgrade_path(student, scored, level_rank):
-    print("\n" + "=" * 60)
-    print("upgrade path")
-    print("=" * 60)
-
-    # aim for the next tier up; a top-level student works on the top tier itself
-    if level_rank < number_of_clusters - 1:
-        next_rank = level_rank + 1
-        print(f"target: move from the {tier_names[level_rank]} tier towards the {tier_names[next_rank]} tier")
-    else:
-        next_rank = level_rank
-        print("you are already in the top group; strengthen these to get more top-tier roles")
-
-    # study the best skill-matching roles of the target tier, ignoring eligibility
-    targets = scored[scored["tier_rank"] == next_rank].sort_values(
-        ["skill_match", "salary"], ascending=False).head(upgrade_roles_to_check)
-
-    if len(targets) > 0:
-        print("\nbest-fit roles to aim for:")
-        for _, item in targets.head(3).iterrows():
-            print_role_line(item)
-
-        # skills missing most often across those roles
-        missing_counter = Counter(skill for skills in targets["missing"] for skill in skills)
-        if missing_counter:
-            print("\nskills to learn (most needed first):")
-            for skill, count in missing_counter.most_common(5):
-                print(f"  - {skill} (needed in {count} of {len(targets)} target roles)")
-
-        # blockers that appear most often
-        blocker_counter = Counter(text for blockers in targets["blockers"] for text in blockers)
-        if blocker_counter:
-            print("\nother things stopping you from those roles:")
-            for text, count in blocker_counter.most_common(4):
-                print(f"  - {text} ({count} of {len(targets)} roles)")
-
-    # numeric gaps compared with the average student of the target level
-    target_center = center_by_rank[next_rank]
-    labels = ["cgpa", "coding questions solved", "projects", "experience months",
-              "certifications", "number of skills"]
-    yours = [student["cgpa"], student["solved"], student["projects"],
-             student["experience"], student["certifications"], len(student["skills"])]
-    # tiny gaps (under 5%) are ignored so only meaningful gaps are shown
-    gaps = [(labels[i], yours[i], target_center[i]) for i in range(len(labels))
-            if yours[i] < target_center[i] * 0.95]
-    if gaps:
-        print(f"\nyou are below the average {level_names[next_rank]} student in:")
-        for label, mine, target in gaps:
-            print(f"  - {label}: you {mine:.1f}, target about {target:.1f}")
-
-    if student["comm_score"] < 2:
-        print("\nimprove communication to at least 'mid', some roles need it")
-
-
-def run_matching(student):
-    level_rank = find_student_level(student)
-    scored = score_roles(student)
+def print_group(group_number, record):
+    member_index = record["member_index"]
+    member_students = checked_students.loc[member_index]
+    tier_rank = record["tier_rank"]
 
     print("\n" + "=" * 60)
-    print("result")
+    print(f"student group {group_number}  (cgpa: {record['cgpa_band']}, skills: {record['skill_band']})")
     print("=" * 60)
-    print(f"your student group: {level_names[level_rank]}")
-    print(f"target company tier: {tier_names[level_rank]}")
+    print(f"student ids: {', '.join(member_students['student_id'])}")
+    print(f"tier: {group_tier_names[tier_rank]}")
 
-    # roles that can be applied for today: no blockers, enough skill match, target tier or lower
-    ready = scored[(scored["blockers"].apply(len) == 0)
+    scored = score_jobs_for_group(member_students)
+
+    ready = scored[(scored["tier_rank"] <= tier_rank)
                    & (scored["skill_match"] >= min_skill_match)
-                   & (scored["tier_rank"] <= level_rank)]
-    ready = ready.sort_values(["tier_rank", "skill_match", "salary"], ascending=False)
+                   & (scored["eligible_fraction"] >= min_eligible_fraction)]
+    ready = ready.sort_values(["skill_match", "salary_avg_lpa"], ascending=False)
 
-    print(f"\nroles you can apply for now ({min(len(ready), roles_to_show)} of {len(ready)} shown):")
+    print(f"\n  roles this group can apply for now (top {roles_to_show}):")
     if len(ready) == 0:
-        print("  none yet, see the upgrade path below")
+        print("    none yet, see the upgrade path below")
     for _, item in ready.head(roles_to_show).iterrows():
         print_role_line(item)
-        print(f"      tier    : {tier_names[item['tier_rank']]}")
 
-    # nothing passed every check: show the closest roles you are eligible for,
-    # even though the skill match is below the limit, so there is a starting point
-    if len(ready) == 0:
-        closest = scored[(scored["blockers"].apply(len) == 0)
-                         & (scored["tier_rank"] <= level_rank)]
-        closest = closest.sort_values(["skill_match", "salary"], ascending=False)
-        if len(closest) > 0:
-            print(f"\nclosest roles you are eligible for (skill match below {min_skill_match * 100:.0f}%):")
-            for _, item in closest.head(closest_roles_to_show).iterrows():
-                print_role_line(item)
-                print(f"      tier    : {tier_names[item['tier_rank']]}")
+    next_rank = min(tier_rank + 1, job_tiers - 1)
+    print(f"\n  upgrade path (target tier: {group_tier_names[next_rank]}):")
+    targets = scored[scored["tier_rank"] == next_rank].sort_values(
+        ["skill_match", "salary_avg_lpa"], ascending=False).head(roles_to_show)
+    print(f"  roles to aim for (top {len(targets)}):")
+    for _, item in targets.iterrows():
+        print_role_line(item)
 
-    print_upgrade_path(student, scored, level_rank)
-
+    missing_counter = Counter(skill for skills in targets["missing"] for skill in skills)
+    if missing_counter:
+        print("\n  skills to learn (most needed across the target roles first):")
+        for skill, count in missing_counter.most_common(6):
+            print(f"    - {skill} (missing for {count} of {len(targets)} target roles)")
 
 
 # section 8: main program
 
 def main():
-    print_training_summary()
-    while True:
-        student = get_student_input()
-        run_matching(student)
-        again = input("\ncheck another student? (y/n): ").strip().lower()
-        if again != "y":
-            break
-    print("done")
+    print(f"\njob roles loaded: {len(jobs)}")
+    print("job tiers found by clustering:")
+    for rank, tier in enumerate(tier_names):
+        part = jobs[jobs["tier_rank"] == rank]
+        print(f"  {tier:<4} tier: {len(part):>3} roles, salary {part['salary_avg_lpa'].min():.1f} "
+              f"to {part['salary_avg_lpa'].max():.1f} lpa (avg {part['salary_avg_lpa'].mean():.1f})")
+    print(f"job silhouette score: {silhouette_score(job_scaled, jobs['job_cluster']):.2f}")
+
+    for group_number, record in enumerate(group_records, start=1):
+        print_group(group_number, record)
+
+    print("\ndone")
 
 
 if __name__ == "__main__":
