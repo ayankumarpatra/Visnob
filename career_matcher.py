@@ -6,7 +6,7 @@
 #        -> load + validate check_student.csv (the batch to check)
 #        -> put every checked student into a (cgpa band, skill band) group using
 #           the trained models -> match each group with job roles -> print.
-# needs: pip install pandas numpy scikit-learn
+
 
 import re
 from collections import Counter
@@ -109,7 +109,7 @@ def clean_skill(text):
 
 
 def split_skills(text):
-    # "python, SQL ,ml" -> ["machine learning", "python", "sql"]
+    # "python, SQL ,ml" -> ["machine learning", "python","sql"]
     if pd.isna(text) or str(text).strip() == "":
         return []
     parts = [clean_skill(part) for part in str(text).split(",")]
