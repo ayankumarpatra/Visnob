@@ -1,0 +1,276 @@
+student_id,degree,branch,cgpa,coding_language,coding_questions_solved,technical_skills,projects_count,experience_months,certifications_count,communication
+S045,B.Tech,IT,8.1,Java,175,"data structures, flask, gcp, java, oops, sql",1,1,3,needs improvement
+S199,B.Tech,IT,7.7,C++,101,"c++, data structures, java, oops, python",2,0,1,good
+S056,B.E.,IT,10.0,C++,230,"algorithms, api testing, aws, c++, cloud computing, data structures, machine learning, mlops, oops, problem solving, python",3,0,2,excellent
+S236,B.Tech,ECE,8.29,Java,90,"api testing, databases, java, oops, spring boot, sql",2,0,2,average
+S086,B.Tech,ECE,6.15,C++,126,"algorithms, data structures, oops",1,0,0,needs improvement
+S090,B.E.,IT,7.57,Python,130,"data analysis, pandas, python, scikit-learn, spark, sql",2,1,1,good
+S145,B.E.,ECE,7.44,Java,101,"css, data structures, java, oops, spring boot, sql, typescript",2,12,2,excellent
+S183,B.E.,CSE,7.2,C++,172,"algorithms, c++, data structures, oops",2,0,3,average
+S222,B.Sc,Computer Science,7.75,Java,133,"data structures, java, oops, spring boot, sql",0,0,3,excellent
+S082,B.Tech,IT,7.41,Python,124,"api testing, data analysis, pytorch, sql",1,0,1,good
+S269,B.E.,ECE,7.78,Python,104,"data analysis, machine learning, pandas, python, sql, terraform",3,0,3,excellent
+S234,B.Sc,Data Science,7.4,JavaScript,87,"css, javascript, node.js, react",2,0,1,needs improvement
+S200,B.Tech,IT,7.18,Java,82,"nlp, oops, pytorch, spring boot, sql",1,2,1,excellent
+S004,B.Tech,Data Science,8.44,C++,202,"algorithms, c++, data pipelines, data structures, oops, problem solving",0,0,0,excellent
+S147,B.Tech,ECE,7.95,C++,285,"algorithms, c++, data analysis, data structures, javascript, problem solving, react",2,0,3,average
+S218,B.Tech,Data Science,8.31,Python,195,"data analysis, gcp, machine learning, pandas, problem solving, python, sql",3,0,2,good
+S238,B.Tech,EE,6.73,C++,129,"algorithms, aws, c++, data structures, oops, problem solving",2,8,0,good
+S093,B.Tech,CSE,7.1,Java,205,"data structures, java, oops, sql",3,18,3,excellent
+S256,B.Sc,Computer Science,6.96,Python,232,"computer networks, data analysis, machine learning, pandas, python, sql",2,0,0,average
+S058,B.Tech,EE,7.42,JavaScript,17,"css, html, javascript, react",2,12,2,good
+S087,B.Tech,IT,7.17,Java,199,"data structures, kubernetes, oops, spring boot, sql",1,0,2,good
+S178,B.Sc,Data Science,8.62,Java,138,"data structures, java, kubernetes, oops, spring boot, sql",3,1,2,excellent
+S138,B.Tech,ECE,6.38,Python,159,"css, data analysis, machine learning, sql",1,6,2,good
+S245,B.Tech,IT,8.86,C++,204,"algorithms, aws, c++, data structures, oops, power bi, python, terraform",2,12,4,average
+S024,B.E.,CSE,6.71,C++,154,"algorithms, c++, data structures, etl, oops, problem solving",2,6,0,average
+S001,B.Sc,Data Science,7.59,JavaScript,68,"css, html, javascript, node.js, react",3,8,1,excellent
+S208,B.Tech,Cyber Security,7.52,Java,56,"oops, spring boot, sql, statistics, typescript",3,0,1,good
+S219,B.Sc,Data Science,8.22,Java,202,"data structures, java, oops, spring boot, sql",3,0,2,average
+S156,B.Tech,ECE,7.53,JavaScript,142,"css, gcp, html, javascript, node.js, pandas, react",2,0,3,excellent
+S066,B.Tech,Cyber Security,8.16,C++,124,"algorithms, c++, data structures, nlp, oops, problem solving",2,3,2,excellent
+S254,B.E.,CSE,8.32,Python,191,"azure, data analysis, docker, gcp, machine learning, pandas, python, sql",1,0,2,excellent
+S103,B.Tech,Data Science,8.44,JavaScript,63,"ci/cd, computer networks, java, javascript, kubernetes, react",2,12,2,good
+S134,B.Tech,CSE,8.24,C,23,"algorithms, c, computer networks, data pipelines, data structures, spring boot",2,0,4,good
+S014,B.Sc,Computer Science,6.04,Python,30,"data analysis, deep learning, machine learning, pandas, react",0,0,1,needs improvement
+S261,B.Tech,ECE,6.14,JavaScript,56,"css, html, javascript",2,2,0,good
+S062,B.E.,ECE,5.98,Python,130,"data analysis, pandas, python, sql",2,0,0,good
+S076,B.Tech,Cyber Security,5.61,Python,140,"data analysis, data structures, pandas, sql",1,0,1,average
+S132,B.Tech,EE,7.4,C,138,"algorithms, c, c++, computer networks, data structures, linux, system design",4,8,2,average
+S217,B.E.,IT,8.09,C++,128,"algorithms, c, c++, data structures, oops, problem solving, scikit-learn",3,2,3,good
+S207,B.Tech,AIML,8.83,Java,146,"data structures, docker, java, machine learning, oops, spring boot, sql, statistics, system design",4,0,1,excellent
+S226,B.Sc,Computer Science,9.85,Python,236,"cloud computing, data analysis, java, machine learning, pandas, python, pytorch, sql",3,12,3,excellent
+S163,B.Tech,CSE,8.12,Python,204,"data analysis, machine learning, pandas, power bi, python, spark, sql, system design",1,4,2,good
+S017,B.Tech,AIML,7.22,C++,252,"c++, microservices, oops, problem solving",2,2,4,good
+S247,B.Tech,EE,7.65,C++,182,"algorithms, c++, cloud computing, cybersecurity, devops, kubernetes, oops",3,0,3,average
+S065,B.Tech,IT,7.86,C++,174,"algorithms, aws, c++, data pipelines, oops, problem solving",2,8,2,needs improvement
+S031,B.Sc,Computer Science,10.0,JavaScript,209,"c, css, data pipelines, data visualization, deep learning, html, javascript, node.js, react, testing",1,3,3,average
+S170,B.Tech,ECE,8.19,Python,292,"data structures, machine learning, python, react, sql",4,0,2,excellent
+S202,B.Sc,Data Science,6.11,Python,69,"data analysis, machine learning, microservices, problem solving, python, sql",1,6,0,good
+S213,B.E.,IT,6.37,Python,174,"data analysis, git, machine learning, pandas, python",2,6,2,good
+S221,B.E.,CSE,8.0,Python,235,"airflow, data analysis, databases, machine learning, pandas, python, sql, tableau",2,2,1,good
+S248,B.E.,IT,7.7,Java,23,"aws, cloud computing, css, react, spring boot, sql",3,18,2,good
+S052,B.Tech,AIML,6.77,C++,79,"api testing, c++, data structures, oops, problem solving",2,0,4,average
+S203,B.Tech,Data Science,7.71,Java,80,"c++, data structures, java, spring boot, sql",1,4,3,good
+S013,B.E.,ECE,8.15,Python,118,"data analysis, data structures, databases, javascript, pandas, python",2,2,2,good
+S206,B.Tech,Data Science,6.49,C++,150,"algorithms, c, data structures, javascript, oops",2,0,2,average
+S194,B.E.,ECE,6.65,C++,76,"c++, data structures, oops, problem solving, pytorch, tensorflow",3,18,2,good
+S272,B.Sc,Computer Science,8.46,C++,111,"c, data structures, etl, mlops, oops, problem solving, spark, spring boot",4,6,2,good
+S081,BCA,Computer Applications,7.69,Java,174,"apis, azure, data structures, java, oops, spring boot, sql",1,6,2,good
+S155,B.Tech,Data Science,6.67,Python,207,"data analysis, data structures, machine learning, pandas, python, sql",3,0,2,good
+S241,B.E.,CSE,5.38,Java,101,"data structures, java, oops",0,0,0,needs improvement
+S210,B.Sc,Data Science,7.02,Python,63,"data analysis, llm, pandas, python, sql",1,18,2,good
+S246,B.Sc,Data Science,7.5,C++,100,"algorithms, c++, data structures, oops, problem solving, tableau",1,4,2,average
+S049,B.Sc,Data Science,7.93,Java,104,"airflow, apis, java, linux, oops, react, sql",1,8,1,good
+S077,B.Tech,AIML,8.99,Python,242,"api testing, data analysis, data pipelines, linux, machine learning, pandas, python, sql",1,4,4,excellent
+S184,B.E.,CSE,8.05,Python,197,"c++, data analysis, machine learning, pandas, sql, tensorflow",2,0,3,excellent
+S148,BCA,Computer Applications,8.28,Python,92,"c, ci/cd, docker, machine learning, pandas, python, sql",2,0,1,good
+S020,B.Tech,CSE,6.68,C++,53,"algorithms, c++, data structures, oops, problem solving",2,0,1,needs improvement
+S201,B.Tech,Cyber Security,6.62,C++,171,"algorithms, c++, oops, problem solving",0,0,2,average
+S064,B.E.,CSE,6.82,Python,162,"data analysis, machine learning, pandas, python, spring boot, sql",0,0,0,needs improvement
+S130,B.Tech,CSE,7.88,C++,202,"algorithms, c++, data structures, flask, oops, problem solving",5,6,3,average
+S253,B.Tech,IT,8.02,JavaScript,34,"ci/cd, css, data pipelines, html, kubernetes, node.js, oops, react",1,2,2,average
+S267,B.E.,IT,5.56,Java,8,"data structures, java, sql",0,3,1,excellent
+S060,B.Sc,Computer Science,8.16,C++,201,"algorithms, c++, cloud computing, data structures, oops, problem solving",1,4,3,average
+S211,B.Tech,Cyber Security,7.88,JavaScript,72,"cybersecurity, django, gcp, html, javascript, node.js, react",1,6,2,excellent
+S059,B.Tech,ECE,8.35,C++,270,"algorithms, c++, cloud computing, data structures, etl, oops, problem solving",1,12,3,good
+S136,B.Tech,CSE,6.86,Python,78,"data analysis, deep learning, html, machine learning, pandas, sql",1,8,4,needs improvement
+S262,B.E.,CSE,8.06,Python,102,"c++, data analysis, machine learning, pandas, sql, tableau",4,4,3,good
+S044,B.E.,CSE,7.96,C,130,"algorithms, data structures, git, java, linux",2,0,2,average
+S225,B.Tech,Data Science,7.86,JavaScript,73,"algorithms, gcp, html, javascript, node.js",3,3,2,excellent
+S040,B.Tech,IT,7.38,C++,129,"algorithms, cybersecurity, data structures, problem solving, pytorch, terraform",2,2,3,excellent
+S091,B.E.,CSE,8.39,C++,132,"algorithms, c++, data structures, docker, oops, power bi, problem solving",3,0,1,good
+S140,B.E.,ECE,5.89,Python,102,"data analysis, machine learning, python, sql",1,0,2,average
+S021,B.Tech,AIML,7.23,Python,173,"airflow, data analysis, javascript, machine learning, node.js, pandas, sql",2,1,0,good
+S047,B.Tech,CSE,7.61,Python,215,"c, data analysis, linux, machine learning, pandas, python, sql",1,0,2,average
+S067,BCA,Computer Applications,9.13,Python,178,"api testing, cryptography, docker, machine learning, pandas, python, react, spark, sql",3,0,1,excellent
+S108,B.Tech,Data Science,7.61,C,74,"algorithms, c, computer networks, data structures, linux",1,0,0,excellent
+S186,B.Tech,CSE,6.94,JavaScript,80,"css, javascript, machine learning, node.js, pytorch, react",2,0,3,good
+S029,B.Tech,Data Science,9.57,Java,92,"data analysis, data structures, html, java, node.js, oops, pytorch",2,6,3,good
+S223,B.Tech,ECE,8.37,Python,150,"algorithms, data analysis, etl, machine learning, node.js, python, sql, system design",2,2,3,good
+S071,B.Tech,AIML,7.37,Python,66,"data analysis, machine learning, pandas, python, sql",0,0,1,good
+S125,B.Tech,Data Science,7.37,Python,12,"data analysis, pandas, python, sql",1,0,1,excellent
+S229,B.Tech,IT,7.11,C++,108,"c++, data structures, oops, pandas, problem solving",3,4,1,excellent
+S195,B.E.,IT,7.53,C++,205,"algorithms, c++, data structures, oops, problem solving, terraform",2,0,2,excellent
+S215,B.Sc,Computer Science,8.45,Python,149,"airflow, data analysis, machine learning, pandas, python, sql",0,0,1,excellent
+S078,B.E.,IT,7.41,C,57,"airflow, c, computer networks, data structures, linux, spring boot",4,0,2,average
+S160,B.E.,IT,7.82,Java,73,"data structures, excel, java, oops, spring boot",3,12,1,needs improvement
+S050,B.Tech,AIML,8.36,Java,66,"data structures, docker, java, oops, spring boot, sql",2,8,3,good
+S084,B.E.,CSE,8.43,JavaScript,111,"azure, css, flask, gcp, html, nlp, react, sql",3,0,2,good
+S039,B.Tech,IT,6.46,Python,83,"data analysis, pandas, python, sql",3,8,1,average
+S171,B.E.,ECE,7.75,Python,320,"data analysis, machine learning, pandas, python, sql",3,3,2,average
+S168,B.Tech,Data Science,6.8,C,92,"algorithms, computer networks, data structures, devops, linux",0,2,2,average
+S260,B.Tech,AIML,6.76,C++,129,"algorithms, c++, data structures, problem solving",2,18,1,average
+S220,BCA,Computer Applications,8.57,Java,79,"html, oops, react, spring boot, sql, system design",3,0,0,excellent
+S046,BCA,Computer Applications,8.28,JavaScript,117,"css, data structures, html, javascript, node.js, react",3,6,2,needs improvement
+S104,B.Tech,Data Science,7.9,Python,193,"azure, data analysis, machine learning, python, spark, sql",3,18,2,good
+S173,B.Sc,Data Science,5.75,C++,198,"c++, data structures, oops, problem solving",2,0,0,good
+S032,B.Tech,Data Science,7.19,C++,180,"algorithms, c++, data structures, problem solving",1,4,2,good
+S100,B.E.,IT,7.71,C++,148,"algorithms, c++, data structures, microservices, oops, problem solving, python",0,0,0,good
+S152,B.Sc,Data Science,6.5,Python,65,"airflow, data analysis, pandas, python, react, sql",2,3,1,good
+S162,BCA,Computer Applications,8.57,C++,322,"algorithms, c++, cybersecurity, data structures, django, docker, oops, problem solving",2,2,5,good
+S113,B.Sc,Computer Science,7.61,Java,90,"data structures, java, oops, spring boot, sql, tableau",3,18,3,average
+S116,B.Tech,EE,7.65,Java,105,"cloud computing, data structures, node.js, oops, spring boot, tableau",0,0,2,good
+S275,B.E.,ECE,6.8,Python,177,"data analysis, deep learning, javascript, pandas, sql",1,4,2,excellent
+S124,B.Tech,CSE,7.39,JavaScript,114,"airflow, css, html, javascript, node.js, react, tensorflow",2,0,0,good
+S175,B.E.,ECE,6.15,JavaScript,97,"aws, css, html, javascript, react, typescript",2,0,0,good
+S149,B.Tech,ECE,7.59,C,139,"algorithms, c, computer networks, data structures, linux, python",2,0,2,excellent
+S144,B.Tech,AIML,6.15,C++,53,"c++, data structures, gcp, oops, problem solving",2,0,2,excellent
+S216,B.Tech,EE,7.97,Python,138,"data analysis, django, machine learning, pandas, power bi, python, sql",1,4,2,good
+S068,BCA,Computer Applications,7.44,JavaScript,67,"azure, css, excel, javascript, kubernetes, tensorflow",3,0,1,good
+S265,B.E.,ECE,8.87,Python,174,"cybersecurity, data analysis, machine learning, pandas, python, selenium, sql",1,12,2,good
+S016,BCA,Computer Applications,8.68,C++,193,"algorithms, node.js, oops, problem solving, system design, tensorflow",0,6,4,excellent
+S095,B.E.,IT,7.56,Java,160,"data structures, django, etl, java, oops, spring boot, sql",1,12,4,good
+S035,B.Sc,Computer Science,9.07,Java,160,"api testing, cybersecurity, data structures, databases, java, node.js, oops, spring boot, sql, testing",1,12,3,excellent
+S089,B.Sc,Data Science,8.19,Java,133,"apis, ci/cd, cybersecurity, data structures, deep learning, oops, spring boot, typescript",4,0,2,good
+S003,B.Tech,Cyber Security,8.57,Java,186,"data structures, git, java, oops, python, pytorch, spring boot, sql, statistics",3,2,1,needs improvement
+S188,B.Tech,ECE,6.89,JavaScript,62,"html, javascript, node.js, react",3,0,2,average
+S096,B.Tech,EE,8.52,C++,366,"algorithms, aws, c++, data analysis, data structures, mlops, problem solving, selenium, typescript",3,8,2,excellent
+S251,B.Tech,EE,6.36,Java,138,"css, data structures, nlp, node.js, oops, sql",1,6,1,average
+S008,B.Tech,CSE,7.65,Java,112,"data structures, java, oops, spring boot, sql",1,12,1,excellent
+S240,B.Tech,ECE,7.48,Python,84,"algorithms, data analysis, machine learning, pandas, python, sql",2,1,2,excellent
+S176,B.Tech,ECE,7.65,JavaScript,57,"computer networks, css, html, javascript, power bi, react, tableau",4,12,5,good
+S002,B.Sc,Computer Science,6.15,Java,97,"data structures, oops, spring boot, sql",2,0,0,needs improvement
+S101,B.Sc,Computer Science,7.59,Java,95,"api testing, data structures, deep learning, docker, oops, problem solving",1,6,1,average
+S146,B.Tech,AIML,7.26,Python,210,"data analysis, machine learning, pandas, python, spark, sql",2,1,1,needs improvement
+S165,B.Tech,ECE,7.84,C++,210,"algorithms, data structures, html, oops, problem solving, selenium, testing",2,8,2,average
+S117,B.Tech,EE,7.36,Python,67,"javascript, machine learning, pandas, python, sql",1,12,3,good
+S079,B.Tech,Cyber Security,6.38,Python,162,"data analysis, pandas, python, sql",4,8,2,average
+S232,B.Tech,EE,7.21,Python,153,"data analysis, pandas, python, sql",2,6,3,excellent
+S110,B.Sc,Data Science,7.87,JavaScript,83,"css, html, javascript, node.js, react",2,0,1,needs improvement
+S012,B.E.,ECE,7.02,Python,143,"data analysis, data pipelines, machine learning, pandas, selenium, sql, tensorflow",2,12,2,good
+S063,B.E.,CSE,6.75,C++,109,"algorithms, data structures, oops, problem solving",0,1,3,excellent
+S263,B.Tech,CSE,6.49,Java,144,"data structures, java, oops, spring boot, sql",3,3,1,excellent
+S242,B.Tech,IT,7.68,C++,196,"airflow, algorithms, data structures, docker, java, oops, python",2,6,2,average
+S011,B.E.,ECE,7.65,Python,145,"data analysis, flask, machine learning, pandas, python, sql",1,0,3,good
+S019,B.E.,CSE,6.9,C++,144,"c++, data analysis, git, javascript, oops, problem solving",2,0,2,average
+S237,B.Tech,EE,7.36,Java,127,"api testing, ci/cd, data structures, java, microservices, spring boot, sql",2,0,1,good
+S224,B.Tech,CSE,7.07,Python,63,"aws, data analysis, kubernetes, machine learning, node.js, python, statistics",1,6,3,good
+S025,B.Tech,AIML,6.61,C++,225,"algorithms, c++, data structures, flask, oops, problem solving",2,1,2,average
+S227,B.Tech,Data Science,9.28,Java,209,"algorithms, azure, css, data structures, gcp, java, mlops, oops, scikit-learn, tensorflow",1,8,2,good
+S187,B.Tech,CSE,7.84,JavaScript,195,"cryptography, html, javascript, node.js, react",2,8,3,good
+S085,B.Sc,Data Science,8.14,C++,219,"c++, data pipelines, data structures, devops, oops, problem solving",3,3,2,good
+S070,B.Tech,EE,6.95,Java,116,"oops, spring boot, sql, tensorflow",3,8,3,needs improvement
+S042,B.E.,ECE,8.78,JavaScript,105,"computer networks, css, deep learning, html, javascript, node.js",2,0,4,needs improvement
+S239,B.Tech,CSE,8.13,JavaScript,78,"css, data visualization, html, machine learning, node.js, problem solving, react, tableau",2,0,2,excellent
+S080,B.Tech,CSE,8.82,Python,237,"ci/cd, data analysis, databases, gcp, machine learning, python, pytorch, sql",2,0,3,good
+S244,B.Tech,Data Science,7.54,Java,111,"cryptography, data structures, java, oops, spring boot, sql, testing",1,0,2,good
+S073,B.Tech,EE,8.26,Java,117,"c, computer networks, data structures, data visualization, java, oops, spring boot, tensorflow",2,0,0,average
+S158,BCA,Computer Applications,9.14,JavaScript,170,"api testing, css, html, javascript, node.js, pytorch, react",2,12,3,good
+S182,B.E.,CSE,10.0,C++,133,"algorithms, api testing, c++, data structures, machine learning, microservices, mlops, oops, problem solving, python, react",3,0,3,excellent
+S139,B.Tech,AIML,8.13,C++,204,"algorithms, c++, data structures, data visualization, django, mlops, scikit-learn, sql",1,18,3,average
+S126,B.Tech,AIML,9.41,Java,197,"cloud computing, data structures, java, oops, spring boot, sql",3,1,3,excellent
+S257,B.Tech,ECE,6.7,Python,57,"data analysis, machine learning, pandas, python, sql",2,2,1,good
+S273,B.E.,CSE,8.9,Java,224,"data structures, html, java, oops, pytorch, spring boot",1,2,1,excellent
+S037,BCA,Computer Applications,7.84,JavaScript,131,"css, html, javascript, node.js, react",2,2,1,good
+S252,B.E.,IT,7.21,Python,238,"data analysis, machine learning, pandas, python, sql",2,2,1,excellent
+S057,BCA,Computer Applications,7.94,C++,209,"algorithms, data structures, etl, javascript, problem solving",2,0,3,excellent
+S109,B.E.,IT,7.21,C,155,"algorithms, c, computer networks, data analysis, data structures, linux",2,0,2,excellent
+S137,B.E.,IT,7.06,Java,102,"cybersecurity, data structures, deep learning, microservices, oops, spring boot, sql",1,0,0,average
+S010,B.E.,IT,7.01,Java,119,"data structures, java, oops, spring boot, sql",3,4,0,good
+S204,B.E.,CSE,7.84,Java,175,"java, llm, microservices, spring boot, sql",1,3,1,excellent
+S106,B.Tech,ECE,6.85,JavaScript,151,"css, git, javascript, react, tableau, typescript",1,0,0,needs improvement
+S259,B.Tech,Data Science,7.92,C++,147,"algorithms, c++, data structures, oops, problem solving",3,6,2,excellent
+S230,B.Sc,Data Science,7.52,Java,185,"c, data structures, kubernetes, oops, selenium, spring boot, sql",3,6,0,excellent
+S129,B.Sc,Data Science,7.06,Python,148,"data analysis, data pipelines, machine learning, pandas, python, sql, tensorflow",3,0,2,excellent
+S151,B.Tech,CSE,6.58,Python,92,"data analysis, machine learning, pandas, python, sql",2,0,2,average
+S180,B.E.,ECE,7.87,Python,88,"data analysis, excel, java, machine learning, pandas, python, sql",2,8,4,excellent
+S255,B.Sc,Computer Science,6.55,C++,105,"algorithms, c++, data structures, oops",0,0,3,average
+S174,BCA,Computer Applications,7.82,C++,182,"algorithms, data structures, docker, microservices, oops, problem solving, spark",3,6,2,excellent
+S172,B.Tech,CSE,6.49,Java,58,"java, oops, spring boot, sql",2,8,0,average
+S192,B.Tech,IT,7.85,C++,170,"algorithms, aws, data structures, devops, problem solving, pytorch",2,8,1,excellent
+S051,B.E.,CSE,9.09,Java,102,"css, data pipelines, data structures, java, spring boot, sql, system design",2,12,2,good
+S143,B.E.,ECE,7.85,Java,199,"data structures, java, mlops, nlp, oops, power bi, problem solving",3,8,2,good
+S127,B.Tech,EE,7.81,Python,71,"cloud computing, deep learning, kubernetes, machine learning, pandas, python, sql",2,0,1,good
+S112,B.Tech,ECE,7.12,C++,145,"algorithms, data analysis, node.js, oops, problem solving, scikit-learn",1,12,4,good
+S128,B.E.,CSE,6.93,C++,182,"algorithms, c++, data structures, oops, react, tableau",2,0,3,needs improvement
+S069,B.E.,ECE,7.72,Java,122,"data pipelines, data structures, scikit-learn, spark, spring boot, sql",1,0,0,excellent
+S005,B.Tech,IT,8.91,Java,103,"data visualization, django, oops, pytorch, spring boot, sql, terraform",1,2,1,good
+S114,B.E.,CSE,7.17,C,228,"algorithms, c, computer networks, data structures, databases, linux",1,0,0,excellent
+S009,B.Sc,Data Science,7.47,C++,273,"c++, data structures, flask, html, oops, problem solving, testing",4,0,1,needs improvement
+S118,B.Tech,IT,5.38,C++,134,"algorithms, c++, data structures",0,0,4,excellent
+S038,B.Tech,AIML,7.18,JavaScript,49,"css, javascript, node.js, react, scikit-learn, tableau",3,6,3,excellent
+S154,B.Tech,CSE,6.28,C++,155,"algorithms, c++, cybersecurity, data structures, kubernetes, problem solving",3,0,0,good
+S034,B.Tech,ECE,6.18,JavaScript,94,"cryptography, css, html, javascript, node.js",2,8,3,average
+S161,B.Sc,Computer Science,7.63,Python,230,"api testing, data analysis, machine learning, python, sql, tableau",2,12,2,excellent
+S105,B.Tech,Data Science,5.82,Python,149,"data analysis, pandas, python",0,0,0,average
+S107,B.E.,CSE,6.91,Python,147,"data analysis, pandas, python, sql",4,3,2,needs improvement
+S167,B.Tech,Cyber Security,7.57,JavaScript,76,"apis, css, deep learning, javascript, pytorch, react, terraform",2,8,1,excellent
+S099,B.E.,IT,7.41,Java,119,"data structures, java, oops, spring boot, sql",2,12,1,good
+S235,B.Tech,Data Science,8.4,Python,155,"data analysis, databases, machine learning, pandas, python",5,0,2,average
+S258,B.Tech,ECE,8.41,Java,165,"airflow, azure, data pipelines, linux, oops, spring boot, sql",3,0,5,good
+S054,B.Tech,CSE,7.04,C++,133,"cybersecurity, data structures, etl, java, oops",0,3,0,good
+S121,B.Tech,Cyber Security,7.49,Java,56,"data structures, oops, spring boot, sql",3,3,1,good
+S027,B.Tech,ECE,7.59,JavaScript,27,"computer networks, data pipelines, node.js, react, tensorflow, testing",1,8,1,average
+S197,B.Sc,Computer Science,9.69,C++,161,"algorithms, c++, cryptography, cybersecurity, oops, problem solving, typescript",2,12,3,excellent
+S214,B.Tech,Cyber Security,6.6,C++,115,"algorithms, c++, data structures, linux, oops, problem solving",2,8,4,good
+S115,B.Sc,Data Science,7.4,Java,78,"data structures, html, java, microservices, oops, python, sql",0,0,3,average
+S006,B.Tech,ECE,7.9,Java,78,"data structures, java, oops, react, spring boot, tensorflow",2,3,5,needs improvement
+S122,B.E.,CSE,8.12,JavaScript,88,"css, html, javascript, node.js, react",2,12,2,excellent
+S028,B.Tech,ECE,8.94,Java,93,"ci/cd, data structures, java, kubernetes, oops, spring boot, sql",0,0,2,good
+S181,B.Tech,EE,6.51,Java,51,"data structures, java, oops, spring boot, sql",4,12,1,good
+S169,B.Tech,Cyber Security,7.03,C++,176,"c++, data structures, oops, problem solving, python",1,0,0,good
+S270,B.Tech,ECE,7.66,Python,5,"data analysis, machine learning, pandas, python, sql",4,0,1,good
+S142,B.Tech,AIML,8.08,JavaScript,20,"css, devops, git, html, javascript, react, sql",0,6,3,average
+S264,B.Tech,Cyber Security,8.18,C++,270,"algorithms, api testing, aws, c++, css, data structures, problem solving, spring boot",3,8,1,average
+S150,B.Sc,Computer Science,7.56,Java,87,"data structures, docker, oops, react, sql",0,0,2,good
+S074,B.Sc,Data Science,7.99,C++,109,"algorithms, c++, data structures, oops, problem solving",3,0,1,excellent
+S266,B.Tech,AIML,7.98,JavaScript,66,"css, excel, html, javascript, node.js, system design",2,0,2,good
+S131,B.E.,ECE,7.13,C++,181,"airflow, algorithms, c++, data structures, oops, problem solving",1,2,4,good
+S007,B.Tech,ECE,7.85,Python,162,"etl, machine learning, pandas, pytorch, sql",2,0,2,good
+S166,B.E.,CSE,7.47,Python,138,"c++, data analysis, machine learning, pandas, react, spring boot",2,0,2,average
+S043,B.Tech,IT,7.55,Java,252,"data analysis, data structures, databases, java, mlops, react, sql",3,12,3,average
+S123,B.Tech,AIML,8.29,Python,241,"data analysis, machine learning, pandas, python, sql, system design",4,3,1,excellent
+S141,B.E.,IT,6.85,Java,190,"data structures, java, problem solving, spring boot, sql, statistics",3,0,1,average
+S231,B.Sc,Computer Science,7.56,Python,147,"aws, data analysis, machine learning, pandas, python, sql",1,0,2,excellent
+S119,B.Tech,IT,7.01,JavaScript,5,"css, html, javascript, react, tableau, testing",2,3,1,average
+S018,B.Tech,IT,8.98,JavaScript,128,"data visualization, devops, git, html, javascript, node.js, power bi, react",2,12,1,excellent
+S250,B.Tech,AIML,6.63,C++,133,"algorithms, c++, data structures, oops, problem solving",0,12,4,good
+S033,B.E.,CSE,7.94,Java,101,"data structures, java, oops, spring boot, sql",3,12,2,excellent
+S189,BCA,Computer Applications,6.93,JavaScript,82,"css, html, javascript, mlops, node.js, react",0,0,0,average
+S212,BCA,Computer Applications,6.92,C,93,"api testing, c, computer networks, data structures, linux, selenium",0,4,2,needs improvement
+S053,B.Tech,CSE,8.74,Python,177,"cryptography, data analysis, excel, kubernetes, machine learning, python",1,4,2,average
+S055,BCA,Computer Applications,7.05,Java,80,"data structures, java, oops, sql",1,6,1,excellent
+S041,B.Tech,Data Science,9.67,Python,130,"computer networks, data analysis, machine learning, pandas, pytorch, react, sql, statistics, system design, typescript",2,4,3,average
+S157,B.E.,CSE,6.61,Python,168,"data structures, machine learning, python, selenium, sql, tensorflow",3,0,2,good
+S159,B.E.,IT,6.76,Python,181,"cybersecurity, data analysis, machine learning, pandas, python, pytorch",1,4,0,average
+S036,B.E.,IT,8.23,C,47,"algorithms, c, computer networks, css, data structures, llm",3,0,1,good
+S111,B.Tech,Cyber Security,9.74,Python,182,"data analysis, databases, llm, machine learning, pandas, python, sql",1,0,2,excellent
+S102,B.Tech,Cyber Security,7.94,Java,128,"cryptography, cybersecurity, data analysis, java, javascript, oops, spring boot",3,0,3,average
+S061,B.Tech,Cyber Security,7.09,Python,158,"computer networks, data analysis, machine learning, pandas, python, sql",3,0,2,average
+S098,B.E.,IT,6.22,C++,59,"algorithms, c++, data structures, oops, problem solving",2,0,1,excellent
+S177,B.E.,IT,8.26,Java,110,"c, data structures, data visualization, gcp, oops, spring boot, sql",0,0,3,average
+S135,B.Tech,Cyber Security,7.45,JavaScript,83,"css, html, node.js, react",1,8,0,good
+S030,B.Sc,Computer Science,7.33,Java,5,"css, data structures, mlops, spring boot, sql, statistics",1,6,3,good
+S185,BCA,Computer Applications,9.19,C++,179,"algorithms, c++, cybersecurity, data structures, javascript, linux, microservices, problem solving, typescript",2,3,3,excellent
+S048,B.E.,IT,8.87,Python,221,"data analysis, machine learning, nlp, pandas, python, typescript",2,4,0,excellent
+S083,B.Sc,Computer Science,7.57,C++,81,"algorithms, c++, data structures, django, oops, problem solving, spring boot",1,3,1,good
+S164,B.E.,ECE,6.8,Python,139,"data analysis, machine learning, pandas, python, sql",1,8,2,good
+S243,B.Tech,Cyber Security,6.44,C++,95,"algorithms, apis, c++, llm, oops, problem solving",1,3,3,good
+S094,B.Sc,Data Science,6.97,C++,188,"algorithms, c++, data structures, oops",1,0,2,needs improvement
+S179,B.Tech,AIML,7.35,C++,97,"algorithms, c++, data structures, problem solving, pytorch",2,0,1,excellent
+S075,B.Tech,Data Science,8.28,C,133,"algorithms, c, computer networks, data structures, linux, power bi, scikit-learn",2,4,1,excellent
+S097,B.Tech,AIML,7.36,Java,113,"data structures, java, oops, spring boot, sql",2,4,0,good
+S196,B.E.,CSE,7.55,Python,256,"data analysis, machine learning, pandas, python, sql",3,0,0,good
+S022,B.Sc,Computer Science,6.97,C++,138,"algorithms, c++, data structures, oops",3,1,0,average
+S120,B.Tech,Data Science,9.18,Python,177,"api testing, apis, data analysis, data pipelines, machine learning, node.js, pandas",3,4,4,excellent
+S072,B.Sc,Data Science,7.94,C++,72,"algorithms, c++, data structures, oops, problem solving",2,0,3,excellent
+S023,B.Sc,Data Science,7.34,C++,49,"algorithms, c++, data structures, oops, problem solving",0,0,1,excellent
+S209,B.Tech,IT,6.53,Python,53,"cryptography, data analysis, etl, pandas, python, sql",1,0,0,average
+S268,B.Tech,AIML,7.52,C,61,"c, cloud computing, data structures, flask, kubernetes, linux",0,4,2,excellent
+S274,B.Sc,Data Science,7.5,Python,88,"data analysis, etl, machine learning, pandas, python, sql, tensorflow",2,0,3,excellent
+S026,B.E.,ECE,7.49,JavaScript,92,"css, html, javascript, node.js, react",2,0,1,good
+S233,B.Sc,Data Science,8.3,C++,118,"algorithms, c++, data structures, node.js, statistics, system design",3,8,2,good
+S205,B.Tech,ECE,8.07,JavaScript,5,"html, javascript, node.js, problem solving, react",5,4,5,good
+S193,B.Tech,Cyber Security,7.35,C++,203,"algorithms, api testing, mlops, oops, problem solving, statistics",3,1,3,good
+S249,B.E.,ECE,7.3,Java,159,"data structures, node.js, oops, react, spring boot, sql",1,0,1,good
+S088,B.E.,ECE,7.43,Python,174,"data analysis, machine learning, pandas, problem solving, python",1,2,3,good
+S191,BCA,Computer Applications,6.63,C,66,"algorithms, computer networks, data structures, django, linux, pandas",1,6,3,average
+S198,B.Tech,IT,9.59,JavaScript,250,"css, docker, html, javascript, mlops, react, terraform",2,0,3,excellent
+S133,B.Tech,IT,7.51,C,58,"airflow, algorithms, c, computer networks, data structures, javascript, linux",2,8,1,excellent
+S153,B.E.,ECE,7.18,C++,74,"algorithms, c++, data structures, oops, problem solving",2,0,2,good
+S092,B.Tech,EE,7.67,Python,187,"devops, etl, machine learning, pandas, sql",0,0,2,excellent
+S271,B.Tech,IT,6.99,Java,155,"css, data structures, deep learning, java, oops, sql",2,4,3,average
+S228,B.Sc,Data Science,8.25,Python,192,"gcp, java, machine learning, python, pytorch, sql",1,6,3,excellent
+S015,B.Tech,EE,8.5,C++,128,"algorithms, c++, data structures, mlops, oops, problem solving",1,2,1,good
+S190,B.Tech,IT,7.86,C,81,"algorithms, aws, c, data structures, gcp, linux",1,0,2,good
