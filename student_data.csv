@@ -1,0 +1,361 @@
+student_id,degree,branch,cgpa,coding_language,coding_questions_solved,technical_skills,projects_count,experience_months,certifications_count,communication,github_repos,aptitude_score,backlog_history,placement_status,salary_lpa
+TR-0001,B.Tech,EE,6.74,Python,19,html,0,1,0,low,1,58,0,Not Placed,0.0
+TR-0002,B.Tech,ECE,9.16,C++,26,"html, css",0,1,0,low,0,49,0,Not Placed,0.0
+TR-0003,MCA,IT,5.0,JavaScript,72,"linux, html, react, css, java",2,6,2,good,2,80,0,Placed,10.36
+TR-0004,B.Tech,CSE,7.86,JavaScript,154,"html, sql, git, css",3,3,3,mid,4,67,0,Placed,11.36
+TR-0005,B.Tech,ECE,8.58,Python,65,"node.js, react, sql, linux, oop",4,0,3,good,4,64,1,Placed,12.21
+TR-0006,B.E,ECE,5.24,Java,330,"c++, ci/cd, dl, power bi, system design, docker, ml, sql",4,3,4,good,10,81,0,Not Placed,0.0
+TR-0007,B.Tech,ECE,7.74,Java,244,"ci/cd, ml, c++, java, docker, power bi, python",5,3,3,good,8,86,0,Placed,11.18
+TR-0008,B.Tech,EE,8.66,Java,514,"system design, kubernetes, node.js, aws, dl, docker, ml, power bi",5,12,6,good,8,91,0,Placed,18.81
+TR-0009,B.Tech,CSE,5.93,C++,8,"python, manual testing",0,0,1,low,0,45,0,Not Placed,0.0
+TR-0010,B.Tech,EE,7.17,Java,40,python,0,0,0,mid,1,46,0,Not Placed,0.0
+TR-0011,M.Tech,CSE,9.82,JavaScript,6,"html, java",0,1,1,mid,0,62,0,Not Placed,0.0
+TR-0012,B.E,CSE,5.7,JavaScript,153,"css, linux, react, java",3,0,3,good,3,73,0,Placed,11.25
+TR-0013,MCA,CSE,6.19,Java,140,"sql, css, linux, html, git",4,2,2,mid,3,72,0,Not Placed,0.0
+TR-0014,B.E,IT,8.72,C++,91,"linux, javascript, css",2,0,2,good,4,60,0,Placed,9.46
+TR-0015,B.E,ECE,4.96,Python,472,"dl, kubernetes, system design, ci/cd, node.js, ml, sql, python",7,3,3,good,11,84,0,Placed,13.82
+TR-0016,B.E,EE,6.31,JavaScript,324,"aws, c++, java, react, ci/cd, sklearn, sql",5,6,4,mid,8,84,0,Placed,14.62
+TR-0017,B.Tech,CSE,8.29,JavaScript,323,"java, c++, aws, docker, sql, python, kubernetes",5,6,5,good,11,93,0,Placed,14.6
+TR-0018,B.Tech,CSE,5.87,Java,20,c++,0,0,1,low,1,62,0,Not Placed,0.0
+TR-0019,B.E,EE,7.69,JavaScript,9,"html, c++",1,1,1,mid,0,46,0,Not Placed,0.0
+TR-0020,M.Tech,EE,9.75,Java,32,"css, python",1,1,0,mid,1,57,1,Not Placed,0.0
+TR-0021,B.Tech,EE,5.04,JavaScript,67,"linux, node.js, react",4,2,2,mid,3,62,0,Not Placed,0.0
+TR-0022,B.Tech,ECE,7.14,C++,166,"javascript, oop, java, react, css",3,0,3,mid,4,64,0,Not Placed,0.0
+TR-0023,MCA,IT,8.75,C++,159,"java, css, node.js",4,6,1,mid,3,79,0,Not Placed,0.0
+TR-0024,M.Tech,IT,4.86,JavaScript,414,"ml, ci/cd, sql, node.js, java, aws, kubernetes, c++",4,9,5,mid,8,83,0,Placed,15.93
+TR-0025,M.Tech,ECE,6.47,Python,416,"sql, docker, c++, python, ml, aws, power bi, ci/cd",4,12,6,good,11,93,0,Placed,18.08
+TR-0026,B.Tech,CSE,9.28,Python,389,"python, c++, kubernetes, docker, sklearn, aws, sql, java, node.js",4,9,6,good,5,80,0,Placed,17.63
+TR-0027,B.Tech,EE,5.6,Java,20,html,0,0,0,low,1,55,2,Not Placed,0.0
+TR-0028,MCA,IT,6.53,C++,40,sql,1,0,1,low,0,40,0,Not Placed,0.0
+TR-0029,B.E,ECE,8.13,Python,37,css,1,0,1,mid,0,50,1,Placed,9.17
+TR-0030,B.E,CSE,5.47,Java,91,"oop, linux, node.js",3,2,3,mid,3,68,0,Placed,10.51
+TR-0031,B.Tech,CSE,7.74,JavaScript,71,"python, linux, css",4,3,3,good,2,73,0,Placed,11.33
+TR-0032,B.Tech,ECE,9.69,JavaScript,173,"sql, html, linux, node.js",3,3,1,good,5,69,1,Placed,13.27
+TR-0033,M.Tech,CSE,4.97,Java,207,"system design, dl, docker, python, sklearn, sql, ci/cd",7,12,6,good,7,77,0,Placed,12.27
+TR-0034,B.Tech,IT,6.65,Python,272,"c++, aws, dl, sklearn, node.js, ml, java, system design",5,3,5,good,11,85,0,Placed,14.66
+TR-0035,B.Tech,CSE,8.16,Python,511,"docker, node.js, ci/cd, sql, ml, python, sklearn, aws",6,9,5,good,10,85,0,Placed,17.77
+TR-0036,M.Tech,EE,5.48,Java,14,"java, python",0,0,0,low,1,54,1,Not Placed,0.0
+TR-0037,MCA,ECE,6.48,Java,10,html,0,0,0,low,0,45,0,Not Placed,0.0
+TR-0038,M.Tech,CSE,8.77,Java,15,"manual testing, java",1,0,1,mid,1,63,1,Not Placed,0.0
+TR-0039,B.E,ECE,5.91,C++,138,"css, linux, html, oop, git",2,6,1,mid,2,73,0,Not Placed,0.0
+TR-0040,B.Tech,CSE,6.93,Python,89,"git, linux, css, python, node.js",3,3,1,good,5,71,0,Not Placed,0.0
+TR-0041,M.Tech,ECE,8.41,Java,89,"react, javascript, linux, python",2,0,1,mid,3,63,0,Placed,12.05
+TR-0042,B.E,CSE,5.43,C++,303,"c++, ci/cd, aws, dl, node.js, ml, kubernetes, power bi, sklearn",6,9,5,good,7,81,0,Placed,15.68
+TR-0043,MCA,EE,7.49,Java,493,"sklearn, dl, python, power bi, aws, node.js, ci/cd",4,9,5,good,8,89,0,Placed,18.79
+TR-0044,MCA,ECE,9.11,Python,409,"react, dl, aws, java, kubernetes, python, c++",4,3,5,good,7,86,0,Placed,16.32
+TR-0045,MCA,IT,4.93,C++,30,sql,1,1,1,mid,0,61,1,Not Placed,0.0
+TR-0046,B.Tech,IT,6.69,JavaScript,31,"css, sql",0,1,0,low,0,58,0,Not Placed,0.0
+TR-0047,B.Tech,CSE,8.43,Python,11,sql,0,1,0,low,1,61,0,Not Placed,0.0
+TR-0048,B.Tech,IT,4.84,C++,70,"css, oop, react, html",4,2,1,good,4,77,0,Not Placed,0.0
+TR-0049,M.Tech,EE,7.28,Java,141,"java, javascript, node.js",4,6,2,good,5,60,0,Placed,13.54
+TR-0050,B.Tech,ECE,9.14,Java,161,"javascript, java, html, node.js",2,2,1,mid,4,75,0,Placed,12.48
+TR-0051,B.E,IT,5.22,Python,219,"aws, ci/cd, power bi, sklearn, kubernetes, node.js, c++, python",4,3,4,good,5,76,0,Placed,10.16
+TR-0052,B.Tech,ECE,6.8,Python,445,"aws, java, ci/cd, system design, docker, python",5,9,4,good,6,87,0,Placed,17.13
+TR-0053,B.E,IT,8.53,Java,367,"sklearn, node.js, aws, sql, system design, docker, ci/cd, java",5,12,3,good,11,84,0,Placed,18.3
+TR-0054,B.Tech,EE,5.26,Python,26,"manual testing, java",0,1,0,low,0,59,0,Not Placed,0.0
+TR-0055,MCA,CSE,6.82,Python,44,java,1,0,0,low,1,44,0,Not Placed,0.0
+TR-0056,B.E,IT,9.76,C++,16,sql,1,1,1,mid,0,60,1,Placed,9.98
+TR-0057,B.E,EE,4.84,Java,61,"react, linux, css",2,3,2,mid,2,77,0,Placed,7.78
+TR-0058,B.Tech,CSE,7.44,Java,69,"node.js, javascript, python, react, oop",2,6,1,good,2,77,0,Placed,10.4
+TR-0059,B.Tech,ECE,8.21,Python,171,"css, html, oop, javascript",2,6,3,mid,3,66,0,Not Placed,0.0
+TR-0060,B.Tech,IT,5.25,Python,339,"ml, system design, dl, python, react, java, kubernetes, sql, power bi",6,6,3,good,7,80,0,Placed,13.29
+TR-0061,B.Tech,EE,6.37,Java,461,"ml, sklearn, aws, ci/cd, system design, dl, docker, c++",4,3,4,good,5,83,0,Placed,16.62
+TR-0062,B.Tech,EE,9.6,JavaScript,304,"python, kubernetes, dl, sql, ci/cd, sklearn, java, ml",7,9,5,mid,5,77,0,Placed,18.39
+TR-0063,M.Tech,EE,5.59,Python,17,python,0,0,1,mid,1,58,1,Not Placed,0.0
+TR-0064,B.Tech,IT,6.31,Java,17,"c++, python",0,0,0,mid,1,45,0,Not Placed,0.0
+TR-0065,B.Tech,ECE,9.41,Java,43,"python, sql",1,1,0,mid,0,48,1,Placed,11.24
+TR-0066,B.Tech,CSE,5.67,C++,122,"javascript, css, git, react",3,6,3,mid,5,81,0,Placed,11.9
+TR-0067,MCA,EE,7.63,JavaScript,133,"linux, git, java, html, node.js",4,3,2,mid,3,73,0,Placed,10.51
+TR-0068,B.Tech,CSE,8.83,Python,101,"git, oop, html",2,3,2,good,2,62,0,Placed,9.98
+TR-0069,B.Tech,IT,4.98,JavaScript,373,"ci/cd, c++, power bi, ml, kubernetes, node.js, dl, python",5,12,5,good,8,95,0,Placed,16.71
+TR-0070,B.Tech,EE,6.86,JavaScript,404,"c++, ml, kubernetes, sql, sklearn, react, java, docker, system design",4,12,3,mid,6,88,0,Placed,17.04
+TR-0071,B.Tech,ECE,8.67,Java,441,"power bi, system design, java, ml, aws, docker, node.js, c++, sklearn",7,3,4,good,5,87,0,Placed,18.33
+TR-0072,B.Tech,IT,5.48,Java,43,css,0,1,0,mid,1,47,1,Not Placed,0.0
+TR-0073,B.Tech,EE,6.9,Java,18,html,0,0,1,low,1,52,0,Not Placed,0.0
+TR-0074,B.Tech,EE,8.09,JavaScript,26,c++,0,1,1,mid,0,49,0,Not Placed,0.0
+TR-0075,M.Tech,CSE,5.52,C++,74,"python, oop, git, react",3,0,3,mid,5,80,0,Not Placed,0.0
+TR-0076,B.E,EE,7.54,JavaScript,141,"css, linux, react, sql",3,6,2,good,4,64,1,Placed,10.76
+TR-0077,B.Tech,CSE,9.8,Python,85,"node.js, git, java, linux, css",4,2,3,mid,5,69,0,Placed,10.58
+TR-0078,B.Tech,IT,5.61,JavaScript,355,"kubernetes, react, docker, system design, node.js, dl, java, sklearn, python",6,9,4,good,9,94,0,Placed,18.04
+TR-0079,M.Tech,IT,7.36,C++,416,"ml, python, kubernetes, java, aws, react, power bi",5,3,3,good,11,85,0,Placed,15.51
+TR-0080,B.Tech,IT,9.3,Java,318,"ml, c++, sklearn, java, power bi, system design, sql, dl",5,9,4,mid,6,91,0,Placed,18.47
+TR-0081,B.E,IT,5.5,Java,13,python,0,0,0,mid,0,60,1,Not Placed,0.0
+TR-0082,B.Tech,CSE,7.51,C++,27,manual testing,0,0,0,low,1,61,1,Not Placed,0.0
+TR-0083,B.E,EE,8.46,JavaScript,15,"c++, sql",0,1,1,mid,1,53,1,Placed,6.92
+TR-0084,B.Tech,ECE,5.5,Python,124,"git, node.js, java, python, linux",3,2,3,mid,2,70,0,Placed,7.86
+TR-0085,B.Tech,ECE,7.59,Java,62,"javascript, sql, oop, node.js, java",3,6,2,good,2,72,0,Not Placed,0.0
+TR-0086,B.Tech,EE,9.04,C++,160,"javascript, sql, node.js",4,3,1,mid,3,80,1,Placed,14.9
+TR-0087,B.E,CSE,5.78,Java,401,"aws, node.js, sql, system design, docker, dl, react, ci/cd",4,6,5,good,5,97,0,Placed,14.07
+TR-0088,B.Tech,ECE,6.28,JavaScript,490,"power bi, react, ci/cd, system design, ml, kubernetes, dl, c++, sql",6,3,4,good,10,81,0,Placed,17.68
+TR-0089,B.E,IT,8.85,JavaScript,329,"aws, python, ml, sklearn, sql, kubernetes, ci/cd, node.js, system design",7,3,6,good,9,82,0,Placed,17.12
+TR-0090,B.Tech,EE,5.91,JavaScript,35,python,0,0,0,low,1,64,1,Not Placed,0.0
+TR-0091,B.Tech,CSE,7.52,Java,34,sql,0,1,1,low,1,46,2,Not Placed,0.0
+TR-0092,M.Tech,IT,8.74,Java,31,"c++, html",0,0,0,low,1,62,2,Not Placed,0.0
+TR-0093,M.Tech,CSE,5.73,Python,106,"node.js, oop, sql, linux, git",3,0,3,mid,3,61,0,Placed,9.48
+TR-0094,B.Tech,IT,6.24,C++,152,"git, python, html",2,3,1,mid,5,72,1,Placed,8.93
+TR-0095,B.E,ECE,9.41,Java,110,"css, java, node.js, linux, react",4,0,3,mid,4,80,0,Placed,12.58
+TR-0096,B.Tech,ECE,5.55,Python,206,"python, sql, docker, java, system design, react, kubernetes, aws",6,12,4,good,9,96,0,Placed,13.44
+TR-0097,B.Tech,IT,7.67,Java,316,"ci/cd, power bi, sklearn, system design, node.js, python, kubernetes, c++",5,6,6,good,8,92,0,Placed,15.13
+TR-0098,B.Tech,EE,8.12,Python,431,"aws, c++, dl, node.js, react, kubernetes, sql, ml, java",4,12,5,good,7,96,0,Placed,17.82
+TR-0099,M.Tech,EE,5.9,JavaScript,44,python,1,0,1,mid,1,54,2,Not Placed,0.0
+TR-0100,B.Tech,IT,6.84,Java,36,c++,1,1,0,low,1,47,1,Not Placed,0.0
+TR-0101,B.Tech,CSE,9.49,JavaScript,31,"manual testing, html",1,0,1,low,1,55,1,Not Placed,0.0
+TR-0102,B.E,IT,5.3,C++,143,"css, linux, html, git",3,2,2,good,5,78,1,Not Placed,0.0
+TR-0103,B.Tech,ECE,6.36,Python,140,"node.js, linux, html, python, css",3,3,1,good,2,72,0,Placed,11.47
+TR-0104,B.E,EE,8.22,Python,79,"html, react, css, git, node.js",2,3,2,mid,5,60,0,Placed,11.06
+TR-0105,B.Tech,IT,5.42,Python,285,"react, system design, kubernetes, python, node.js, dl, docker, sklearn, java",5,6,4,mid,5,88,0,Placed,15.2
+TR-0106,M.Tech,CSE,7.31,C++,401,"power bi, node.js, kubernetes, aws, dl, system design, c++",5,6,6,mid,9,94,0,Placed,16.13
+TR-0107,B.Tech,EE,8.19,JavaScript,351,"docker, ml, dl, power bi, aws, ci/cd, react",4,12,4,good,9,78,0,Placed,17.74
+TR-0108,B.E,IT,5.7,Java,19,manual testing,1,0,1,mid,0,48,2,Not Placed,0.0
+TR-0109,B.Tech,EE,7.16,Java,21,"manual testing, css",0,0,0,mid,1,42,0,Not Placed,0.0
+TR-0110,MCA,EE,9.36,Java,39,"python, css",0,1,0,low,0,61,0,Placed,10.36
+TR-0111,B.Tech,EE,5.29,C++,131,"oop, node.js, git",3,6,1,mid,5,70,0,Placed,10.96
+TR-0112,B.Tech,ECE,6.78,Java,162,"java, node.js, javascript, linux",3,0,1,good,3,64,0,Placed,10.22
+TR-0113,B.Tech,EE,9.06,JavaScript,78,"sql, javascript, react",2,0,2,mid,4,68,0,Placed,9.22
+TR-0114,MCA,IT,5.33,Python,285,"kubernetes, system design, c++, ci/cd, node.js, docker, aws, dl",7,12,5,good,8,84,0,Placed,15.71
+TR-0115,B.E,ECE,6.05,Python,447,"python, system design, react, ci/cd, node.js, ml",5,9,6,good,6,94,0,Placed,17.06
+TR-0116,B.E,IT,8.76,C++,437,"aws, react, ml, system design, ci/cd, sql, python, dl, docker",7,6,4,good,10,86,0,Placed,18.44
+TR-0117,B.Tech,ECE,5.81,Python,15,"html, sql",1,0,1,mid,0,62,0,Not Placed,0.0
+TR-0118,MCA,EE,7.11,JavaScript,8,python,0,1,1,low,1,44,2,Not Placed,0.0
+TR-0119,B.E,IT,8.62,Java,38,"c++, manual testing",1,0,1,low,1,55,1,Not Placed,0.0
+TR-0120,B.Tech,CSE,5.51,C++,102,"git, oop, react, node.js, linux",3,0,1,good,3,74,0,Placed,8.55
+TR-0121,B.Tech,ECE,7.51,Java,100,"css, react, javascript",3,6,1,good,4,72,1,Placed,10.1
+TR-0122,B.E,EE,8.91,Java,79,"node.js, oop, java",3,2,2,mid,5,78,1,Placed,12.3
+TR-0123,B.E,EE,5.05,Python,516,"sklearn, python, c++, system design, dl, docker",7,12,3,good,5,94,0,Placed,16.17
+TR-0124,B.Tech,IT,7.66,JavaScript,357,"c++, system design, react, dl, sklearn, aws, docker, node.js, python",7,9,5,good,6,95,0,Placed,17.84
+TR-0125,B.Tech,IT,9.76,C++,475,"ml, aws, sklearn, sql, node.js, python, ci/cd",4,3,5,good,11,78,0,Placed,17.1
+TR-0126,B.Tech,CSE,4.96,Python,5,"sql, css",0,0,0,low,1,53,1,Not Placed,0.0
+TR-0127,B.Tech,IT,6.43,Python,13,"python, css",1,0,0,mid,1,60,0,Not Placed,0.0
+TR-0128,B.Tech,IT,8.76,Python,23,"c++, manual testing",1,1,1,mid,0,51,1,Not Placed,0.0
+TR-0129,MCA,CSE,5.32,C++,155,"javascript, react, linux, python",4,3,1,mid,3,78,0,Not Placed,0.0
+TR-0130,B.Tech,CSE,7.73,Java,81,"css, javascript, node.js, linux",2,2,1,mid,5,67,0,Not Placed,0.0
+TR-0131,B.E,ECE,9.58,Java,99,"javascript, react, python, node.js, java",4,0,1,good,3,71,0,Not Placed,0.0
+TR-0132,B.Tech,IT,4.99,Java,206,"ci/cd, docker, sklearn, sql, node.js, ml",7,3,6,good,11,94,0,Placed,13.1
+TR-0133,B.Tech,EE,7.83,JavaScript,433,"aws, docker, python, c++, sql, dl, sklearn, java",6,6,4,good,11,95,0,Placed,16.75
+TR-0134,MCA,CSE,9.44,C++,364,"docker, dl, aws, ci/cd, sql, ml",4,3,3,good,10,95,0,Placed,16.74
+TR-0135,MCA,ECE,5.74,Java,21,"css, sql",0,1,1,mid,0,63,1,Not Placed,0.0
+TR-0136,MCA,EE,7.06,JavaScript,25,"java, sql",1,0,0,low,0,63,0,Not Placed,0.0
+TR-0137,B.E,EE,9.6,C++,40,java,1,0,0,low,0,54,1,Not Placed,0.0
+TR-0138,MCA,IT,5.9,C++,127,"python, java, javascript, css, oop",2,0,1,good,5,67,0,Not Placed,0.0
+TR-0139,B.E,EE,7.73,Python,96,"linux, react, javascript, html",3,0,2,mid,4,74,1,Not Placed,0.0
+TR-0140,B.Tech,ECE,9.43,Java,120,"html, git, java, python, react",4,6,3,mid,3,73,0,Placed,11.47
+TR-0141,B.E,IT,5.71,C++,387,"ci/cd, c++, sql, aws, python, node.js, react, ml, dl",5,6,4,good,11,76,0,Placed,13.77
+TR-0142,M.Tech,EE,7.76,Java,231,"kubernetes, react, java, python, node.js, aws, dl, sklearn",5,6,4,good,10,94,0,Placed,13.34
+TR-0143,M.Tech,EE,9.35,JavaScript,403,"java, react, system design, aws, sql, ml",4,9,3,mid,6,92,0,Placed,16.88
+TR-0144,B.Tech,ECE,5.71,Python,17,python,0,0,1,low,1,58,0,Not Placed,0.0
+TR-0145,B.Tech,EE,7.41,Java,41,manual testing,0,1,1,low,1,54,2,Not Placed,0.0
+TR-0146,B.E,CSE,9.19,Java,11,java,0,0,1,low,1,41,0,Not Placed,0.0
+TR-0147,B.E,CSE,5.25,Python,90,"node.js, java, oop, linux, html",3,3,2,mid,2,67,0,Placed,10.9
+TR-0148,B.Tech,CSE,7.8,JavaScript,140,"git, css, java, html",2,6,2,mid,2,62,0,Placed,11.28
+TR-0149,B.Tech,ECE,8.29,JavaScript,172,"css, sql, node.js, oop, javascript",2,2,3,mid,2,61,0,Not Placed,0.0
+TR-0150,B.E,ECE,5.7,Java,244,"dl, node.js, java, docker, aws, ml",5,9,6,good,9,83,0,Placed,13.36
+TR-0151,B.Tech,CSE,7.77,C++,500,"c++, ml, sklearn, java, react, aws",6,9,3,good,8,89,0,Placed,18.73
+TR-0152,B.Tech,IT,8.13,Python,425,"system design, aws, python, sklearn, node.js, docker",6,12,3,good,10,79,0,Placed,19.62
+TR-0153,B.E,CSE,5.03,Java,30,html,1,0,1,low,0,57,1,Not Placed,0.0
+TR-0154,B.Tech,CSE,7.38,Python,20,css,1,0,0,low,1,47,1,Not Placed,0.0
+TR-0155,B.E,IT,8.07,JavaScript,32,manual testing,1,1,1,mid,0,63,1,Not Placed,0.0
+TR-0156,B.E,ECE,5.13,Java,81,"html, java, css, oop, python",3,3,1,mid,2,66,0,Placed,8.41
+TR-0157,B.E,ECE,7.3,JavaScript,55,"css, sql, node.js, javascript",3,2,1,good,4,69,0,Placed,10.5
+TR-0158,B.Tech,EE,9.42,Java,163,"sql, oop, node.js, python, react",4,3,3,good,5,64,0,Placed,13.07
+TR-0159,MCA,ECE,5.88,C++,394,"system design, dl, aws, node.js, ml, sklearn",6,12,5,good,9,78,0,Placed,14.76
+TR-0160,M.Tech,ECE,6.6,JavaScript,411,"system design, react, ci/cd, kubernetes, python, node.js",6,12,5,mid,8,86,0,Placed,16.88
+TR-0161,B.Tech,EE,9.41,Python,509,"kubernetes, ml, sklearn, java, system design, sql",4,12,3,good,11,84,0,Placed,19.33
+TR-0162,B.Tech,CSE,5.87,JavaScript,6,"sql, c++",1,0,1,low,1,40,0,Not Placed,0.0
+TR-0163,M.Tech,ECE,7.33,JavaScript,5,html,0,0,1,low,1,43,0,Not Placed,0.0
+TR-0164,B.E,IT,9.06,JavaScript,23,manual testing,1,0,0,mid,0,60,1,Not Placed,0.0
+TR-0165,M.Tech,CSE,5.74,Java,155,"java, git, css",4,2,3,mid,5,78,0,Placed,10.67
+TR-0166,B.Tech,CSE,6.49,JavaScript,116,"oop, html, java",3,6,1,good,2,61,0,Placed,10.07
+TR-0167,B.Tech,IT,8.17,Java,128,"java, node.js, react",2,2,2,mid,5,68,0,Placed,9.15
+TR-0168,B.Tech,EE,5.91,C++,494,"node.js, python, sklearn, docker, react, aws, ml, power bi",6,3,5,good,7,83,0,Placed,16.6
+TR-0169,MCA,EE,7.18,Python,264,"aws, power bi, system design, sklearn, react, ci/cd",6,6,3,mid,11,96,0,Placed,14.79
+TR-0170,B.E,CSE,9.56,JavaScript,487,"dl, react, docker, power bi, sklearn, python, ci/cd",5,12,4,mid,6,96,0,Placed,21.77
+TR-0171,B.Tech,CSE,5.55,C++,27,manual testing,0,1,1,low,0,40,0,Not Placed,0.0
+TR-0172,B.Tech,ECE,7.18,Python,14,"java, python",1,0,0,mid,0,52,1,Not Placed,0.0
+TR-0173,B.Tech,ECE,8.65,Python,32,"html, java",0,0,0,mid,1,60,0,Not Placed,0.0
+TR-0174,B.Tech,CSE,5.7,Java,152,"css, react, linux, java",4,2,3,mid,2,63,0,Placed,10.55
+TR-0175,B.Tech,IT,7.87,Python,125,"node.js, sql, css, linux",4,0,3,good,4,63,0,Not Placed,0.0
+TR-0176,B.Tech,CSE,8.96,C++,134,"linux, oop, sql, javascript, python",2,0,1,good,3,78,0,Placed,13.5
+TR-0177,B.Tech,CSE,5.01,Java,311,"power bi, sklearn, kubernetes, sql, java, docker, aws",6,3,3,good,9,76,0,Placed,12.92
+TR-0178,M.Tech,IT,7.2,Python,366,"sklearn, sql, ml, c++, power bi, java, react",6,9,4,good,10,89,0,Placed,14.45
+TR-0179,M.Tech,ECE,9.01,JavaScript,247,"system design, sql, docker, dl, aws, ci/cd",4,3,6,good,11,91,0,Placed,13.52
+TR-0180,B.Tech,ECE,5.62,Java,29,"java, manual testing",1,1,0,low,0,64,2,Not Placed,0.0
+TR-0181,M.Tech,ECE,6.8,JavaScript,7,java,0,0,1,low,1,57,2,Not Placed,0.0
+TR-0182,MCA,IT,9.84,C++,33,html,0,0,0,low,1,47,0,Not Placed,0.0
+TR-0183,B.Tech,CSE,5.76,C++,63,"git, sql, python",4,6,2,good,4,75,0,Placed,11.99
+TR-0184,B.E,IT,7.76,Java,112,"html, javascript, java",2,6,3,mid,2,63,1,Placed,12.17
+TR-0185,B.Tech,CSE,8.29,C++,144,"html, java, oop, javascript, git",4,2,2,good,5,65,0,Placed,10.87
+TR-0186,M.Tech,ECE,5.74,JavaScript,478,"sql, c++, node.js, kubernetes, java, sklearn, react, aws, dl",6,6,6,mid,9,94,0,Placed,15.96
+TR-0187,B.E,ECE,6.64,JavaScript,303,"c++, ci/cd, system design, python, docker, sklearn",4,6,4,good,7,75,0,Placed,14.33
+TR-0188,B.Tech,EE,9.23,JavaScript,285,"power bi, dl, docker, sql, python, ci/cd, c++, aws",5,9,4,good,5,78,0,Placed,18.72
+TR-0189,B.Tech,IT,5.49,C++,15,"sql, java",1,0,0,mid,0,44,2,Not Placed,0.0
+TR-0190,B.Tech,IT,7.34,Java,27,"c++, manual testing",0,0,1,low,0,64,1,Not Placed,0.0
+TR-0191,B.E,CSE,9.09,Java,33,manual testing,1,0,1,low,1,40,1,Not Placed,0.0
+TR-0192,B.Tech,CSE,5.54,C++,80,"java, html, linux, react",4,6,3,mid,5,67,0,Not Placed,0.0
+TR-0193,B.Tech,IT,6.57,Java,127,"node.js, sql, java, oop, python",4,3,1,good,4,67,1,Not Placed,0.0
+TR-0194,MCA,IT,8.9,Java,156,"node.js, python, html, java",3,6,3,mid,4,64,0,Placed,11.81
+TR-0195,M.Tech,IT,5.83,Python,365,"ci/cd, python, c++, kubernetes, sql, java, react",6,12,5,good,10,76,0,Placed,15.03
+TR-0196,B.E,CSE,6.83,C++,477,"dl, ci/cd, node.js, system design, ml, java",4,3,6,good,8,82,0,Placed,17.43
+TR-0197,M.Tech,ECE,9.49,Python,494,"react, c++, node.js, sklearn, kubernetes, ci/cd, docker, sql, system design",7,9,3,good,9,87,0,Placed,19.56
+TR-0198,M.Tech,ECE,5.27,Python,26,"html, python",1,0,1,mid,1,64,1,Not Placed,0.0
+TR-0199,B.Tech,IT,6.35,JavaScript,35,manual testing,1,0,1,low,0,61,1,Not Placed,0.0
+TR-0200,B.Tech,IT,9.71,C++,27,python,1,1,1,mid,0,52,0,Not Placed,0.0
+TR-0201,B.Tech,ECE,5.88,C++,147,"react, node.js, html, java",3,2,2,mid,2,80,0,Not Placed,0.0
+TR-0202,B.E,ECE,6.89,Java,86,"node.js, javascript, java",4,6,1,good,2,67,0,Placed,9.81
+TR-0203,B.E,IT,8.21,Python,153,"git, css, oop",4,3,1,mid,3,67,1,Not Placed,0.0
+TR-0204,B.Tech,EE,5.12,JavaScript,468,"sklearn, aws, dl, ml, c++, python, sql",7,6,6,good,8,97,0,Placed,16.06
+TR-0205,B.E,ECE,6.54,C++,341,"sklearn, system design, python, dl, c++, node.js, ml, ci/cd",4,3,5,good,6,96,0,Placed,14.2
+TR-0206,B.Tech,CSE,8.69,JavaScript,331,"power bi, docker, c++, node.js, sklearn, system design, dl, kubernetes, python",6,12,5,mid,10,76,0,Placed,18.38
+TR-0207,B.Tech,ECE,4.93,C++,10,html,0,0,1,low,0,43,1,Not Placed,0.0
+TR-0208,B.Tech,IT,7.59,Python,41,java,1,0,0,low,0,48,2,Not Placed,0.0
+TR-0209,M.Tech,ECE,9.07,Python,32,manual testing,1,0,0,low,1,60,0,Not Placed,0.0
+TR-0210,B.Tech,IT,4.89,Java,163,"java, javascript, linux, html, git",3,3,1,mid,3,72,0,Placed,9.55
+TR-0211,B.Tech,EE,7.86,Python,74,"java, node.js, react, python",3,2,3,good,3,63,0,Placed,10.96
+TR-0212,B.Tech,ECE,8.84,C++,161,"linux, html, java, python, git",3,0,3,mid,2,65,0,Placed,11.42
+TR-0213,B.Tech,IT,5.1,Java,244,"sql, python, docker, system design, node.js, sklearn, ml, ci/cd",5,12,5,good,7,81,0,Placed,14.64
+TR-0214,B.E,CSE,6.49,JavaScript,295,"dl, power bi, docker, c++, sklearn, ml, java",4,3,4,good,7,77,0,Placed,12.69
+TR-0215,B.Tech,ECE,8.39,JavaScript,424,"power bi, dl, system design, docker, react, python, node.js",5,3,5,good,11,84,0,Placed,18.06
+TR-0216,B.Tech,CSE,5.19,C++,39,"java, sql",0,0,0,mid,0,46,0,Not Placed,0.0
+TR-0217,B.Tech,ECE,6.78,C++,30,html,1,0,0,mid,0,54,0,Not Placed,0.0
+TR-0218,B.Tech,ECE,8.72,JavaScript,44,"sql, html",1,1,0,mid,0,56,0,Not Placed,0.0
+TR-0219,B.Tech,IT,5.18,JavaScript,163,"node.js, java, git, python, javascript",2,0,1,mid,5,74,0,Placed,7.3
+TR-0220,B.Tech,ECE,7.16,Java,141,"java, python, react, node.js, css",3,0,3,mid,2,63,1,Placed,9.38
+TR-0221,B.Tech,CSE,9.01,JavaScript,112,"linux, java, oop, node.js",2,6,2,mid,2,69,0,Placed,14.2
+TR-0222,B.E,CSE,5.78,Java,444,"aws, docker, dl, java, system design, ml, power bi",6,9,6,good,11,95,0,Placed,17.43
+TR-0223,B.Tech,CSE,7.19,Java,515,"java, sql, power bi, node.js, ci/cd, ml, sklearn, c++, dl",5,6,6,good,5,84,0,Not Placed,0.0
+TR-0224,B.Tech,ECE,8.79,JavaScript,275,"aws, ml, node.js, ci/cd, kubernetes, react",5,3,4,mid,6,90,0,Placed,15.67
+TR-0225,MCA,EE,5.22,Python,18,"html, sql",0,0,1,low,1,51,0,Not Placed,0.0
+TR-0226,MCA,ECE,6.61,Java,40,python,1,0,1,low,1,52,0,Not Placed,0.0
+TR-0227,B.Tech,ECE,8.28,C++,36,"html, css",0,1,0,mid,0,51,1,Not Placed,0.0
+TR-0228,B.Tech,ECE,5.21,C++,164,"oop, javascript, sql, python, react",3,2,3,good,2,79,0,Placed,7.49
+TR-0229,B.E,CSE,7.93,JavaScript,83,"oop, html, sql, node.js, git",3,2,3,good,4,60,0,Placed,11.05
+TR-0230,B.Tech,EE,9.41,JavaScript,172,"python, oop, java, css, git",4,2,3,mid,2,72,0,Placed,12.36
+TR-0231,B.Tech,ECE,4.87,C++,467,"sklearn, react, ml, system design, python, docker, sql, aws",6,9,5,good,6,84,0,Placed,17.76
+TR-0232,B.Tech,ECE,6.92,Java,353,"c++, power bi, kubernetes, java, sklearn, node.js",5,6,6,good,9,79,0,Placed,14.57
+TR-0233,B.Tech,EE,9.1,C++,512,"sklearn, aws, c++, react, node.js, dl, docker, ml",5,3,4,good,5,78,0,Placed,18.95
+TR-0234,B.E,IT,5.28,Java,26,python,0,0,0,low,1,64,1,Not Placed,0.0
+TR-0235,B.Tech,EE,6.43,Python,34,html,1,0,0,low,0,63,1,Not Placed,0.0
+TR-0236,B.Tech,IT,8.31,Java,35,html,1,0,0,low,1,55,1,Not Placed,0.0
+TR-0237,B.Tech,ECE,5.92,Java,60,"oop, java, linux",3,6,2,mid,3,64,0,Placed,9.27
+TR-0238,B.E,CSE,7.28,Python,98,"oop, node.js, react",3,2,3,mid,3,71,0,Placed,10.98
+TR-0239,B.Tech,EE,8.8,Python,68,"python, css, javascript, node.js, oop",4,6,3,mid,2,72,0,Placed,11.02
+TR-0240,B.Tech,EE,5.24,Java,310,"dl, aws, c++, ci/cd, python, node.js, system design",5,3,3,good,11,94,0,Placed,10.55
+TR-0241,B.Tech,EE,6.9,JavaScript,505,"node.js, kubernetes, react, docker, system design, c++",7,3,3,good,10,90,0,Placed,15.57
+TR-0242,B.E,ECE,8.09,C++,267,"react, python, java, system design, node.js, ci/cd",5,3,4,mid,6,82,0,Placed,13.69
+TR-0243,B.E,ECE,5.08,JavaScript,18,"html, c++",1,0,1,low,0,58,1,Not Placed,0.0
+TR-0244,B.Tech,CSE,7.59,Python,41,html,1,0,1,mid,1,55,1,Not Placed,0.0
+TR-0245,B.Tech,EE,8.69,JavaScript,27,css,0,0,0,low,0,50,0,Placed,7.96
+TR-0246,B.Tech,IT,5.6,Java,63,"sql, java, css, linux, html",2,0,1,good,3,67,0,Placed,7.98
+TR-0247,B.Tech,CSE,6.05,C++,120,"java, git, html, css",4,3,1,mid,5,78,0,Placed,10.94
+TR-0248,B.E,IT,9.51,Java,70,"sql, javascript, css",3,3,1,mid,4,60,0,Placed,11.31
+TR-0249,B.Tech,ECE,5.62,JavaScript,287,"docker, c++, ci/cd, sklearn, dl, ml, node.js",7,3,3,good,8,82,0,Placed,13.35
+TR-0250,B.Tech,CSE,6.63,C++,208,"aws, dl, node.js, java, sklearn, c++, ci/cd, python, power bi",5,3,5,good,9,84,0,Placed,12.62
+TR-0251,MCA,EE,8.32,JavaScript,475,"sql, ml, python, kubernetes, node.js, docker, aws, c++",7,9,3,mid,5,87,0,Placed,19.05
+TR-0252,B.Tech,EE,5.75,Java,29,java,1,0,0,mid,0,58,2,Not Placed,0.0
+TR-0253,B.Tech,ECE,6.63,C++,23,"c++, manual testing",1,0,0,mid,0,49,1,Not Placed,0.0
+TR-0254,B.E,ECE,8.6,Python,7,"html, css",0,0,0,low,1,55,0,Not Placed,0.0
+TR-0255,B.Tech,CSE,5.93,C++,117,"oop, html, java",3,6,3,good,3,72,0,Placed,12.64
+TR-0256,B.E,IT,7.57,C++,170,"linux, react, html, sql, node.js",4,2,3,good,4,75,0,Placed,11.8
+TR-0257,B.Tech,CSE,9.6,Python,142,"javascript, sql, linux, python",2,6,2,good,2,60,0,Placed,12.47
+TR-0258,B.Tech,ECE,5.7,JavaScript,471,"java, aws, system design, node.js, power bi, python, docker, dl",5,6,6,good,5,90,0,Placed,18.69
+TR-0259,MCA,IT,7.02,JavaScript,477,"node.js, dl, react, ci/cd, java, power bi, ml",5,9,3,mid,10,75,0,Placed,18.15
+TR-0260,B.E,IT,8.47,Java,255,"ci/cd, aws, sql, power bi, system design, docker, java",4,3,6,good,9,91,0,Placed,14.62
+TR-0261,B.Tech,CSE,5.42,C++,33,"html, css",0,0,1,mid,0,51,2,Not Placed,0.0
+TR-0262,B.E,ECE,6.44,Java,34,"c++, python",0,0,0,mid,0,58,0,Not Placed,0.0
+TR-0263,M.Tech,EE,9.7,Java,23,css,0,1,1,mid,0,40,1,Placed,8.92
+TR-0264,B.Tech,CSE,5.39,Java,154,"linux, python, html",3,6,3,mid,4,66,0,Placed,10.76
+TR-0265,B.E,EE,6.23,Java,124,"java, node.js, oop, html",4,2,2,mid,4,72,1,Placed,10.67
+TR-0266,B.E,EE,8.91,Python,133,"javascript, oop, html, react, node.js",4,3,1,mid,2,68,1,Placed,14.2
+TR-0267,M.Tech,CSE,5.24,Python,296,"dl, power bi, kubernetes, java, ml, ci/cd",5,9,5,good,7,86,0,Placed,14.41
+TR-0268,B.Tech,IT,6.71,Python,365,"dl, java, react, system design, ci/cd, sklearn",4,3,6,mid,5,91,0,Placed,15.68
+TR-0269,MCA,CSE,9.63,Java,411,"power bi, dl, aws, ml, python, system design, java",4,3,4,good,10,91,0,Placed,17.0
+TR-0270,B.E,CSE,5.19,Java,22,"css, java",1,0,0,low,1,58,1,Not Placed,0.0
+TR-0271,B.E,IT,7.23,C++,40,"html, c++",1,1,0,mid,0,56,0,Not Placed,0.0
+TR-0272,B.E,EE,8.25,Java,11,"html, manual testing",0,0,0,low,0,42,2,Not Placed,0.0
+TR-0273,B.E,IT,5.31,JavaScript,75,"python, git, linux, react",3,2,1,mid,2,76,0,Not Placed,0.0
+TR-0274,B.E,CSE,7.28,Python,131,"java, python, css, html",3,2,3,mid,2,78,0,Not Placed,0.0
+TR-0275,B.Tech,ECE,8.26,Java,147,"python, html, react, javascript, java",3,0,2,mid,2,70,0,Placed,12.87
+TR-0276,B.Tech,EE,5.73,Java,467,"docker, react, sklearn, node.js, power bi, ci/cd",6,12,4,mid,6,95,0,Placed,15.82
+TR-0277,MCA,IT,7.61,Java,207,"node.js, java, docker, react, system design, python, aws, sql, sklearn",7,3,4,good,10,90,0,Placed,12.08
+TR-0278,MCA,CSE,9.05,C++,493,"java, kubernetes, react, power bi, dl, ci/cd, node.js",7,9,4,good,9,80,0,Placed,19.05
+TR-0279,B.E,IT,5.71,Java,44,c++,1,0,0,mid,0,47,2,Not Placed,0.0
+TR-0280,B.E,IT,6.66,C++,12,"java, sql",0,0,1,low,0,59,2,Not Placed,0.0
+TR-0281,B.E,IT,8.41,C++,20,python,0,1,1,low,0,47,0,Not Placed,0.0
+TR-0282,B.Tech,IT,4.91,Java,162,"java, react, sql, html, python",3,0,1,mid,3,64,0,Not Placed,0.0
+TR-0283,B.Tech,ECE,7.67,JavaScript,61,"java, sql, javascript, python, node.js",4,3,3,mid,2,65,0,Not Placed,0.0
+TR-0284,B.Tech,IT,8.67,JavaScript,122,"java, linux, sql, css, git",4,0,2,mid,5,64,0,Not Placed,0.0
+TR-0285,M.Tech,ECE,5.52,C++,255,"kubernetes, power bi, react, python, docker, c++, sklearn, sql",4,12,3,good,6,85,0,Placed,15.94
+TR-0286,B.Tech,IT,7.07,Java,425,"dl, kubernetes, java, node.js, sklearn, docker",4,6,6,good,11,87,0,Placed,18.19
+TR-0287,B.Tech,IT,9.48,JavaScript,258,"ml, system design, aws, dl, react, sql, python, kubernetes, power bi",4,12,5,good,5,82,0,Placed,17.73
+TR-0288,M.Tech,EE,5.67,Python,26,python,1,0,1,low,0,51,1,Not Placed,0.0
+TR-0289,B.Tech,IT,6.8,JavaScript,41,css,0,0,1,mid,1,43,0,Not Placed,0.0
+TR-0290,B.Tech,CSE,8.92,Python,43,python,0,0,1,low,0,58,1,Not Placed,0.0
+TR-0291,MCA,EE,4.82,Java,149,"node.js, html, react, sql",2,6,2,mid,4,63,0,Not Placed,0.0
+TR-0292,B.Tech,EE,7.01,JavaScript,108,"javascript, node.js, html, git",2,6,1,mid,3,74,0,Placed,11.44
+TR-0293,B.Tech,IT,8.21,C++,110,"css, javascript, git",4,6,3,mid,2,72,0,Not Placed,0.0
+TR-0294,B.Tech,ECE,5.59,JavaScript,216,"c++, java, power bi, system design, ci/cd, node.js, react, ml",4,9,4,good,7,81,0,Placed,12.83
+TR-0295,B.E,EE,6.26,Java,543,"c++, aws, react, kubernetes, python, sklearn, sql",6,9,5,good,11,83,0,Placed,17.28
+TR-0296,B.Tech,IT,8.85,JavaScript,226,"ci/cd, aws, ml, node.js, python, java, kubernetes",7,6,5,mid,9,92,0,Placed,15.04
+TR-0297,B.E,ECE,5.76,Java,29,"css, manual testing",1,1,1,low,1,62,0,Placed,7.53
+TR-0298,B.Tech,EE,7.54,C++,34,html,1,0,0,low,1,48,1,Not Placed,0.0
+TR-0299,B.Tech,IT,9.74,Python,14,"python, java",0,0,0,low,1,56,1,Not Placed,0.0
+TR-0300,B.Tech,CSE,5.05,Java,75,"css, git, linux, java, html",3,6,3,mid,5,64,0,Placed,8.43
+TR-0301,B.E,EE,6.02,JavaScript,106,"java, sql, linux, node.js",4,3,2,mid,4,62,0,Placed,10.68
+TR-0302,B.Tech,EE,8.54,C++,174,"html, python, javascript, linux, node.js",2,2,3,good,2,69,0,Placed,11.07
+TR-0303,B.Tech,ECE,5.14,JavaScript,525,"kubernetes, sklearn, power bi, java, c++, react",4,9,5,good,10,76,0,Placed,16.85
+TR-0304,M.Tech,ECE,7.98,Java,424,"python, dl, c++, java, docker, sql, power bi, react",7,6,4,mid,8,76,0,Placed,18.77
+TR-0305,MCA,IT,8.75,Java,425,"docker, c++, python, system design, power bi, ml, node.js, ci/cd, sql",4,9,6,good,11,93,0,Placed,19.0
+TR-0306,B.Tech,IT,4.88,Python,22,css,0,0,0,low,0,46,1,Not Placed,0.0
+TR-0307,B.Tech,IT,7.87,JavaScript,16,"python, sql",1,0,0,low,1,55,0,Not Placed,0.0
+TR-0308,M.Tech,ECE,8.67,JavaScript,20,python,0,1,0,low,0,52,0,Not Placed,0.0
+TR-0309,B.Tech,CSE,5.08,Java,125,"javascript, sql, react",3,0,3,mid,2,79,0,Not Placed,0.0
+TR-0310,B.E,ECE,7.88,Java,158,"node.js, javascript, oop",2,6,2,mid,3,73,1,Placed,14.25
+TR-0311,B.Tech,CSE,8.68,JavaScript,112,"oop, python, linux, java, git",3,2,1,good,4,60,0,Placed,12.69
+TR-0312,MCA,EE,5.78,C++,411,"system design, power bi, node.js, python, c++, ml, sql, react, dl",4,3,3,good,9,94,0,Placed,14.08
+TR-0313,M.Tech,CSE,7.28,JavaScript,406,"kubernetes, dl, power bi, system design, docker, python, sklearn",7,9,3,good,5,89,0,Placed,18.16
+TR-0314,M.Tech,EE,9.23,JavaScript,331,"ml, node.js, react, kubernetes, ci/cd, c++",7,6,3,good,8,87,0,Placed,15.49
+TR-0315,B.Tech,IT,4.9,JavaScript,22,"sql, python",1,1,0,low,1,60,0,Not Placed,0.0
+TR-0316,B.Tech,IT,6.01,C++,37,"c++, java",0,0,0,low,0,59,0,Not Placed,0.0
+TR-0317,B.E,ECE,8.19,Python,21,sql,1,0,1,mid,0,44,2,Not Placed,0.0
+TR-0318,MCA,CSE,5.14,JavaScript,111,"react, sql, python, linux",2,6,3,mid,3,62,0,Placed,10.66
+TR-0319,B.Tech,CSE,7.0,C++,172,"css, git, javascript",2,3,1,good,5,60,0,Not Placed,0.0
+TR-0320,B.Tech,CSE,9.83,Java,141,"html, javascript, css, node.js, linux",2,2,1,mid,5,71,0,Placed,11.23
+TR-0321,B.E,IT,5.79,Python,498,"aws, java, python, ci/cd, kubernetes, dl, docker",7,6,3,good,5,78,0,Placed,16.01
+TR-0322,B.E,EE,7.9,JavaScript,475,"system design, dl, kubernetes, ci/cd, python, sql, ml, aws",7,3,5,good,11,82,0,Placed,18.29
+TR-0323,B.Tech,EE,8.48,Java,376,"sql, java, docker, ci/cd, kubernetes, aws, react, dl, ml",5,3,4,good,8,75,0,Placed,16.7
+TR-0324,B.Tech,CSE,5.47,Python,32,"html, java",1,0,0,low,1,45,1,Not Placed,0.0
+TR-0325,B.Tech,EE,6.88,Python,13,html,0,1,1,mid,1,58,2,Not Placed,0.0
+TR-0326,B.Tech,EE,9.34,C++,43,"css, python",0,1,1,mid,0,64,1,Not Placed,0.0
+TR-0327,B.Tech,ECE,5.59,Java,83,"react, linux, node.js, javascript",4,6,2,mid,4,69,1,Placed,11.06
+TR-0328,B.Tech,CSE,6.61,C++,92,"html, node.js, react",4,0,1,mid,4,69,0,Placed,10.52
+TR-0329,B.Tech,ECE,8.38,Python,167,"javascript, css, react, oop, node.js",3,6,3,mid,3,73,0,Placed,13.15
+TR-0330,MCA,ECE,4.88,Python,224,"sklearn, ci/cd, dl, c++, system design, sql, docker",5,3,6,good,5,77,0,Placed,12.51
+TR-0331,B.E,EE,6.9,Python,360,"java, ml, c++, dl, python, sql, node.js",7,12,4,good,6,94,0,Placed,16.53
+TR-0332,B.Tech,EE,9.2,Java,407,"aws, ci/cd, power bi, dl, python, docker, node.js",4,6,6,good,6,81,0,Placed,18.31
+TR-0333,B.Tech,EE,5.78,Python,17,python,1,0,1,mid,0,47,0,Not Placed,0.0
+TR-0334,B.Tech,EE,6.21,C++,28,"python, java",0,0,0,mid,0,56,0,Not Placed,0.0
+TR-0335,B.Tech,CSE,9.42,Java,13,"sql, c++",1,0,0,low,1,45,0,Not Placed,0.0
+TR-0336,B.Tech,IT,5.59,Java,100,"css, java, html, python, sql",4,2,3,mid,4,69,0,Placed,10.82
+TR-0337,M.Tech,ECE,7.05,JavaScript,107,"python, javascript, node.js, css",4,3,3,good,2,75,0,Placed,10.99
+TR-0338,B.Tech,EE,8.7,JavaScript,62,"java, react, python, git, node.js",2,3,1,good,3,77,0,Not Placed,0.0
+TR-0339,B.Tech,IT,5.09,C++,268,"dl, sql, node.js, kubernetes, aws, sklearn",7,12,4,good,5,93,0,Placed,14.25
+TR-0340,B.Tech,EE,7.18,C++,334,"python, aws, sql, sklearn, ci/cd, react",5,12,4,mid,5,88,0,Placed,16.6
+TR-0341,B.Tech,CSE,8.77,Python,433,"power bi, sklearn, python, aws, java, sql, node.js",6,12,3,good,7,92,0,Placed,19.11
+TR-0342,B.Tech,EE,5.72,C++,44,manual testing,1,0,1,low,0,53,0,Not Placed,0.0
+TR-0343,B.Tech,CSE,6.76,JavaScript,24,"html, c++",0,1,1,mid,0,62,2,Not Placed,0.0
+TR-0344,M.Tech,ECE,8.21,Java,23,css,0,0,0,low,1,49,0,Not Placed,0.0
+TR-0345,M.Tech,EE,5.4,C++,159,"node.js, sql, javascript",3,3,2,mid,3,70,0,Placed,11.27
+TR-0346,B.Tech,ECE,7.64,Java,150,"javascript, node.js, react, git, sql",4,0,3,mid,3,67,0,Placed,11.08
+TR-0347,MCA,CSE,9.35,Python,76,"linux, html, sql, css",4,6,3,mid,2,73,0,Placed,13.81
+TR-0348,B.Tech,IT,5.46,C++,396,"ml, sklearn, dl, system design, c++, power bi",5,6,6,good,9,75,0,Placed,15.83
+TR-0349,B.E,IT,6.25,Java,255,"docker, react, aws, c++, python, java",5,12,3,good,7,87,0,Placed,15.02
+TR-0350,B.E,CSE,9.79,C++,432,"dl, sklearn, java, aws, ml, react, system design, sql, power bi",5,3,3,good,8,86,0,Placed,18.84
+TR-0351,B.E,IT,5.89,Python,9,"css, c++",0,1,0,low,0,54,0,Not Placed,0.0
+TR-0352,B.Tech,IT,7.96,Java,31,"sql, manual testing",1,1,0,mid,0,56,1,Not Placed,0.0
+TR-0353,B.Tech,ECE,8.97,Java,40,python,1,0,1,low,0,56,0,Not Placed,0.0
+TR-0354,B.Tech,ECE,5.1,JavaScript,175,"html, node.js, sql, java",3,0,2,mid,2,79,0,Placed,7.88
+TR-0355,B.E,CSE,6.06,C++,91,"linux, javascript, sql, react, html",3,2,3,mid,2,81,0,Placed,8.19
+TR-0356,MCA,EE,8.53,C++,99,"css, git, sql, linux",4,3,2,good,5,69,0,Placed,11.95
+TR-0357,M.Tech,CSE,5.29,JavaScript,436,"kubernetes, dl, java, system design, ci/cd, python",5,9,4,good,5,78,0,Not Placed,0.0
+TR-0358,B.Tech,CSE,7.3,Python,427,"dl, sql, ml, aws, java, kubernetes, ci/cd, react, node.js",7,3,3,good,6,79,0,Placed,16.37
+TR-0359,MCA,EE,8.09,Java,301,"python, c++, sql, system design, ml, power bi, ci/cd, java",7,3,3,good,10,85,0,Placed,16.55
+TR-0360,B.E,IT,5.37,C++,37,python,0,0,0,low,1,50,0,Not Placed,0.0

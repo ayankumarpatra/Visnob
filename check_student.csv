@@ -1,0 +1,46 @@
+student_id,degree,branch,cgpa,coding_language,coding_questions_solved,technical_skills,projects_count,experience_months,certifications_count,communication
+S-4461,B.Tech,CSE,7.35,Python,18,"html, css, sql",1,0,0,mid
+S-4462,B.Tech,CSE,8.63,Python,34,"html, css, sql",1,0,0,mid
+S-4463,B.Tech,CSE,5.19,Python,105,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4464,B.Tech,CSE,7.16,Python,112,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4465,B.Tech,CSE,8.22,Python,100,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4466,B.Tech,CSE,5.88,Python,265,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4467,B.Tech,CSE,6.3,Python,406,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4468,B.Tech,CSE,8.66,Python,337,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4469,B.Tech,CSE,5.5,C,7,"html, css",0,0,0,low
+S-4470,B.Tech,CSE,7.8,Python,29,"html, css, sql",1,0,0,mid
+S-4471,B.Tech,CSE,9.41,Python,24,"html, css, sql",1,0,0,mid
+S-4472,B.Tech,CSE,5.64,Python,125,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4473,B.Tech,CSE,6.78,Python,92,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4474,B.Tech,CSE,8.17,Python,156,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4475,B.Tech,CSE,5.73,Python,377,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4476,B.Tech,CSE,6.5,Python,316,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4477,B.Tech,CSE,8.68,Python,312,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4478,B.Tech,CSE,5.49,C,7,"html, css",0,0,0,low
+S-4479,B.Tech,CSE,6.66,Python,28,"html, css, sql",1,0,0,mid
+S-4480,B.Tech,CSE,8.14,Python,26,"html, css, sql",1,0,0,mid
+S-4481,B.Tech,CSE,5.84,Python,96,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4482,B.Tech,CSE,6.96,Python,136,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4483,B.Tech,CSE,9.52,Python,143,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4484,B.Tech,CSE,5.75,Python,370,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4485,B.Tech,CSE,7.01,Python,323,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4486,B.Tech,CSE,8.29,Python,447,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4487,B.Tech,CSE,5.82,C,16,"html, css",0,0,0,low
+S-4488,B.Tech,CSE,6.72,Python,37,"html, css, sql",1,0,0,mid
+S-4489,B.Tech,CSE,8.23,Python,39,"html, css, sql",1,0,0,mid
+S-4490,B.Tech,CSE,5.3,Python,85,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4491,B.Tech,CSE,7.34,Python,129,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4492,B.Tech,CSE,9.19,Python,104,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4493,B.Tech,CSE,5.4,Python,339,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4494,B.Tech,CSE,6.54,Python,465,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4495,B.Tech,CSE,8.27,Python,447,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4496,B.Tech,CSE,5.49,C,14,"html, css",0,0,0,low
+S-4497,B.Tech,CSE,7.5,Python,28,"html, css, sql",1,0,0,mid
+S-4498,B.Tech,CSE,8.36,Python,26,"html, css, sql",1,0,0,mid
+S-4499,B.Tech,CSE,5.16,Python,91,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4500,B.Tech,CSE,7.14,Python,118,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4501,B.Tech,CSE,8.76,Python,115,"python, java, sql, javascript, react, oop, git",3,3,2,mid
+S-4502,B.Tech,CSE,5.21,Python,282,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4503,B.Tech,CSE,7.78,Python,418,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4504,B.Tech,CSE,9.06,Python,401,"c++, python, java, sql, ml, dl, sklearn, docker, aws, system design, oop",6,6,5,good
+S-4505,B.Tech,CSE,5.47,C,19,"html, css",0,0,0,low

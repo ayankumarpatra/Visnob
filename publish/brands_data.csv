@@ -1,521 +1,501 @@
-company_name,job_role,salary_avg_lpa,required_skills,preferred_skills,min_cgpa,degrees_accepted,experience_required,coding_test_rounds
-zoho,data scientist,12.4,"python, statistics, machine learning, sql, java, javascript","scikit-learn, pytorch, pandas",7.0,"btech, mtech",fresher,4
-flipkart,frontend developer,13.2,"javascript, html, css, react, java, data pipelines","node.js, next.js, typescript",7.5,"btech, be, bca",2,2
-phonepe,ai engineer,10.6,"python, machine learning, deep learning, algorithms, apis","sql, mlops",6.5,"btech, be, mtech",fresher,3
-groww,backend developer,10.1,"python, sql, apis, databases, java, data analysis","node.js, redis, spring boot",7.5,"btech, be, bsc, bca",fresher,3
-cisco,technical support engineer,9.0,"networking, linux, troubleshooting, communication","python, cloud, automation",6.0,"btech, be, bsc",fresher,2
-policybazaar,cybersecurity engineer,10.8,"networking, linux, cybersecurity, python, sql","docker, java",6.5,"btech, be, bsc",fresher,3
-cred,devops engineer,25.8,"linux, git, docker, ci/cd, scripting, java",terraform,7.0,"btech, be, bca",2,3
-udaan,backend developer,9.5,"python, sql, apis, databases","redis, spring boot, django",7.0,"btech, be, bsc",fresher,3
-meesho,site reliability engineer,12.6,"linux, python, networking, monitoring, java, sql","ci/cd, gcp, kubernetes, aws",7.5,"btech, be, mtech",fresher,3
-healthplix,full stack developer,8.0,"javascript, react, node.js, sql","typescript, docker, aws",6.0,"btech, be, bsc",1,3
-browserstack,ai engineer,30.7,"python, machine learning, deep learning, algorithms, javascript, testing",llm,6.5,"btech, mtech",3,3
-paytm,mobile app developer,17.6,"java, object oriented programming, git, cybersecurity",flutter,6.5,"btech, be, mtech",1,2
-google,data engineer,24.0,"python, sql, data structures, databases, etl","gcp, spark, airflow",7.5,"btech, be, mtech",fresher,3
-cred,product analyst,10.1,"sql, excel, data analysis, java",a/b testing,6.5,"btech, be, bsc, bca",fresher,2
-dream11,ai engineer,35.3,"python, machine learning, deep learning, algorithms, data analysis","sql, nlp, tensorflow",6.5,"btech, be, mtech, msc",1,4
-flipkart,mobile app developer,25.4,"java, object oriented programming, git, python","apis, firebase, flutter",6.5,"btech, be, mtech",4,2
-browserstack,frontend developer,18.8,"javascript, html, css, react, java, python","testing, typescript, git",7.0,"btech, be, bsc, bca",2,1
-policybazaar,site reliability engineer,31.6,"linux, python, networking, monitoring","aws, ci/cd, gcp",7.0,"btech, be, bca",2,4
-amazon,business analyst,12.0,"sql, excel, data analysis, communication","tableau, python, aws",6.5,"btech, bsc, bcom",fresher,2
-myntra,product analyst,8.4,"sql, excel, data analysis, data pipelines","data visualization, python, power bi",6.0,"btech, bsc, bcom",fresher,3
-delhivery,machine learning engineer,28.5,"python, machine learning, statistics, sql, data pipelines",pytorch,6.5,"btech, be, mtech",3,5
-tcs,assistant software engineer,4.5,"java, sql, data structures, programming, problem solving","python, cloud, git",6.0,"btech, be, bsc",fresher,2
-hcltech,qa automation engineer,6.0,"testing, selenium, java, sql","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
-freshworks,mobile app developer,13.8,"java, object oriented programming, git, python, aws","android, apis, sql",7.5,"btech, be, bsc",1,1
-browserstack,cloud engineer,10.8,"linux, networking, cloud computing, scripting, python, docker","aws, terraform, azure, java",6.0,"btech, be, bca",4,2
-freshworks,software engineer,23.7,"data structures, algorithms, object oriented programming, git, java, sql","python, linux",7.0,"btech, be, mtech",1,4
-zoho,data scientist,19.0,"python, statistics, machine learning, sql, java, c++","data visualization, tensorflow",7.0,"btech, mtech",2,2
-razorpay,cybersecurity engineer,18.4,"networking, linux, cybersecurity, python, apis, docker","siem, cloud security",7.0,"btech, be, mtech",1,3
-amazon,data engineer,20.0,"python, sql, etl, databases, data structures","aws, spark, airflow",7.0,"btech, be, mtech",fresher,3
-cognizant,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, agile, tableau",6.0,"btech, bsc, bcom",fresher,2
-google,site reliability engineer,31.0,"linux, python, networking, monitoring, scripting","kubernetes, gcp, terraform",7.5,"btech, be, mtech",2,4
-groww,frontend developer,8.1,"javascript, html, css, react, python, data analysis","typescript, apis, next.js",7.5,"btech, be, bca",fresher,1
-slack,qa automation engineer,8.0,"python, selenium, testing, sql","cypress, api testing, ci/cd",6.0,"btech, be, bsc",fresher,2
-anthropic,data engineer,11.0,"python, sql, etl, databases, data pipelines","spark, airflow, cloud",6.5,"btech, be, mtech",1,3
-amazon,solutions architect,32.0,"cloud computing, networking, databases, system design","aws, security, kubernetes",7.5,"btech, be, mtech",4,4
-dream11,devops engineer,9.5,"linux, git, docker, ci/cd, scripting, java",azure,7.0,"btech, be, mtech",fresher,1
-dream11,devops engineer,19.5,"linux, git, docker, ci/cd, scripting, python","jenkins, java",6.5,"btech, be, bca",3,2
-amazon,frontend engineer,19.0,"javascript, html, css, react","typescript, testing, aws",6.5,"btech, be, bsc",fresher,2
-cred,security analyst,16.7,"networking, linux, cybersecurity","siem, cloud security, python",7.0,"btech, be, bsc",3,2
-groww,cybersecurity engineer,24.4,"networking, linux, cybersecurity, python, data analysis",siem,6.5,"btech, be, mtech",4,3
-freshworks,business analyst,17.7,"sql, excel, requirements analysis, communication, java, javascript","python, data visualization",6.5,"btech, be, bsc, bca",2,1
-swiggy,cloud engineer,14.8,"linux, networking, cloud computing, scripting","docker, azure, aws",7.5,"btech, be, bsc, bca",fresher,4
-paytm,qa automation engineer,13.2,"testing, selenium, sql, git","cypress, api testing, java, cybersecurity",7.0,"btech, be, bsc, bca",2,1
-paytm,frontend developer,23.3,"javascript, html, css, react, java, sql",apis,7.0,"btech, be, mtech",1,3
-groww,data analyst,17.2,"sql, excel, data analysis, python","data visualization, power bi",6.0,"btech, bsc, bcom",2,3
-freshworks,software engineer,28.8,"data structures, algorithms, object oriented programming, git, java, python","c++, linux, system design",7.0,"btech, be, bca",1,3
-phonepe,cybersecurity engineer,14.5,"networking, linux, cybersecurity, python, apis",docker,7.0,"btech, be, mtech",fresher,2
-classplus ,data analyst,6.5,"sql, excel, python, data analysis","tableau, power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
-meesho,full stack developer,14.0,"javascript, react, node.js, sql, java, aws","html, typescript, git, data pipelines",6.0,"btech, be, bsc, bca",fresher,1
-zomato,cybersecurity engineer,12.1,"networking, linux, cybersecurity, python, sql","cryptography, cloud security",7.5,"btech, be, mtech",1,2
-hcltech,data engineer,9.5,"python, sql, etl, databases, data pipelines","spark, azure, databricks",6.5,"btech, be, mtech",1,3
-tcs,cloud engineer,8.0,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",fresher,2
-tcs,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, tableau, agile",6.0,"btech, bsc, bcom",fresher,2
-nykaa,backend developer,13.1,"python, sql, apis, databases, data analysis","java, django",7.0,"btech, be, bca",fresher,3
-ola,data scientist,18.2,"python, statistics, machine learning, sql, kubernetes","data visualization, pytorch, tensorflow, java",7.5,"btech, be, mtech, msc",1,2
-dream11,backend developer,26.0,"python, sql, apis, databases, data analysis, aws","redis, node.js",6.0,"btech, be, bsc",1,5
-ola,data analyst,13.5,"sql, excel, data analysis, java, python, kubernetes",data visualization,6.0,"btech, be, bsc",2,2
-zoho,software development engineer,18.9,"data structures, algorithms, object oriented programming, problem solving, java, python","system design, apis",7.5,"btech, be, bsc, bca",fresher,4
-amazon,backend engineer,24.0,"java, python, sql, apis, data structures","microservices, aws, docker",7.0,"btech, be, mtech",1,3
-zerodha,qa automation engineer,12.0,"testing, selenium, sql, git, javascript, linux","cypress, python, api testing",6.5,"btech, be, bsc",fresher,2
-freshworks,backend developer,13.6,"python, sql, apis, databases",microservices,6.5,"btech, be, bsc, bca",fresher,4
-cred,cloud engineer,20.2,"linux, networking, cloud computing, scripting, java, python","gcp, docker, aws",7.5,"btech, be, bsc",1,3
-groww,site reliability engineer,18.9,"linux, python, networking, monitoring, data analysis","terraform, docker, aws",6.5,"btech, be, mtech",2,4
-flipkart,product analyst,9.6,"sql, excel, data analysis, java, python, aws","a/b testing, tableau",7.0,"btech, be, bsc",fresher,1
-policybazaar,cybersecurity engineer,17.8,"networking, linux, cybersecurity, python","cryptography, siem, cloud security",6.0,"btech, be, bca",1,4
-amazon,software development engineer,40.0,"c++, java, data structures, algorithms, system design","aws, distributed systems, scalability",8.0,"btech, be, mtech",5,5
-swiggy,cloud engineer,12.7,"linux, networking, cloud computing, scripting, java, python","azure, gcp, aws, sql",7.0,"btech, be, mtech",1,3
-dream11,product analyst,21.0,"sql, excel, data analysis, python, aws",power bi,7.0,"btech, be, bsc, bca",1,1
-ola,devops engineer,8.5,"linux, git, docker, ci/cd, scripting, python","aws, azure, terraform",6.0,"btech, be, bca",fresher,3
-hcltech,cloud engineer,9.0,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",1,3
-adobe,cloud engineer,19.0,"linux, networking, cloud computing, python","aws, azure, kubernetes",7.0,"btech, be, mtech",1,3
-cred,frontend developer,16.0,"javascript, html, css, react, sql, aws","next.js, node.js, apis, java",7.5,"btech, be, bsc",fresher,2
-ola,machine learning engineer,21.2,"python, machine learning, statistics, java, kubernetes, aws","pytorch, deep learning",7.0,"btech, be, mtech",1,3
-freshworks,security analyst,18.2,"networking, linux, cybersecurity, python","sql, cryptography",7.0,"btech, be, bsc",1,2
-hcltech,application support engineer,6.0,"linux, sql, troubleshooting, scripting","python, cloud, it service management",6.0,"btech, be, bsc",fresher,2
-razorpay,software development engineer,16.1,"data structures, algorithms, object oriented programming, problem solving, java, docker","c++, aws",7.5,"btech, be, mtech",fresher,3
-delhivery,qa automation engineer,12.3,"testing, selenium, sql, git, python, data pipelines","ci/cd, api testing",7.0,"btech, be, mtech",1,3
-razorpay,site reliability engineer,14.8,"linux, python, networking, monitoring, apis, aws",gcp,7.5,"btech, be, bsc, bca",1,5
-dream11,software engineer,16.4,"data structures, algorithms, object oriented programming, git, data analysis, aws","java, linux",6.0,"btech, be, bsc, bca",fresher,3
-policybazaar,product analyst,15.2,"sql, excel, data analysis, python, apis",tableau,6.5,"btech, be, bsc, bca",3,3
-policybazaar,data engineer,19.6,"python, sql, etl, databases, data pipelines, data analysis",docker,7.0,"btech, be, bca",1,3
-delhivery,devops engineer,22.0,"linux, git, docker, ci/cd, scripting, java",kubernetes,7.0,"btech, be, bsc",1,1
-zerodha,product analyst,14.3,"sql, excel, data analysis, apis, linux","python, power bi, statistics",6.5,"btech, bsc, bcom",2,2
-amazon,software development engineer,14.0,"java, python, c++, data structures, algorithms","aws, system design, distributed systems",7.0,"btech, be, mtech",fresher,2
-paytm,frontend developer,22.7,"javascript, html, css, react, python, sql","typescript, testing",7.0,"btech, be, bsc",1,2
-zomato,full stack developer,12.7,"javascript, react, node.js, sql, python, java","git, docker, data analysis",6.5,"btech, be, bsc",2,2
-myntra,site reliability engineer,32.3,"linux, python, networking, monitoring, sql, data pipelines",ci/cd,7.0,"btech, be, mtech",1,2
-razorpay,cybersecurity engineer,22.0,"networking, linux, cybersecurity, python, java, apis","cloud security, cryptography, docker",7.0,"btech, be, bsc",4,3
-zomato,business analyst,7.7,"sql, excel, requirements analysis, communication, aws",agile,6.0,"btech, bsc, bcom",fresher,1
-tcs,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
-nykaa,business analyst,15.3,"sql, excel, requirements analysis, communication, python",tableau,6.5,"btech, bsc, bcom",4,1
-delhivery,backend developer,22.1,"python, sql, apis, databases, java, data pipelines",django,7.0,"btech, be, bsc",1,3
-cred,cloud engineer,9.7,"linux, networking, cloud computing, scripting, python, react",gcp,7.0,"btech, be, bsc",fresher,3
-cred,mobile app developer,9.9,"java, object oriented programming, git, python, sql, react","apis, firebase, kotlin",7.0,"btech, be, bsc, bca",fresher,2
-meesho,frontend developer,10.2,"javascript, html, css, react, data pipelines","testing, git",6.5,"btech, be, bca",fresher,2
-cisco,full stack developer,17.0,"javascript, react, node.js, sql, html, css","typescript, cloud, docker",6.5,"btech, be, bsc",1,3
-policybazaar,ai engineer,13.0,"python, machine learning, deep learning, algorithms, java, apis","sql, nlp, docker",6.5,"btech, be, mtech",fresher,3
-anthropic,ai engineer,16.0,"python, deep learning, machine learning, algorithms","pytorch, nlp, llm, vector databases",7.0,"btech, be, mtech",2,4
-dream11,data analyst,11.1,"sql, excel, data analysis, java, aws","statistics, power bi",6.0,"btech, be, bsc",1,2
-zoho,software development engineer,25.0,"data structures, algorithms, object oriented programming, problem solving, java, c++","apis, sql, python",7.5,"btech, be, bca",3,2
-razorpay,data engineer,14.5,"python, sql, etl, databases, data pipelines, java","gcp, docker, aws",7.0,"btech, be, bca",2,2
-browserstack,security analyst,8.8,"networking, linux, cybersecurity, java, javascript, python","cryptography, docker",6.0,"btech, be, bca",1,2
-cisco,software engineer,26.0,"c++, linux, data structures, networking, multithreading","system design, distributed systems",7.5,"btech, be, mtech",2,4
-flipkart,business analyst,17.6,"sql, excel, requirements analysis, communication, java, python","data visualization, power bi",6.5,"btech, bsc, bcom",2,2
-infosys,business analyst,6.5,"sql, excel, requirements analysis, communication","power bi, agile, tableau",6.0,"btech, bsc, bcom",fresher,2
-infosys,application support engineer,5.5,"sql, linux, troubleshooting, communication","python, cloud, scripting",6.0,"btech, be, bsc",fresher,2
-zoho,product analyst,9.6,"sql, excel, data analysis, java, python","tableau, a/b testing, power bi",6.0,"btech, be, bsc, bca",fresher,1
-razorpay,data analyst,7.0,"sql, excel, python, data analysis","power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
-nykaa,qa automation engineer,15.6,"testing, selenium, sql, git, java, python",ci/cd,6.0,"btech, be, bca",3,2
-groww,mobile app developer,9.4,"java, object oriented programming, git, python, apis, data analysis","firebase, sql, kotlin",6.5,"btech, be, bsc",1,2
-freshworks,devops engineer,18.6,"linux, git, docker, ci/cd, scripting, sql",kubernetes,7.0,"btech, be, mtech",3,2
-udaan,data scientist,13.8,"python, statistics, machine learning, sql, java, data pipelines","tensorflow, kubernetes",7.0,"btech, be, mtech, msc",2,3
-anthropic,software engineer,10.0,"python, java, data structures, algorithms, git","cloud, docker, system design",6.5,"btech, be, mtech",fresher,3
-flipkart,machine learning engineer,17.7,"python, machine learning, statistics, java, microservices","docker, scikit-learn",7.5,"btech, be, mtech, msc",2,4
-zomato,ai engineer,19.8,"python, machine learning, deep learning, algorithms, data analysis","pytorch, aws",7.0,"btech, be, mtech",fresher,3
-freshworks,business analyst,13.4,"sql, excel, requirements analysis, communication, java","power bi, javascript",6.0,"btech, bsc, bcom",3,1
-swiggy,data analyst,9.2,"sql, excel, data analysis, java",data visualization,6.0,"btech, be, bsc, bca",4,1
-phonepe,cloud engineer,23.9,"linux, networking, cloud computing, scripting","docker, python",7.0,"btech, be, mtech",4,2
-adobe,qa automation engineer,15.0,"python, selenium, testing, sql, git","jenkins, docker, api testing",6.5,"btech, be, bsc",fresher,2
-hcltech,software developer,8.0,"java, python, sql, apis, data structures","spring boot, docker, cloud",6.5,"btech, be, mtech",1,3
-zerodha,data engineer,12.9,"python, sql, etl, databases, data pipelines, apis","spark, docker, java",7.0,"btech, be, bsc",3,4
-flipkart,full stack developer,28.7,"javascript, react, node.js, sql, java, python","html, typescript, apis",7.0,"btech, be, bsc",1,2
-zomato,data scientist,25.5,"python, statistics, machine learning, sql","pandas, pytorch, data visualization",7.0,"btech, be, mtech",1,2
-healthplix,data analyst,6.5,"sql, excel, python, statistics","power bi, healthcare analytics",6.0,"btech, bsc, bcom",fresher,2
-cred,devops engineer,23.7,"linux, git, docker, ci/cd, scripting, python",monitoring,6.0,"btech, be, bsc, bca",1,3
-delhivery,software engineer,9.2,"data structures, algorithms, object oriented programming, git, java",system design,7.5,"btech, be, bca",fresher,3
-upwind,security engineer,12.0,"linux, networking, cybersecurity, python","cloud security, cryptography, siem",7.0,"btech, be, mtech",1,3
-cognizant,programmer analyst,5.0,"java, sql, programming, data structures","python, cloud, git",6.0,"btech, be, bsc",fresher,2
-adobe,devops engineer,18.0,"linux, git, ci/cd, docker, scripting","kubernetes, terraform, cloud",7.0,"btech, be, mtech",1,3
-paytm,site reliability engineer,10.4,"linux, python, networking, monitoring, java, sql","docker, terraform",6.0,"btech, be, bca",fresher,2
-browserstack,machine learning engineer,16.6,"python, machine learning, statistics, testing, docker",sql,7.0,"btech, be, mtech, msc",3,2
-razorpay,data analyst,11.2,"sql, excel, data analysis, apis, aws",python,6.0,"btech, be, bsc, bca",2,3
-zomato,qa automation engineer,18.2,"testing, selenium, sql, git, python, java","ci/cd, api testing",7.0,"btech, be, mtech",4,2
-freshworks,machine learning engineer,14.9,"python, machine learning, statistics, java, sql, aws",docker,7.5,"btech, be, mtech",fresher,3
-razorpay,product analyst,16.8,"sql, excel, data analysis, java, apis, docker","a/b testing, tableau, data visualization, python",6.0,"btech, bsc, bcom",1,3
-groww,data scientist,13.9,"python, statistics, machine learning, sql, java, apis",scikit-learn,6.5,"btech, be, mtech, msc",fresher,3
-policybazaar,software development engineer,19.0,"data structures, algorithms, object oriented programming, problem solving, sql, data analysis","apis, c++, python",6.0,"btech, be, bsc, bca",2,4
-nykaa,cybersecurity engineer,23.5,"networking, linux, cybersecurity, python, sql, data analysis","cloud security, siem, react",6.5,"btech, be, mtech",2,2
-cisco,cybersecurity engineer,21.0,"networking, linux, cybersecurity, python","siem, cloud security, cryptography",7.0,"btech, be, mtech",1,3
-browserstack,security analyst,9.8,"networking, linux, cybersecurity, javascript, python, testing","cryptography, sql, java",7.0,"btech, be, bsc",fresher,2
-cognizant,application support engineer,6.0,"linux, sql, troubleshooting, communication","python, shell scripting, cloud",6.0,"btech, be, bsc",fresher,2
-zerodha,backend developer,19.3,"python, sql, apis, databases, javascript","redis, microservices",6.5,"btech, be, bca",2,4
-ola,cybersecurity engineer,12.3,"networking, linux, cybersecurity, python, java, data analysis","siem, cryptography, docker",7.0,"btech, be, bsc",2,2
-zoho,site reliability engineer,16.8,"linux, python, networking, monitoring, java","docker, gcp, kubernetes",7.5,"btech, be, bsc, bca",4,2
-zoho,software engineer,7.8,"data structures, algorithms, object oriented programming, git, java, javascript","apis, python, c++",6.5,"btech, be, bca",fresher,3
-policybazaar,backend developer,13.0,"python, sql, apis, databases","node.js, django, spring boot, java",7.0,"btech, be, bca",2,3
-flipkart,data engineer,13.8,"python, sql, etl, databases, data pipelines, java","spark, aws",7.5,"btech, be, bsc",2,3
-udaan,business analyst,13.6,"sql, excel, requirements analysis, communication, java, python","tableau, agile",6.0,"btech, bsc, bcom",1,2
-cognizant,cybersecurity analyst,8.0,"networking, linux, cybersecurity, python","siem, cloud security, vulnerability assessment",6.5,"btech, be, mtech",1,3
-tcs,cybersecurity analyst,7.5,"networking, linux, cybersecurity, sql","siem, cloud security, python",6.5,"btech, be, mtech",fresher,2
-meesho,security analyst,15.8,"networking, linux, cybersecurity, data pipelines, aws","siem, sql, python",6.5,"btech, be, bsc, bca",1,3
-cred,security analyst,11.0,"networking, linux, cybersecurity, aws","sql, siem, python",6.0,"btech, be, bsc",fresher,2
-groww,devops engineer,13.2,"linux, git, docker, ci/cd, scripting, java","azure, data analysis",6.5,"btech, be, bsc, bca",2,2
-classplus ,backend developer,8.0,"python, django, sql, apis","redis, docker, aws",6.0,"btech, be, mtech",1,3
-ola,data analyst,7.8,"sql, excel, data analysis, python",tableau,6.5,"btech, be, bsc, bca",fresher,2
-phonepe,ai engineer,21.9,"python, machine learning, deep learning, algorithms, sql, cybersecurity","llm, pytorch, docker",7.0,"btech, be, mtech",fresher,4
-groww,security analyst,8.5,"networking, linux, cybersecurity, java, sql, data analysis","siem, apis",7.0,"btech, be, bsc, bca",fresher,3
-swiggy,backend developer,22.8,"python, sql, apis, databases, java, data pipelines",microservices,6.5,"btech, be, bsc",2,4
-udaan,cybersecurity engineer,8.4,"networking, linux, cybersecurity, python, java, data pipelines",docker,6.5,"btech, be, mtech",fresher,3
-delhivery,security analyst,7.0,"networking, linux, cybersecurity, java, python, sql","cloud security, siem, cryptography, data pipelines",7.0,"btech, be, bca",fresher,3
-swiggy,frontend developer,12.0,"javascript, html, css, react, sql, kubernetes","testing, node.js",6.0,"btech, be, bsc, bca",fresher,2
-zoho,frontend developer,21.7,"javascript, html, css, react, c++, python","apis, node.js",6.5,"btech, be, bca",2,2
-myntra,data analyst,20.0,"sql, excel, data analysis","python, data visualization, data pipelines",6.5,"btech, bsc, bcom",1,3
-phonepe,business analyst,11.3,"sql, excel, requirements analysis, communication, java, apis","python, tableau, data visualization",6.0,"btech, be, bsc",3,2
-zomato,ai engineer,17.3,"python, machine learning, deep learning, algorithms","nlp, tensorflow",7.0,"btech, mtech",fresher,4
-phonepe,software engineer,31.6,"data structures, algorithms, object oriented programming, git, apis, cybersecurity","c++, sql",6.0,"btech, be, mtech",4,4
-nykaa,frontend developer,18.5,"javascript, html, css, react, python, sql",node.js,6.5,"btech, be, bsc, bca",1,1
-cisco,embedded software engineer,16.0,"c, c++, embedded systems, data structures","rtos, microcontrollers, linux",7.0,"btech, be, mtech",fresher,3
-google,data engineer,35.0,"python, sql, databases, data pipelines, java","spark, gcp, kubernetes",8.0,"btech, be, mtech",3,4
-udaan,product analyst,7.5,"sql, excel, data analysis, java","tableau, data visualization",6.5,"btech, be, bsc, bca",fresher,2
-razorpay,business analyst,5.7,"sql, excel, requirements analysis, communication, python, docker","agile, tableau",6.0,"btech, be, bsc, bca",fresher,2
-google,software engineer,28.0,"python, c++, java, data structures, algorithms, problem solving","system design, cloud, distributed systems",7.5,"btech, be, mtech",fresher,3
-myntra,backend developer,25.9,"python, sql, apis, databases, java",spring boot,7.0,"btech, be, mtech",4,3
-dream11,site reliability engineer,22.4,"linux, python, networking, monitoring, data analysis, aws","terraform, kubernetes, docker",7.0,"btech, be, bsc",1,4
-policybazaar,security analyst,20.4,"networking, linux, cybersecurity, data analysis","sql, apis",7.0,"btech, be, bca",1,2
-zerodha,business analyst,10.5,"sql, excel, requirements analysis, communication, python, linux",data visualization,6.0,"btech, be, bsc",1,1
-nykaa,ai engineer,17.6,"python, machine learning, deep learning, algorithms, java, sql",mlops,6.5,"btech, be, mtech, msc",fresher,4
-swiggy,qa automation engineer,9.5,"testing, selenium, sql, git, java, kubernetes","cypress, python, api testing",7.5,"btech, be, bsc, bca",2,1
-tcs,software engineer,7.0,"java, sql, data structures, object oriented programming","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
-groww,software development engineer,14.0,"data structures, algorithms, object oriented programming, problem solving, java, python","c++, system design",7.5,"btech, be, bca",1,4
-google,security engineer,29.0,"networking, linux, python, cybersecurity, cryptography","cloud security, siem, threat modeling",7.5,"btech, be, mtech",2,4
-paytm,data analyst,6.1,"sql, excel, data analysis, java, python, cybersecurity","data visualization, statistics, tableau",7.0,"btech, be, bsc, bca",fresher,2
-classplus ,product analyst,8.0,"sql, excel, data analysis, communication","a/b testing, python, tableau",6.0,"btech, bsc, bcom",1,2
-swiggy,software engineer,23.0,"data structures, algorithms, object oriented programming, git, sql, data pipelines","linux, apis, c++",7.0,"btech, be, bsc, bca",2,3
-phonepe,data engineer,21.4,"python, sql, etl, databases, data pipelines","airflow, azure, java",7.5,"btech, be, bsc",1,3
-cisco,site reliability engineer,22.0,"linux, python, networking, monitoring","kubernetes, cloud, terraform",7.0,"btech, be, mtech",2,4
-cred,full stack developer,8.4,"javascript, react, node.js, sql, java, python","aws, apis, git",7.0,"btech, be, bca",fresher,3
-nykaa,security analyst,12.0,"networking, linux, cybersecurity, java, python, data analysis","sql, siem",7.5,"btech, be, bca",1,3
-cisco,data engineer,17.0,"python, sql, etl, databases, data pipelines","spark, cloud, airflow",7.0,"btech, be, mtech",1,3
-hcltech,java developer,8.0,"java, sql, spring, data structures","spring boot, microservices, cloud",6.5,"btech, be, mtech",1,3
-meesho,machine learning engineer,25.0,"python, machine learning, statistics","pytorch, docker",7.5,"btech, mtech",4,4
-slack,devops engineer,11.0,"linux, git, docker, ci/cd, scripting","kubernetes, terraform, aws",6.5,"btech, be, mtech",1,3
-cisco,devops engineer,19.0,"linux, git, ci/cd, docker, scripting","kubernetes, terraform, cloud",6.5,"btech, be, mtech",1,3
-infosys,data engineer,9.0,"python, sql, etl, databases","spark, azure, databricks",6.5,"btech, be, mtech",1,3
-hcltech,business analyst,7.0,"sql, excel, requirements analysis, communication","power bi, tableau, agile",6.0,"btech, bsc, bcom",fresher,2
-swiggy,product analyst,15.9,"sql, excel, data analysis",power bi,6.0,"btech, bsc, bcom",1,2
-adobe,frontend engineer,17.0,"javascript, html, css, react","typescript, ui testing, accessibility",6.5,"btech, be, bsc",fresher,2
-groww,data scientist,15.7,"python, statistics, machine learning, sql, java","pytorch, pandas, data visualization",6.5,"btech, mtech",fresher,3
-freshworks,machine learning engineer,29.5,"python, machine learning, statistics, javascript, aws","deep learning, sql, mlops",7.0,"btech, mtech",4,5
-myntra,backend developer,30.4,"python, sql, apis, databases, java, react","django, spring boot, docker",7.5,"btech, be, bsc",4,4
-infosys,software engineer,7.0,"java, python, sql, data structures","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
-flipkart,business analyst,9.4,"sql, excel, requirements analysis, communication, java, microservices","tableau, data visualization",6.5,"btech, be, bsc",fresher,3
-paytm,data analyst,13.6,"sql, excel, data analysis, java, python","statistics, apis",6.5,"btech, be, bsc, bca",3,2
-ola,data scientist,28.6,"python, statistics, machine learning, sql, java, aws",data visualization,7.5,"btech, be, mtech, msc",1,4
-meesho,cybersecurity engineer,6.9,"networking, linux, cybersecurity, python, java, sql",docker,6.5,"btech, be, mtech",fresher,3
-meesho,software development engineer,23.3,"data structures, algorithms, object oriented programming, problem solving, java",system design,7.0,"btech, be, bsc",2,4
-nykaa,cybersecurity engineer,8.3,"networking, linux, cybersecurity, python, java",sql,7.5,"btech, be, bsc, bca",fresher,3
-policybazaar,cloud engineer,25.3,"linux, networking, cloud computing, scripting, java",gcp,6.5,"btech, be, bsc",4,3
-dream11,data scientist,21.2,"python, statistics, machine learning, sql, java, data analysis","pytorch, data visualization",7.5,"btech, be, mtech",1,3
-dream11,full stack developer,20.5,"javascript, react, node.js, sql, java, data analysis",aws,7.0,"btech, be, mtech",1,1
-flipkart,qa automation engineer,17.3,"testing, selenium, sql, git, java, data pipelines","jenkins, api testing",6.5,"btech, be, bsc, bca",2,2
-cisco,cloud engineer,20.0,"cloud computing, linux, networking, python","kubernetes, terraform, aws",7.0,"btech, be, mtech",1,3
-adobe,backend engineer,21.0,"java, python, sql, apis, data structures","microservices, docker, cloud",7.0,"btech, be, mtech",1,3
-browserstack,data scientist,24.2,"python, statistics, machine learning, sql","tensorflow, pytorch, data visualization, java",7.0,"btech, be, mtech, msc",1,3
-ola,software development engineer,18.6,"data structures, algorithms, object oriented programming, problem solving, java, data analysis",aws,6.5,"btech, be, mtech",1,3
-infosys,java developer,7.5,"java, sql, data structures, spring","spring boot, microservices, cloud",6.5,"btech, be, mtech",1,3
-phonepe,ai engineer,17.6,"python, machine learning, deep learning, algorithms, java, sql",mlops,7.0,"btech, be, mtech",fresher,2
-policybazaar,site reliability engineer,32.6,"linux, python, networking, monitoring, java, apis","gcp, aws",6.5,"btech, be, bca",1,4
-policybazaar,site reliability engineer,21.3,"linux, python, networking, monitoring, java, sql","docker, kubernetes, gcp",7.5,"btech, be, mtech",4,4
-zerodha,cloud engineer,23.5,"linux, networking, cloud computing, scripting, sql","terraform, docker, kubernetes",6.0,"btech, be, mtech",4,2
-nykaa,cloud engineer,13.6,"linux, networking, cloud computing, scripting, react, data analysis","aws, kubernetes, azure, sql",6.5,"btech, be, bsc",fresher,3
-upwind,backend developer,9.0,"python, sql, apis, data structures","docker, cloud, security",6.5,"btech, be, bsc",1,3
-phonepe,frontend developer,19.7,"javascript, html, css, react, java, python","typescript, apis",6.0,"btech, be, bsc, bca",2,2
-cognizant,data engineer,10.0,"python, sql, etl, databases, data pipelines","aws, spark, airflow",6.5,"btech, be, mtech",1,3
-dream11,backend developer,7.1,"python, sql, apis, databases, java","spring boot, redis, node.js",6.5,"btech, be, bsc, bca",fresher,4
-delhivery,full stack developer,13.7,"javascript, react, node.js, sql, aws",git,7.0,"btech, be, bsc, bca",fresher,3
-freshworks,frontend developer,23.6,"javascript, html, css, react, java, python","git, apis",7.0,"btech, be, bsc, bca",4,2
-hcltech,full stack developer,8.5,"javascript, react, node.js, sql, html, css","typescript, docker, aws",6.5,"btech, be, bsc",1,3
-zerodha,data scientist,17.0,"python, statistics, machine learning, sql, apis",pytorch,6.5,"btech, be, mtech, msc",fresher,3
-zoho,site reliability engineer,13.2,"linux, python, networking, monitoring, java, c++","aws, docker, kubernetes",6.5,"btech, be, bca",fresher,4
-udaan,devops engineer,11.4,"linux, git, docker, ci/cd, scripting, java","azure, terraform",6.5,"btech, be, bsc",fresher,2
-swiggy,data engineer,19.8,"python, sql, etl, databases, data pipelines, kubernetes",aws,7.0,"btech, be, bca",1,4
-flipkart,backend developer,9.9,"python, sql, apis, databases, java, aws",redis,7.0,"btech, be, bca",fresher,3
-nykaa,cloud engineer,14.1,"linux, networking, cloud computing, scripting, sql, react","aws, docker, gcp, data analysis",6.5,"btech, be, mtech",fresher,3
-zomato,qa automation engineer,8.0,"testing, selenium, sql, git, python","jenkins, cypress",7.0,"btech, be, bca",fresher,2
-delhivery,machine learning engineer,14.5,"python, machine learning, statistics, java, aws","deep learning, mlops, scikit-learn",7.0,"btech, be, mtech, msc",fresher,4
-cognizant,software engineer,7.0,"java, sql, programming, problem solving","spring, cloud, microservices",6.5,"btech, be, mtech",fresher,2
-zoho,backend developer,26.5,"python, sql, apis, databases, java, c++","django, node.js, microservices",6.5,"btech, be, bca",3,4
-meesho,backend developer,16.4,"python, sql, apis, databases, data pipelines, aws","django, redis",7.0,"btech, be, bsc, bca",2,4
-zerodha,full stack developer,23.8,"javascript, react, node.js, sql, python",aws,6.5,"btech, be, bca",3,2
-zoho,full stack developer,26.6,"javascript, react, node.js, sql",html,6.0,"btech, be, bca",2,1
-delhivery,backend developer,13.2,"python, sql, apis, databases, java",redis,7.0,"btech, be, mtech",4,3
-flipkart,ai engineer,17.3,"python, machine learning, deep learning, algorithms, microservices","llm, java",7.0,"btech, mtech",fresher,3
-adobe,data scientist,22.0,"python, statistics, machine learning, sql","pandas, sklearn, visualization",7.0,"btech, be, mtech",1,3
-infosys,full stack developer,8.0,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
-dream11,software engineer,21.2,"data structures, algorithms, object oriented programming, git, java, python","apis, c++, sql",6.0,"btech, be, bsc",3,3
-adobe,software engineer,30.0,"c++, java, algorithms, data structures, object oriented programming","distributed systems, cloud",7.5,"btech, be, mtech",2,4
-google,backend engineer,30.0,"java, python, sql, apis, data structures","microservices, gcp, docker",7.5,"btech, be, mtech",1,4
-udaan,devops engineer,10.0,"linux, git, docker, ci/cd, scripting, kubernetes",azure,7.0,"btech, be, mtech",fresher,3
-browserstack,site reliability engineer,19.0,"linux, python, networking, monitoring, java, javascript","gcp, docker",7.5,"btech, be, mtech",fresher,2
-zomato,devops engineer,18.8,"linux, git, docker, ci/cd, scripting, python","jenkins, azure",6.5,"btech, be, bca",1,3
-groww,data engineer,19.1,"python, sql, etl, databases, data pipelines, java",aws,7.0,"btech, be, mtech",2,4
-delhivery,site reliability engineer,33.7,"linux, python, networking, monitoring, java, data pipelines","aws, kubernetes",7.0,"btech, be, mtech",4,3
-razorpay,backend developer,10.7,"python, sql, apis, databases, java, docker","microservices, django, redis, aws",6.5,"btech, be, bca",fresher,4
-zerodha,software engineer,15.1,"data structures, algorithms, object oriented programming, git, javascript, apis","sql, c++, java",7.0,"btech, be, bsc",1,4
-hcltech,software engineer,6.0,"java, sql, data structures, programming","spring, cloud, git",6.0,"btech, be, bsc",fresher,2
-policybazaar,software development engineer,33.1,"data structures, algorithms, object oriented programming, problem solving, java, sql","aws, apis",6.5,"btech, be, bsc",2,3
-myntra,software development engineer,15.4,"data structures, algorithms, object oriented programming, problem solving, python, data pipelines","c++, sql, apis, react",7.0,"btech, be, mtech",fresher,2
-cognizant,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
-paytm,ai engineer,13.1,"python, machine learning, deep learning, algorithms, java, cybersecurity",sql,7.5,"btech, mtech",fresher,3
-delhivery,software development engineer,24.6,"data structures, algorithms, object oriented programming, problem solving, python, sql","aws, c++",6.0,"btech, be, bsc, bca",3,4
-swiggy,cloud engineer,16.1,"linux, networking, cloud computing, scripting, java, python",docker,6.0,"btech, be, bsc, bca",3,4
-zomato,product analyst,15.8,"sql, excel, data analysis, java, aws","data visualization, a/b testing, power bi, python",6.5,"btech, bsc, bcom",4,3
-slack,backend developer,10.0,"python, java, sql, apis, data structures","microservices, docker, aws",6.5,"btech, be, mtech",1,3
-meesho,devops engineer,14.3,"linux, git, docker, ci/cd, scripting, sql","gcp, jenkins",7.0,"btech, be, bsc",fresher,3
-razorpay,devops engineer,21.8,"linux, git, docker, ci/cd, scripting, java",aws,7.0,"btech, be, bca",1,1
-udaan,security analyst,19.0,"networking, linux, cybersecurity, java, python, data pipelines","sql, cryptography",7.5,"btech, be, bsc, bca",3,3
-infosys,cloud engineer,8.5,"linux, networking, cloud computing, scripting","aws, azure, terraform",6.5,"btech, be, mtech",fresher,2
-razorpay,security analyst,12.8,"networking, linux, cybersecurity, apis, docker","siem, sql, cryptography",7.5,"btech, be, bsc",2,3
-myntra,software engineer,12.2,"data structures, algorithms, object oriented programming, git, python, react",java,7.0,"btech, be, mtech",fresher,3
-ola,full stack developer,8.5,"javascript, react, node.js, sql, java, python","apis, html",7.0,"btech, be, bsc, bca",fresher,2
-razorpay,cloud engineer,15.8,"linux, networking, cloud computing, scripting, python, apis","terraform, docker",6.5,"btech, be, bsc, bca",fresher,4
-browserstack,cybersecurity engineer,23.5,"networking, linux, cybersecurity, python, java, javascript","docker, siem, sql, testing",7.0,"btech, be, mtech",1,3
-browserstack,software engineer,11.4,"data structures, algorithms, object oriented programming, git","java, sql, system design",6.5,"btech, be, bsc, bca",fresher,3
-policybazaar,business analyst,16.5,"sql, excel, requirements analysis, communication, java, apis","power bi, agile, tableau, data analysis",6.0,"btech, bsc, bcom",1,3
-paytm,software development engineer,24.7,"data structures, algorithms, object oriented programming, problem solving, python, sql","c++, system design",7.0,"btech, be, bsc, bca",3,4
-dream11,security analyst,5.4,"networking, linux, cybersecurity, python, sql, data analysis","cloud security, siem",7.0,"btech, be, bsc",fresher,2
-zerodha,frontend developer,10.7,"javascript, html, css, react, sql, apis","typescript, git, node.js",6.5,"btech, be, bca",2,2
-infosys,cybersecurity analyst,7.5,"networking, linux, cybersecurity, python","siem, cloud security",6.5,"btech, be, mtech",fresher,2
-paytm,cloud engineer,9.9,"linux, networking, cloud computing, scripting, python, cybersecurity","terraform, kubernetes, azure",7.5,"btech, be, mtech",1,3
-cred,data scientist,16.6,"python, statistics, machine learning, sql, react",pandas,6.5,"btech, be, mtech, msc",2,3
-udaan,full stack developer,28.3,"javascript, react, node.js, sql, kubernetes","css, apis, java",6.0,"btech, be, bca",1,2
-amazon,software development engineer,28.0,"java, c++, data structures, algorithms, object oriented programming","aws, distributed systems, system design",7.5,"btech, be, mtech",2,4
-razorpay,backend developer,28.3,"python, sql, apis, databases, aws","microservices, node.js",6.5,"btech, be, mtech",1,3
-zerodha,mobile app developer,12.3,"java, object oriented programming, git, sql, linux",flutter,6.0,"btech, be, bsc, bca",fresher,2
-meesho,software development engineer,20.2,"data structures, algorithms, object oriented programming, problem solving, python, java","sql, system design, aws",6.5,"btech, be, mtech",1,4
-cred,full stack developer,23.6,"javascript, react, node.js, sql, python","apis, aws",6.5,"btech, be, bca",2,3
-google,machine learning engineer,32.0,"python, machine learning, statistics, data structures, sql","tensorflow, pytorch, gcp",7.5,"btech, be, mtech",1,4
-zomato,software development engineer,22.3,"data structures, algorithms, object oriented programming, problem solving, sql, aws",system design,7.5,"btech, be, bsc, bca",1,4
-flipkart,mobile app developer,13.0,"java, object oriented programming, git, python","kotlin, apis, firebase",7.5,"btech, be, bca",1,1
-myntra,software development engineer,27.0,"data structures, algorithms, object oriented programming, problem solving, java",apis,6.0,"btech, be, bsc, bca",2,2
-adobe,product analyst,14.0,"sql, excel, data analysis, communication","tableau, python, a/b testing",6.5,"btech, bsc, bcom",fresher,2
-upwind,devops engineer,10.0,"linux, docker, git, ci/cd, scripting","kubernetes, terraform, cloud security",6.5,"btech, be, mtech",1,3
-udaan,devops engineer,18.6,"linux, git, docker, ci/cd, scripting, java","jenkins, sql",6.5,"btech, be, bsc",3,1
-swiggy,backend developer,10.3,"python, sql, apis, databases, data pipelines","docker, spring boot, django",7.0,"btech, be, bsc",fresher,4
-myntra,ai engineer,37.7,"python, machine learning, deep learning, algorithms, java","llm, tensorflow, pytorch",7.0,"btech, be, mtech, msc",1,4
-ola,product analyst,14.4,"sql, excel, data analysis, kubernetes","a/b testing, python, tableau",6.5,"btech, be, bsc, bca",2,1
-zoho,site reliability engineer,10.0,"linux, python, networking, monitoring, java, sql","docker, aws, kubernetes",7.5,"btech, be, bsc",fresher,4
-dream11,software development engineer,8.7,"data structures, algorithms, object oriented programming, problem solving, python, sql","apis, java, data analysis",6.5,"btech, be, bsc",fresher,3
-meesho,machine learning engineer,24.4,"python, machine learning, statistics, java, sql","tensorflow, scikit-learn, pytorch",7.0,"btech, be, mtech",1,2
-nykaa,data scientist,8.1,"python, statistics, machine learning, sql, java, react","scikit-learn, tensorflow",7.0,"btech, be, mtech, msc",fresher,2
-freshworks,software engineer,22.3,"data structures, algorithms, object oriented programming, git","c++, linux, java",6.0,"btech, be, bsc, bca",3,4
-meesho,cybersecurity engineer,8.4,"networking, linux, cybersecurity, python, java, aws","cryptography, docker",6.0,"btech, be, mtech",fresher,3
-myntra,frontend developer,20.1,"javascript, html, css, react, java, python","typescript, testing",6.5,"btech, be, bsc, bca",4,1
-infosys,data analyst,6.0,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
-adobe,software engineer,18.0,"java, c++, python, data structures, algorithms","system design, cloud, microservices",7.0,"btech, be, mtech",fresher,3
-zerodha,machine learning engineer,13.7,"python, machine learning, statistics, sql, linux","mlops, deep learning",7.5,"btech, mtech",fresher,3
-swiggy,site reliability engineer,28.0,"linux, python, networking, monitoring, java, data pipelines",kubernetes,7.0,"btech, be, bca",3,3
-paytm,devops engineer,10.5,"linux, git, docker, ci/cd, scripting, cybersecurity","gcp, kubernetes, aws, sql",7.0,"btech, be, mtech",fresher,2
-udaan,business analyst,16.4,"sql, excel, requirements analysis, communication, data pipelines",tableau,6.5,"btech, bsc, bcom",2,2
-phonepe,site reliability engineer,26.8,"linux, python, networking, monitoring, java, cybersecurity","kubernetes, docker",6.5,"btech, be, bsc",1,5
-phonepe,data scientist,22.7,"python, statistics, machine learning, sql, java, apis",tensorflow,7.0,"btech, mtech",4,4
-groww,cloud engineer,16.9,"linux, networking, cloud computing, scripting, java, python","terraform, aws",6.5,"btech, be, bsc, bca",1,4
-zomato,data scientist,13.3,"python, statistics, machine learning, sql, data analysis, aws","pytorch, tensorflow",6.5,"btech, be, mtech",1,4
-meesho,data analyst,8.5,"sql, excel, data analysis","statistics, tableau, python",6.0,"btech, be, bsc, bca",3,2
-udaan,mobile app developer,9.2,"java, object oriented programming, git",sql,6.5,"btech, be, bsc",fresher,2
-dream11,software development engineer,17.4,"data structures, algorithms, object oriented programming, problem solving, java, data analysis","c++, aws, python",7.0,"btech, be, bca",fresher,2
-zerodha,cybersecurity engineer,22.2,"networking, linux, cybersecurity, python","sql, siem",7.0,"btech, be, bsc",3,2
-zerodha,devops engineer,10.8,"linux, git, docker, ci/cd, scripting, sql","aws, kubernetes, terraform",6.5,"btech, be, mtech",fresher,1
-ola,data scientist,26.4,"python, statistics, machine learning, sql, java, kubernetes",tensorflow,6.5,"btech, be, mtech",4,2
-phonepe,devops engineer,20.9,"linux, git, docker, ci/cd, scripting, java","kubernetes, jenkins, gcp",7.0,"btech, be, bsc",4,3
-nykaa,site reliability engineer,18.4,"linux, python, networking, monitoring, java, react",terraform,6.5,"btech, be, mtech",fresher,4
-policybazaar,product analyst,8.5,"sql, excel, data analysis, java, python, apis",statistics,6.0,"btech, be, bsc, bca",fresher,2
-paytm,full stack developer,12.9,"javascript, react, node.js, sql, cybersecurity","typescript, css",6.5,"btech, be, bsc",1,2
-ola,business analyst,19.9,"sql, excel, requirements analysis, communication","agile, java",6.0,"btech, bsc, bcom",3,2
-hcltech,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, terraform",6.5,"btech, be, mtech",1,3
-cisco,data analyst,11.0,"sql, excel, python, data analysis","tableau, power bi, statistics",6.0,"btech, bsc, bcom",fresher,2
-paytm,ai engineer,28.5,"python, machine learning, deep learning, algorithms, apis","llm, nlp",7.0,"btech, be, mtech, msc",2,2
-groww,machine learning engineer,15.0,"python, machine learning, statistics, apis","tensorflow, mlops",7.5,"btech, be, mtech",3,3
-cognizant,software engineer,11.0,"c, linux, pointers, data structures, multithreading","socket programming, gdb, shell scripting",7.0,"btech, be, mtech",3,3
-delhivery,product analyst,10.7,"sql, excel, data analysis, java, python, aws","a/b testing, tableau",7.0,"btech, bsc, bcom",fresher,1
-groww,cybersecurity engineer,14.8,"networking, linux, cybersecurity, python, java, sql",cryptography,7.5,"btech, be, bsc, bca",2,2
-policybazaar,frontend developer,13.2,"javascript, html, css, react, python, sql","apis, next.js",6.5,"btech, be, bsc, bca",2,2
-upwind,security analyst,8.0,"networking, linux, cybersecurity, python","siem, threat hunting, cloud security",6.5,"btech, be, mtech",fresher,2
-phonepe,software development engineer,28.7,"data structures, algorithms, object oriented programming, problem solving, apis, cybersecurity",system design,6.5,"btech, be, bca",2,4
-google,technical solutions engineer,18.0,"python, sql, troubleshooting, networking, communication","cloud, apis, linux",6.5,"btech, be, bsc",fresher,2
-hcltech,cybersecurity analyst,7.5,"networking, linux, cybersecurity, python","siem, cloud security, vulnerability assessment",6.5,"btech, be, mtech",fresher,2
-flipkart,cybersecurity engineer,10.1,"networking, linux, cybersecurity, python, java, aws",cloud security,6.0,"btech, be, bsc",fresher,4
-infosys,devops engineer,8.0,"linux, git, ci/cd, docker","jenkins, kubernetes, aws",6.5,"btech, be, mtech",1,3
-myntra,data engineer,16.3,"python, sql, etl, databases, data pipelines","airflow, docker, java",6.5,"btech, be, mtech",2,2
-ola,data engineer,11.9,"python, sql, etl, databases, data pipelines, java","spark, airflow",7.0,"btech, be, mtech",fresher,4
-delhivery,product analyst,11.2,"sql, excel, data analysis, java, data pipelines, aws",tableau,7.0,"btech, bsc, bcom",3,2
-freshworks,qa automation engineer,16.6,"testing, selenium, sql, git, javascript",api testing,6.5,"btech, be, bsc",1,2
-zerodha,security analyst,19.3,"networking, linux, cybersecurity, apis","siem, cloud security, javascript",7.0,"btech, be, mtech",2,2
-groww,backend developer,12.5,"python, sql, apis, databases, data analysis","node.js, django, redis",6.0,"btech, be, bsc, bca",fresher,4
-meesho,data engineer,17.4,"python, sql, etl, databases, data pipelines","airflow, aws",6.5,"btech, be, bsc",1,4
-razorpay,qa automation engineer,9.7,"testing, selenium, sql, git, java, python",api testing,7.0,"btech, be, bca",1,1
-zerodha,data analyst,13.5,"sql, excel, data analysis, python, javascript, apis",power bi,6.0,"btech, be, bsc, bca",3,3
-udaan,business analyst,11.4,"sql, excel, requirements analysis, communication, java, python",tableau,7.0,"btech, be, bsc",2,2
-paytm,data analyst,6.5,"sql, excel, data analysis, cybersecurity","tableau, statistics, python",6.0,"btech, be, bsc, bca",fresher,2
-zoho,data engineer,14.7,"python, sql, etl, databases, data pipelines, javascript","docker, aws, azure",6.0,"btech, be, mtech",fresher,2
-cred,software development engineer,33.0,"data structures, algorithms, object oriented programming, problem solving","aws, system design, sql",6.5,"btech, be, bsc, bca",2,2
-nykaa,site reliability engineer,13.1,"linux, python, networking, monitoring, data analysis","gcp, kubernetes",7.5,"btech, be, bca",3,3
-browserstack,site reliability engineer,13.7,"linux, python, networking, monitoring, java","ci/cd, terraform, aws",6.5,"btech, be, bsc",fresher,4
-cognizant,cloud engineer,9.0,"linux, networking, cloud computing, scripting","aws, azure, kubernetes",6.5,"btech, be, mtech",1,3
-cred,software engineer,9.1,"data structures, algorithms, object oriented programming, git, java, python",c++,6.5,"btech, be, mtech",fresher,4
-myntra,product analyst,8.2,"sql, excel, data analysis, react","power bi, statistics, tableau",6.5,"btech, be, bsc",fresher,2
-paytm,site reliability engineer,28.7,"linux, python, networking, monitoring, sql, cybersecurity","gcp, aws",7.0,"btech, be, bca",3,3
-zoho,data engineer,8.8,"python, sql, etl, databases, data pipelines, java","airflow, docker, azure",6.5,"btech, be, mtech",fresher,4
-cisco,network engineer,15.0,"computer networks, tcp/ip, linux, troubleshooting","python, cisco technologies, automation",6.5,"btech, be, mtech",fresher,2
-flipkart,cybersecurity engineer,20.0,"networking, linux, cybersecurity, python, data pipelines","cloud security, cryptography",6.5,"btech, be, bsc",1,2
-swiggy,software engineer,10.2,"data structures, algorithms, object oriented programming, git, java, kubernetes","sql, data pipelines",7.0,"btech, be, bsc, bca",fresher,4
-zerodha,machine learning engineer,24.8,"python, machine learning, statistics, sql, apis, linux","deep learning, tensorflow",7.5,"btech, be, mtech",3,4
-flipkart,site reliability engineer,14.5,"linux, python, networking, monitoring, java, aws","gcp, kubernetes, data pipelines",7.0,"btech, be, bsc, bca",1,3
-adobe,machine learning engineer,24.0,"python, machine learning, statistics, sql","pytorch, tensorflow, nlp",7.5,"btech, be, mtech",1,4
-ola,machine learning engineer,35.2,"python, machine learning, statistics, java, aws, data analysis","deep learning, tensorflow, docker",7.5,"btech, be, mtech",2,5
-google,ai engineer,34.0,"python, machine learning, deep learning, algorithms","pytorch, llm, nlp, gcp",7.5,"btech, be, mtech",2,4
-paytm,cybersecurity engineer,15.8,"networking, linux, cybersecurity, python, java, sql",docker,7.0,"btech, be, bsc, bca",fresher,2
-zoho,devops engineer,11.3,"linux, git, docker, ci/cd, scripting, java","aws, c++",7.0,"btech, be, bsc, bca",4,3
-zomato,software engineer,14.4,"data structures, algorithms, object oriented programming, git, python, aws","apis, java, c++",6.0,"btech, be, bsc",2,3
-tcs,software developer,9.0,"java, python, sql, apis, git","spring boot, aws, docker",6.5,"btech, be, mtech",1,3
-swiggy,product analyst,18.7,"sql, excel, data analysis, java, data pipelines, kubernetes","tableau, power bi",7.0,"btech, bsc, bcom",2,2
-myntra,software development engineer,11.4,"data structures, algorithms, object oriented programming, problem solving, java, python",system design,7.0,"btech, be, bca",fresher,4
-myntra,frontend developer,21.1,"javascript, html, css, react, java, python",next.js,6.5,"btech, be, bsc",2,2
-paytm,full stack developer,12.7,"javascript, react, node.js, sql, java","git, apis",7.5,"btech, be, bsc, bca",fresher,2
-phonepe,product analyst,18.9,"sql, excel, data analysis, apis","power bi, tableau, data visualization",6.5,"btech, be, bsc",1,1
-swiggy,full stack developer,12.1,"javascript, react, node.js, sql, java, data pipelines",aws,7.0,"btech, be, bca",2,3
-ola,data engineer,15.8,"python, sql, etl, databases, data pipelines, kubernetes","docker, aws, airflow",7.0,"btech, be, bsc",fresher,2
-anthropic,ml engineer,14.0,"python, machine learning, statistics, data structures","pytorch, tensorflow, mlops, llm",7.0,"btech, be, mtech",1,3
-flipkart,frontend developer,13.4,"javascript, html, css, react, java, aws","testing, git, node.js, microservices",7.5,"btech, be, bsc, bca",1,2
-nykaa,cloud engineer,11.7,"linux, networking, cloud computing, scripting, java, sql","terraform, gcp, docker",6.5,"btech, be, bsc",fresher,2
-nykaa,data engineer,24.0,"python, sql, etl, databases, data pipelines, react",gcp,7.5,"btech, be, bsc",4,2
-meesho,frontend developer,18.7,"javascript, html, css, react, java","typescript, next.js",7.0,"btech, be, bca",2,3
-myntra,frontend developer,11.5,"javascript, html, css, react, java, python","next.js, git, apis",6.5,"btech, be, mtech",fresher,2
-phonepe,frontend developer,21.6,"javascript, html, css, react, java, apis",next.js,6.0,"btech, be, bsc, bca",1,1
-adobe,full stack developer,20.0,"javascript, react, node.js, sql, html, css","typescript, docker, aws",6.5,"btech, be, bsc",fresher,3
-policybazaar,qa automation engineer,15.6,"testing, selenium, sql, git, java, python",api testing,6.0,"btech, be, bca",1,2
-healthplix,ml engineer,11.0,"python, machine learning, statistics, sql","pytorch, nlp, docker",6.5,"btech, be, mtech",1,3
-udaan,product analyst,7.9,"sql, excel, data analysis",a/b testing,7.0,"btech, be, bsc",fresher,1
-swiggy,machine learning engineer,15.8,"python, machine learning, statistics, java","mlops, tensorflow, deep learning, kubernetes",6.5,"btech, be, mtech, msc",fresher,3
-zomato,frontend developer,23.3,"javascript, html, css, react, sql, aws","apis, git, typescript, data analysis",6.0,"btech, be, mtech",2,3
-phonepe,software engineer,30.9,"data structures, algorithms, object oriented programming, git, sql, cybersecurity","system design, python, c++",7.0,"btech, be, bca",2,2
-myntra,site reliability engineer,26.7,"linux, python, networking, monitoring, sql","kubernetes, terraform",6.5,"btech, be, mtech",4,2
-browserstack,frontend developer,15.2,"javascript, html, css, react, java","testing, node.js",7.5,"btech, be, bca",3,2
-zomato,backend developer,14.7,"python, sql, apis, databases","redis, django",6.5,"btech, be, bsc",2,2
-browserstack,data engineer,13.5,"python, sql, etl, databases, data pipelines, docker",spark,7.0,"btech, be, bsc, bca",2,3
-udaan,data engineer,15.3,"python, sql, etl, databases, data pipelines, java","spark, airflow, azure",6.0,"btech, be, bsc",2,3
-flipkart,qa automation engineer,13.0,"testing, selenium, sql, git, java, python","jenkins, api testing, cypress",7.5,"btech, be, mtech",1,1
-swiggy,data engineer,13.6,"python, sql, etl, databases, data pipelines","azure, aws, docker",7.5,"btech, be, bsc, bca",fresher,4
-hcltech,data analyst,6.5,"sql, excel, python, data analysis","power bi, tableau, statistics",6.0,"btech, bsc, bcom",fresher,2
-cred,machine learning engineer,27.5,"python, machine learning, statistics, sql, react",docker,7.5,"btech, be, mtech, msc",1,5
-freshworks,frontend developer,15.5,"javascript, html, css, react, sql, aws",git,7.0,"btech, be, bsc, bca",fresher,2
-amazon,machine learning engineer,27.0,"python, machine learning, statistics, algorithms","pytorch, tensorflow, aws",7.5,"btech, be, mtech",1,4
-ola,machine learning engineer,22.4,"python, machine learning, statistics, java, kubernetes","deep learning, docker, pytorch",7.0,"btech, mtech",fresher,3
-google,cloud engineer,27.0,"linux, networking, python, cloud computing","gcp, kubernetes, terraform",7.0,"btech, be, mtech",1,3
-ola,product analyst,10.9,"sql, excel, data analysis",a/b testing,6.5,"btech, be, bsc, bca",fresher,3
-delhivery,ai engineer,14.0,"python, machine learning, deep learning, algorithms, java, sql","llm, mlops",7.0,"btech, mtech",fresher,2
-cisco,software engineer,18.0,"c++, python, data structures, algorithms, networking","linux, distributed systems, cloud",7.0,"btech, be, mtech",fresher,3
-meesho,qa automation engineer,16.1,"testing, selenium, sql, git, java","api testing, cypress, jenkins",6.5,"btech, be, bsc",1,3
-zomato,site reliability engineer,17.0,"linux, python, networking, monitoring, data analysis","kubernetes, aws",7.5,"btech, be, bsc",2,2
-dream11,software engineer,32.9,"data structures, algorithms, object oriented programming, git, java, sql","python, linux",6.5,"btech, be, mtech",2,2
-browserstack,software development engineer,24.8,"data structures, algorithms, object oriented programming, problem solving, javascript","c++, sql, apis",7.0,"btech, be, mtech",1,4
-groww,business analyst,5.3,"sql, excel, requirements analysis, communication, apis","tableau, python",6.0,"btech, be, bsc, bca",fresher,2
-cred,data scientist,17.9,"python, statistics, machine learning, sql, react","scikit-learn, tensorflow, pytorch",7.0,"btech, mtech",2,3
-groww,mobile app developer,14.2,"java, object oriented programming, git, python, apis","android, sql, flutter",6.5,"btech, be, bca",2,3
-dream11,product analyst,16.3,"sql, excel, data analysis, aws","data visualization, python, a/b testing",6.0,"btech, be, bsc",4,1
-zomato,devops engineer,24.8,"linux, git, docker, ci/cd, scripting, data analysis","gcp, aws, kubernetes",7.0,"btech, be, bsc",2,2
-policybazaar,data scientist,28.0,"python, statistics, machine learning, sql, data analysis","pytorch, pandas",7.0,"btech, be, mtech, msc",1,2
-groww,business analyst,14.5,"sql, excel, requirements analysis, communication, data analysis","power bi, python, data visualization",6.5,"btech, be, bsc",3,3
-browserstack,frontend developer,6.6,"javascript, html, css, react, python","apis, next.js",6.5,"btech, be, bca",fresher,1
-infosys,systems engineer,4.5,"java, sql, programming, data structures, problem solving","python, cloud, git",6.0,"btech, be, bsc",fresher,2
-amazon,devops engineer,22.0,"linux, git, ci/cd, scripting, docker","aws, kubernetes, terraform",7.0,"btech, be, mtech",1,3
-tcs,full stack developer,8.0,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
-cognizant,qa automation engineer,6.5,"selenium, java, testing, sql, git","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
-nykaa,frontend developer,26.8,"javascript, html, css, react, java, python","next.js, node.js",7.0,"btech, be, bca",1,2
-browserstack,cloud engineer,11.5,"linux, networking, cloud computing, scripting, java, docker","aws, azure",6.5,"btech, be, bca",1,3
-cognizant,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, terraform",6.5,"btech, be, mtech",1,3
-adobe,security engineer,20.0,"networking, linux, cybersecurity, python","cloud security, siem",7.0,"btech, be, mtech",2,4
-delhivery,full stack developer,19.5,"javascript, react, node.js, sql, data pipelines, aws","docker, typescript",7.0,"btech, be, bca",2,3
-tcs,data engineer,10.0,"sql, python, etl, databases, data pipelines","spark, azure, databricks",6.5,"btech, be, mtech",1,3
-freshworks,backend developer,12.1,"python, sql, apis, databases, javascript, aws",node.js,6.5,"btech, be, bsc, bca",3,3
-udaan,security analyst,18.4,"networking, linux, cybersecurity, python, sql, data pipelines",cloud security,6.5,"btech, be, bsc",4,2
-browserstack,security analyst,12.1,"networking, linux, cybersecurity, java, javascript, python","cloud security, testing",6.5,"btech, be, bsc",4,1
-razorpay,ai engineer,21.9,"python, machine learning, deep learning, algorithms, java, apis","sql, docker, nlp",7.0,"btech, mtech",fresher,5
-cred,product analyst,8.1,"sql, excel, data analysis",statistics,6.5,"btech, be, bsc",fresher,2
-tcs,qa automation engineer,6.5,"testing, selenium, java, sql, git","cypress, api testing, jenkins",6.0,"btech, be, bsc",fresher,2
-zoho,data engineer,19.9,"python, sql, etl, databases, data pipelines",gcp,7.0,"btech, be, bsc",2,2
-meesho,data engineer,14.4,"python, sql, etl, databases, data pipelines","gcp, aws, azure",7.0,"btech, be, bca",4,3
-freshworks,data analyst,14.8,"sql, excel, data analysis, java, python, javascript",power bi,6.5,"btech, be, bsc",2,2
-freshworks,business analyst,8.8,"sql, excel, requirements analysis, communication, java, python","tableau, power bi",7.0,"btech, be, bsc",fresher,3
-browserstack,mobile app developer,11.7,"java, object oriented programming, git, python","apis, sql",7.0,"btech, be, bca",2,2
-zoho,full stack developer,17.4,"javascript, react, node.js, sql, c++",html,7.0,"btech, be, bsc",2,2
-google,software engineer,40.0,"c++, python, data structures, algorithms, operating systems","distributed systems, gcp, system design",8.0,"btech, be, mtech",2,4
-healthplix,software developer,7.0,"python, java, sql, data structures","docker, cloud, apis",6.0,"btech, be, bsc",fresher,2
-delhivery,mobile app developer,12.7,"java, object oriented programming, git, python, sql","apis, flutter",6.5,"btech, be, bsc",4,3
-freshworks,devops engineer,13.6,"linux, git, docker, ci/cd, scripting, python","terraform, aws, azure",7.5,"btech, be, bsc",fresher,3
-amazon,cloud support engineer,11.0,"linux, networking, python, cloud computing","aws, scripting, troubleshooting",6.5,"btech, be, bsc",fresher,2
-razorpay,site reliability engineer,18.6,"linux, python, networking, monitoring, apis",gcp,6.5,"btech, be, mtech",fresher,3
-meesho,cybersecurity engineer,24.9,"networking, linux, cybersecurity, python, java, sql","cloud security, cryptography",7.0,"btech, be, mtech",2,3
-zomato,data analyst,12.0,"sql, excel, data analysis, java, aws","data visualization, statistics",6.0,"btech, be, bsc, bca",2,3
-policybazaar,site reliability engineer,20.8,"linux, python, networking, monitoring, sql",terraform,7.5,"btech, be, bsc",2,4
-zoho,ai engineer,19.4,"python, machine learning, deep learning, algorithms, c++, sql","mlops, nlp, pytorch",7.5,"btech, be, mtech, msc",1,3
-cred,devops engineer,12.7,"linux, git, docker, ci/cd, scripting","monitoring, kubernetes, aws",7.0,"btech, be, bca",2,3
-delhivery,product analyst,17.5,"sql, excel, data analysis, java, python","a/b testing, data visualization",6.0,"btech, bsc, bcom",2,1
-classplus ,full stack developer,7.0,"javascript, react, node.js, sql","typescript, docker, aws",6.0,"btech, be, bsc",fresher,2
-freshworks,ai engineer,37.8,"python, machine learning, deep learning, algorithms, javascript, aws","llm, sql, docker",7.5,"btech, be, mtech",2,2
-browserstack,qa automation engineer,15.1,"testing, selenium, sql, git, java, python","api testing, jenkins",6.5,"btech, be, bca",1,1
-browserstack,backend developer,22.5,"python, sql, apis, databases, java, javascript","redis, microservices",6.5,"btech, be, bsc, bca",2,2
-myntra,cloud engineer,11.5,"linux, networking, cloud computing, scripting, sql, react","azure, gcp, terraform",6.5,"btech, be, bca",1,4
-zerodha,cloud engineer,11.7,"linux, networking, cloud computing, scripting, python, javascript","aws, kubernetes, terraform",6.0,"btech, be, bca",3,3
-nykaa,business analyst,10.0,"sql, excel, requirements analysis, communication, python, react",data visualization,7.0,"btech, be, bsc",1,3
-delhivery,frontend developer,7.3,"javascript, html, css, react, java, python","git, node.js, testing",7.5,"btech, be, mtech",fresher,2
-cred,software engineer,27.7,"data structures, algorithms, object oriented programming, git, java, sql","c++, apis",6.5,"btech, be, bsc",1,3
-meesho,data analyst,8.9,"sql, excel, data analysis, python, aws","power bi, data visualization",7.0,"btech, be, bsc, bca",4,3
-tcs,devops engineer,8.5,"linux, git, ci/cd, docker, scripting","jenkins, kubernetes, aws",6.5,"btech, be, mtech",1,3
-tcs,data scientist,11.0,"python, statistics, machine learning, sql","scikit-learn, tensorflow, power bi",7.0,"btech, be, mtech",1,3
-phonepe,site reliability engineer,10.0,"linux, python, networking, monitoring, java, sql",gcp,7.0,"btech, be, bsc, bca",fresher,2
-freshworks,data scientist,12.6,"python, statistics, machine learning, sql, java, javascript",data visualization,7.0,"btech, be, mtech",3,3
-phonepe,frontend developer,22.1,"javascript, html, css, react, sql, apis","node.js, next.js",7.0,"btech, be, mtech",1,1
-dream11,business analyst,8.2,"sql, excel, requirements analysis, communication, java, data analysis","python, agile, data visualization",6.5,"btech, bsc, bcom",fresher,1
-swiggy,devops engineer,10.4,"linux, git, docker, ci/cd, scripting, python","jenkins, azure",7.0,"btech, be, bca",fresher,1
-delhivery,machine learning engineer,14.5,"python, machine learning, statistics",deep learning,7.0,"btech, mtech",1,2
-phonepe,frontend developer,15.1,"javascript, html, css, react, python, sql",apis,6.5,"btech, be, bca",1,1
-meesho,frontend developer,28.2,"javascript, html, css, react, data pipelines",testing,6.0,"btech, be, bca",2,2
-dream11,frontend developer,25.3,"javascript, html, css, react, sql, data analysis",typescript,6.5,"btech, be, bca",2,1
-flipkart,qa automation engineer,7.1,"testing, selenium, sql, git, java","api testing, cypress",7.0,"btech, be, bca",1,3
-policybazaar,site reliability engineer,23.4,"linux, python, networking, monitoring, sql, data analysis",aws,7.5,"btech, be, bca",2,2
-razorpay,devops engineer,20.1,"linux, git, docker, ci/cd, scripting, apis","aws, terraform, monitoring",7.5,"btech, be, bsc, bca",4,2
-udaan,frontend developer,12.4,"javascript, html, css, react, sql",node.js,6.5,"btech, be, mtech",3,1
-nykaa,cybersecurity engineer,14.5,"networking, linux, cybersecurity, python, react","siem, data analysis",6.0,"btech, be, bsc",3,4
-udaan,qa automation engineer,12.1,"testing, selenium, sql, git, python, kubernetes","java, jenkins, ci/cd",7.5,"btech, be, bsc, bca",2,3
-dream11,full stack developer,12.0,"javascript, react, node.js, sql, data analysis, aws","docker, css",6.5,"btech, be, bsc, bca",4,2
-myntra,ai engineer,20.2,"python, machine learning, deep learning, algorithms, sql",pytorch,6.5,"btech, be, mtech",1,3
-swiggy,data scientist,16.4,"python, statistics, machine learning, sql, kubernetes","pandas, tensorflow, java",7.5,"btech, mtech",fresher,4
-myntra,cybersecurity engineer,19.7,"networking, linux, cybersecurity, python, sql, data pipelines","siem, react",6.5,"btech, be, bca",1,2
-cred,ai engineer,23.0,"python, machine learning, deep learning, algorithms, java, sql","pytorch, tensorflow, nlp",7.0,"btech, be, mtech",3,2
-paytm,qa automation engineer,14.8,"testing, selenium, sql, git, java, python","jenkins, api testing",7.0,"btech, be, bsc, bca",2,2
-ola,cybersecurity engineer,18.6,"networking, linux, cybersecurity, python, java, kubernetes","cloud security, siem",6.0,"btech, be, mtech",3,2
-amazon,security engineer,23.0,"linux, networking, cybersecurity, python","aws security, iam, threat modeling",7.0,"btech, be, mtech",1,3
-zoho,full stack developer,9.4,"javascript, react, node.js, sql, python",git,7.0,"btech, be, bsc, bca",fresher,3
-zerodha,cybersecurity engineer,11.7,"networking, linux, cybersecurity, python, javascript, sql","cryptography, cloud security",6.5,"btech, be, bsc",fresher,4
-phonepe,data scientist,21.0,"python, statistics, machine learning, sql, apis","scikit-learn, data visualization, pandas",7.0,"btech, be, mtech, msc",3,3
-cognizant,full stack developer,8.5,"javascript, react, node.js, sql, html, css","typescript, docker, cloud",6.5,"btech, be, bsc",1,3
-paytm,cloud engineer,15.8,"linux, networking, cloud computing, scripting, java","docker, terraform, kubernetes, python",7.0,"btech, be, bsc",fresher,3
-zerodha,software development engineer,11.3,"data structures, algorithms, object oriented programming, problem solving, python, javascript","sql, apis, java, linux",6.5,"btech, be, bsc",fresher,5
-flipkart,business analyst,12.3,"sql, excel, requirements analysis, communication, python, microservices",data visualization,6.5,"btech, bsc, bcom",4,3
-zomato,backend developer,19.1,"python, sql, apis, databases, java, data analysis","node.js, microservices",6.5,"btech, be, bsc, bca",3,3
-zomato,backend developer,16.3,"python, sql, apis, databases, java, aws","redis, node.js",7.0,"btech, be, bsc",1,5
-nykaa,product analyst,10.6,"sql, excel, data analysis, python, react","a/b testing, power bi, tableau",6.0,"btech, be, bsc",1,2
-razorpay,backend developer,27.9,"python, sql, apis, databases, java, docker","microservices, spring boot",6.0,"btech, be, bca",1,3
-udaan,site reliability engineer,29.7,"linux, python, networking, monitoring, sql, data pipelines",terraform,6.5,"btech, be, bca",2,2
-ola,backend developer,17.6,"python, sql, apis, databases, kubernetes, aws",django,7.0,"btech, be, bca",1,3
-razorpay,backend developer,8.0,"python, django, sql, apis, git","redis, docker, aws",6.0,"btech, be, bsc",fresher,2
-razorpay,frontend developer,7.0,"javascript, react, html, css","typescript, next.js, testing",6.0,"btech, be, bsc",fresher,2
-delhivery,security analyst,8.2,"networking, linux, cybersecurity, java, sql","siem, cryptography, cloud security",7.0,"btech, be, bca",4,2
-razorpay,ml engineer,12.0,"python, machine learning, pandas, sql","pytorch, mlops, aws",6.5,"btech, be, mtech",1,3
-razorpay,software development engineer,22.4,"data structures, algorithms, object oriented programming, problem solving, java, python","sql, system design",7.0,"btech, be, mtech",2,2
-zoho,data scientist,7.2,"python, statistics, machine learning, sql, c++","data visualization, tensorflow, pytorch",7.0,"btech, mtech",fresher,2
-razorpay,software engineer,9.1,"data structures, algorithms, object oriented programming, git, apis, docker","system design, java, python",7.0,"btech, be, mtech",fresher,5
-myntra,product analyst,18.3,"sql, excel, data analysis, java, python","a/b testing, tableau, power bi",6.0,"btech, be, bsc",1,2
-udaan,cloud engineer,22.2,"linux, networking, cloud computing, scripting, sql, data pipelines",terraform,7.0,"btech, be, bsc",1,3
-swiggy,cloud engineer,12.6,"linux, networking, cloud computing, scripting, python, kubernetes","gcp, azure",7.0,"btech, be, bsc",2,3
-flipkart,data engineer,21.3,"python, sql, etl, databases, data pipelines, java","gcp, azure, docker",7.0,"btech, be, bsc",4,4
-infosys,qa engineer,5.5,"testing, sql, java, selenium","api testing, jenkins, cypress",6.0,"btech, be, bsc",fresher,2
-paytm,product analyst,19.6,"sql, excel, data analysis, cybersecurity, apis",tableau,6.0,"btech, be, bsc",3,1
-google,frontend engineer,22.0,"javascript, html, css, react, data structures","typescript, accessibility, testing",7.0,"btech, be, bsc",fresher,3
-slack,frontend developer,9.0,"javascript, react, html, css","typescript, next.js, testing",6.0,"btech, be, bsc",1,2
-nykaa,frontend developer,16.6,"javascript, html, css, react, java, python",testing,7.0,"btech, be, bca",fresher,2
-groww,data scientist,29.5,"python, statistics, machine learning, sql, java, data analysis",pytorch,6.5,"btech, mtech",2,3
-ola,data scientist,14.7,"python, statistics, machine learning, sql, java, kubernetes",scikit-learn,7.0,"btech, be, mtech, msc",2,3
+job_id,role,company,company_type,city,state,degree,graduation_year,skills,primary_skill,experience_required,internship_experience,remote,work_type,salary_lpa,stipend_if_intern,selection_rounds,aptitude_test,coding_test,interview_count,offer_made
+JOB_1,Data Scientist,Accenture,Product-Based,Bangalore,Uttar Pradesh,M.Tech,2024,"Linux, Excel, AWS",Java,0,1,0,Full-Time,8.25,8000,4,1,1,3,1
+JOB_2,Business Analyst,Accenture,Startup,Delhi,Telangana,BCA,2023,"Power BI, SQL, Java",Machine Learning,0,1,1,Internship,7.75,15000,5,0,1,3,1
+JOB_3,Cybersecurity Analyst,Startup,Product-Based,Delhi,Tamil Nadu,B.Tech,2025,"Power BI, Python, Machine Learning",Linux,0,0,1,Internship,8.66,12000,3,0,0,1,1
+JOB_4,Data Scientist,TCS,Startup,Hyderabad,Karnataka,B.Sc,2024,"Python, Linux, Java",Machine Learning,0,1,0,Internship,9.59,12000,2,0,0,1,0
+JOB_5,Software Engineer,Infosys,Product-Based,Bangalore,Telangana,M.Tech,2024,"Machine Learning, Linux, Python",Python,1,0,0,Full-Time,3.78,8000,5,1,0,1,1
+JOB_6,Cloud Engineer,Deloitte,Startup,Noida,Karnataka,B.Com,2023,"Machine Learning, SQL, Python",Power BI,1,0,0,Full-Time,5.78,15000,3,0,1,2,1
+JOB_7,Cybersecurity Analyst,Capgemini,Service-Based,Mumbai,Delhi,B.Sc,2024,"Java, AWS, Machine Learning",Power BI,0,0,0,Full-Time,5.29,0,5,0,0,3,0
+JOB_8,Software Engineer,Capgemini,Product-Based,Pune,Telangana,B.Tech,2024,"Java, Power BI, SQL",AWS,0,1,0,Full-Time,7.33,12000,4,0,1,2,1
+JOB_9,Data Scientist,Wipro,Startup,Pune,Tamil Nadu,BCA,2025,"Java, Python, SQL",AWS,0,0,1,Internship,9.61,10000,5,1,1,3,1
+JOB_10,AI/ML Engineer,Startup,Service-Based,Delhi,Telangana,B.Tech,2023,"Machine Learning, Python, SQL",SQL,1,0,0,Internship,10.25,8000,4,1,1,2,1
+JOB_11,Business Analyst,TCS,Product-Based,Bangalore,Uttar Pradesh,MCA,2024,"Python, Linux, Power BI",SQL,1,0,1,Internship,3.1,0,5,0,0,1,0
+JOB_12,AI/ML Engineer,Capgemini,MNC,Chennai,West Bengal,B.Com,2023,"AWS, Linux, SQL",SQL,0,0,0,Internship,11.82,15000,2,0,0,3,0
+JOB_13,Data Analyst,Infosys,MNC,Chennai,Uttar Pradesh,B.Sc,2024,"AWS, Excel, Python",Java,0,0,0,Full-Time,7.16,8000,2,0,1,2,0
+JOB_14,Cloud Engineer,Wipro,Startup,Hyderabad,Maharashtra,B.Com,2025,"SQL, Power BI, Python",Java,1,1,1,Internship,6.06,0,5,0,1,1,0
+JOB_15,Web Developer,Startup,MNC,Delhi,Delhi,BCA,2023,"SQL, Python, Power BI",SQL,0,1,0,Full-Time,3.91,12000,4,1,1,2,1
+JOB_16,Data Scientist,Infosys,Startup,Mumbai,Uttar Pradesh,B.Com,2023,"AWS, Excel, Power BI",Power BI,0,1,0,Full-Time,7.1,15000,3,0,1,3,0
+JOB_17,Web Developer,Deloitte,Product-Based,Pune,Karnataka,B.Com,2023,"SQL, Python, Java",Java,0,1,0,Full-Time,4.52,8000,5,0,0,3,0
+JOB_18,Cloud Engineer,Cognizant,Service-Based,Mumbai,Karnataka,B.Tech,2024,"AWS, Excel, SQL",AWS,0,1,0,Full-Time,7.62,10000,5,1,0,1,1
+JOB_19,Data Analyst,TCS,Startup,Mumbai,Tamil Nadu,B.Tech,2023,"AWS, Java, Excel",Power BI,0,1,1,Internship,5.16,0,4,0,0,3,1
+JOB_20,Software Engineer,Accenture,Service-Based,Hyderabad,Telangana,B.Tech,2025,"Power BI, Linux, Java",Power BI,1,1,1,Full-Time,4.46,12000,5,0,1,3,1
+JOB_21,AI/ML Engineer,Accenture,Startup,Chennai,Delhi,M.Tech,2025,"SQL, Machine Learning, Java",Python,0,0,1,Full-Time,9.67,10000,3,1,1,1,1
+JOB_22,Data Scientist,TCS,MNC,Delhi,West Bengal,BCA,2024,"SQL, Excel, Linux",SQL,0,1,1,Internship,6.84,10000,5,0,0,3,0
+JOB_23,Data Scientist,Cognizant,Product-Based,Kolkata,Uttar Pradesh,MCA,2025,"Machine Learning, Excel, Linux",Linux,1,1,0,Internship,7.75,15000,2,0,1,2,0
+JOB_24,Cloud Engineer,Deloitte,Product-Based,Mumbai,Uttar Pradesh,M.Tech,2023,"Excel, Power BI, Machine Learning",SQL,0,1,0,Internship,6.83,15000,2,0,1,3,1
+JOB_25,Cloud Engineer,TCS,Startup,Bangalore,Uttar Pradesh,M.Tech,2024,"Excel, Linux, Power BI",Machine Learning,1,0,0,Full-Time,7.28,8000,5,0,1,3,1
+JOB_26,Data Scientist,Wipro,MNC,Chennai,Maharashtra,BCA,2024,"SQL, Power BI, AWS",Python,0,0,0,Internship,10.71,15000,5,0,1,3,0
+JOB_27,Data Scientist,Deloitte,Product-Based,Chennai,Karnataka,M.Tech,2024,"SQL, Machine Learning, Power BI",AWS,1,0,0,Internship,7.2,12000,5,1,1,2,1
+JOB_28,AI/ML Engineer,Infosys,Startup,Kolkata,Telangana,BCA,2023,"Python, Java, AWS",Power BI,1,0,0,Full-Time,9.09,12000,2,1,0,3,1
+JOB_29,Cloud Engineer,Cognizant,Product-Based,Bangalore,Maharashtra,B.Tech,2024,"AWS, Machine Learning, SQL",SQL,0,1,0,Internship,7.96,0,3,0,0,2,1
+JOB_30,Cybersecurity Analyst,TCS,Startup,Noida,Tamil Nadu,B.Sc,2024,"AWS, SQL, Excel",Linux,0,0,0,Full-Time,5.23,0,3,0,1,3,0
+JOB_31,Cloud Engineer,Capgemini,MNC,Kolkata,Maharashtra,B.Com,2024,"Linux, Python, Power BI",AWS,1,1,1,Full-Time,8.04,10000,4,0,0,1,1
+JOB_32,Data Analyst,Cognizant,MNC,Noida,Telangana,B.Tech,2024,"AWS, Python, Power BI",Python,0,0,0,Internship,3.85,0,3,0,1,2,0
+JOB_33,Cloud Engineer,Cognizant,MNC,Bangalore,Maharashtra,MCA,2023,"Machine Learning, Excel, Power BI",Linux,0,0,0,Full-Time,5.33,8000,5,1,1,1,1
+JOB_34,Cloud Engineer,Deloitte,Product-Based,Noida,Tamil Nadu,BCA,2023,"SQL, Excel, Linux",AWS,0,1,0,Full-Time,9.74,12000,2,1,1,1,1
+JOB_35,AI/ML Engineer,Startup,Product-Based,Kolkata,Maharashtra,B.Tech,2024,"Power BI, AWS, SQL",Excel,0,1,1,Full-Time,11.79,12000,5,1,0,2,0
+JOB_36,Data Analyst,Startup,MNC,Chennai,Tamil Nadu,B.Com,2025,"Power BI, Machine Learning, AWS",Python,0,1,0,Full-Time,7.04,0,2,1,1,1,1
+JOB_37,AI/ML Engineer,Deloitte,Product-Based,Mumbai,Telangana,B.Sc,2025,"Python, AWS, Excel",Machine Learning,0,0,1,Internship,7.83,12000,4,1,1,2,1
+JOB_38,Cybersecurity Analyst,TCS,MNC,Chennai,Karnataka,MCA,2025,"Java, SQL, Excel",Excel,0,0,1,Internship,5.49,10000,5,1,0,2,0
+JOB_39,Cloud Engineer,Deloitte,Product-Based,Chennai,Tamil Nadu,B.Sc,2025,"Java, AWS, SQL",Machine Learning,0,0,0,Internship,8.42,15000,5,0,0,1,0
+JOB_40,Data Scientist,Startup,Product-Based,Bangalore,Karnataka,B.Tech,2024,"Machine Learning, AWS, Java",Python,0,0,1,Internship,8.64,12000,4,1,1,2,1
+JOB_41,Cybersecurity Analyst,Cognizant,Startup,Mumbai,Karnataka,B.Tech,2024,"SQL, AWS, Java",AWS,0,0,1,Internship,5.61,0,5,1,1,3,1
+JOB_42,Data Scientist,Capgemini,Startup,Bangalore,West Bengal,B.Sc,2024,"Python, Java, AWS",Python,1,0,0,Full-Time,8.97,0,4,1,1,1,0
+JOB_43,Cybersecurity Analyst,Accenture,Service-Based,Kolkata,West Bengal,M.Tech,2023,"Java, Excel, Python",Machine Learning,0,0,1,Internship,5.17,8000,5,0,0,1,0
+JOB_44,Data Scientist,Capgemini,Service-Based,Kolkata,Tamil Nadu,B.Tech,2023,"AWS, Java, Python",Excel,1,0,0,Internship,11.46,8000,2,1,0,3,0
+JOB_45,Business Analyst,Cognizant,Product-Based,Delhi,Uttar Pradesh,M.Tech,2025,"Python, Power BI, SQL",Java,0,1,1,Internship,4.29,15000,2,0,1,3,0
+JOB_46,Data Scientist,Cognizant,Product-Based,Noida,West Bengal,BCA,2024,"Power BI, Excel, Python",Java,1,1,0,Full-Time,9.98,0,2,0,0,1,0
+JOB_47,Business Analyst,Startup,Product-Based,Noida,West Bengal,B.Sc,2025,"AWS, Machine Learning, SQL",SQL,0,0,0,Internship,4.56,12000,5,1,1,3,0
+JOB_48,Data Analyst,Startup,MNC,Delhi,West Bengal,B.Com,2023,"Linux, Java, AWS",Machine Learning,0,1,0,Full-Time,5.6,0,2,0,0,1,1
+JOB_49,Business Analyst,Wipro,Service-Based,Noida,Delhi,B.Sc,2024,"Machine Learning, Excel, Power BI",SQL,1,0,1,Internship,5.73,12000,5,1,0,2,1
+JOB_50,Data Scientist,Accenture,Service-Based,Chennai,West Bengal,M.Tech,2024,"Python, Excel, SQL",Python,1,0,0,Full-Time,7.11,10000,2,0,1,3,1
+JOB_51,Cybersecurity Analyst,Infosys,Product-Based,Hyderabad,Uttar Pradesh,MCA,2024,"Machine Learning, Java, Python",Power BI,1,0,0,Full-Time,9.85,8000,5,0,1,2,1
+JOB_52,Data Analyst,TCS,MNC,Chennai,Tamil Nadu,B.Tech,2025,"Power BI, AWS, Linux",Linux,0,0,0,Full-Time,6.88,15000,3,1,0,1,1
+JOB_53,AI/ML Engineer,Deloitte,Startup,Kolkata,Uttar Pradesh,B.Com,2023,"Machine Learning, Java, Power BI",Machine Learning,1,0,0,Full-Time,11.64,8000,3,0,1,2,1
+JOB_54,Business Analyst,Capgemini,Startup,Delhi,Uttar Pradesh,B.Tech,2024,"AWS, Excel, Machine Learning",Machine Learning,0,1,1,Internship,7.47,10000,4,0,1,3,0
+JOB_55,Business Analyst,Startup,Startup,Kolkata,Maharashtra,MCA,2025,"Linux, Python, Java",Excel,1,1,1,Internship,5.99,12000,3,1,1,3,1
+JOB_56,Business Analyst,Accenture,MNC,Chennai,Uttar Pradesh,M.Tech,2024,"Excel, Java, Machine Learning",SQL,1,1,0,Internship,7.61,8000,5,0,1,1,1
+JOB_57,Cybersecurity Analyst,Startup,Startup,Mumbai,Maharashtra,BCA,2024,"Linux, Machine Learning, AWS",AWS,0,1,1,Internship,5.44,15000,3,0,0,2,0
+JOB_58,Business Analyst,Infosys,Product-Based,Noida,Telangana,B.Tech,2024,"Python, Power BI, AWS",SQL,0,0,0,Internship,3.98,10000,4,0,0,2,1
+JOB_59,Web Developer,Infosys,Startup,Chennai,Delhi,B.Com,2025,"Power BI, AWS, Python",Linux,0,0,1,Full-Time,3.23,10000,2,0,1,3,1
+JOB_60,Data Analyst,Wipro,Startup,Hyderabad,Delhi,B.Com,2025,"Excel, SQL, Machine Learning",Linux,0,0,1,Full-Time,4.63,8000,2,0,1,2,0
+JOB_61,Data Analyst,Startup,Startup,Noida,Tamil Nadu,M.Tech,2025,"Java, SQL, Power BI",Power BI,0,0,0,Full-Time,4.94,8000,2,0,1,3,1
+JOB_62,Software Engineer,Startup,MNC,Noida,Uttar Pradesh,M.Tech,2025,"Python, AWS, Linux",AWS,0,1,0,Internship,4.36,12000,5,1,1,2,0
+JOB_63,AI/ML Engineer,Wipro,Startup,Hyderabad,Maharashtra,B.Tech,2025,"Power BI, Machine Learning, Linux",Machine Learning,1,1,1,Internship,10.97,0,5,0,1,3,0
+JOB_64,AI/ML Engineer,TCS,Startup,Mumbai,West Bengal,B.Sc,2024,"Java, Power BI, Python",AWS,0,1,0,Internship,8.14,0,5,1,1,2,1
+JOB_65,Business Analyst,Deloitte,MNC,Delhi,Delhi,M.Tech,2024,"AWS, Python, Excel",Power BI,0,1,0,Full-Time,4.4,15000,2,1,0,1,1
+JOB_66,Data Analyst,Capgemini,Startup,Bangalore,Tamil Nadu,M.Tech,2025,"SQL, Machine Learning, Java",SQL,0,1,0,Full-Time,5.71,15000,5,1,0,3,0
+JOB_67,Software Engineer,Deloitte,Service-Based,Kolkata,Maharashtra,B.Tech,2023,"Linux, Machine Learning, Python",Java,0,1,0,Internship,3.7,10000,4,1,1,2,0
+JOB_68,Cybersecurity Analyst,Deloitte,Startup,Noida,West Bengal,B.Com,2024,"Excel, Power BI, Python",Linux,0,0,0,Full-Time,9.01,8000,4,0,1,3,0
+JOB_69,AI/ML Engineer,Wipro,Product-Based,Chennai,Maharashtra,M.Tech,2023,"SQL, Java, Linux",Power BI,0,0,1,Internship,6.45,12000,5,0,1,2,0
+JOB_70,Web Developer,Capgemini,Startup,Hyderabad,Tamil Nadu,B.Tech,2025,"Power BI, AWS, SQL",Linux,1,1,0,Full-Time,7.93,12000,4,0,0,1,1
+JOB_71,Business Analyst,Capgemini,Service-Based,Kolkata,Karnataka,MCA,2025,"Excel, Java, AWS",Java,0,0,0,Internship,6.86,10000,3,1,1,2,1
+JOB_72,AI/ML Engineer,Deloitte,Service-Based,Chennai,Tamil Nadu,BCA,2025,"Excel, Linux, Java",Machine Learning,0,0,0,Internship,7.19,0,3,1,1,1,0
+JOB_73,AI/ML Engineer,TCS,Product-Based,Noida,Maharashtra,B.Tech,2023,"Power BI, SQL, Java",Machine Learning,0,1,1,Full-Time,6.03,15000,4,1,1,2,0
+JOB_74,Web Developer,Capgemini,Product-Based,Chennai,Telangana,M.Tech,2025,"Java, Excel, Python",SQL,1,0,1,Internship,7.08,0,4,1,1,1,0
+JOB_75,Data Analyst,TCS,Service-Based,Pune,Telangana,MCA,2024,"AWS, Machine Learning, Power BI",Linux,1,1,0,Internship,6.53,15000,5,1,1,1,1
+JOB_76,Cloud Engineer,Deloitte,Product-Based,Bangalore,Telangana,B.Tech,2025,"Machine Learning, Linux, Power BI",AWS,0,1,0,Full-Time,8.65,15000,3,1,1,3,0
+JOB_77,Cybersecurity Analyst,Startup,MNC,Delhi,Tamil Nadu,BCA,2023,"Excel, Python, AWS",SQL,0,1,1,Internship,8.86,8000,5,1,0,2,0
+JOB_78,Cloud Engineer,Startup,MNC,Kolkata,Tamil Nadu,B.Sc,2025,"SQL, Power BI, Linux",Python,1,1,1,Internship,5.37,8000,3,1,0,1,0
+JOB_79,Web Developer,Accenture,Startup,Mumbai,Uttar Pradesh,BCA,2023,"SQL, Java, Machine Learning",Excel,1,0,0,Internship,4.79,15000,2,0,1,3,0
+JOB_80,Cybersecurity Analyst,Startup,Product-Based,Hyderabad,Delhi,B.Sc,2025,"Excel, Power BI, Python",Python,0,1,1,Internship,5.58,15000,5,0,1,2,1
+JOB_81,Software Engineer,Capgemini,MNC,Delhi,Telangana,M.Tech,2024,"Excel, Java, AWS",SQL,0,1,0,Full-Time,7.32,15000,2,0,0,3,0
+JOB_82,Business Analyst,Capgemini,Product-Based,Delhi,Telangana,B.Com,2024,"Machine Learning, Excel, Python",Java,0,0,1,Full-Time,6.12,15000,2,0,0,2,0
+JOB_83,Cloud Engineer,TCS,MNC,Hyderabad,Tamil Nadu,MCA,2024,"AWS, SQL, Python",SQL,0,1,1,Full-Time,6.65,15000,4,0,1,1,1
+JOB_84,Web Developer,Infosys,MNC,Kolkata,Telangana,BCA,2023,"Power BI, SQL, Machine Learning",Excel,1,0,1,Internship,3.32,12000,5,0,1,2,1
+JOB_85,Cybersecurity Analyst,Capgemini,Product-Based,Mumbai,West Bengal,BCA,2025,"Power BI, Excel, Python",Power BI,0,1,0,Internship,6.55,0,3,1,1,2,1
+JOB_86,Cloud Engineer,Cognizant,MNC,Pune,Tamil Nadu,B.Tech,2023,"Java, SQL, Power BI",SQL,0,0,0,Internship,6.63,8000,5,0,1,1,0
+JOB_87,Data Scientist,Accenture,Product-Based,Mumbai,Uttar Pradesh,MCA,2023,"Machine Learning, Power BI, Java",Power BI,0,0,1,Internship,10.38,8000,5,0,0,2,0
+JOB_88,Cloud Engineer,Startup,Startup,Pune,Karnataka,B.Tech,2024,"Linux, Excel, AWS",Linux,0,0,1,Internship,8.19,0,4,1,1,1,0
+JOB_89,Data Analyst,Infosys,Startup,Noida,Delhi,B.Com,2024,"Java, SQL, AWS",Power BI,0,0,0,Internship,7.44,12000,5,0,0,2,1
+JOB_90,Web Developer,Infosys,MNC,Noida,West Bengal,M.Tech,2023,"Java, Power BI, AWS",Excel,0,0,1,Full-Time,5.36,15000,4,1,1,1,1
+JOB_91,Cloud Engineer,Startup,Startup,Delhi,Maharashtra,M.Tech,2023,"Power BI, Excel, Java",Excel,1,0,1,Full-Time,5.6,10000,2,0,1,1,1
+JOB_92,Data Analyst,Accenture,Service-Based,Delhi,Delhi,M.Tech,2024,"Machine Learning, Excel, Java",Java,1,0,1,Internship,6.57,8000,3,0,1,2,1
+JOB_93,Business Analyst,Cognizant,Startup,Mumbai,Delhi,M.Tech,2023,"Linux, Python, SQL",Python,0,1,0,Full-Time,6.8,12000,5,0,0,3,0
+JOB_94,Cloud Engineer,Cognizant,MNC,Chennai,West Bengal,B.Tech,2024,"Excel, Python, AWS",Power BI,0,1,1,Full-Time,7.81,8000,4,1,0,2,0
+JOB_95,AI/ML Engineer,Cognizant,MNC,Kolkata,Delhi,M.Tech,2025,"Java, AWS, Machine Learning",SQL,0,1,0,Full-Time,10.63,12000,3,1,1,1,0
+JOB_96,Data Analyst,Capgemini,Startup,Chennai,Karnataka,B.Com,2024,"Excel, Python, Machine Learning",Linux,0,0,0,Internship,5.47,10000,5,0,0,1,0
+JOB_97,Web Developer,Cognizant,Product-Based,Noida,Tamil Nadu,B.Tech,2023,"AWS, Excel, SQL",Linux,0,1,0,Internship,5.61,10000,5,0,0,2,1
+JOB_98,Business Analyst,Accenture,MNC,Delhi,West Bengal,B.Sc,2025,"Machine Learning, Linux, Power BI",Java,0,0,1,Full-Time,5.14,8000,4,0,0,1,1
+JOB_99,Data Scientist,Infosys,MNC,Mumbai,Uttar Pradesh,B.Com,2023,"Python, Machine Learning, Linux",AWS,0,1,0,Full-Time,6.15,8000,5,0,1,3,0
+JOB_100,Data Scientist,Deloitte,MNC,Delhi,Uttar Pradesh,M.Tech,2024,"AWS, Linux, SQL",AWS,1,1,0,Full-Time,6.65,10000,2,0,0,1,0
+JOB_101,Business Analyst,Wipro,Product-Based,Pune,Delhi,B.Tech,2023,"AWS, Java, Linux",Python,0,1,0,Full-Time,3.16,8000,3,0,0,3,1
+JOB_102,Software Engineer,Capgemini,Service-Based,Noida,Tamil Nadu,BCA,2023,"Python, Power BI, SQL",AWS,0,1,0,Internship,6.18,8000,2,1,1,1,1
+JOB_103,Business Analyst,Deloitte,MNC,Hyderabad,Karnataka,M.Tech,2024,"Linux, Machine Learning, AWS",Java,0,0,0,Internship,4.57,10000,2,0,0,1,1
+JOB_104,Web Developer,Capgemini,Startup,Noida,Telangana,B.Sc,2024,"Excel, Java, SQL",AWS,0,1,0,Internship,5.54,12000,2,1,0,1,0
+JOB_105,Data Analyst,Infosys,MNC,Pune,Delhi,B.Tech,2023,"Java, Python, Machine Learning",Java,1,1,0,Internship,7.54,0,3,1,0,3,1
+JOB_106,Business Analyst,Wipro,Product-Based,Delhi,West Bengal,B.Sc,2024,"SQL, Linux, Excel",Machine Learning,0,1,1,Internship,4.25,15000,3,0,0,2,0
+JOB_107,Data Scientist,Deloitte,Product-Based,Pune,Maharashtra,B.Sc,2023,"Power BI, Java, Excel",Java,0,0,1,Full-Time,8.46,12000,2,0,1,1,1
+JOB_108,Data Scientist,Capgemini,MNC,Pune,Tamil Nadu,MCA,2025,"SQL, Linux, Java",Python,1,0,0,Internship,10.53,12000,4,1,1,1,0
+JOB_109,Cloud Engineer,Capgemini,MNC,Kolkata,West Bengal,B.Sc,2025,"AWS, Linux, Power BI",Python,0,0,1,Internship,6.14,10000,5,1,0,2,0
+JOB_110,Data Analyst,Cognizant,Product-Based,Mumbai,Tamil Nadu,BCA,2023,"Python, Java, AWS",Power BI,1,0,0,Full-Time,3.38,8000,4,0,1,3,1
+JOB_111,AI/ML Engineer,Infosys,MNC,Delhi,Uttar Pradesh,BCA,2023,"Excel, Machine Learning, SQL",Machine Learning,1,0,1,Full-Time,7.74,10000,4,0,1,2,0
+JOB_112,Data Scientist,Cognizant,Service-Based,Pune,Maharashtra,MCA,2023,"SQL, AWS, Python",Excel,0,1,1,Full-Time,6.97,0,2,0,1,3,1
+JOB_113,Cloud Engineer,Deloitte,Product-Based,Bangalore,Maharashtra,B.Com,2023,"Machine Learning, Excel, Power BI",SQL,0,1,0,Internship,9.65,0,2,1,0,3,0
+JOB_114,Business Analyst,Infosys,Startup,Bangalore,Uttar Pradesh,B.Com,2024,"Excel, Python, SQL",AWS,0,1,1,Full-Time,7.04,15000,4,0,1,1,1
+JOB_115,Data Scientist,Startup,Service-Based,Mumbai,Maharashtra,B.Com,2025,"SQL, Java, AWS",SQL,0,0,1,Internship,9.8,12000,5,1,1,1,0
+JOB_116,Cloud Engineer,TCS,Service-Based,Hyderabad,Uttar Pradesh,B.Com,2024,"Power BI, Machine Learning, Linux",Excel,0,0,1,Internship,9.36,0,5,1,0,1,0
+JOB_117,AI/ML Engineer,Startup,MNC,Bangalore,Uttar Pradesh,B.Com,2025,"Java, Python, Machine Learning",Machine Learning,0,0,1,Full-Time,10.82,12000,2,0,0,2,1
+JOB_118,Cybersecurity Analyst,Wipro,Service-Based,Kolkata,Delhi,BCA,2024,"Linux, Machine Learning, Python",Python,1,1,1,Internship,5.93,12000,3,0,1,3,1
+JOB_119,Software Engineer,Infosys,Startup,Mumbai,Uttar Pradesh,MCA,2025,"SQL, Linux, AWS",Python,0,0,0,Internship,7.46,12000,5,0,0,1,0
+JOB_120,Web Developer,Capgemini,Product-Based,Hyderabad,Tamil Nadu,B.Tech,2025,"Power BI, Machine Learning, AWS",Power BI,0,1,0,Full-Time,5.7,15000,2,0,0,1,0
+JOB_121,Data Scientist,TCS,Startup,Mumbai,Telangana,M.Tech,2024,"Excel, Linux, AWS",Linux,0,0,1,Internship,10.84,12000,4,1,0,1,0
+JOB_122,Web Developer,Infosys,Product-Based,Chennai,Delhi,B.Tech,2023,"SQL, AWS, Java",Java,1,0,0,Full-Time,7.48,10000,3,1,1,1,1
+JOB_123,Cybersecurity Analyst,Infosys,MNC,Noida,Tamil Nadu,B.Sc,2023,"Linux, Machine Learning, AWS",Machine Learning,0,1,1,Internship,6.59,8000,2,0,1,1,0
+JOB_124,Business Analyst,Capgemini,Product-Based,Mumbai,Delhi,B.Tech,2025,"SQL, Java, Excel",Power BI,1,0,0,Internship,3.55,12000,5,1,1,1,1
+JOB_125,Cloud Engineer,Infosys,Service-Based,Mumbai,Tamil Nadu,B.Tech,2025,"Power BI, SQL, Java",Java,0,0,1,Internship,6.14,10000,3,1,1,3,1
+JOB_126,Web Developer,Deloitte,Service-Based,Kolkata,Karnataka,B.Tech,2025,"Machine Learning, Linux, SQL",AWS,0,0,1,Internship,5.14,15000,4,1,1,2,1
+JOB_127,Web Developer,Cognizant,Startup,Delhi,Telangana,M.Tech,2024,"Machine Learning, Linux, Java",Java,0,0,0,Internship,7.09,10000,3,0,0,3,1
+JOB_128,Cybersecurity Analyst,Cognizant,Startup,Delhi,Delhi,B.Tech,2024,"AWS, Power BI, Excel",Power BI,1,1,0,Full-Time,9.3,12000,5,1,0,1,0
+JOB_129,Data Scientist,Cognizant,MNC,Delhi,Tamil Nadu,B.Sc,2025,"Java, Machine Learning, Power BI",Linux,0,1,0,Internship,6.04,10000,3,0,0,2,1
+JOB_130,AI/ML Engineer,Accenture,Startup,Bangalore,Maharashtra,B.Tech,2023,"Python, Java, SQL",Linux,1,1,1,Full-Time,9.06,15000,3,0,1,3,0
+JOB_131,AI/ML Engineer,Capgemini,Product-Based,Delhi,Tamil Nadu,MCA,2024,"SQL, AWS, Python",Java,0,0,0,Full-Time,8.5,8000,3,0,1,3,0
+JOB_132,Business Analyst,Wipro,Startup,Pune,Telangana,MCA,2025,"SQL, Python, AWS",Python,0,0,0,Internship,4.11,12000,5,0,0,3,1
+JOB_133,Web Developer,Deloitte,Startup,Kolkata,Telangana,MCA,2023,"SQL, Linux, Java",Python,1,0,1,Internship,3.6,15000,4,0,1,1,1
+JOB_134,Web Developer,Wipro,Startup,Chennai,Uttar Pradesh,B.Tech,2025,"SQL, Excel, Machine Learning",Power BI,0,1,1,Full-Time,4.69,15000,3,0,0,1,1
+JOB_135,Web Developer,Accenture,Product-Based,Pune,Telangana,B.Sc,2024,"Linux, Machine Learning, AWS",Excel,0,1,1,Internship,7.71,15000,3,1,0,2,1
+JOB_136,Business Analyst,Deloitte,Service-Based,Bangalore,Uttar Pradesh,B.Tech,2023,"Linux, Python, SQL",Excel,1,0,0,Internship,4.62,10000,3,1,0,3,0
+JOB_137,Data Analyst,Deloitte,Service-Based,Kolkata,Uttar Pradesh,B.Sc,2024,"Excel, Linux, Machine Learning",SQL,0,1,0,Internship,5.59,12000,3,1,0,2,0
+JOB_138,Data Scientist,Deloitte,Startup,Mumbai,Tamil Nadu,MCA,2025,"Java, Power BI, SQL",AWS,1,0,0,Full-Time,10.22,12000,2,1,0,2,0
+JOB_139,Cloud Engineer,Wipro,Service-Based,Hyderabad,Uttar Pradesh,B.Tech,2023,"SQL, Linux, Excel",AWS,1,1,1,Full-Time,6.82,8000,5,0,1,2,0
+JOB_140,Business Analyst,Startup,MNC,Noida,Telangana,B.Tech,2024,"SQL, Machine Learning, Java",Python,1,0,1,Internship,7.86,0,3,1,0,3,0
+JOB_141,Business Analyst,Capgemini,Startup,Kolkata,Maharashtra,B.Sc,2025,"Java, Machine Learning, SQL",Power BI,0,1,1,Full-Time,7.81,10000,5,0,1,3,1
+JOB_142,Software Engineer,Accenture,Startup,Hyderabad,West Bengal,B.Com,2023,"SQL, Power BI, Python",Power BI,0,1,0,Full-Time,4.26,10000,2,1,1,3,1
+JOB_143,Cybersecurity Analyst,Startup,Startup,Mumbai,Tamil Nadu,B.Tech,2024,"Excel, Machine Learning, Python",SQL,1,1,1,Full-Time,7.49,10000,3,0,0,3,1
+JOB_144,Cybersecurity Analyst,Wipro,Product-Based,Kolkata,West Bengal,MCA,2024,"Java, Excel, Power BI",Python,0,0,1,Internship,6.5,0,2,1,1,1,1
+JOB_145,Business Analyst,Deloitte,Product-Based,Mumbai,West Bengal,MCA,2025,"SQL, Linux, Excel",Linux,0,0,0,Full-Time,4.42,0,3,0,1,3,0
+JOB_146,Data Analyst,TCS,Product-Based,Kolkata,Maharashtra,MCA,2025,"Machine Learning, Linux, SQL",Linux,0,1,1,Internship,3.18,12000,5,0,1,1,0
+JOB_147,Software Engineer,Wipro,Product-Based,Mumbai,Delhi,B.Sc,2024,"Python, Java, Power BI",Java,0,1,0,Full-Time,6.05,12000,4,1,1,1,0
+JOB_148,Cloud Engineer,TCS,Product-Based,Kolkata,Karnataka,MCA,2024,"Java, Excel, SQL",Machine Learning,0,0,0,Full-Time,7.51,8000,3,1,0,2,1
+JOB_149,Cloud Engineer,Wipro,Product-Based,Chennai,Delhi,B.Com,2025,"Python, Java, Linux",Machine Learning,0,0,0,Internship,5.26,8000,3,0,0,1,1
+JOB_150,Software Engineer,Capgemini,Service-Based,Bangalore,West Bengal,B.Tech,2024,"Power BI, SQL, Machine Learning",Java,0,0,1,Full-Time,4.39,12000,4,1,1,1,1
+JOB_151,Data Scientist,Accenture,Service-Based,Kolkata,Maharashtra,B.Com,2023,"Python, SQL, Excel",Linux,0,0,1,Internship,11.45,8000,4,0,1,1,0
+JOB_152,Cybersecurity Analyst,Accenture,Product-Based,Noida,Karnataka,M.Tech,2023,"Excel, Java, Linux",AWS,1,0,0,Internship,6.2,0,3,1,1,3,0
+JOB_153,Data Analyst,Wipro,Product-Based,Bangalore,Uttar Pradesh,B.Com,2025,"Linux, Python, AWS",Linux,1,1,0,Internship,3.72,15000,2,1,1,3,0
+JOB_154,Data Scientist,Infosys,Product-Based,Kolkata,West Bengal,MCA,2025,"Machine Learning, SQL, Java",AWS,0,0,1,Full-Time,8.94,0,4,1,0,1,1
+JOB_155,Business Analyst,Cognizant,Startup,Hyderabad,Maharashtra,B.Com,2023,"Machine Learning, Linux, Excel",Java,0,1,0,Internship,7.93,12000,4,1,1,3,0
+JOB_156,Cloud Engineer,Wipro,Product-Based,Hyderabad,Delhi,BCA,2025,"SQL, Excel, AWS",AWS,0,1,0,Full-Time,6.21,12000,3,0,1,2,0
+JOB_157,Web Developer,Wipro,Product-Based,Mumbai,Telangana,BCA,2023,"Excel, Power BI, Machine Learning",Excel,1,0,0,Internship,6.36,8000,3,1,1,3,0
+JOB_158,Software Engineer,Cognizant,Product-Based,Mumbai,Telangana,MCA,2024,"Java, Machine Learning, Linux",Python,0,1,1,Full-Time,6.81,12000,2,1,1,3,1
+JOB_159,Cloud Engineer,Cognizant,Service-Based,Pune,Delhi,M.Tech,2025,"Java, Python, Excel",Python,0,0,1,Full-Time,6.19,15000,3,1,1,1,1
+JOB_160,AI/ML Engineer,Deloitte,Product-Based,Noida,Karnataka,B.Tech,2023,"Linux, Machine Learning, SQL",Java,0,1,1,Full-Time,10.37,15000,3,1,1,2,1
+JOB_161,Cybersecurity Analyst,Deloitte,MNC,Chennai,Delhi,B.Com,2025,"SQL, Java, AWS",AWS,1,1,0,Full-Time,6.84,8000,5,0,1,3,1
+JOB_162,Data Analyst,Cognizant,Startup,Mumbai,Uttar Pradesh,B.Tech,2024,"Python, Linux, Machine Learning",Excel,0,0,1,Full-Time,6.16,8000,3,0,0,3,0
+JOB_163,Cloud Engineer,Cognizant,Startup,Kolkata,Delhi,B.Tech,2023,"Machine Learning, Power BI, Excel",Python,1,0,0,Internship,8.17,8000,3,0,1,1,1
+JOB_164,Cloud Engineer,Startup,Startup,Mumbai,Telangana,B.Com,2023,"Machine Learning, Linux, SQL",SQL,1,1,0,Full-Time,7.68,15000,3,1,0,2,0
+JOB_165,Software Engineer,Capgemini,Product-Based,Hyderabad,Telangana,B.Tech,2023,"AWS, Linux, Power BI",Machine Learning,1,0,0,Internship,3.45,8000,4,1,0,1,1
+JOB_166,Cybersecurity Analyst,Infosys,MNC,Noida,Delhi,B.Tech,2025,"Excel, Linux, Python",Java,1,1,1,Full-Time,9.18,0,2,1,0,2,0
+JOB_167,Software Engineer,Accenture,Startup,Chennai,Uttar Pradesh,M.Tech,2023,"Machine Learning, AWS, Power BI",Machine Learning,0,0,1,Internship,4.6,8000,4,1,0,2,1
+JOB_168,AI/ML Engineer,Infosys,Startup,Mumbai,Uttar Pradesh,B.Com,2024,"Java, Python, Machine Learning",AWS,0,1,1,Internship,7.12,10000,2,0,0,1,1
+JOB_169,Cybersecurity Analyst,Wipro,MNC,Pune,Delhi,B.Tech,2024,"AWS, Java, Power BI",Power BI,1,0,0,Full-Time,5.2,10000,3,0,1,2,1
+JOB_170,Web Developer,Wipro,Product-Based,Hyderabad,West Bengal,M.Tech,2023,"Java, Power BI, AWS",AWS,1,1,0,Internship,5.95,8000,3,0,0,3,0
+JOB_171,Business Analyst,Startup,MNC,Bangalore,Tamil Nadu,B.Sc,2024,"SQL, Excel, Java",Excel,1,0,1,Full-Time,6.39,10000,5,0,0,3,1
+JOB_172,Software Engineer,Infosys,Service-Based,Chennai,Karnataka,B.Com,2025,"Excel, Machine Learning, AWS",SQL,0,0,0,Internship,3.08,10000,2,0,1,1,0
+JOB_173,Data Scientist,Infosys,Startup,Kolkata,Maharashtra,B.Sc,2023,"Linux, Python, Machine Learning",SQL,1,1,0,Internship,9.07,12000,2,1,0,1,1
+JOB_174,Cloud Engineer,Deloitte,Startup,Hyderabad,Delhi,MCA,2025,"Excel, Python, Machine Learning",Java,0,1,1,Full-Time,6.13,0,5,1,1,1,0
+JOB_175,AI/ML Engineer,Infosys,MNC,Pune,Uttar Pradesh,BCA,2025,"AWS, Linux, Machine Learning",Python,1,1,0,Full-Time,9.87,15000,5,1,0,2,0
+JOB_176,Business Analyst,Startup,Startup,Delhi,Karnataka,BCA,2024,"Machine Learning, Excel, AWS",Python,0,0,1,Full-Time,3.87,12000,4,1,0,2,0
+JOB_177,Cloud Engineer,TCS,Service-Based,Noida,West Bengal,B.Tech,2023,"AWS, Java, Power BI",Linux,0,0,1,Internship,8.45,15000,2,1,0,1,1
+JOB_178,Web Developer,Deloitte,Startup,Bangalore,Delhi,B.Sc,2023,"Excel, Java, Linux",Power BI,1,0,1,Internship,4.93,0,4,0,1,3,0
+JOB_179,Software Engineer,Wipro,MNC,Bangalore,Karnataka,B.Sc,2023,"Java, SQL, AWS",Java,0,1,1,Internship,7.68,15000,2,0,1,1,0
+JOB_180,Data Scientist,Infosys,Startup,Chennai,Telangana,MCA,2023,"Machine Learning, AWS, Python",Machine Learning,1,0,1,Internship,6.83,15000,4,1,0,2,0
+JOB_181,Cybersecurity Analyst,TCS,Product-Based,Mumbai,West Bengal,B.Sc,2025,"AWS, Linux, Excel",Machine Learning,1,1,0,Internship,6.71,12000,2,1,1,1,0
+JOB_182,Data Analyst,Deloitte,MNC,Noida,West Bengal,B.Tech,2023,"Excel, AWS, Machine Learning",Machine Learning,1,1,1,Full-Time,3.57,8000,4,0,0,2,0
+JOB_183,AI/ML Engineer,Infosys,MNC,Kolkata,Karnataka,M.Tech,2023,"Machine Learning, AWS, Linux",Linux,0,1,1,Internship,11.55,10000,4,1,0,3,1
+JOB_184,AI/ML Engineer,Cognizant,Startup,Delhi,Uttar Pradesh,MCA,2024,"SQL, Excel, Power BI",AWS,1,1,0,Internship,11.26,15000,2,1,1,3,0
+JOB_185,Cybersecurity Analyst,TCS,MNC,Kolkata,Maharashtra,B.Sc,2025,"Machine Learning, Java, Power BI",Python,0,0,0,Full-Time,6.29,0,5,1,1,3,1
+JOB_186,Software Engineer,Startup,Startup,Noida,Tamil Nadu,BCA,2025,"Excel, Python, AWS",Python,0,0,1,Full-Time,6.3,0,4,1,0,1,1
+JOB_187,Data Scientist,Infosys,MNC,Kolkata,Karnataka,MCA,2024,"Machine Learning, Excel, Linux",Power BI,0,0,1,Full-Time,10.9,0,5,1,0,2,0
+JOB_188,Data Analyst,Cognizant,Service-Based,Chennai,Karnataka,MCA,2024,"Power BI, Java, Excel",AWS,0,1,0,Full-Time,5.78,15000,2,0,0,2,0
+JOB_189,Web Developer,Accenture,Service-Based,Delhi,Uttar Pradesh,M.Tech,2024,"AWS, Machine Learning, SQL",Java,0,1,0,Internship,5.65,10000,5,0,1,2,1
+JOB_190,Cloud Engineer,Accenture,Startup,Hyderabad,Tamil Nadu,BCA,2024,"Python, Power BI, Excel",Java,0,0,1,Internship,6.21,10000,2,1,1,3,0
+JOB_191,Web Developer,Wipro,MNC,Mumbai,Uttar Pradesh,MCA,2024,"Java, Excel, AWS",Python,0,1,1,Full-Time,3.47,8000,5,0,0,3,1
+JOB_192,AI/ML Engineer,Wipro,Service-Based,Noida,West Bengal,M.Tech,2024,"Linux, SQL, AWS",Excel,0,0,1,Internship,11.38,10000,3,0,1,3,1
+JOB_193,Software Engineer,Accenture,Service-Based,Chennai,Uttar Pradesh,BCA,2024,"SQL, Java, Power BI",Python,0,0,1,Internship,7.5,12000,2,1,1,3,0
+JOB_194,AI/ML Engineer,TCS,Startup,Kolkata,Uttar Pradesh,B.Com,2024,"Linux, Java, Power BI",Machine Learning,1,1,1,Full-Time,9.8,12000,5,0,1,1,0
+JOB_195,AI/ML Engineer,Startup,Service-Based,Chennai,Telangana,M.Tech,2025,"Excel, Machine Learning, AWS",Machine Learning,0,1,1,Internship,8.03,15000,4,1,0,2,0
+JOB_196,Business Analyst,Startup,Product-Based,Kolkata,Telangana,BCA,2024,"Power BI, Java, AWS",Machine Learning,0,0,1,Internship,4.75,15000,3,0,1,2,0
+JOB_197,Data Analyst,Startup,MNC,Hyderabad,Karnataka,B.Sc,2024,"Linux, Excel, SQL",Java,1,0,0,Full-Time,6.63,10000,5,1,0,2,1
+JOB_198,Cloud Engineer,Deloitte,Product-Based,Mumbai,Telangana,M.Tech,2023,"Java, Linux, SQL",Power BI,0,0,1,Internship,9.49,8000,5,1,1,2,1
+JOB_199,Software Engineer,Wipro,Startup,Mumbai,Telangana,M.Tech,2025,"Power BI, SQL, Machine Learning",Linux,1,0,0,Internship,7.44,15000,5,0,1,3,1
+JOB_200,Software Engineer,Infosys,Service-Based,Mumbai,Telangana,MCA,2024,"Linux, SQL, Machine Learning",SQL,1,1,0,Internship,6.9,15000,3,1,0,3,0
+JOB_201,Cloud Engineer,Capgemini,Product-Based,Pune,Tamil Nadu,B.Sc,2023,"Linux, Java, Power BI",Python,0,1,1,Internship,8.21,15000,4,0,1,3,1
+JOB_202,Web Developer,Infosys,Service-Based,Chennai,Telangana,B.Tech,2023,"Python, AWS, Linux",Machine Learning,1,0,0,Internship,3.42,15000,3,1,0,2,0
+JOB_203,Web Developer,Capgemini,MNC,Kolkata,Telangana,MCA,2025,"Python, Power BI, SQL",Linux,1,0,1,Full-Time,3.81,0,2,0,0,2,1
+JOB_204,Cloud Engineer,Cognizant,Product-Based,Delhi,Maharashtra,B.Com,2023,"SQL, Java, Machine Learning",Excel,0,1,0,Internship,9.49,15000,5,0,1,2,0
+JOB_205,Cybersecurity Analyst,Deloitte,Startup,Hyderabad,Telangana,BCA,2023,"Java, Machine Learning, Python",Linux,1,0,1,Full-Time,8.03,0,2,1,1,2,0
+JOB_206,Web Developer,Deloitte,Service-Based,Noida,Uttar Pradesh,MCA,2024,"Machine Learning, Linux, Power BI",Machine Learning,1,0,1,Full-Time,3.05,10000,5,1,0,1,1
+JOB_207,AI/ML Engineer,Deloitte,Product-Based,Hyderabad,Karnataka,M.Tech,2024,"Excel, Java, Power BI",SQL,0,1,0,Internship,6.61,12000,3,0,1,2,0
+JOB_208,AI/ML Engineer,Capgemini,MNC,Noida,Tamil Nadu,B.Tech,2025,"SQL, Python, Java",SQL,1,1,1,Internship,9.98,15000,2,1,0,2,1
+JOB_209,Business Analyst,TCS,Service-Based,Hyderabad,Maharashtra,B.Tech,2024,"Excel, Machine Learning, Python",AWS,1,0,0,Full-Time,3.03,12000,3,0,1,1,1
+JOB_210,Web Developer,Infosys,Product-Based,Hyderabad,Uttar Pradesh,M.Tech,2025,"Java, Machine Learning, SQL",Machine Learning,0,0,0,Full-Time,3.8,0,3,1,1,1,0
+JOB_211,Cloud Engineer,Wipro,Startup,Noida,Telangana,B.Sc,2025,"Power BI, Java, SQL",Linux,0,0,0,Internship,7.74,0,5,1,1,2,1
+JOB_212,Cybersecurity Analyst,Capgemini,Product-Based,Hyderabad,Uttar Pradesh,B.Tech,2025,"AWS, Excel, SQL",Python,1,0,0,Full-Time,8.46,8000,2,1,0,3,1
+JOB_213,Software Engineer,Startup,Service-Based,Chennai,West Bengal,B.Sc,2024,"Linux, SQL, Java",Java,0,1,0,Full-Time,6.26,12000,3,0,1,3,1
+JOB_214,Web Developer,Wipro,Service-Based,Noida,Maharashtra,M.Tech,2025,"SQL, Java, Excel",Linux,0,0,0,Full-Time,4.12,15000,3,1,0,3,0
+JOB_215,Software Engineer,TCS,MNC,Chennai,Karnataka,BCA,2024,"SQL, Excel, Machine Learning",Excel,0,0,0,Internship,6.56,10000,3,0,1,3,0
+JOB_216,Software Engineer,Startup,Service-Based,Mumbai,Telangana,BCA,2024,"AWS, SQL, Python",SQL,0,0,1,Internship,4.19,12000,4,1,0,2,1
+JOB_217,Cloud Engineer,Accenture,MNC,Bangalore,Karnataka,M.Tech,2023,"Machine Learning, Linux, Python",Python,0,0,0,Full-Time,6.63,8000,5,1,0,2,1
+JOB_218,Cybersecurity Analyst,TCS,MNC,Hyderabad,Telangana,M.Tech,2024,"Java, Power BI, Excel",AWS,1,0,1,Full-Time,8.73,15000,2,1,0,3,1
+JOB_219,Business Analyst,Accenture,Service-Based,Chennai,Uttar Pradesh,B.Com,2024,"Python, Linux, Java",Excel,0,0,1,Internship,6.25,0,4,0,0,2,1
+JOB_220,Cybersecurity Analyst,Capgemini,Startup,Mumbai,Karnataka,M.Tech,2023,"Linux, SQL, Python",SQL,0,0,1,Internship,9.25,12000,3,1,0,3,1
+JOB_221,Data Analyst,Cognizant,Startup,Pune,Maharashtra,M.Tech,2025,"SQL, Java, Machine Learning",Java,0,1,1,Full-Time,6.29,8000,3,0,1,2,0
+JOB_222,Business Analyst,Startup,MNC,Hyderabad,Telangana,B.Sc,2024,"Linux, Java, Excel",SQL,1,0,0,Full-Time,5.84,8000,2,0,1,3,1
+JOB_223,Data Scientist,Capgemini,Service-Based,Hyderabad,West Bengal,B.Com,2025,"Java, Power BI, Excel",Java,0,0,1,Full-Time,6.56,0,5,1,0,2,0
+JOB_224,Software Engineer,Infosys,Startup,Mumbai,Uttar Pradesh,M.Tech,2025,"SQL, Power BI, Linux",Linux,1,1,0,Full-Time,4.84,10000,4,1,0,3,0
+JOB_225,Business Analyst,Infosys,Startup,Mumbai,Uttar Pradesh,B.Sc,2025,"Power BI, Linux, Java",Power BI,1,1,1,Internship,4.33,8000,2,0,1,1,0
+JOB_226,Business Analyst,Infosys,Startup,Bangalore,West Bengal,B.Tech,2023,"Excel, Linux, Python",Java,1,0,0,Internship,4.22,12000,2,1,1,1,0
+JOB_227,Data Analyst,Capgemini,MNC,Delhi,Karnataka,B.Tech,2024,"Excel, Power BI, Java",AWS,1,0,1,Full-Time,7.87,10000,4,1,0,2,1
+JOB_228,Data Analyst,Infosys,Product-Based,Noida,Karnataka,BCA,2023,"Machine Learning, Linux, Python",Java,0,0,0,Internship,4.97,0,4,0,0,1,0
+JOB_229,AI/ML Engineer,Infosys,Service-Based,Delhi,Karnataka,BCA,2023,"AWS, Linux, Excel",Power BI,0,1,0,Internship,11.35,12000,4,0,0,3,1
+JOB_230,Business Analyst,Startup,MNC,Hyderabad,Telangana,B.Com,2025,"Machine Learning, Linux, AWS",Linux,1,0,1,Full-Time,6.16,12000,5,1,0,1,1
+JOB_231,Data Scientist,Accenture,Startup,Hyderabad,Telangana,B.Com,2025,"Excel, Machine Learning, Java",Python,0,0,1,Full-Time,10.77,10000,3,1,1,1,1
+JOB_232,Cloud Engineer,Startup,Product-Based,Hyderabad,Telangana,M.Tech,2024,"Machine Learning, Linux, AWS",Python,0,0,0,Internship,7.51,15000,4,0,0,3,1
+JOB_233,Data Analyst,Cognizant,Startup,Delhi,Telangana,MCA,2024,"AWS, Java, Power BI",Java,1,0,0,Internship,5.88,8000,4,0,0,3,0
+JOB_234,Cybersecurity Analyst,Deloitte,Service-Based,Pune,Karnataka,MCA,2023,"Java, Linux, Power BI",Excel,1,0,0,Full-Time,7.46,10000,2,1,1,3,1
+JOB_235,Cloud Engineer,Capgemini,MNC,Bangalore,Tamil Nadu,B.Tech,2024,"Machine Learning, AWS, SQL",Excel,1,1,1,Full-Time,5.98,8000,5,1,1,2,0
+JOB_236,Data Analyst,Startup,MNC,Noida,Maharashtra,MCA,2024,"Java, Machine Learning, Excel",SQL,0,0,1,Full-Time,6.61,0,2,1,0,2,1
+JOB_237,Cybersecurity Analyst,Infosys,Startup,Mumbai,Karnataka,B.Tech,2023,"Python, Power BI, Java",SQL,1,0,0,Full-Time,6.4,10000,3,0,0,3,1
+JOB_238,Software Engineer,Infosys,Product-Based,Noida,Karnataka,BCA,2023,"Excel, Python, Power BI",Python,1,0,0,Full-Time,3.12,10000,5,1,0,1,1
+JOB_239,Business Analyst,Deloitte,MNC,Kolkata,Delhi,M.Tech,2024,"Excel, Power BI, Python",Machine Learning,0,1,1,Full-Time,6.23,15000,2,1,0,2,0
+JOB_240,Cybersecurity Analyst,Deloitte,MNC,Kolkata,Karnataka,BCA,2025,"Power BI, AWS, Machine Learning",Machine Learning,0,1,0,Internship,5.89,0,3,0,1,2,1
+JOB_241,Business Analyst,Capgemini,Startup,Bangalore,Telangana,B.Com,2024,"Linux, AWS, SQL",Power BI,0,0,0,Full-Time,7.7,0,4,0,0,2,0
+JOB_242,Data Scientist,Deloitte,Startup,Delhi,Delhi,B.Com,2023,"Java, Python, SQL",Power BI,1,1,1,Internship,11.72,15000,5,1,1,1,0
+JOB_243,Data Scientist,Cognizant,MNC,Hyderabad,Tamil Nadu,B.Com,2024,"Power BI, Excel, Linux",Power BI,1,1,1,Internship,11.49,12000,2,0,0,2,1
+JOB_244,Software Engineer,Wipro,Service-Based,Chennai,Delhi,M.Tech,2024,"SQL, Power BI, Java",Java,1,0,0,Full-Time,4.85,8000,5,0,1,1,0
+JOB_245,Data Scientist,Wipro,Startup,Noida,West Bengal,B.Tech,2023,"Python, Excel, Linux",Excel,1,0,1,Full-Time,6.09,8000,2,1,0,3,0
+JOB_246,Data Analyst,Startup,MNC,Noida,Maharashtra,M.Tech,2024,"Machine Learning, Linux, AWS",Machine Learning,0,1,1,Full-Time,7.64,10000,4,0,1,1,1
+JOB_247,Cybersecurity Analyst,Cognizant,MNC,Mumbai,West Bengal,B.Com,2025,"Machine Learning, Linux, Python",AWS,0,1,1,Full-Time,7.14,10000,4,0,1,3,1
+JOB_248,Cloud Engineer,Infosys,Service-Based,Bangalore,West Bengal,BCA,2025,"Power BI, SQL, Linux",AWS,0,0,1,Internship,9.83,8000,5,1,1,2,0
+JOB_249,Data Analyst,Deloitte,MNC,Bangalore,Maharashtra,MCA,2025,"Linux, Power BI, Excel",AWS,1,0,1,Internship,7.82,12000,2,1,0,1,0
+JOB_250,Data Scientist,Capgemini,Service-Based,Bangalore,Maharashtra,M.Tech,2024,"Power BI, SQL, Excel",Python,1,0,1,Internship,11.12,0,5,1,1,1,0
+JOB_251,Business Analyst,Accenture,Product-Based,Mumbai,Tamil Nadu,B.Sc,2023,"Machine Learning, Excel, Java",Excel,0,1,1,Internship,4.47,10000,5,0,0,3,0
+JOB_252,Cybersecurity Analyst,Startup,Startup,Kolkata,Telangana,BCA,2023,"Machine Learning, Excel, SQL",Linux,0,1,1,Full-Time,6.93,15000,5,0,1,1,0
+JOB_253,Data Analyst,TCS,Startup,Hyderabad,West Bengal,BCA,2023,"Linux, AWS, Java",Excel,0,1,0,Internship,7.26,10000,5,0,1,2,0
+JOB_254,Software Engineer,Startup,Startup,Kolkata,West Bengal,B.Com,2025,"Java, SQL, Power BI",Java,0,0,0,Full-Time,4.58,12000,4,1,1,2,0
+JOB_255,Software Engineer,Cognizant,Product-Based,Chennai,Tamil Nadu,B.Sc,2023,"Linux, AWS, Java",SQL,0,0,0,Full-Time,3.85,8000,5,0,1,1,0
+JOB_256,Cybersecurity Analyst,Accenture,Startup,Delhi,Telangana,B.Tech,2025,"SQL, Python, Machine Learning",Machine Learning,0,0,1,Full-Time,7.78,10000,3,0,0,2,0
+JOB_257,Cloud Engineer,TCS,MNC,Mumbai,Uttar Pradesh,B.Com,2024,"Linux, Power BI, Python",AWS,0,1,1,Internship,9.68,15000,5,1,0,3,0
+JOB_258,Software Engineer,Cognizant,MNC,Noida,Maharashtra,M.Tech,2025,"SQL, Python, Power BI",AWS,1,0,0,Internship,6.48,0,4,1,1,3,0
+JOB_259,AI/ML Engineer,Cognizant,MNC,Bangalore,Telangana,M.Tech,2023,"Python, Machine Learning, Excel",Python,0,0,1,Full-Time,9.42,8000,2,0,0,2,1
+JOB_260,Data Scientist,Wipro,MNC,Noida,Telangana,M.Tech,2025,"Power BI, Machine Learning, Java",SQL,0,1,0,Internship,6.58,10000,2,0,1,2,1
+JOB_261,Business Analyst,Startup,Service-Based,Kolkata,West Bengal,B.Tech,2024,"Excel, Python, Machine Learning",AWS,1,0,0,Full-Time,6.08,10000,4,1,1,1,0
+JOB_262,Cloud Engineer,Cognizant,Service-Based,Noida,Karnataka,MCA,2024,"SQL, Python, Java",Python,0,1,1,Full-Time,9.95,12000,5,1,1,2,0
+JOB_263,Cybersecurity Analyst,Cognizant,Startup,Chennai,Tamil Nadu,B.Tech,2023,"AWS, Power BI, Excel",Java,0,0,0,Full-Time,5.7,15000,2,0,1,1,0
+JOB_264,Business Analyst,TCS,Startup,Noida,Tamil Nadu,MCA,2024,"Excel, AWS, Power BI",AWS,0,0,1,Full-Time,5.59,10000,5,1,1,2,0
+JOB_265,Cloud Engineer,Infosys,Service-Based,Chennai,Tamil Nadu,B.Tech,2024,"AWS, Python, Excel",Power BI,0,1,0,Internship,9.39,15000,5,1,0,3,1
+JOB_266,Cybersecurity Analyst,Wipro,Product-Based,Mumbai,Maharashtra,BCA,2023,"AWS, Machine Learning, Excel",Python,1,0,0,Internship,8.7,8000,5,1,0,1,1
+JOB_267,Web Developer,Startup,Product-Based,Hyderabad,Telangana,B.Com,2023,"Python, Excel, SQL",Machine Learning,0,1,1,Internship,6.49,10000,4,1,1,3,0
+JOB_268,Software Engineer,Capgemini,Product-Based,Mumbai,Tamil Nadu,B.Com,2024,"Python, Machine Learning, AWS",Excel,0,1,0,Internship,6.51,15000,4,0,1,1,1
+JOB_269,AI/ML Engineer,Infosys,Service-Based,Kolkata,West Bengal,MCA,2025,"Machine Learning, Python, Power BI",Java,0,0,0,Full-Time,8.16,0,4,1,0,1,1
+JOB_270,Business Analyst,Startup,Startup,Chennai,Uttar Pradesh,B.Tech,2023,"AWS, Machine Learning, Python",AWS,0,1,0,Full-Time,4.47,0,3,1,0,3,1
+JOB_271,Data Scientist,Cognizant,Product-Based,Chennai,Telangana,B.Com,2024,"Linux, SQL, Java",Excel,0,1,1,Full-Time,10.86,10000,4,1,0,2,0
+JOB_272,Web Developer,Infosys,Startup,Delhi,Telangana,B.Sc,2025,"Power BI, Java, SQL",AWS,0,0,0,Full-Time,7.05,8000,5,1,0,1,1
+JOB_273,Data Scientist,Deloitte,Service-Based,Bangalore,West Bengal,B.Com,2025,"SQL, AWS, Power BI",Linux,0,0,1,Full-Time,11.2,15000,3,1,1,2,1
+JOB_274,Data Scientist,Deloitte,Product-Based,Kolkata,Uttar Pradesh,B.Tech,2023,"SQL, Linux, Power BI",Excel,1,1,1,Internship,11.48,8000,2,0,1,3,0
+JOB_275,Data Analyst,Cognizant,Startup,Hyderabad,Telangana,B.Sc,2024,"SQL, AWS, Java",Excel,0,1,0,Full-Time,5.56,12000,4,0,0,1,1
+JOB_276,AI/ML Engineer,Capgemini,Service-Based,Bangalore,Tamil Nadu,BCA,2025,"Excel, AWS, Java",Python,0,0,0,Internship,9.01,8000,3,1,0,1,1
+JOB_277,Software Engineer,Accenture,Service-Based,Chennai,Delhi,M.Tech,2023,"Excel, Java, SQL",Power BI,0,0,0,Full-Time,6.99,8000,4,0,1,2,0
+JOB_278,Business Analyst,Wipro,MNC,Noida,Uttar Pradesh,M.Tech,2024,"Excel, Power BI, SQL",Java,0,0,0,Full-Time,6.25,15000,3,0,0,2,1
+JOB_279,Web Developer,Accenture,MNC,Hyderabad,Tamil Nadu,B.Com,2025,"Linux, Power BI, Python",Machine Learning,0,1,0,Internship,6.51,15000,5,0,0,3,0
+JOB_280,Data Scientist,Infosys,MNC,Hyderabad,Delhi,B.Com,2023,"Power BI, Linux, Python",AWS,1,1,0,Internship,10.77,15000,2,0,1,3,1
+JOB_281,Web Developer,Startup,Startup,Mumbai,Telangana,M.Tech,2023,"Linux, Machine Learning, Power BI",Python,0,0,0,Full-Time,7.45,15000,4,1,0,3,1
+JOB_282,Cloud Engineer,TCS,Startup,Bangalore,West Bengal,B.Sc,2023,"Machine Learning, Power BI, SQL",Python,0,1,1,Full-Time,6.69,0,5,1,1,1,1
+JOB_283,Data Analyst,TCS,Product-Based,Delhi,West Bengal,B.Tech,2023,"Linux, Excel, Java",Excel,0,1,0,Internship,4.88,0,3,0,0,2,1
+JOB_284,Software Engineer,Startup,Service-Based,Noida,Telangana,BCA,2023,"AWS, Linux, Python",AWS,1,1,1,Full-Time,3.47,8000,5,0,0,1,1
+JOB_285,AI/ML Engineer,Capgemini,Service-Based,Noida,West Bengal,B.Com,2023,"Python, Power BI, Machine Learning",Machine Learning,1,1,1,Internship,9.47,8000,5,0,1,3,0
+JOB_286,Data Scientist,Startup,MNC,Delhi,Delhi,BCA,2023,"Linux, Power BI, Machine Learning",Python,0,0,1,Full-Time,6.22,15000,5,1,0,1,0
+JOB_287,Business Analyst,Capgemini,Service-Based,Mumbai,Tamil Nadu,BCA,2023,"Linux, Machine Learning, Python",Python,1,1,1,Internship,5.33,8000,3,0,0,2,0
+JOB_288,Data Scientist,Startup,Service-Based,Noida,Delhi,B.Sc,2024,"Excel, AWS, Power BI",Java,0,1,1,Full-Time,9.26,10000,4,1,0,2,0
+JOB_289,Web Developer,Infosys,MNC,Chennai,West Bengal,B.Tech,2023,"AWS, Java, SQL",Linux,0,1,1,Internship,4.43,10000,2,1,1,3,0
+JOB_290,Business Analyst,Wipro,Startup,Mumbai,Uttar Pradesh,MCA,2024,"Java, Excel, Power BI",Excel,0,1,0,Internship,5.95,10000,2,0,1,2,1
+JOB_291,Web Developer,Startup,MNC,Bangalore,Telangana,BCA,2023,"Power BI, Machine Learning, SQL",Java,1,1,1,Internship,3.15,0,2,0,0,2,1
+JOB_292,Web Developer,Startup,MNC,Hyderabad,Telangana,BCA,2025,"AWS, Machine Learning, SQL",Machine Learning,0,1,0,Internship,3.19,8000,4,0,0,1,1
+JOB_293,Cybersecurity Analyst,TCS,Product-Based,Kolkata,Karnataka,B.Sc,2024,"Machine Learning, SQL, Linux",Java,1,1,0,Internship,9.11,12000,3,1,0,3,0
+JOB_294,Data Scientist,Accenture,Service-Based,Kolkata,Uttar Pradesh,B.Com,2024,"Machine Learning, Linux, Java",SQL,0,1,1,Internship,8.16,8000,4,1,1,1,1
+JOB_295,Software Engineer,Accenture,Startup,Bangalore,Delhi,M.Tech,2025,"Java, Excel, Linux",Linux,1,1,1,Internship,3.64,0,3,0,1,2,0
+JOB_296,Cloud Engineer,Accenture,Startup,Delhi,Delhi,BCA,2025,"SQL, Python, Java",Python,1,0,1,Full-Time,7.61,15000,3,1,0,1,0
+JOB_297,Web Developer,Cognizant,Startup,Delhi,Delhi,B.Sc,2023,"AWS, Machine Learning, Java",Excel,0,1,0,Internship,6.85,0,3,1,0,2,0
+JOB_298,Data Analyst,Infosys,MNC,Pune,West Bengal,MCA,2025,"Excel, AWS, SQL",SQL,1,1,0,Internship,4.08,0,3,0,1,1,0
+JOB_299,Data Scientist,Capgemini,Product-Based,Chennai,Karnataka,BCA,2024,"Power BI, Excel, Machine Learning",Java,0,0,0,Internship,9.74,15000,4,1,0,3,0
+JOB_300,AI/ML Engineer,Startup,MNC,Bangalore,Karnataka,B.Sc,2025,"Machine Learning, AWS, Python",Machine Learning,0,1,1,Full-Time,6.51,8000,4,0,0,2,0
+JOB_301,Cloud Engineer,TCS,Startup,Bangalore,Maharashtra,B.Com,2025,"Linux, Java, Machine Learning",Linux,1,1,0,Full-Time,5.26,10000,5,1,0,3,1
+JOB_302,Web Developer,Wipro,Product-Based,Hyderabad,West Bengal,BCA,2024,"SQL, AWS, Linux",Linux,0,0,0,Internship,5.66,10000,3,1,1,3,1
+JOB_303,Data Analyst,Deloitte,Service-Based,Noida,Uttar Pradesh,B.Sc,2025,"Linux, SQL, Java",Power BI,0,0,1,Full-Time,5.7,15000,2,0,0,3,0
+JOB_304,Data Analyst,Capgemini,Product-Based,Noida,Tamil Nadu,M.Tech,2023,"Excel, Python, AWS",Java,0,1,1,Internship,6.19,12000,4,1,1,2,1
+JOB_305,Web Developer,Capgemini,MNC,Delhi,Maharashtra,B.Com,2024,"Excel, AWS, Java",Java,1,1,1,Internship,6.63,12000,5,1,1,2,0
+JOB_306,Software Engineer,Accenture,Product-Based,Delhi,Telangana,B.Tech,2025,"Machine Learning, Java, AWS",Python,1,0,0,Internship,7.88,15000,2,0,0,2,1
+JOB_307,Business Analyst,Wipro,Service-Based,Chennai,Karnataka,B.Tech,2023,"Java, Machine Learning, AWS",Python,0,1,1,Internship,5.58,15000,3,1,0,2,0
+JOB_308,Web Developer,TCS,MNC,Bangalore,Tamil Nadu,BCA,2025,"AWS, Machine Learning, Java",Excel,0,0,0,Full-Time,4.61,12000,5,1,1,1,0
+JOB_309,Software Engineer,Startup,Startup,Mumbai,West Bengal,BCA,2023,"Power BI, Machine Learning, AWS",Excel,0,0,0,Full-Time,6.98,10000,5,1,1,3,0
+JOB_310,Business Analyst,Deloitte,Startup,Kolkata,Telangana,M.Tech,2025,"Machine Learning, Excel, Power BI",Linux,0,0,1,Full-Time,4.35,12000,5,1,0,1,1
+JOB_311,Cybersecurity Analyst,Capgemini,Service-Based,Hyderabad,Maharashtra,B.Sc,2024,"SQL, Linux, Machine Learning",AWS,0,0,1,Internship,7.19,8000,5,1,1,1,1
+JOB_312,Cloud Engineer,TCS,MNC,Chennai,Uttar Pradesh,BCA,2024,"Machine Learning, AWS, Linux",Java,0,0,1,Full-Time,5.39,10000,4,0,0,1,0
+JOB_313,Cybersecurity Analyst,Infosys,Service-Based,Hyderabad,Uttar Pradesh,BCA,2024,"SQL, AWS, Python",Python,1,0,0,Internship,5.13,10000,2,0,0,1,0
+JOB_314,Data Analyst,Startup,MNC,Noida,Maharashtra,B.Com,2025,"Java, AWS, Power BI",Machine Learning,0,1,1,Full-Time,7.81,10000,3,0,0,1,0
+JOB_315,Cybersecurity Analyst,TCS,Service-Based,Delhi,Tamil Nadu,BCA,2023,"Python, Linux, Machine Learning",Java,0,0,1,Full-Time,9.18,10000,5,1,1,3,0
+JOB_316,Cybersecurity Analyst,Cognizant,MNC,Mumbai,Tamil Nadu,B.Com,2025,"Power BI, Machine Learning, Python",Java,1,1,1,Internship,8.48,12000,5,1,1,3,0
+JOB_317,Web Developer,Capgemini,MNC,Chennai,Maharashtra,BCA,2023,"Excel, SQL, Python",Power BI,0,0,1,Full-Time,5.04,12000,2,1,1,1,0
+JOB_318,Software Engineer,Accenture,Product-Based,Hyderabad,Karnataka,B.Sc,2025,"Linux, Excel, Machine Learning",Java,1,1,0,Internship,3.87,12000,2,1,0,2,1
+JOB_319,Web Developer,Cognizant,Startup,Delhi,Maharashtra,B.Com,2023,"SQL, Machine Learning, Linux",Machine Learning,1,1,1,Full-Time,3.78,8000,2,1,1,3,0
+JOB_320,Business Analyst,Startup,MNC,Noida,West Bengal,B.Sc,2024,"AWS, Linux, Power BI",Power BI,1,1,0,Full-Time,4.25,10000,3,1,1,2,0
+JOB_321,Web Developer,Accenture,Product-Based,Hyderabad,Delhi,B.Sc,2025,"Python, Java, AWS",Machine Learning,0,0,1,Internship,5.75,10000,2,0,0,1,0
+JOB_322,Cybersecurity Analyst,Capgemini,MNC,Pune,Uttar Pradesh,B.Com,2025,"AWS, SQL, Excel",Java,0,0,1,Internship,8.57,10000,5,1,1,3,1
+JOB_323,AI/ML Engineer,Deloitte,MNC,Bangalore,Maharashtra,MCA,2024,"AWS, Linux, Machine Learning",Java,1,1,0,Internship,9.96,15000,3,0,0,2,1
+JOB_324,Web Developer,Capgemini,Service-Based,Kolkata,Delhi,B.Tech,2025,"Machine Learning, AWS, SQL",Machine Learning,0,0,0,Internship,4.4,12000,3,1,1,2,1
+JOB_325,Data Scientist,Infosys,Startup,Mumbai,Karnataka,M.Tech,2024,"Java, Power BI, Linux",Machine Learning,0,0,1,Internship,11.73,0,5,0,1,2,0
+JOB_326,Cybersecurity Analyst,TCS,Product-Based,Delhi,Tamil Nadu,M.Tech,2023,"Python, Java, SQL",Power BI,1,1,0,Full-Time,8.69,12000,4,0,0,1,0
+JOB_327,Cloud Engineer,Infosys,Service-Based,Pune,West Bengal,MCA,2024,"Power BI, Java, SQL",AWS,1,0,0,Full-Time,7.77,12000,5,0,1,2,1
+JOB_328,Data Scientist,TCS,Startup,Chennai,West Bengal,B.Sc,2023,"Power BI, Python, SQL",Excel,0,1,1,Full-Time,9.67,0,3,1,0,1,0
+JOB_329,Data Analyst,Infosys,Product-Based,Mumbai,Uttar Pradesh,M.Tech,2023,"Python, Excel, SQL",SQL,1,0,1,Internship,5.1,0,4,1,0,3,1
+JOB_330,AI/ML Engineer,Cognizant,Startup,Kolkata,Telangana,M.Tech,2023,"Python, Machine Learning, Excel",Machine Learning,0,0,1,Full-Time,7.49,12000,3,1,0,2,1
+JOB_331,Data Analyst,Accenture,Product-Based,Mumbai,Maharashtra,BCA,2023,"Java, Linux, AWS",Java,0,1,0,Internship,4.78,12000,5,0,1,1,0
+JOB_332,Data Scientist,Infosys,Service-Based,Bangalore,Maharashtra,B.Tech,2025,"SQL, Python, Linux",Linux,1,0,1,Full-Time,10.55,10000,3,0,1,2,1
+JOB_333,AI/ML Engineer,Deloitte,Startup,Chennai,Delhi,BCA,2024,"Excel, Power BI, Machine Learning",Power BI,1,0,1,Internship,6.09,0,4,1,1,2,1
+JOB_334,Cloud Engineer,Startup,Startup,Chennai,Telangana,B.Sc,2024,"Python, SQL, Machine Learning",SQL,0,0,0,Full-Time,5.58,10000,4,1,0,3,0
+JOB_335,Cybersecurity Analyst,TCS,Startup,Kolkata,Delhi,B.Sc,2025,"Python, SQL, AWS",Excel,1,0,1,Full-Time,5.23,15000,3,1,1,2,1
+JOB_336,Cybersecurity Analyst,Wipro,Service-Based,Kolkata,Tamil Nadu,B.Sc,2023,"Excel, Machine Learning, Power BI",Power BI,1,0,1,Internship,5.2,8000,5,1,0,3,1
+JOB_337,Business Analyst,Infosys,Service-Based,Bangalore,Karnataka,B.Tech,2025,"Power BI, Machine Learning, SQL",Linux,0,1,1,Full-Time,7.28,8000,3,0,1,3,1
+JOB_338,Cybersecurity Analyst,Accenture,Product-Based,Hyderabad,Delhi,B.Com,2024,"Linux, Excel, Power BI",Linux,1,1,0,Internship,8.52,8000,5,0,1,1,0
+JOB_339,Cloud Engineer,Infosys,Product-Based,Delhi,West Bengal,B.Tech,2023,"Machine Learning, SQL, Java",Linux,1,0,0,Internship,7.37,0,3,1,0,2,1
+JOB_340,Software Engineer,Wipro,MNC,Pune,Uttar Pradesh,MCA,2024,"Excel, Machine Learning, Python",Machine Learning,0,1,0,Full-Time,3.49,10000,4,1,0,2,1
+JOB_341,AI/ML Engineer,Accenture,Startup,Kolkata,Karnataka,M.Tech,2025,"AWS, SQL, Excel",SQL,0,1,1,Internship,8.95,8000,3,1,1,1,1
+JOB_342,Cloud Engineer,Cognizant,Startup,Mumbai,Telangana,MCA,2024,"Excel, SQL, Linux",Linux,1,0,0,Full-Time,7.37,0,4,1,1,2,0
+JOB_343,AI/ML Engineer,Infosys,MNC,Hyderabad,Delhi,M.Tech,2024,"SQL, Linux, Power BI",Python,1,0,0,Full-Time,7.04,10000,2,0,0,2,1
+JOB_344,Cloud Engineer,Startup,Product-Based,Pune,Karnataka,B.Sc,2023,"Power BI, Excel, Java",AWS,0,0,0,Full-Time,7.17,15000,2,0,1,2,0
+JOB_345,Cybersecurity Analyst,Wipro,Product-Based,Noida,Tamil Nadu,MCA,2024,"SQL, Python, Linux",Excel,0,1,0,Full-Time,6.99,12000,3,1,0,3,1
+JOB_346,AI/ML Engineer,Deloitte,Product-Based,Kolkata,Telangana,M.Tech,2025,"SQL, AWS, Python",Machine Learning,0,0,1,Internship,9.7,0,2,1,0,3,1
+JOB_347,Cloud Engineer,Wipro,Startup,Noida,Tamil Nadu,B.Sc,2024,"Power BI, Excel, SQL",SQL,0,1,0,Full-Time,8.18,8000,3,0,1,3,0
+JOB_348,Cloud Engineer,Infosys,MNC,Kolkata,West Bengal,B.Com,2024,"SQL, Python, AWS",Python,0,0,1,Internship,5.23,0,3,0,1,1,0
+JOB_349,Data Analyst,TCS,MNC,Pune,Delhi,B.Sc,2024,"Power BI, AWS, Java",AWS,1,1,0,Full-Time,4.87,8000,5,1,1,2,1
+JOB_350,Data Scientist,Wipro,MNC,Noida,Delhi,BCA,2024,"Power BI, Java, Python",SQL,0,0,0,Full-Time,9.76,8000,2,1,1,1,1
+JOB_351,Cybersecurity Analyst,Capgemini,Startup,Chennai,West Bengal,B.Sc,2024,"Python, Excel, SQL",Machine Learning,0,1,0,Internship,7.52,0,3,1,0,1,0
+JOB_352,Software Engineer,Wipro,Startup,Delhi,West Bengal,MCA,2024,"Python, Linux, SQL",Linux,1,0,1,Internship,7.28,12000,5,0,0,2,0
+JOB_353,Data Scientist,Infosys,MNC,Pune,Karnataka,M.Tech,2025,"Python, Java, AWS",AWS,0,1,0,Internship,9.95,15000,3,1,0,3,1
+JOB_354,Data Scientist,Capgemini,MNC,Hyderabad,West Bengal,B.Sc,2023,"Power BI, SQL, Java",Linux,0,0,1,Full-Time,6.98,8000,3,1,0,2,1
+JOB_355,Data Scientist,Deloitte,Startup,Bangalore,Maharashtra,MCA,2025,"Python, Machine Learning, Power BI",Machine Learning,1,1,0,Internship,6.42,12000,5,0,0,3,1
+JOB_356,Data Scientist,Accenture,Service-Based,Chennai,Uttar Pradesh,BCA,2023,"Java, Power BI, AWS",SQL,0,0,1,Internship,9.85,10000,5,0,1,3,0
+JOB_357,AI/ML Engineer,Cognizant,Service-Based,Kolkata,West Bengal,MCA,2023,"Power BI, AWS, Linux",AWS,0,0,0,Full-Time,6.16,0,5,0,1,1,0
+JOB_358,AI/ML Engineer,Startup,Startup,Delhi,Karnataka,BCA,2025,"Linux, Python, Java",Machine Learning,0,0,1,Full-Time,9.51,8000,4,1,0,2,1
+JOB_359,Data Analyst,TCS,MNC,Bangalore,Telangana,MCA,2024,"SQL, Linux, AWS",SQL,0,0,0,Full-Time,7.7,15000,2,0,0,1,1
+JOB_360,AI/ML Engineer,Capgemini,Service-Based,Noida,Delhi,B.Tech,2024,"Python, Java, Linux",Power BI,1,0,0,Full-Time,9.45,15000,2,0,1,1,0
+JOB_361,Cloud Engineer,Wipro,MNC,Hyderabad,Tamil Nadu,B.Tech,2023,"SQL, Linux, Machine Learning",SQL,0,0,0,Internship,6.94,8000,5,0,1,3,0
+JOB_362,Business Analyst,Deloitte,Product-Based,Pune,Uttar Pradesh,B.Sc,2024,"SQL, Java, Python",AWS,0,1,0,Full-Time,6.22,15000,3,1,1,2,1
+JOB_363,Software Engineer,Startup,Service-Based,Chennai,Uttar Pradesh,B.Tech,2025,"Java, Linux, Excel",SQL,0,0,0,Full-Time,5.29,0,5,0,0,1,0
+JOB_364,Web Developer,Cognizant,MNC,Bangalore,Maharashtra,B.Com,2024,"Python, SQL, Linux",Java,0,1,0,Internship,5.73,10000,4,1,0,2,1
+JOB_365,Business Analyst,Accenture,MNC,Delhi,Delhi,B.Com,2024,"Linux, SQL, Power BI",SQL,1,1,1,Full-Time,7.71,10000,3,0,0,2,0
+JOB_366,Cloud Engineer,TCS,Product-Based,Hyderabad,West Bengal,BCA,2025,"Excel, Linux, AWS",Power BI,1,0,0,Internship,6.93,15000,2,0,0,3,1
+JOB_367,Cloud Engineer,Wipro,Service-Based,Kolkata,Delhi,B.Tech,2023,"Python, Excel, Java",Excel,0,1,0,Full-Time,9.81,8000,5,0,0,1,0
+JOB_368,Software Engineer,Cognizant,MNC,Noida,Tamil Nadu,B.Tech,2023,"Java, Python, AWS",SQL,0,0,1,Full-Time,7.53,12000,5,0,1,1,0
+JOB_369,Cybersecurity Analyst,Deloitte,Startup,Noida,Tamil Nadu,B.Sc,2024,"Machine Learning, Excel, Power BI",Power BI,0,0,1,Internship,5.98,12000,4,0,0,1,1
+JOB_370,Data Scientist,Capgemini,Product-Based,Hyderabad,Telangana,M.Tech,2024,"Power BI, AWS, Java",Excel,0,1,1,Full-Time,6.42,12000,5,0,0,2,0
+JOB_371,Cloud Engineer,TCS,MNC,Bangalore,Uttar Pradesh,B.Tech,2023,"AWS, Excel, Python",Java,0,0,1,Internship,5.5,0,2,1,1,2,1
+JOB_372,Data Scientist,Startup,Startup,Delhi,Delhi,B.Tech,2025,"SQL, Java, Excel",Machine Learning,0,0,0,Full-Time,6.11,12000,2,1,0,2,1
+JOB_373,Data Scientist,Deloitte,Service-Based,Noida,Telangana,B.Com,2025,"Python, Machine Learning, SQL",Machine Learning,1,1,1,Internship,6.57,0,2,1,0,1,0
+JOB_374,Software Engineer,Cognizant,Service-Based,Bangalore,Telangana,B.Sc,2025,"Excel, AWS, Linux",Excel,1,0,1,Internship,6.42,8000,4,0,1,2,1
+JOB_375,Software Engineer,Wipro,Product-Based,Pune,Tamil Nadu,BCA,2024,"Java, Machine Learning, Linux",Linux,0,0,0,Full-Time,3.36,8000,5,0,1,2,0
+JOB_376,Web Developer,Startup,Service-Based,Delhi,Telangana,B.Com,2024,"Power BI, AWS, Python",Java,0,0,0,Full-Time,4.59,12000,5,0,1,3,1
+JOB_377,Web Developer,Startup,MNC,Kolkata,Karnataka,B.Com,2024,"Python, Power BI, AWS",Excel,0,1,1,Internship,7.22,10000,5,0,0,3,1
+JOB_378,Data Analyst,Accenture,Startup,Chennai,Tamil Nadu,B.Sc,2023,"SQL, Machine Learning, AWS",Python,0,0,0,Internship,3.12,0,3,1,1,1,1
+JOB_379,Web Developer,Wipro,MNC,Kolkata,Karnataka,B.Sc,2025,"Java, Linux, AWS",AWS,0,1,1,Full-Time,7.07,15000,4,0,1,1,1
+JOB_380,Data Analyst,Infosys,Startup,Chennai,Delhi,B.Com,2024,"Python, Linux, AWS",Power BI,1,1,1,Full-Time,4.41,10000,4,1,0,3,1
+JOB_381,Web Developer,Accenture,Product-Based,Bangalore,Maharashtra,B.Sc,2024,"Machine Learning, AWS, Java",Excel,0,0,0,Full-Time,3.59,15000,4,1,1,3,0
+JOB_382,Software Engineer,Infosys,Service-Based,Bangalore,Tamil Nadu,MCA,2024,"Python, Power BI, AWS",Java,1,0,0,Full-Time,6.48,12000,5,1,0,2,0
+JOB_383,Cybersecurity Analyst,Infosys,Startup,Bangalore,Delhi,B.Sc,2024,"AWS, Python, Excel",Excel,1,1,0,Full-Time,8.14,12000,4,1,0,3,1
+JOB_384,Web Developer,Wipro,Service-Based,Mumbai,Telangana,BCA,2023,"SQL, Excel, AWS",Linux,0,0,0,Internship,7.39,0,4,0,1,1,1
+JOB_385,Cybersecurity Analyst,Wipro,Product-Based,Hyderabad,Telangana,BCA,2023,"AWS, Linux, Power BI",SQL,0,0,1,Internship,8.68,15000,3,1,0,1,0
+JOB_386,Software Engineer,Infosys,Service-Based,Mumbai,Telangana,B.Sc,2025,"Machine Learning, Python, Linux",Excel,1,0,0,Full-Time,7.02,10000,5,1,1,2,1
+JOB_387,Cybersecurity Analyst,TCS,Startup,Delhi,West Bengal,MCA,2023,"Excel, Machine Learning, Linux",Excel,1,1,1,Internship,6.41,12000,2,0,0,3,0
+JOB_388,Data Analyst,Deloitte,Service-Based,Delhi,Karnataka,MCA,2024,"AWS, Linux, Power BI",Power BI,0,0,0,Full-Time,3.89,8000,3,1,0,2,1
+JOB_389,Business Analyst,Accenture,Startup,Chennai,Maharashtra,B.Sc,2023,"Excel, Python, Machine Learning",Power BI,0,1,0,Internship,6.75,15000,5,0,0,1,1
+JOB_390,AI/ML Engineer,TCS,Product-Based,Pune,Telangana,B.Sc,2024,"SQL, Python, Power BI",AWS,0,0,1,Internship,10.84,15000,4,1,0,3,1
+JOB_391,Data Scientist,Startup,Startup,Hyderabad,Karnataka,B.Tech,2024,"Machine Learning, Excel, SQL",Python,0,0,0,Internship,11.94,0,2,0,1,3,1
+JOB_392,Cybersecurity Analyst,Accenture,Product-Based,Noida,Maharashtra,MCA,2023,"Excel, Machine Learning, AWS",Excel,0,0,0,Internship,7.06,0,2,0,1,3,0
+JOB_393,Data Scientist,Capgemini,Service-Based,Delhi,Uttar Pradesh,M.Tech,2023,"AWS, Java, Python",Machine Learning,0,0,1,Internship,8.23,12000,3,0,1,2,0
+JOB_394,AI/ML Engineer,Capgemini,Service-Based,Noida,Tamil Nadu,B.Tech,2024,"SQL, Python, AWS",Linux,0,0,0,Internship,10.66,15000,2,0,1,2,0
+JOB_395,Web Developer,Accenture,Product-Based,Chennai,Maharashtra,MCA,2024,"Python, Linux, Excel",SQL,1,1,0,Full-Time,4.7,8000,3,0,0,1,0
+JOB_396,Business Analyst,Wipro,MNC,Hyderabad,Uttar Pradesh,BCA,2023,"Power BI, Excel, Java",Java,0,1,0,Internship,7.65,0,2,1,0,1,1
+JOB_397,Web Developer,Accenture,Product-Based,Pune,West Bengal,B.Com,2023,"Power BI, Java, Excel",SQL,1,1,0,Full-Time,7.29,12000,3,0,0,2,1
+JOB_398,Data Scientist,Cognizant,Startup,Delhi,Delhi,B.Com,2023,"Python, Linux, Machine Learning",SQL,1,0,1,Internship,8.57,12000,2,0,0,2,0
+JOB_399,Software Engineer,Startup,Startup,Bangalore,Delhi,B.Sc,2024,"AWS, Java, Power BI",Machine Learning,1,1,0,Full-Time,6.75,10000,5,0,0,2,1
+JOB_400,Cloud Engineer,Deloitte,Service-Based,Hyderabad,Karnataka,MCA,2025,"AWS, Excel, Power BI",AWS,1,1,0,Full-Time,8.77,10000,2,1,1,3,0
+JOB_401,Software Engineer,Deloitte,MNC,Bangalore,Karnataka,B.Tech,2025,"Excel, Machine Learning, SQL",Java,0,0,1,Internship,3.52,15000,5,0,0,1,0
+JOB_402,Cybersecurity Analyst,Startup,Startup,Delhi,Maharashtra,B.Com,2023,"AWS, Linux, Java",AWS,0,0,0,Internship,9.51,15000,4,0,0,2,1
+JOB_403,Web Developer,Accenture,Service-Based,Bangalore,Uttar Pradesh,MCA,2024,"Linux, Excel, AWS",Machine Learning,0,1,0,Internship,5.53,15000,4,0,0,2,0
+JOB_404,Web Developer,Accenture,MNC,Pune,Maharashtra,B.Tech,2023,"Power BI, Python, SQL",Java,0,0,1,Internship,7.13,0,5,0,1,3,0
+JOB_405,AI/ML Engineer,TCS,Startup,Pune,Maharashtra,M.Tech,2023,"AWS, SQL, Java",AWS,0,0,0,Full-Time,7.92,0,5,0,0,2,0
+JOB_406,Software Engineer,Infosys,Product-Based,Delhi,Maharashtra,B.Tech,2025,"Python, Excel, Java",SQL,0,1,0,Full-Time,7.48,8000,2,1,0,2,1
+JOB_407,Software Engineer,TCS,Product-Based,Chennai,Tamil Nadu,B.Com,2023,"Power BI, Python, Java",Excel,0,1,1,Full-Time,4.95,15000,2,1,1,2,0
+JOB_408,Data Analyst,TCS,MNC,Kolkata,Maharashtra,BCA,2023,"Linux, Python, Power BI",SQL,0,1,0,Internship,3.05,8000,3,1,0,2,0
+JOB_409,Data Analyst,Cognizant,Service-Based,Bangalore,Maharashtra,B.Com,2025,"Power BI, Linux, Java",Power BI,0,0,1,Full-Time,7.53,0,4,1,0,2,1
+JOB_410,Data Scientist,Capgemini,MNC,Pune,Telangana,B.Sc,2023,"Java, SQL, AWS",Excel,0,0,0,Full-Time,6.55,8000,3,1,1,1,1
+JOB_411,Data Scientist,Deloitte,Service-Based,Noida,Karnataka,B.Com,2023,"Python, SQL, Machine Learning",Java,1,0,0,Full-Time,7.92,15000,4,0,0,2,1
+JOB_412,Data Analyst,Wipro,Service-Based,Mumbai,West Bengal,B.Tech,2024,"Java, Linux, Power BI",AWS,1,1,1,Internship,7.75,15000,4,0,1,1,0
+JOB_413,Cybersecurity Analyst,Accenture,Product-Based,Kolkata,Karnataka,MCA,2025,"AWS, SQL, Python",Python,0,0,1,Full-Time,9.75,0,3,1,1,2,0
+JOB_414,AI/ML Engineer,Cognizant,Service-Based,Noida,Karnataka,MCA,2023,"Linux, Power BI, Machine Learning",Java,1,1,1,Internship,9.44,10000,2,0,1,2,0
+JOB_415,Cloud Engineer,TCS,Service-Based,Chennai,Karnataka,MCA,2025,"Java, Power BI, Python",SQL,0,0,0,Full-Time,8.16,8000,3,0,0,1,1
+JOB_416,AI/ML Engineer,Wipro,Service-Based,Noida,Tamil Nadu,B.Com,2025,"AWS, Java, Excel",Linux,1,0,0,Full-Time,8.69,15000,3,1,0,3,0
+JOB_417,Data Analyst,Cognizant,Startup,Bangalore,Maharashtra,B.Tech,2023,"AWS, Linux, Python",Power BI,1,1,1,Internship,4.47,8000,5,1,0,2,0
+JOB_418,Data Scientist,Capgemini,MNC,Mumbai,Tamil Nadu,B.Tech,2025,"Machine Learning, Linux, AWS",Python,0,1,0,Internship,7.97,10000,2,0,1,2,0
+JOB_419,Cloud Engineer,Wipro,Startup,Bangalore,Delhi,M.Tech,2025,"Linux, Java, AWS",Linux,0,0,1,Full-Time,8.36,8000,3,1,1,1,1
+JOB_420,AI/ML Engineer,Wipro,Product-Based,Hyderabad,Maharashtra,B.Tech,2023,"Power BI, Excel, Machine Learning",Java,1,1,1,Full-Time,10.51,8000,3,1,1,1,1
+JOB_421,Web Developer,Deloitte,MNC,Delhi,Delhi,B.Sc,2025,"AWS, Excel, Machine Learning",Java,1,0,0,Internship,6.96,12000,5,1,0,2,0
+JOB_422,Data Scientist,Accenture,Service-Based,Hyderabad,Delhi,BCA,2025,"Machine Learning, Java, Power BI",Power BI,1,1,1,Full-Time,10.74,8000,5,0,0,2,0
+JOB_423,Data Analyst,Capgemini,MNC,Noida,Maharashtra,BCA,2023,"Python, Linux, Excel",Excel,0,0,1,Internship,3.46,0,2,1,1,2,0
+JOB_424,Data Analyst,Accenture,Startup,Delhi,Karnataka,B.Com,2023,"Excel, Machine Learning, Power BI",AWS,0,1,0,Full-Time,5.47,12000,4,1,0,3,1
+JOB_425,Data Scientist,Infosys,Product-Based,Kolkata,Tamil Nadu,M.Tech,2023,"Java, Excel, Linux",Java,0,1,0,Full-Time,6.35,10000,5,1,0,3,1
+JOB_426,Data Analyst,Deloitte,Product-Based,Noida,Telangana,B.Sc,2023,"Linux, Power BI, Excel",Machine Learning,0,0,0,Internship,5.75,12000,5,0,0,3,1
+JOB_427,Software Engineer,Infosys,MNC,Mumbai,Uttar Pradesh,B.Com,2024,"Linux, Machine Learning, AWS",Java,1,1,1,Internship,5.21,0,4,1,0,3,0
+JOB_428,AI/ML Engineer,Cognizant,Startup,Mumbai,Delhi,M.Tech,2023,"Power BI, Python, SQL",Machine Learning,0,1,1,Full-Time,11.33,8000,2,1,0,2,1
+JOB_429,Data Analyst,Wipro,Service-Based,Mumbai,Maharashtra,B.Com,2025,"Machine Learning, Power BI, Linux",Linux,0,1,1,Full-Time,4.75,15000,4,1,0,3,1
+JOB_430,Business Analyst,Deloitte,MNC,Hyderabad,Uttar Pradesh,MCA,2023,"Excel, Power BI, Linux",Power BI,0,1,1,Internship,3.59,8000,4,1,0,2,1
+JOB_431,Business Analyst,Cognizant,Service-Based,Chennai,Maharashtra,BCA,2024,"AWS, Machine Learning, Power BI",Java,0,1,0,Internship,3.71,0,5,0,0,2,0
+JOB_432,Business Analyst,Infosys,Product-Based,Noida,Uttar Pradesh,BCA,2023,"Excel, AWS, Java",AWS,0,1,1,Internship,6.81,0,4,0,0,1,1
+JOB_433,Data Analyst,Capgemini,Product-Based,Delhi,Delhi,M.Tech,2024,"AWS, Linux, Machine Learning",Power BI,0,0,0,Full-Time,6.09,12000,2,0,1,2,1
+JOB_434,AI/ML Engineer,Accenture,MNC,Noida,Telangana,B.Com,2025,"Excel, Python, SQL",SQL,0,1,0,Full-Time,6.61,8000,3,0,1,1,0
+JOB_435,Web Developer,Startup,Product-Based,Noida,Delhi,B.Com,2025,"Java, AWS, Power BI",Machine Learning,1,1,1,Full-Time,3.42,15000,4,0,1,1,1
+JOB_436,AI/ML Engineer,Deloitte,Product-Based,Pune,Tamil Nadu,B.Tech,2024,"Excel, Python, SQL",Excel,0,0,1,Full-Time,10.21,12000,2,1,0,2,0
+JOB_437,Cloud Engineer,Deloitte,MNC,Mumbai,Telangana,B.Tech,2025,"Python, SQL, Power BI",Python,0,0,1,Full-Time,5.36,12000,2,1,1,3,1
+JOB_438,Data Analyst,TCS,Service-Based,Kolkata,Telangana,B.Sc,2023,"Java, Linux, SQL",SQL,1,0,0,Full-Time,7.11,10000,3,0,0,1,0
+JOB_439,Software Engineer,Deloitte,Product-Based,Hyderabad,Uttar Pradesh,BCA,2023,"AWS, Machine Learning, Excel",SQL,1,0,0,Full-Time,6.53,15000,5,1,1,2,0
+JOB_440,Business Analyst,Infosys,Startup,Mumbai,Maharashtra,MCA,2025,"SQL, Machine Learning, Java",SQL,1,1,1,Full-Time,3.41,0,5,1,0,2,1
+JOB_441,Web Developer,Infosys,Service-Based,Mumbai,Maharashtra,B.Tech,2024,"Power BI, Python, Java",Machine Learning,0,1,0,Full-Time,3.42,8000,2,1,0,1,1
+JOB_442,Business Analyst,Infosys,MNC,Mumbai,Uttar Pradesh,BCA,2023,"SQL, Java, Python",Python,0,1,0,Internship,7.93,8000,2,0,1,1,1
+JOB_443,Cybersecurity Analyst,Startup,Service-Based,Chennai,Karnataka,MCA,2023,"Power BI, AWS, Linux",Power BI,1,0,0,Full-Time,6.87,0,4,0,0,2,0
+JOB_444,Cloud Engineer,Accenture,Startup,Delhi,Uttar Pradesh,M.Tech,2024,"Excel, Python, AWS",Java,0,0,0,Full-Time,6.85,10000,3,0,1,2,1
+JOB_445,Cybersecurity Analyst,Deloitte,Service-Based,Pune,Uttar Pradesh,B.Tech,2024,"Python, SQL, Linux",Linux,1,0,0,Full-Time,9.06,15000,3,0,1,1,1
+JOB_446,Business Analyst,Deloitte,Product-Based,Pune,West Bengal,MCA,2025,"Excel, Python, Power BI",AWS,0,0,1,Internship,7.74,8000,3,0,0,2,1
+JOB_447,Cloud Engineer,Accenture,Service-Based,Mumbai,Telangana,B.Sc,2025,"SQL, Python, AWS",Power BI,0,0,1,Internship,9.93,8000,3,0,0,1,0
+JOB_448,Data Scientist,Deloitte,Product-Based,Delhi,Maharashtra,BCA,2023,"AWS, Linux, Python",Java,1,0,0,Full-Time,10.52,8000,3,0,1,1,1
+JOB_449,Business Analyst,Accenture,Product-Based,Pune,Uttar Pradesh,MCA,2024,"Machine Learning, Python, Linux",Power BI,1,1,0,Full-Time,4.88,8000,5,1,1,3,0
+JOB_450,Business Analyst,Wipro,Startup,Chennai,Uttar Pradesh,B.Tech,2023,"SQL, Machine Learning, Linux",Linux,1,0,0,Internship,3.42,0,5,1,0,1,1
+JOB_451,Cloud Engineer,Accenture,Service-Based,Noida,Delhi,BCA,2023,"SQL, Java, AWS",Excel,0,1,0,Full-Time,8.89,0,2,0,0,2,1
+JOB_452,Data Analyst,Wipro,Product-Based,Hyderabad,Karnataka,B.Sc,2025,"Excel, Machine Learning, Power BI",Excel,0,1,1,Full-Time,5.79,15000,5,1,1,1,1
+JOB_453,Business Analyst,Startup,Product-Based,Noida,Maharashtra,B.Sc,2025,"AWS, Power BI, SQL",AWS,0,0,0,Full-Time,5.12,12000,3,0,0,2,1
+JOB_454,Web Developer,Deloitte,Product-Based,Hyderabad,Tamil Nadu,B.Tech,2025,"SQL, Python, Excel",Linux,1,0,0,Full-Time,7.53,15000,5,1,1,2,1
+JOB_455,Data Analyst,Wipro,Startup,Bangalore,Tamil Nadu,M.Tech,2023,"Excel, AWS, Power BI",Machine Learning,0,0,0,Full-Time,3.56,0,2,0,0,1,0
+JOB_456,Cybersecurity Analyst,TCS,MNC,Hyderabad,Delhi,M.Tech,2024,"Power BI, Machine Learning, Python",AWS,1,0,0,Internship,7.46,8000,2,0,1,3,0
+JOB_457,Cybersecurity Analyst,Infosys,MNC,Chennai,Maharashtra,MCA,2025,"Machine Learning, AWS, Power BI",Power BI,1,1,0,Full-Time,5.06,12000,5,0,1,1,1
+JOB_458,Cybersecurity Analyst,Deloitte,Startup,Noida,Karnataka,MCA,2023,"AWS, Power BI, SQL",SQL,0,1,0,Internship,7.34,10000,3,0,1,1,0
+JOB_459,Software Engineer,Capgemini,Service-Based,Hyderabad,Tamil Nadu,B.Tech,2023,"Python, AWS, Java",SQL,1,1,1,Full-Time,3.28,8000,2,0,1,3,0
+JOB_460,Business Analyst,Infosys,Product-Based,Pune,Tamil Nadu,BCA,2025,"AWS, Linux, SQL",Python,0,1,0,Full-Time,3.59,8000,5,0,1,2,1
+JOB_461,Cloud Engineer,TCS,MNC,Pune,Tamil Nadu,M.Tech,2024,"Python, AWS, SQL",SQL,0,0,0,Internship,5.59,12000,4,1,1,1,0
+JOB_462,Data Analyst,Infosys,MNC,Chennai,Uttar Pradesh,M.Tech,2025,"Java, Linux, Power BI",Linux,1,1,0,Full-Time,6.25,0,2,1,1,3,1
+JOB_463,Web Developer,Infosys,Service-Based,Kolkata,Karnataka,BCA,2025,"Python, AWS, Java",Excel,0,0,0,Internship,6.73,10000,2,0,1,3,1
+JOB_464,Cloud Engineer,Startup,Startup,Noida,West Bengal,BCA,2024,"SQL, Power BI, Linux",Python,0,1,1,Internship,7.92,10000,2,0,1,2,1
+JOB_465,Web Developer,Deloitte,Startup,Delhi,Uttar Pradesh,B.Com,2023,"SQL, Power BI, Excel",Excel,0,1,1,Internship,7.81,15000,4,1,1,2,0
+JOB_466,Software Engineer,Cognizant,Product-Based,Pune,Telangana,M.Tech,2025,"Excel, Java, Python",AWS,0,1,0,Full-Time,4.87,0,3,0,1,3,1
+JOB_467,Cybersecurity Analyst,Deloitte,Service-Based,Pune,Delhi,B.Tech,2025,"Excel, Python, AWS",Excel,1,0,1,Full-Time,6.43,8000,2,1,0,1,0
+JOB_468,Web Developer,TCS,Product-Based,Chennai,Delhi,MCA,2025,"Linux, Power BI, Machine Learning",Python,0,1,0,Full-Time,7.34,10000,5,0,0,3,1
+JOB_469,Data Analyst,Startup,Startup,Pune,Delhi,BCA,2024,"AWS, SQL, Java",AWS,1,0,0,Full-Time,4.12,10000,5,0,0,2,1
+JOB_470,Software Engineer,Startup,MNC,Kolkata,Telangana,MCA,2023,"SQL, Power BI, Python",AWS,1,1,0,Full-Time,7.82,10000,3,0,1,1,0
+JOB_471,Web Developer,Cognizant,Service-Based,Delhi,Telangana,B.Tech,2025,"Power BI, Machine Learning, Excel",Power BI,0,1,1,Internship,3.06,15000,5,1,0,1,1
+JOB_472,Data Analyst,Capgemini,Product-Based,Mumbai,Maharashtra,M.Tech,2024,"Power BI, SQL, Java",AWS,1,1,0,Internship,7.85,15000,4,0,0,1,0
+JOB_473,Cybersecurity Analyst,Deloitte,Startup,Pune,Telangana,M.Tech,2023,"Power BI, Java, Python",Python,0,1,1,Full-Time,5.22,8000,4,0,1,2,0
+JOB_474,Cloud Engineer,Deloitte,MNC,Kolkata,Telangana,B.Sc,2025,"Excel, Linux, AWS",SQL,0,0,0,Full-Time,9.46,10000,5,1,0,3,1
+JOB_475,Software Engineer,Startup,Product-Based,Delhi,West Bengal,B.Tech,2024,"AWS, Java, SQL",SQL,1,1,1,Full-Time,5.64,8000,2,0,1,1,0
+JOB_476,Web Developer,Cognizant,MNC,Mumbai,Karnataka,M.Tech,2024,"Linux, SQL, Excel",Python,0,1,0,Full-Time,7.96,12000,5,0,0,3,0
+JOB_477,Cybersecurity Analyst,Wipro,Service-Based,Delhi,West Bengal,MCA,2023,"Python, Java, SQL",Power BI,1,0,0,Full-Time,5.37,12000,2,0,0,3,1
+JOB_478,Data Scientist,Startup,Product-Based,Noida,Telangana,M.Tech,2025,"SQL, Java, Linux",Linux,1,0,1,Internship,9.32,12000,3,0,1,2,1
+JOB_479,Data Analyst,Accenture,MNC,Kolkata,Maharashtra,B.Com,2023,"SQL, Excel, AWS",Power BI,0,0,1,Internship,7.85,8000,4,0,0,1,1
+JOB_480,Cloud Engineer,Wipro,Startup,Chennai,Telangana,M.Tech,2023,"AWS, Linux, Excel",Power BI,0,1,1,Full-Time,7.62,0,4,1,0,1,1
+JOB_481,Data Scientist,Infosys,Product-Based,Chennai,Maharashtra,B.Com,2024,"Machine Learning, Excel, Linux",Linux,0,0,1,Full-Time,9.78,15000,3,1,0,2,0
+JOB_482,Data Scientist,Infosys,Startup,Hyderabad,Uttar Pradesh,BCA,2023,"Python, Power BI, Linux",Python,1,1,1,Internship,10.17,15000,4,1,1,2,1
+JOB_483,Data Scientist,Startup,Startup,Noida,West Bengal,B.Sc,2023,"Power BI, SQL, Java",Java,0,0,0,Internship,8.73,15000,3,0,0,2,0
+JOB_484,Cybersecurity Analyst,Wipro,MNC,Hyderabad,Tamil Nadu,B.Tech,2025,"Machine Learning, Java, Power BI",Python,0,0,1,Internship,8.14,10000,5,0,0,2,0
+JOB_485,Business Analyst,Deloitte,Product-Based,Chennai,Uttar Pradesh,BCA,2024,"Python, Machine Learning, AWS",Linux,0,0,0,Full-Time,5.92,12000,4,1,0,3,1
+JOB_486,Business Analyst,Deloitte,Service-Based,Noida,Uttar Pradesh,B.Sc,2024,"Java, Excel, Power BI",SQL,1,0,1,Internship,7.51,8000,4,0,0,1,1
+JOB_487,Cybersecurity Analyst,Deloitte,Service-Based,Chennai,Maharashtra,B.Tech,2024,"Java, Excel, SQL",Linux,1,0,1,Internship,5.23,0,3,1,1,3,1
+JOB_488,Data Scientist,TCS,Service-Based,Chennai,Tamil Nadu,B.Sc,2025,"SQL, AWS, Java",Linux,1,0,1,Internship,7.69,0,4,1,0,2,0
+JOB_489,Web Developer,Wipro,Service-Based,Delhi,Karnataka,M.Tech,2025,"Machine Learning, Linux, Excel",SQL,0,1,1,Full-Time,7.75,8000,4,1,1,3,1
+JOB_490,Web Developer,Cognizant,MNC,Noida,Delhi,B.Com,2025,"Power BI, Machine Learning, Java",SQL,1,0,0,Full-Time,7.45,10000,4,1,1,3,0
+JOB_491,Business Analyst,Cognizant,Service-Based,Mumbai,West Bengal,MCA,2024,"Linux, Machine Learning, Python",Machine Learning,0,0,0,Full-Time,5.28,10000,3,0,1,2,0
+JOB_492,Software Engineer,Wipro,Startup,Noida,Maharashtra,BCA,2024,"Machine Learning, AWS, Power BI",Python,0,0,1,Full-Time,6.1,8000,3,1,1,2,0
+JOB_493,Cybersecurity Analyst,Wipro,Product-Based,Chennai,Tamil Nadu,MCA,2023,"Machine Learning, Linux, Java",SQL,0,0,1,Full-Time,6.39,8000,3,1,0,2,0
+JOB_494,Software Engineer,Deloitte,Service-Based,Pune,West Bengal,B.Sc,2024,"AWS, Python, Excel",Python,1,0,0,Internship,3.94,15000,4,0,1,2,0
+JOB_495,Data Analyst,Accenture,MNC,Bangalore,West Bengal,B.Tech,2025,"Power BI, Machine Learning, Java",Java,1,0,1,Full-Time,5.32,8000,3,0,1,1,1
+JOB_496,Cloud Engineer,Wipro,Product-Based,Bangalore,Telangana,M.Tech,2024,"Excel, Python, AWS",Power BI,0,0,1,Internship,6.77,10000,2,0,0,2,0
+JOB_497,Business Analyst,Cognizant,MNC,Kolkata,West Bengal,B.Tech,2023,"Machine Learning, Java, Linux",Java,0,1,1,Full-Time,5.92,8000,2,0,0,3,1
+JOB_498,Data Scientist,Startup,Service-Based,Noida,Delhi,B.Sc,2024,"Excel, AWS, Python",Excel,0,1,1,Full-Time,6.47,8000,4,1,0,3,0
+JOB_499,Business Analyst,Accenture,MNC,Mumbai,West Bengal,M.Tech,2023,"SQL, Java, Machine Learning",AWS,0,0,1,Internship,7.87,8000,3,0,0,3,1
+JOB_500,Cybersecurity Analyst,Wipro,Service-Based,Delhi,Maharashtra,B.Tech,2023,"Linux, AWS, Java",Excel,0,0,0,Internship,9.93,8000,5,0,1,2,1

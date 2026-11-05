@@ -1,0 +1,21 @@
+company_name,job_role,required_skills,preferred_skills,degrees_accepted,experience_required,salary_avg_lpa,min_cgpa,coding_test_rounds
+NuCSOFT,Junior Software Tester,"sql, manual testing, python, communication","git, jira","B.Tech, B.E, BCA, MCA, B.Sc",fresher,3.4,5.5,1
+Infibeam,Web Support Engineer,"html, css, javascript, sql, communication","react, git","B.Tech, B.E, BCA, MCA",fresher,3.6,5.5,1
+CMC Limited,Graduate Engineer Trainee,"c++, sql, object oriented programming, problem solving","python, linux","B.Tech, B.E",fresher,3.8,6.0,1
+Accolite Digital,Associate QA Engineer,"java, sql, data structures, communication","selenium, git","B.Tech, B.E, MCA",fresher,4.2,6.0,1
+HCL Technologies,Software Engineer Analyst,"java, sql, object oriented programming, communication","html, css, git","B.Tech, B.E, M.Tech, MCA",fresher,4.5,6.0,1
+Cybage Software,Junior Frontend Developer,"javascript, html, css, react, communication","node.js, git","B.Tech, B.E, MCA",fresher,4.5,6.0,1
+TCS,Ninja System Engineer,"python, sql, data structures, object oriented programming, communication","java, git","B.Tech, B.E, M.Tech, MCA",fresher,4.2,6.0,1
+Wipro,Project Engineer,"java, python, sql, communication, problem solving","linux, git","B.Tech, B.E",fresher,4.5,6.0,1
+Capgemini,Senior Analyst Developer,"java, sql, data structures, algorithms, object oriented programming","spring, docker, git","B.Tech, B.E, M.Tech, MCA",fresher,6.8,6.5,2
+IBM,Associate System Engineer,"python, sql, data structures, algorithms, linux, communication","docker, aws, git","B.Tech, B.E, M.Tech",fresher,7.2,6.8,2
+Infosys,Specialist Programmer,"python, java, data structures, algorithms, sql, object oriented programming","react, node.js, docker","B.Tech, B.E, M.Tech",fresher,8.5,7.0,2
+TCS,Digital Full Stack Developer,"javascript, react, node.js, sql, data structures, communication","docker, aws, git","B.Tech, B.E, M.Tech",fresher,7.5,7.0,2
+Cognizant,GenC Next Data Engineer,"python, sql, machine learning, data structures, communication","power bi, aws, spark","B.Tech, B.E, M.Tech",0.25,7.0,6.8,2
+Accenture,Advanced App Engineering Analyst,"java, python, sql, data structures, algorithms, communication","aws, ci/cd, docker","B.Tech, B.E, M.Tech",fresher,6.5,6.5,2
+Deloitte,Technology Analyst,"python, sql, power bi, machine learning, communication","aws, tableau, git","B.Tech, B.E, M.Tech, MCA",0.25,8.0,7.0,2
+Oracle,Server Technology Member,"c++, java, data structures, algorithms, object oriented programming, sql","linux, docker, kubernetes","B.Tech, B.E, M.Tech",0.5,14.5,7.5,3
+Johnson Controls,Senior AI/ML Engineer,"python, machine learning, deep learning, scikit-learn, sql, data structures","docker, aws, kubernetes","B.Tech, B.E, M.Tech",0.5,13.0,7.5,3
+Microsoft,Software Development Engineer,"c++, python, data structures, algorithms, object oriented programming, system design","aws, docker, kubernetes, ci/cd","B.Tech, B.E, M.Tech",0.5,19.5,8.0,3
+Adobe,Member of Technical Staff,"c++, java, data structures, algorithms, object oriented programming, system design","react, node.js, docker, aws","B.Tech, B.E, M.Tech",0.5,20.0,8.0,3
+Amazon,Software Development Engineer I,"java, c++, data structures, algorithms, object oriented programming, linux","aws, docker, kubernetes, system design","B.Tech, B.E, M.Tech",0.5,18.0,7.8,3
