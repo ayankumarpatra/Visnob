@@ -1,6 +1,5 @@
 # evaluate_model.py
 # ==============================================================================
-# SCIENTIFICALLY RIGOROUS EVALUATION SUITE FOR EXTENDED SPRINGER PROTOTYPE:
 # "A Comprehensive Analysis on the Skill-Set of the Students to Improve Campus
 #  Drive Using Machine Learning Approaches"
 #
