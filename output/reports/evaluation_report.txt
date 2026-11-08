@@ -1,0 +1,200 @@
+====================================================================================
+SCIENTIFIC MODEL EVALUATION REPORT — STUDENT PROFILING & JOB MATCHING SYSTEM
+Generated: 2026-11-08 15:24:21
+====================================================================================
+====================================================================================
+CHECK 1: UNSUPERVISED CLUSTERING VALIDITY & K-ABLATION [UNSUPERVISED_CLUSTERING]
+====================================================================================
+
+Table 1A: Student Skill Sub-Cluster Validity Inside Each CGPA Band (Design K = 3)
+┌───────────┬──────────┬────────────────┬────────────────────┬───────────────────────┐
+│ cgpa_band │ students │ silhouette (↑) │ davies_bouldin (↓) │ calinski_harabasz (↑) │
+├───────────┼──────────┼────────────────┼────────────────────┼───────────────────────┤
+│ low       │ 77       │ 0.560          │ 0.786              │ 140.1                 │
+│ mid       │ 237      │ 0.510          │ 0.768              │ 339.8                 │
+│ top       │ 106      │ 0.475          │ 0.715              │ 136.2                 │
+└───────────┴──────────┴────────────────┴────────────────────┴───────────────────────┘
+
+Job-Tier Clustering (K = 3, Salary Weight = 3.0): Silhouette = 0.704, Davies-Bouldin = 0.377, Calinski-Harabasz = 111.5
+
+Table 1B: K-Selection Sensitivity Analysis Across Job Tiers & Student Skill Sub-Clusters
+┌───────────────────────┬─────────────┬─────────────┬─────────────┬─────────────────┬─────────────────┬─────────────────┐
+│ clusters (k)          │ job_sil (↑) │ job_dbi (↓) │ job_chi (↑) │ student_sil (↑) │ student_dbi (↓) │ student_chi (↑) │
+├───────────────────────┼─────────────┼─────────────┼─────────────┼─────────────────┼─────────────────┼─────────────────┤
+│ K = 2                 │ 0.737       │ 0.387       │ 86.6        │ 0.522           │ 0.748           │ 166.7           │
+│ K = 3 (Design Choice) │ 0.704       │ 0.377       │ 111.5       │ 0.515           │ 0.756           │ 205.4           │
+│ K = 4                 │ 0.735       │ 0.335       │ 227.9       │ 0.466           │ 0.956           │ 173.3           │
+│ K = 5                 │ 0.686       │ 0.424       │ 254.0       │ 0.416           │ 1.136           │ 150.8           │
+└───────────────────────┴─────────────┴─────────────┴─────────────┴─────────────────┴─────────────────┴─────────────────┘
+
+[Scientific Note on K Selection]: Empirical highest Silhouette occurs at K=2 for jobs and K=2 for students. K=3 is retained as the intended domain-interpretable design (Low / Mid / Top remuneration tiers and Low / Mid / Good skill bands) to preserve the 3x3 hierarchical cohort structure from the Springer methodology.
+
+Table 1C: Job-Clustering Salary Weight Sensitivity Justification
+┌───────────────────────────┬──────────────────┬───────────────────────────────┐
+│ salary_feature_weight     │ silhouette_score │ strict_salary_tier_separation │
+├───────────────────────────┼──────────────────┼───────────────────────────────┤
+│ w_salary = 1.0            │ 0.728            │ Yes (Strict Monotonic Tiers)  │
+│ w_salary = 2.0            │ 0.708            │ Yes (Strict Monotonic Tiers)  │
+│ w_salary = 3.0 (Selected) │ 0.704            │ Yes (Strict Monotonic Tiers)  │
+│ w_salary = 4.0            │ 0.706            │ Yes (Strict Monotonic Tiers)  │
+│ w_salary = 5.0            │ 0.709            │ Yes (Strict Monotonic Tiers)  │
+└───────────────────────────┴──────────────────┴───────────────────────────────┘
+
+====================================================================================
+CHECK 2: CLUSTERING STABILITY OVER 30 BOOTSTRAP RESAMPLES [UNSUPERVISED_CLUSTERING]
+====================================================================================
+
+Table 2: Bootstrap Resampling Stability by CGPA Band
+┌───────────┬───────────────────────────┬────────────────────────┬──────────────────────┐
+│ cgpa_band │ adjusted_rand_index (ari) │ norm_mutual_info (nmi) │ exact_band_agreement │
+├───────────┼───────────────────────────┼────────────────────────┼──────────────────────┤
+│ low       │ 0.996 +- 0.009            │ 0.990 +- 0.021         │ 99.7% +- 0.5%        │
+│ mid       │ 0.997 +- 0.005            │ 0.995 +- 0.009         │ 99.9% +- 0.2%        │
+│ top       │ 0.999 +- 0.006            │ 0.998 +- 0.008         │ 100.0% +- 0.2%       │
+└───────────┴───────────────────────────┴────────────────────────┴──────────────────────┘
+
+====================================================================================
+CHECK 3: HELD-OUT 3x3 SKILL-BAND AGREEMENT [RULE_BASED_BENCHMARK_AGREEMENT]
+====================================================================================
+Note: Because K-Means is unsupervised, this check evaluates out-of-sample ordinal agreement between learned K-Means skill bands and an independent domain-weighted readiness index (fitted strictly on the 80% training split). It is NOT ground-truth placement classification.
+
+Table 3A: Held-Out 3x3 Skill-Band Agreement Matrix (n = 86)
+┌───────────────────┬───────────┬───────────┬────────────┐
+│ benchmark \ model │ model low │ model mid │ model good │
+├───────────────────┼───────────┼───────────┼────────────┤
+│ benchmark low     │ 23        │ 6         │ 0          │
+│ benchmark mid     │ 5         │ 21        │ 5          │
+│ benchmark good    │ 0         │ 7         │ 19         │
+└───────────────────┴───────────┴───────────┴────────────┘
+
+Table 3B: Per-Band Precision, Recall, Specificity, and F1 vs. Readiness Benchmark
+┌──────────────┬───────────┬────────────────┬─────────────┬──────────┬─────────┐
+│ class / tier │ precision │ recall (sens.) │ specificity │ f1_score │ support │
+├──────────────┼───────────┼────────────────┼─────────────┼──────────┼─────────┤
+│ skill: low   │ 82.1%     │ 79.3%          │ 91.2%       │ 80.7%    │ 29      │
+│ skill: mid   │ 61.8%     │ 67.7%          │ 76.4%       │ 64.6%    │ 31      │
+│ skill: good  │ 79.2%     │ 73.1%          │ 91.7%       │ 76.0%    │ 26      │
+│ macro avg    │ 74.4%     │ 73.4%          │ 86.4%       │ 73.8%    │ 86      │
+│ weighted avg │ 73.9%     │ 73.3%          │ 86.0%       │ 73.5%    │ 86      │
+└──────────────┴───────────┴────────────────┴─────────────┴──────────┴─────────┘
+
+Benchmark Agreement Summary: Exact Agreement = 73.3% | Adjacent Agreement = 100.0% | ARI = 0.362 | NMI = 0.397 | Quadratic Kappa = 0.784 | Spearman rho = 0.910
+
+====================================================================================
+CHECK 4: SUPERVISED PLACEMENT CLASSIFICATION [GROUND_TRUTH_PLACEMENT_CLASSIFICATION]
+====================================================================================
+Ground-Truth Source   : Actual 'placement_status' column from student_data.csv
+Labeled Records       : 420 (Placed = 255, Not Placed = 165)
+Pre-Placement Features: ['cgpa', 'skill_count', 'coding_questions_solved', 'projects_count', 'experience_months', 'certifications_count', 'comm_continuous', 'github_repos', 'aptitude_score', 'backlog_history']
+Excluded Leakage Cols : ['salary_lpa', 'observed_salary_lpa', 'offer_count', 'company_type', 'work_mode']
+
+Table 4A: Held-Out Placement Classification Comparison (n_test = 84)
+┌─────────────────────────────────────────┬──────────┬──────────────┬───────────┬────────┬─────────────┬──────────┬──────────────┬──────────────────┐
+│ model                                   │ accuracy │ balanced_acc │ precision │ recall │ specificity │ f1_score │ test_roc_auc │ 5fold_cv_roc_auc │
+├─────────────────────────────────────────┼──────────┼──────────────┼───────────┼────────┼─────────────┼──────────┼──────────────┼──────────────────┤
+│ Logistic Regression                     │ 88.1%    │ 86.5%        │ 87.3%     │ 94.1%  │ 78.8%       │ 90.6%    │ 0.947        │ 0.917 +- 0.022   │
+│ Random Forest                           │ 88.1%    │ 86.5%        │ 87.3%     │ 94.1%  │ 78.8%       │ 90.6%    │ 0.953        │ 0.912 +- 0.028   │
+│ Gradient Boosting                       │ 89.3%    │ 87.4%        │ 87.5%     │ 96.1%  │ 78.8%       │ 91.6%    │ 0.952        │ 0.909 +- 0.028   │
+│ Unsupervised Hierarchy Tier (Comb >= 2) │ 86.9%    │ 84.9%        │ 85.7%     │ 94.1%  │ 75.8%       │ 89.7%    │ 0.917        │ 0.917 (Unsup.)   │
+└─────────────────────────────────────────┴──────────┴──────────────┴───────────┴────────┴─────────────┴──────────┴──────────────┴──────────────────┘
+
+Table 4B: Held-Out 2x2 Placement Confusion Matrix (Random Forest; Acc = 88.1%, AUC = 0.953)
+┌──────────────────────────┬──────────────────────────┬──────────────────────┐
+│ Ground Truth \ Predicted │ Predicted 0 (Not Placed) │ Predicted 1 (Placed) │
+├──────────────────────────┼──────────────────────────┼──────────────────────┤
+│ Actual 0 (Not Placed)    │ 26                       │ 7                    │
+│ Actual 1 (Placed)        │ 3                        │ 48                   │
+└──────────────────────────┴──────────────────────────┴──────────────────────┘
+
+Table 4C: Supervised Placement Feature Importance (Random Forest, Pre-Placement Features Only)
+┌─────────────────────────┬────────────────────┐
+│ pre_placement_feature   │ rf_gini_importance │
+├─────────────────────────┼────────────────────┤
+│ coding_questions_solved │ 29.00%             │
+│ skill_count             │ 17.02%             │
+│ github_repos            │ 14.12%             │
+│ projects_count          │ 10.62%             │
+│ aptitude_score          │ 9.60%              │
+│ cgpa                    │ 6.40%              │
+│ experience_months       │ 5.22%              │
+│ certifications_count    │ 3.11%              │
+│ backlog_history         │ 3.05%              │
+│ comm_continuous         │ 1.86%              │
+└─────────────────────────┴────────────────────┘
+
+[External Testing Dataset Note]: check_student.csv does not contain ground-truth 'placement_status' labels in this batch; therefore, external placement classification accuracy is intentionally not calculated on check_student.csv (Phase 4B compliance).
+
+====================================================================================
+CHECK 5: RELATIVE CLUSTER-MARGIN SCORE DISTRIBUTION & CALIBRATION [UNSUPERVISED_CLUSTERING]
+====================================================================================
+Mathematical Formula: M(x) = 1 - (d_1(x) / d_2(x)), where d_1(x) <= d_2(x) are Euclidean distances to the nearest and second-nearest K-Means centroids in standardized feature space.
+Edge-Case Handling  : Returns 0.0 when d_2(x) == 0 or d_1(x) == d_2(x); returns 1.0 when d_1(x) == 0 < d_2(x).
+Interpretation      : Geometric relative cluster-boundary margin in [0, 1] (NOT a probability).
+
+Table 5A: Relative Cluster-Margin Score Distribution
+┌───────────────────┬───────┬─────────────┬────────────┬───────────────┬────────────┬────────────────────────┬────────────────────┐
+│ cohort            │ count │ mean_margin │ std_margin │ median_margin │ iqr_margin │ strong_margin (>=0.50) │ borderline (<0.20) │
+├───────────────────┼───────┼─────────────┼────────────┼───────────────┼────────────┼────────────────────────┼────────────────────┤
+│ Training Students │ 420   │ 0.639       │ 0.154      │ 0.642         │ 0.237      │ 81.2%                  │ 1.2%               │
+│ Testing Students  │ 60    │ 0.681       │ 0.087      │ 0.688         │ 0.127      │ 96.7%                  │ 0.0%               │
+└───────────────────┴───────┴─────────────┴────────────┴───────────────┴────────────┴────────────────────────┴────────────────────┘
+
+Table 5B: Stratification by Relative Cluster-Margin Score (Training Set)
+┌──────────────────────────────────┬──────────┬─────────────────┬───────────────────┬─────────────────────────┐
+│ margin_stratum                   │ students │ share_of_cohort │ mean_margin_score │ observed_placement_rate │
+├──────────────────────────────────┼──────────┼─────────────────┼───────────────────┼─────────────────────────┤
+│ Borderline Margin (< 0.20)       │ 5        │ 1.2%            │ 0.125             │ 80.0%                   │
+│ Moderate Margin (0.20 to < 0.50) │ 74       │ 17.6%           │ 0.423             │ 87.8%                   │
+│ Strong Interior Margin (>= 0.50) │ 341      │ 81.2%           │ 0.693             │ 54.5%                   │
+└──────────────────────────────────┴──────────┴─────────────────┴───────────────────┴─────────────────────────┘
+
+====================================================================================
+CHECK 6: CONTROLLED SYNTHETIC ROLE-RECOVERY ROBUSTNESS TEST [CONTROLLED_SYNTHETIC_EXPERIMENT]
+====================================================================================
+Scientific Disclosure: Because historical student-to-job click/application relevance logs are not present in the datasets, this experiment is a CONTROLLED SYNTHETIC ROBUSTNESS TEST measuring whether the skill-matching function recovers a target role under 20% random required-skill dropout and 50% distractor skill injection.
+
+Table 6: Controlled Role-Recovery Robustness (20 jobs, 20 distinct roles, 10 repeats)
+┌────────────────────────────┬───────────────────────────┬────────────────────────┬─────────────────┬──────────────────┐
+│ metric                     │ proposed_weighted_matcher │ required_only_ablation │ random_baseline │ lift_over_random │
+├────────────────────────────┼───────────────────────────┼────────────────────────┼─────────────────┼──────────────────┤
+│ Hit-Rate@1                 │ 67.5% +- 13.3%            │ 71.5% +- 13.8%         │ 5.0%            │ 13.50x           │
+│ Hit-Rate@3                 │ 87.5% +- 4.6%             │ 90.0% +- 3.9%          │ 15.0%           │ 5.83x            │
+│ Hit-Rate@5                 │ 96.5% +- 3.2%             │ 97.5% +- 3.4%          │ 25.0%           │ 3.86x            │
+│ Mean Reciprocal Rank (MRR) │ 0.792 +- 0.079            │ 0.818 +- 0.080         │ 0.180           │ 4.40x            │
+└────────────────────────────┴───────────────────────────┴────────────────────────┴─────────────────┴──────────────────┘
+
+====================================================================================
+CHECK 7: CAMPUS ALLOCATION EVALUATION [CAPACITY_CONSTRAINED_ALLOCATION]
+====================================================================================
+Scientific Benchmark: Comparing the original Bipartite Hungarian model (Ghosh et al., 2025) and a standard Greedy Allocation against the Proposed Capacity-Constrained Optimal Model. Evaluated on identical student batches, eligibility matrices, and company slot capacities.
+
+Table 7: Capacity-Constrained Allocation Comparison (n = 60, j_offer = 2, Total Company Slots = 114)
+┌────────────────────────────────────────────────────────────┬─────────────────┬─────────────────────┬─────────────────────┬──────────────────┬────────────────┬────────────┬──────────────┐
+│ allocation_method                                          │ eligible_placed │ placement_coverage  │ avg_assigned_salary │ total_salary_obj │ cap_violations │ unassigned │ unmet_quotas │
+├────────────────────────────────────────────────────────────┼─────────────────┼─────────────────────┼─────────────────────┼──────────────────┼────────────────┼────────────┼──────────────┤
+│ Model 1: Original Bipartite Hungarian (Ghosh et al., 2025) │ 49/54           │ 81.7% (90.7% elig)  │ 6.44 LPA            │ 592.5 LPA        │ 0              │ 11         │ 11           │
+│ Model 2: Standard Greedy Heuristic Allocation              │ 51/54           │ 85.0% (94.4% elig)  │ 8.59 LPA            │ 859.0 LPA        │ 0              │ 9          │ 5            │
+│ Model 3: Proposed Optimal Capacity-Constrained MILP        │ 54/54           │ 90.0% (100.0% elig) │ 9.13 LPA            │ 949.2 LPA        │ 0              │ 6          │ 4            │
+└────────────────────────────────────────────────────────────┴─────────────────┴─────────────────────┴─────────────────────┴──────────────────┴────────────────┴────────────┴──────────────┘
+
+====================================================================================
+GENERATED INDIVIDUAL 300-DPI FIGURES & REPORTS
+====================================================================================
+  - output\evaluation\job_tier_silhouette_comparison.png
+  - output\evaluation\student_silhouette_comparison.png
+  - output\evaluation\silhouette_comparison.png
+  - output\evaluation\davies_bouldin_comparison.png
+  - output\evaluation\calinski_harabasz_comparison.png
+  - output\evaluation\confusion_matrix_skill.png
+  - output\evaluation\confusion_matrix_placement.png
+  - output\evaluation\roc_curve.png
+  - output\evaluation\precision_recall_curve.png
+  - output\evaluation\model_comparison.png
+  - output\evaluation\feature_importance.png
+  - output\evaluation\confidence_distribution.png
+  - output\evaluation\hit_rate_comparison.png
+  - output\evaluation\mrr_comparison.png
+  - output\evaluation\salary_optimization.png
+  - output\clustering\cgpa_distribution.png
+  - output\clustering\skill_cluster_distribution.png
+  - output\clustering\job_tier_distribution.png

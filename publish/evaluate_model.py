@@ -25,10 +25,9 @@
 #     4. [CONTROLLED_SYNTHETIC_EXPERIMENT] & [CAPACITY_CONSTRAINED_ALLOCATION]:
 #        - Controlled synthetic role-recovery robustness test under skill
 #          dropout and distractor noise (Hit-Rate@1, Hit-Rate@3, Hit-Rate@5, MRR).
-#        - Actual invocation of student_company_mapping() comparing First-Come-
-#          First-Served (FCFS), Random Eligible Assignment, Constrained-First
-#          Greedy Heuristic, and Proposed Optimal MILP/Min-Cost Flow Allocation
-#          under identical student batches, eligibility gates, and capacities.
+#        - Allocation mapping comparison against original theoretical baselines:
+#          Model 1 (Original Bipartite Hungarian), Model 2 (Standard Greedy), 
+#          and Model 3 (Proposed Optimal MILP/Min-Cost Flow Allocation).
 # ==============================================================================
 
 import contextlib
@@ -39,7 +38,7 @@ from datetime import datetime
 
 import numpy as np
 import pandas as pd
-from scipy.optimize import minimize
+from scipy.optimize import linear_sum_assignment, minimize
 from scipy.spatial.distance import cdist
 from scipy.special import comb
 from scipy.stats import spearmanr
@@ -1420,55 +1419,128 @@ def evaluate_job_recommendation_robustness(recorder):
 # ==============================================================================
 # CHECK 7: CAPACITY-CONSTRAINED ALLOCATION EVALUATION (PHASE 4E)
 # ==============================================================================
+def _run_allocation_fallback(
+    students_df, company_rows, qual_matrix, utility_matrix, skill_matrix, salary_vector, capacities, j_offer, m_code
+):
+    """
+    Self-contained mathematical implementation of Model 1 ('hungarian') and Model 2 ('greedy')
+    so evaluate_model.py computes exact allocation metrics even if run against an older
+    career_matcher.py that only registered ('optimal', 'greedy_heuristic', 'fcfs', 'random').
+    """
+    n_students, m_companies = qual_matrix.shape
+    assigned = np.zeros((n_students, m_companies), dtype=bool)
+    rem_cap = np.asarray(capacities, dtype=int).copy()
+
+    if m_code == "hungarian":
+        for t_rank in range(cm.job_tiers):
+            t_cols = [j for j in range(m_companies) if int(company_rows["tier_rank"].iloc[j]) == t_rank]
+            slot_cols = [j for j in t_cols for _ in range(max(0, int(rem_cap[j])))]
+            avail_students = [i for i in range(n_students) if assigned[i].sum() < j_offer]
+            if not slot_cols or not avail_students:
+                continue
+            cost_mat = np.full((len(avail_students), len(slot_cols)), 1e6, dtype=float)
+            for r_idx, i in enumerate(avail_students):
+                for c_idx, j in enumerate(slot_cols):
+                    if qual_matrix[i, j] and not assigned[i, j]:
+                        cost_mat[r_idx, c_idx] = -float(skill_matrix[i, j])
+            r_ind, c_ind = linear_sum_assignment(cost_mat)
+            for r_idx, c_idx in zip(r_ind, c_ind):
+                if cost_mat[r_idx, c_idx] < 0:
+                    i = avail_students[r_idx]
+                    j = slot_cols[c_idx]
+                    if assigned[i].sum() < j_offer and rem_cap[j] > 0 and not assigned[i, j]:
+                        assigned[i, j] = True
+                        rem_cap[j] -= 1
+    elif m_code == "greedy":
+        for i in range(n_students):
+            avail_cols = sorted(
+                [j for j in range(m_companies) if qual_matrix[i, j] and rem_cap[j] > 0],
+                key=lambda j: float(skill_matrix[i, j]),
+                reverse=True,
+            )
+            for j in avail_cols[:j_offer]:
+                assigned[i, j] = True
+                rem_cap[j] -= 1
+    else:
+        _, _, assigned, _, _ = cm.student_company_mapping(
+            students_df, j_offer=j_offer, capacities=capacities, method="optimal"
+        )
+
+    return cm.summarize_allocation_metrics(
+        students_df, company_rows, assigned, qual_matrix, salary_vector, capacities, j_offer=j_offer
+    )
+
+
 def evaluate_allocation_methods(recorder):
     recorder.log_line("\n" + "=" * 84)
     recorder.log_line("CHECK 7: CAMPUS ALLOCATION EVALUATION [CAPACITY_CONSTRAINED_ALLOCATION]")
     recorder.log_line("=" * 84)
     recorder.log_line(
-        "All methods are evaluated on the EXACT SAME student testing batch, eligibility matrix, "
-        "offer quota (j_offer), and company slot capacities by invoking cm.student_company_mapping()."
+        "Scientific Benchmark: Comparing the original Bipartite Hungarian model (Ghosh et al., 2025) "
+        "and a standard Greedy Allocation against the Proposed Capacity-Constrained Optimal Model. "
+        "Evaluated on identical student batches, eligibility matrices, and company slot capacities."
     )
 
     students = cm.checked_students
     j_offer = cm.default_j_offer
 
-    _, company_rows, _, qual_matrix, _, shared_capacities = cm.build_eligibility_and_utility_matrices(
+    (
+        company_rows,
+        qual_matrix,
+        utility_matrix,
+        skill_matrix,
+        salary_vector,
+        shared_capacities,
+    ) = cm.build_eligibility_and_utility_matrices(
         students, j_offer=j_offer
     )
 
     method_specs = [
-        ("First-Come-First-Served (FCFS) Baseline", "fcfs"),
-        ("Random Eligible Assignment Baseline", "random"),
-        ("Greedy Constrained-First Heuristic (Fixed Capacity)", "greedy_heuristic"),
-        ("Proposed Optimal Capacity-Constrained MILP/Flow", "optimal"),
+        ("Model 1: Original Bipartite Hungarian (Ghosh et al., 2025)", "hungarian"),
+        ("Model 2: Standard Greedy Heuristic Allocation", "greedy"),
+        ("Model 3: Proposed Optimal Capacity-Constrained MILP", "optimal"),
     ]
 
     alloc_rows = []
     method_metrics = {}
     for label, m_code in method_specs:
-        _, _, _, _, metrics = cm.student_company_mapping(
-            students, j_offer=j_offer, capacities=shared_capacities, method=m_code
-        )
+        try:
+            _, _, _, _, metrics = cm.student_company_mapping(
+                students, j_offer=j_offer, capacities=shared_capacities, method=m_code
+            )
+        except ValueError:
+            metrics = _run_allocation_fallback(
+                students,
+                company_rows,
+                qual_matrix,
+                utility_matrix,
+                skill_matrix,
+                salary_vector,
+                shared_capacities,
+                j_offer,
+                m_code,
+            )
+
         method_metrics[label] = metrics
         alloc_rows.append([
             label,
-            f"{metrics['placed_students']}/{metrics['eligible_students']}",
-            f"{metrics['placement_coverage_all_pct']:.1f}% ({metrics['placement_coverage_eligible_pct']:.1f}% elig)",
-            f"{metrics['mean_assigned_salary_lpa']:.2f} LPA",
-            f"{metrics['total_salary_objective_lpa']:.1f} LPA",
-            metrics["capacity_violations"],
-            metrics["unassigned_students"],
-            metrics["unmet_quota_students"],
+            f"{metrics.get('placed_students', 0)}/{metrics.get('eligible_students', 1)}",
+            f"{metrics.get('placement_coverage_all_pct', 0.0):.1f}% ({metrics.get('placement_coverage_eligible_pct', 0.0):.1f}% elig)",
+            f"{metrics.get('mean_assigned_salary_lpa', 0.0):.2f} LPA",
+            f"{metrics.get('total_salary_objective_lpa', 0.0):.1f} LPA",
+            metrics.get('capacity_violations', 0),
+            metrics.get('unassigned_students', len(students)),
+            metrics.get('unmet_quota_students', len(students)),
         ])
 
         tag = f"Allocation_{m_code}"
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Placed_Students", metrics["placed_students"], "count", f"Out of {metrics['eligible_students']} eligible and {metrics['total_students']} total students")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Placement_Coverage_All_Pct", round(metrics["placement_coverage_all_pct"], 2), "%", "Percentage of all tested students receiving >= 1 offer")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Mean_Assigned_Salary_LPA", round(metrics["mean_assigned_salary_lpa"], 4), "LPA", "Average salary across all assigned offers")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Total_Salary_Objective_LPA", round(metrics["total_salary_objective_lpa"], 2), "LPA", "Sum of salaries across all assigned offers")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Capacity_Violations", metrics["capacity_violations"], "slots", "Number of assigned slots exceeding company capacity")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Unassigned_Students", metrics["unassigned_students"], "count", "Students receiving 0 offers")
-        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Unmet_Quota_Students", metrics["unmet_quota_students"], "count", f"Eligible students receiving < {j_offer} offers")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Placed_Students", metrics.get("placed_students", 0), "count", f"Out of {metrics.get('eligible_students', 1)} eligible and {len(students)} total students")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Placement_Coverage_All_Pct", round(metrics.get("placement_coverage_all_pct", 0.0), 2), "%", "Percentage of all tested students receiving >= 1 offer")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Mean_Assigned_Salary_LPA", round(metrics.get("mean_assigned_salary_lpa", 0.0), 4), "LPA", "Average salary across all assigned offers")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Total_Salary_Objective_LPA", round(metrics.get("total_salary_objective_lpa", 0.0), 2), "LPA", "Sum of salaries across all assigned offers")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Capacity_Violations", metrics.get("capacity_violations", 0), "slots", "Number of assigned slots exceeding company capacity")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Unassigned_Students", metrics.get("unassigned_students", len(students)), "count", "Students receiving 0 offers")
+        recorder.add_metric("CAPACITY_CONSTRAINED_ALLOCATION", tag, "Unmet_Quota_Students", metrics.get("unmet_quota_students", len(students)), "count", f"Eligible students receiving < {j_offer} offers")
 
     opt_df = pd.DataFrame(alloc_rows, columns=[
         "allocation_method", "eligible_placed", "placement_coverage",
@@ -1854,9 +1926,11 @@ def generate_all_individual_evaluation_figures(
     # 15. Salary Optimization & Allocation Comparison (salary_optimization.png)
     fig, ax1 = plt.subplots(figsize=(8.0, 5.0))
     strat_keys = list(alloc_metrics.keys())
-    short_labels = ["FCFS\nBaseline", "Random\nEligible", "Greedy\nHeuristic", "Proposed Optimal\n(MILP / Flow)"]
-    sal_means = [alloc_metrics[k]["mean_assigned_salary_lpa"] for k in strat_keys]
-    cov_pcts = [alloc_metrics[k]["placement_coverage_eligible_pct"] for k in strat_keys]
+    
+    # UPDATED: Hardcoded 3-model labels explicitly mapped to the new layout
+    short_labels = ["Model 1:\nBipartite Hungarian", "Model 2:\nStandard Greedy", "Model 3:\nProposed MILP"]
+    sal_means = [alloc_metrics[k].get("mean_assigned_salary_lpa", 0.0) for k in strat_keys]
+    cov_pcts = [alloc_metrics[k].get("placement_coverage_eligible_pct", 0.0) for k in strat_keys]
 
     x = np.arange(len(short_labels))
     w = 0.36

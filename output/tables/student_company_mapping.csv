@@ -1,0 +1,61 @@
+student_id,group,eligible_companies,offers_assigned,assigned_companies,mean_offer_lpa,allocation_status,ADOBE,MICROSOFT,AMAZON,ORACLE,JOHNSON CONT,INFOSYS,DELOITTE,TCS,IBM,COGNIZANT,CAPGEMINI,ACCENTURE,WIPRO,CYBAGE SOFTW,HCL TECHNOLO,ACCOLITE DIG,CMC LIMITED,INFIBEAM,NUCSOFT
+S-4461,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4462,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4463,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4464,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4465,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4466,G1,0,0,-,0.00,Unassigned (Ineligible),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4467,G2,8,2,"Cybage Software, HCL Technologies",4.50,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,-,*,*,-,-,-,-
+S-4468,G2,8,2,"TCS, HCL Technologies",6.00,Placed (Quota Met),-,-,-,-,-,-,-,*,-,-,-,-,-,-,*,-,-,-,-
+S-4469,G2,8,2,"HCL Technologies, Accolite Digital",4.35,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,-,-,*,*,-,-,-
+S-4470,G2,8,2,"Cybage Software, Accolite Digital",4.35,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,-,*,-,*,-,-,-
+S-4471,G3,12,2,"Deloitte, Cognizant",7.50,Placed (Quota Met),-,-,-,-,-,-,*,-,-,*,-,-,-,-,-,-,-,-,-
+S-4472,G3,12,2,"Deloitte, Cognizant",7.50,Placed (Quota Met),-,-,-,-,-,-,*,-,-,*,-,-,-,-,-,-,-,-,-
+S-4473,G4,3,2,"Wipro, NuCSOFT",3.95,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,-,*
+S-4474,G4,3,2,"Wipro, Infibeam",4.05,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,*,-
+S-4475,G4,3,1,Infibeam,3.60,Placed (Partial Quota),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,*,-
+S-4476,G4,3,1,NuCSOFT,3.40,Placed (Partial Quota),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,*
+S-4477,G4,3,2,"Infibeam, NuCSOFT",3.50,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,*,*
+S-4478,G4,3,1,Infibeam,3.60,Placed (Partial Quota),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,*,-
+S-4479,G4,3,2,"Wipro, Infibeam",4.05,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,*,-
+S-4480,G4,3,2,"Wipro, Infibeam",4.05,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,*,-
+S-4481,G5,13,2,"Infosys, TCS",8.00,Placed (Quota Met),-,-,-,-,-,*,-,*,-,-,-,-,-,-,-,-,-,-,-
+S-4482,G5,13,2,"Infosys, HCL Technologies",6.50,Placed (Quota Met),-,-,-,-,-,*,-,-,-,-,-,-,-,-,*,-,-,-,-
+S-4483,G5,13,2,"TCS, Capgemini",7.15,Placed (Quota Met),-,-,-,-,-,-,-,*,-,-,*,-,-,-,-,-,-,-,-
+S-4484,G5,13,2,"Infosys, TCS",8.00,Placed (Quota Met),-,-,-,-,-,*,-,*,-,-,-,-,-,-,-,-,-,-,-
+S-4485,G5,13,2,"Infosys, TCS",8.00,Placed (Quota Met),-,-,-,-,-,*,-,*,-,-,-,-,-,-,-,-,-,-,-
+S-4486,G5,13,2,"Capgemini, Accenture",6.65,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,*,*,-,-,-,-,-,-,-
+S-4487,G5,13,2,"Accenture, Accolite Digital",5.35,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,*,-,-,-
+S-4488,G5,13,2,"Accenture, HCL Technologies",5.50,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,*,-,-,*,-,-,-,-
+S-4489,G5,13,2,"IBM, Accolite Digital",5.70,Placed (Quota Met),-,-,-,-,-,-,-,-,*,-,-,-,-,-,-,*,-,-,-
+S-4490,G5,13,2,"Infosys, Capgemini",7.65,Placed (Quota Met),-,-,-,-,-,*,-,-,-,-,*,-,-,-,-,-,-,-,-
+S-4491,G5,13,2,"Cognizant, Accolite Digital",5.60,Placed (Quota Met),-,-,-,-,-,-,-,-,-,*,-,-,-,-,-,*,-,-,-
+S-4492,G5,13,2,"TCS, Accenture",7.00,Placed (Quota Met),-,-,-,-,-,-,-,*,-,-,-,*,-,-,-,-,-,-,-
+S-4493,G5,13,2,"Cognizant, HCL Technologies",5.75,Placed (Quota Met),-,-,-,-,-,-,-,-,-,*,-,-,-,-,*,-,-,-,-
+S-4494,G5,13,2,"IBM, Cognizant",7.10,Placed (Quota Met),-,-,-,-,-,-,-,-,*,*,-,-,-,-,-,-,-,-,-
+S-4495,G6,17,2,"Amazon, Deloitte",13.00,Placed (Quota Met),-,-,*,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-
+S-4496,G6,17,2,"Microsoft, Johnson Controls",16.25,Placed (Quota Met),-,*,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4497,G6,17,2,"Microsoft, Johnson Controls",16.25,Placed (Quota Met),-,*,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4498,G6,17,2,"Adobe, Johnson Controls",16.50,Placed (Quota Met),*,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4499,G6,17,2,"Adobe, Deloitte",14.00,Placed (Quota Met),*,-,-,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-
+S-4500,G6,17,2,"Microsoft, Amazon",18.75,Placed (Quota Met),-,*,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4501,G6,17,2,"Adobe, Amazon",19.00,Placed (Quota Met),*,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4502,G6,17,2,"Amazon, Oracle",16.25,Placed (Quota Met),-,-,*,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4503,G7,3,2,"Wipro, NuCSOFT",3.95,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,-,*
+S-4504,G7,3,2,"Wipro, NuCSOFT",3.95,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,-,-,*,-,-,-,-,-,*
+S-4505,G7,3,1,NuCSOFT,3.40,Placed (Partial Quota),-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,*
+S-4506,G8,17,2,"Cognizant, Capgemini",6.90,Placed (Quota Met),-,-,-,-,-,-,-,-,-,*,*,-,-,-,-,-,-,-,-
+S-4507,G8,17,2,"Oracle, Accenture",10.50,Placed (Quota Met),-,-,-,*,-,-,-,-,-,-,-,*,-,-,-,-,-,-,-
+S-4508,G8,17,2,"Oracle, IBM",10.85,Placed (Quota Met),-,-,-,*,-,-,-,-,*,-,-,-,-,-,-,-,-,-,-
+S-4509,G8,17,2,"IBM, Capgemini",7.00,Placed (Quota Met),-,-,-,-,-,-,-,-,*,-,*,-,-,-,-,-,-,-,-
+S-4510,G8,17,2,"Infosys, IBM",7.85,Placed (Quota Met),-,-,-,-,-,*,-,-,*,-,-,-,-,-,-,-,-,-,-
+S-4511,G8,17,2,"Capgemini, Accenture",6.65,Placed (Quota Met),-,-,-,-,-,-,-,-,-,-,*,*,-,-,-,-,-,-,-
+S-4512,G8,17,2,"IBM, Accolite Digital",5.70,Placed (Quota Met),-,-,-,-,-,-,-,-,*,-,-,-,-,-,-,*,-,-,-
+S-4513,G9,17,2,"Microsoft, Oracle",17.00,Placed (Quota Met),-,*,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4514,G9,17,2,"Adobe, Amazon",19.00,Placed (Quota Met),*,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4515,G9,17,2,"Adobe, Deloitte",14.00,Placed (Quota Met),*,-,-,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-
+S-4516,G9,17,2,"Adobe, Johnson Controls",16.50,Placed (Quota Met),*,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4517,G9,17,2,"Microsoft, Oracle",17.00,Placed (Quota Met),-,*,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4518,G9,17,2,"Amazon, Deloitte",13.00,Placed (Quota Met),-,-,*,-,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-
+S-4519,G9,17,2,"Microsoft, Johnson Controls",16.25,Placed (Quota Met),-,*,-,-,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+S-4520,G9,17,2,"Oracle, Johnson Controls",13.75,Placed (Quota Met),-,-,-,*,*,-,-,-,-,-,-,-,-,-,-,-,-,-,-

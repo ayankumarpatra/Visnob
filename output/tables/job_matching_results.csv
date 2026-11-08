@@ -1,0 +1,82 @@
+group,recommendation_type,rank,role,tier,companies,salary_lpa,skill_match_pct,required_skills,missing_skills
+2,apply_now,1,Ninja System Engineer,low,TCS,4.2,100,"data structures, object oriented programming, python, sql",-
+2,apply_now,2,Project Engineer,low,Wipro,4.5,90,"java, python, sql",-
+2,apply_now,3,Associate QA Engineer,low,Accolite Digital,4.2,90,"data structures, java, sql",-
+2,apply_now,4,Software Engineer Analyst,low,HCL Technologies,4.5,87,"java, object oriented programming, sql",-
+2,apply_now,5,Graduate Engineer Trainee,low,CMC Limited,3.8,63,"c++, object oriented programming, sql",c++
+3,apply_now,1,Advanced App Engineering Analyst,mid,Accenture,6.5,90,"algorithms, data structures, java, python, sql",-
+3,apply_now,2,Specialist Programmer,mid,Infosys,8.5,87,"algorithms, data structures, java, object oriented programming, python, sql",-
+3,apply_now,3,GenC Next Data Engineer,mid,Cognizant,7.0,87,"data structures, machine learning, python, sql",-
+3,apply_now,4,Senior Analyst Developer,mid,Capgemini,6.8,87,"algorithms, data structures, java, object oriented programming, sql",-
+3,apply_now,5,Associate System Engineer,mid,IBM,7.2,77,"algorithms, data structures, linux, python, sql",linux
+4,apply_now,1,Web Support Engineer,low,Infibeam,3.6,60,"css, html, javascript, sql",javascript
+4,apply_now,2,Project Engineer,low,Wipro,4.5,53,"java, python, sql",java
+4,apply_now,3,Junior Software Tester,low,NuCSOFT,3.4,53,"manual testing, python, sql",manual testing
+5,apply_now,1,Specialist Programmer,mid,Infosys,8.5,87,"algorithms, data structures, java, object oriented programming, python, sql",-
+5,apply_now,2,Senior Analyst Developer,mid,Capgemini,6.8,87,"algorithms, data structures, java, object oriented programming, sql",-
+5,apply_now,3,Advanced App Engineering Analyst,mid,Accenture,6.5,80,"algorithms, data structures, java, python, sql",-
+5,apply_now,4,Digital Full Stack Developer,mid,TCS,7.5,71,"data structures, javascript, node.js, react, sql",node.js
+5,apply_now,5,Associate System Engineer,mid,IBM,7.2,71,"algorithms, data structures, linux, python, sql",linux
+6,apply_now,1,Senior AI/ML Engineer,top,Johnson Controls,13.0,93,"data structures, deep learning, machine learning, python, scikit-learn, sql",-
+6,apply_now,2,Member of Technical Staff,top,Adobe,20.0,90,"algorithms, c++, data structures, java, object oriented programming, system design",-
+6,apply_now,3,Software Development Engineer,top,Microsoft,19.5,88,"algorithms, c++, data structures, object oriented programming, python, system design",-
+6,apply_now,4,Server Technology Member,top,Oracle,14.5,87,"algorithms, c++, data structures, java, object oriented programming, sql",-
+6,apply_now,5,Software Development Engineer I,top,Amazon,18.0,82,"algorithms, c++, data structures, java, linux, object oriented programming",linux
+7,apply_now,1,Web Support Engineer,low,Infibeam,3.6,60,"css, html, javascript, sql",javascript
+7,apply_now,2,Project Engineer,low,Wipro,4.5,53,"java, python, sql",java
+7,apply_now,3,Junior Software Tester,low,NuCSOFT,3.4,53,"manual testing, python, sql",manual testing
+8,apply_now,1,Server Technology Member,top,Oracle,14.5,67,"algorithms, c++, data structures, java, object oriented programming, sql",c++
+8,apply_now,2,Member of Technical Staff,top,Adobe,20.0,58,"algorithms, c++, data structures, java, object oriented programming, system design","c++, system design"
+8,apply_now,3,Software Development Engineer,top,Microsoft,19.5,53,"algorithms, c++, data structures, object oriented programming, python, system design","c++, system design"
+8,apply_now,4,Software Development Engineer I,top,Amazon,18.0,53,"algorithms, c++, data structures, java, linux, object oriented programming","c++, linux"
+8,apply_now,5,Specialist Programmer,mid,Infosys,8.5,87,"algorithms, data structures, java, object oriented programming, python, sql",-
+9,apply_now,1,Senior AI/ML Engineer,top,Johnson Controls,13.0,93,"data structures, deep learning, machine learning, python, scikit-learn, sql",-
+9,apply_now,2,Member of Technical Staff,top,Adobe,20.0,90,"algorithms, c++, data structures, java, object oriented programming, system design",-
+9,apply_now,3,Software Development Engineer,top,Microsoft,19.5,88,"algorithms, c++, data structures, object oriented programming, python, system design",-
+9,apply_now,4,Server Technology Member,top,Oracle,14.5,87,"algorithms, c++, data structures, java, object oriented programming, sql",-
+9,apply_now,5,Software Development Engineer I,top,Amazon,18.0,82,"algorithms, c++, data structures, java, linux, object oriented programming",linux
+1,upgrade_path,1,Junior Frontend Developer,low,Cybage Software,4.5,40,"css, html, javascript, react","javascript, react"
+1,upgrade_path,2,Web Support Engineer,low,Infibeam,3.6,40,"css, html, javascript, sql","javascript, sql"
+1,upgrade_path,3,Software Engineer Analyst,low,HCL Technologies,4.5,13,"java, object oriented programming, sql","java, object oriented programming, sql"
+1,upgrade_path,4,Project Engineer,low,Wipro,4.5,0,"java, python, sql","java, python, sql"
+1,upgrade_path,5,Associate QA Engineer,low,Accolite Digital,4.2,0,"data structures, java, sql","data structures, java, sql"
+2,upgrade_path,1,Specialist Programmer,mid,Infosys,8.5,87,"algorithms, data structures, java, object oriented programming, python, sql",-
+2,upgrade_path,2,Senior Analyst Developer,mid,Capgemini,6.8,87,"algorithms, data structures, java, object oriented programming, sql",-
+2,upgrade_path,3,Advanced App Engineering Analyst,mid,Accenture,6.5,80,"algorithms, data structures, java, python, sql",-
+2,upgrade_path,4,Digital Full Stack Developer,mid,TCS,7.5,71,"data structures, javascript, node.js, react, sql",node.js
+2,upgrade_path,5,Associate System Engineer,mid,IBM,7.2,71,"algorithms, data structures, linux, python, sql",linux
+3,upgrade_path,1,Senior AI/ML Engineer,top,Johnson Controls,13.0,93,"data structures, deep learning, machine learning, python, scikit-learn, sql",-
+3,upgrade_path,2,Member of Technical Staff,top,Adobe,20.0,90,"algorithms, c++, data structures, java, object oriented programming, system design",-
+3,upgrade_path,3,Software Development Engineer,top,Microsoft,19.5,88,"algorithms, c++, data structures, object oriented programming, python, system design",-
+3,upgrade_path,4,Server Technology Member,top,Oracle,14.5,87,"algorithms, c++, data structures, java, object oriented programming, sql",-
+3,upgrade_path,5,Software Development Engineer I,top,Amazon,18.0,82,"algorithms, c++, data structures, java, linux, object oriented programming",linux
+4,upgrade_path,1,Technology Analyst,mid,Deloitte,8.0,40,"machine learning, power bi, python, sql","machine learning, power bi"
+4,upgrade_path,2,GenC Next Data Engineer,mid,Cognizant,7.0,40,"data structures, machine learning, python, sql","data structures, machine learning"
+4,upgrade_path,3,Associate System Engineer,mid,IBM,7.2,32,"algorithms, data structures, linux, python, sql","algorithms, data structures, linux"
+4,upgrade_path,4,Advanced App Engineering Analyst,mid,Accenture,6.5,32,"algorithms, data structures, java, python, sql","algorithms, data structures, java"
+4,upgrade_path,5,Specialist Programmer,mid,Infosys,8.5,27,"algorithms, data structures, java, object oriented programming, python, sql","algorithms, data structures, java, object oriented programming"
+5,upgrade_path,1,Server Technology Member,top,Oracle,14.5,67,"algorithms, c++, data structures, java, object oriented programming, sql",c++
+5,upgrade_path,2,Member of Technical Staff,top,Adobe,20.0,58,"algorithms, c++, data structures, java, object oriented programming, system design","c++, system design"
+5,upgrade_path,3,Software Development Engineer,top,Microsoft,19.5,53,"algorithms, c++, data structures, object oriented programming, python, system design","c++, system design"
+5,upgrade_path,4,Software Development Engineer I,top,Amazon,18.0,53,"algorithms, c++, data structures, java, linux, object oriented programming","c++, linux"
+5,upgrade_path,5,Senior AI/ML Engineer,top,Johnson Controls,13.0,40,"data structures, deep learning, machine learning, python, scikit-learn, sql","deep learning, machine learning, scikit-learn"
+6,upgrade_path,1,Senior AI/ML Engineer,top,Johnson Controls,13.0,93,"data structures, deep learning, machine learning, python, scikit-learn, sql",-
+6,upgrade_path,2,Member of Technical Staff,top,Adobe,20.0,90,"algorithms, c++, data structures, java, object oriented programming, system design",-
+6,upgrade_path,3,Software Development Engineer,top,Microsoft,19.5,88,"algorithms, c++, data structures, object oriented programming, python, system design",-
+6,upgrade_path,4,Server Technology Member,top,Oracle,14.5,87,"algorithms, c++, data structures, java, object oriented programming, sql",-
+6,upgrade_path,5,Software Development Engineer I,top,Amazon,18.0,82,"algorithms, c++, data structures, java, linux, object oriented programming",linux
+7,upgrade_path,1,Technology Analyst,mid,Deloitte,8.0,40,"machine learning, power bi, python, sql","machine learning, power bi"
+7,upgrade_path,2,GenC Next Data Engineer,mid,Cognizant,7.0,40,"data structures, machine learning, python, sql","data structures, machine learning"
+7,upgrade_path,3,Associate System Engineer,mid,IBM,7.2,32,"algorithms, data structures, linux, python, sql","algorithms, data structures, linux"
+7,upgrade_path,4,Advanced App Engineering Analyst,mid,Accenture,6.5,32,"algorithms, data structures, java, python, sql","algorithms, data structures, java"
+7,upgrade_path,5,Specialist Programmer,mid,Infosys,8.5,27,"algorithms, data structures, java, object oriented programming, python, sql","algorithms, data structures, java, object oriented programming"
+8,upgrade_path,1,Server Technology Member,top,Oracle,14.5,67,"algorithms, c++, data structures, java, object oriented programming, sql",c++
+8,upgrade_path,2,Member of Technical Staff,top,Adobe,20.0,58,"algorithms, c++, data structures, java, object oriented programming, system design","c++, system design"
+8,upgrade_path,3,Software Development Engineer,top,Microsoft,19.5,53,"algorithms, c++, data structures, object oriented programming, python, system design","c++, system design"
+8,upgrade_path,4,Software Development Engineer I,top,Amazon,18.0,53,"algorithms, c++, data structures, java, linux, object oriented programming","c++, linux"
+8,upgrade_path,5,Senior AI/ML Engineer,top,Johnson Controls,13.0,40,"data structures, deep learning, machine learning, python, scikit-learn, sql","deep learning, machine learning, scikit-learn"
+9,upgrade_path,1,Senior AI/ML Engineer,top,Johnson Controls,13.0,93,"data structures, deep learning, machine learning, python, scikit-learn, sql",-
+9,upgrade_path,2,Member of Technical Staff,top,Adobe,20.0,90,"algorithms, c++, data structures, java, object oriented programming, system design",-
+9,upgrade_path,3,Software Development Engineer,top,Microsoft,19.5,88,"algorithms, c++, data structures, object oriented programming, python, system design",-
+9,upgrade_path,4,Server Technology Member,top,Oracle,14.5,87,"algorithms, c++, data structures, java, object oriented programming, sql",-
+9,upgrade_path,5,Software Development Engineer I,top,Amazon,18.0,82,"algorithms, c++, data structures, java, linux, object oriented programming",linux

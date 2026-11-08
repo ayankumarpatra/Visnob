@@ -36,10 +36,10 @@
 #      weights when preferred_skills is absent, and generates "Apply Now",
 #      "Upgrade Path", and "Skills to Learn" tables.
 #   7. Mathematically Valid Capacity-Constrained Student-Company Allocation:
-#      Replaces the misnamed greedy heuristic with an exact Mixed-Integer Linear
-#      Programming (MILP) / Min-Cost Flow b-matching assignment that maximizes
-#      student placement coverage and salary-weighted utility subject to hard
-#      eligibility, student offer quotas (j_offer), and company slot capacities.
+#      Compares Model 1 (Original Bipartite Hungarian / Constrained Capability
+#      Mapping from Ghosh et al., 2025), Model 2 (Standard Sequential Greedy
+#      Allocation), and Model 3 (Proposed Optimal MILP / Min-Cost Flow b-matching
+#      that maximizes placement coverage and salary-weighted utility).
 # ==============================================================================
 
 import glob
@@ -2211,7 +2211,7 @@ def summarize_allocation_metrics(students_df, company_rows, assigned, qual_matri
 def student_company_mapping(students_df, j_offer=default_j_offer, capacities=None, method="optimal"):
     """
     Capacity-constrained student-to-company allocation (Phase 3D).
-    Supports 'optimal', 'greedy_heuristic', 'fcfs', and 'random'.
+    Supports 'optimal', 'hungarian', 'greedy', 'greedy_heuristic', 'fcfs', and 'random'.
     """
     (
         company_rows,
@@ -2230,6 +2230,45 @@ def student_company_mapping(students_df, j_offer=default_j_offer, capacities=Non
         assigned, solver_info = solve_capacity_constrained_allocation(
             qual_matrix, utility_matrix, salary_vector, cap_vec, j_offer=j_offer
         )
+    elif method == "hungarian":
+        # Model 1: Original Bipartite Hungarian (Ghosh et al., 2025)
+        # Solves 1-to-1 Bipartite Hungarian (linear_sum_assignment) sequentially across
+        # company tiers (Low -> Mid -> Top) using skill-qualification scores without
+        # global cross-tier MILP lookahead.
+        for t_rank in range(job_tiers):
+            t_cols = [j for j in range(m_companies) if int(company_rows["tier_rank"].iloc[j]) == t_rank]
+            slot_cols = [j for j in t_cols for _ in range(max(0, int(rem_cap[j])))]
+            avail_students = [i for i in range(n_students) if assigned[i].sum() < j_offer]
+            if not slot_cols or not avail_students:
+                continue
+            cost_mat = np.full((len(avail_students), len(slot_cols)), 1e6, dtype=float)
+            for r_idx, i in enumerate(avail_students):
+                for c_idx, j in enumerate(slot_cols):
+                    if qual_matrix[i, j] and not assigned[i, j]:
+                        cost_mat[r_idx, c_idx] = -float(skill_matrix[i, j])
+            r_ind, c_ind = linear_sum_assignment(cost_mat)
+            for r_idx, c_idx in zip(r_ind, c_ind):
+                if cost_mat[r_idx, c_idx] < 0:
+                    i = avail_students[r_idx]
+                    j = slot_cols[c_idx]
+                    if assigned[i].sum() < j_offer and rem_cap[j] > 0 and not assigned[i, j]:
+                        assigned[i, j] = True
+                        rem_cap[j] -= 1
+        solver_info = {"status": "bipartite_hungarian", "optimal": False}
+    elif method == "greedy":
+        # Model 2: Standard Sequential Greedy Heuristic Allocation
+        # Iterates through students in standard sequential roster order and greedily assigns
+        # up to j_offer available qualified company slots ranked by skill match.
+        for i in range(n_students):
+            avail_cols = sorted(
+                [j for j in range(m_companies) if qual_matrix[i, j] and rem_cap[j] > 0],
+                key=lambda j: float(skill_matrix[i, j]),
+                reverse=True,
+            )
+            for j in avail_cols[:j_offer]:
+                assigned[i, j] = True
+                rem_cap[j] -= 1
+        solver_info = {"status": "standard_greedy", "optimal": False}
     elif method == "greedy_heuristic":
         rem_qual = qual_matrix.copy()
         for j in range(m_companies):

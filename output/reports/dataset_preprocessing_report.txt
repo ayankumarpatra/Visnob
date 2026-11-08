@@ -1,0 +1,120 @@
+========================================================================================
+DATASET SCHEMA MAPPING, PROVENANCE & PREPROCESSING REPORT
+Generated: 2026-11-08 15:24:21
+========================================================================================
+
+1. DATASET SOURCES & PROVENANCE VERIFICATION
+----------------------------------------------------------------------------------------
+  - Job Dataset (brands_data.csv)     : Existing file (brands_data.csv)
+    Provenance Note: Structured benchmark company/job dataset (brands_data.csv). Treated as a research benchmark dataset; verify employer-level provenance before representing as live recruiting records.
+  - Training Dataset (student_data.csv): Existing file (student_data.csv)
+    Provenance Note: Student Training Dataset (student_data.csv) is documented as a SYNTHETIC student dataset (Kaggle 2026 placement benchmark). Records represent simulated engineering profiles and must NOT be represented as real individual students.
+  - Testing Dataset (check_student.csv): Existing file (check_student.csv)
+    Provenance Note: Student Testing Dataset (check_student.csv) is documented as a SYNTHETIC student dataset (Kaggle 2026 placement benchmark). Records represent simulated engineering profiles and must NOT be represented as real individual students.
+
+2. DATASET 1 — COMPANY / JOB DATASET (brands_data.csv)
+----------------------------------------------------------------------------------------
+  - Raw Rows Loaded         : 20
+  - Duplicate Rows Removed  : 0
+  - Valid Rows Retained     : 20
+  - Dropped Invalid Rows    : 0
+  - Original Columns (9): company_name, job_role, required_skills, preferred_skills, degrees_accepted, experience_required, salary_avg_lpa, min_cgpa, coding_test_rounds
+  - Mapped Canonical Columns:
+      * company_name                 -> company_name
+      * job_role                     -> job_role
+      * required_skills              -> required_skills
+      * preferred_skills             -> preferred_skills
+      * degrees_accepted             -> degrees_accepted
+      * experience_required          -> experience_required
+      * salary_avg_lpa               -> salary_avg_lpa
+      * min_cgpa                     -> min_cgpa
+      * coding_test_rounds           -> coding_test_rounds
+  - Missing Values per Original Column:
+      company_name: 0, job_role: 0, required_skills: 0, preferred_skills: 0, degrees_accepted: 0, experience_required: 0, salary_avg_lpa: 0, min_cgpa: 0, coding_test_rounds: 0
+  - Requirement Categorization (No Fabricated Cutoffs):
+      * Actual Source-Provided : company_name, job_role, required_skills, degrees_accepted, salary_avg_lpa, min_cgpa, experience_required, coding_test_rounds
+      * Missing Requirements   : None
+      * Optional Requirements  : preferred_skills
+      * Derived Features       : req_skill_count
+  - Active Job-Tier Clustering Features: ['salary_avg_lpa', 'min_cgpa', 'exp_months', 'coding_test_rounds'] (weights: [3.0, 1.0, 1.0, 1.0])
+
+3. DATASET 2 — HISTORICAL STUDENT TRAINING DATASET (student_data.csv)
+----------------------------------------------------------------------------------------
+  - Raw Rows Loaded                : 420
+  - Duplicate IDs Removed          : 0
+  - Train-Test Overlap IDs Removed : 0
+  - Valid Rows Retained            : 420
+  - Total Dropped Rows             : 0
+  - Original Columns (16): student_id, degree, branch, cgpa, coding_language, coding_questions_solved, technical_skills, projects_count, experience_months, certifications_count, communication, github_repos, aptitude_score, backlog_history, placement_status, salary_lpa
+  - Mapped Canonical Columns:
+      * student_id                     -> student_id
+      * degree                         -> degree
+      * branch                         -> branch
+      * cgpa                           -> cgpa
+      * coding_language                -> coding_language
+      * coding_questions_solved        -> coding_questions_solved
+      * technical_skills               -> technical_skills
+      * projects_count                 -> projects_count
+      * experience_months              -> experience_months
+      * certifications_count           -> certifications_count
+      * communication                  -> communication
+      * placement_status               -> placement_status
+      * salary_lpa                     -> salary_lpa
+      * github_repos                   -> github_repos
+      * aptitude_score                 -> aptitude_score
+      * backlog_history                -> backlog_history
+  - Missing Values per Original Column:
+      student_id: 0, degree: 0, branch: 0, cgpa: 0, coding_language: 0, coding_questions_solved: 0, technical_skills: 0, projects_count: 0, experience_months: 0, certifications_count: 0, communication: 0, github_repos: 0, aptitude_score: 0, backlog_history: 0, placement_status: 0, salary_lpa: 0
+  - Feature Availability Status:
+      * projects_count             : actual
+      * experience_months          : actual (months)
+      * coding_questions_solved    : actual
+      * certifications_count       : actual
+      * technical_skills           : actual
+      * skill_count                : actual
+      * communication              : actual
+
+4. DATASET 3 — INDEPENDENT STUDENT TESTING DATASET (check_student.csv)
+----------------------------------------------------------------------------------------
+  - Raw Rows Loaded                : 60
+  - Duplicate IDs Removed          : 0
+  - Train-Test Overlap IDs Removed : 0
+  - Valid Rows Retained            : 60
+  - Total Dropped Rows             : 0
+  - Original Columns (11): student_id, degree, branch, cgpa, coding_language, coding_questions_solved, technical_skills, projects_count, experience_months, certifications_count, communication
+  - Mapped Canonical Columns:
+      * student_id                     -> student_id
+      * degree                         -> degree
+      * branch                         -> branch
+      * cgpa                           -> cgpa
+      * coding_language                -> coding_language
+      * coding_questions_solved        -> coding_questions_solved
+      * technical_skills               -> technical_skills
+      * projects_count                 -> projects_count
+      * experience_months              -> experience_months
+      * certifications_count           -> certifications_count
+      * communication                  -> communication
+  - Missing Values per Original Column:
+      student_id: 0, degree: 0, branch: 0, cgpa: 0, coding_language: 0, coding_questions_solved: 0, technical_skills: 0, projects_count: 0, experience_months: 0, certifications_count: 0, communication: 0
+  - Feature Availability Status:
+      * projects_count             : actual
+      * experience_months          : actual (months)
+      * coding_questions_solved    : actual
+      * certifications_count       : actual
+      * technical_skills           : actual
+      * skill_count                : actual
+      * communication              : actual
+
+5. COMMON-FEATURE MODEL & LEAKAGE PREVENTION SUMMARY
+----------------------------------------------------------------------------------------
+  - Canonical Candidate Skill Features : ['skill_count', 'coding_questions_solved', 'projects_count', 'experience_months', 'certifications_count']
+  - Active Common Clustering Features  : ['skill_count', 'coding_questions_solved', 'projects_count', 'experience_months', 'certifications_count']
+  - Unavailable in Training Dataset    : None
+  - Unavailable in Testing Dataset     : None
+  - Leakage Prevention Verification    :
+      * StandardScaler, K-Means centroids, communication quantiles, and imputation medians
+        were fitted strictly on student_data.csv (training data) and applied to check_student.csv.
+      * Post-placement outcome variables (placement_status, salary_lpa) are strictly excluded
+        from unsupervised clustering and placement prediction inputs.
+      * Training and testing student_id sets verified to have 0 overlap.
+========================================================================================
